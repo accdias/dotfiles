@@ -1,18 +1,27 @@
-" ******************************************************************************
 " ~/.vimrc
 "
 " Author: Antonio Dias <accdias@gmail.com>
-"
-" Changelog:
-"
-" 2013-08-20 Initial version
 "
 
 " Use vim settings
 set nocompatible
 
+" Use the operating system clipboard by default
+if exists("&clipboard")
+	set clipboard=unnamed
+endif
+
+" Enhance command-line completion
+set wildmenu
+
+" Allow cursor keys in insert mode
+set esckeys
+
 " Allow backspacing over everything in insert mode
 set backspace=indent,eol,start
+
+" Optimize for fast terminal connections
+set ttyfast
 
 " Keep 50 lines of command line history
 set history=200
@@ -31,6 +40,13 @@ set background=dark
 
 " Respect modelines embeded in buffers
 set modeline
+set modelines=4
+
+" Disable error bells
+set noerrorbells
+
+" Don’t reset cursor to start of line when moving around.
+set nostartofline
 
 " Better mark chars for list mode
 "set listchars=tab:»·,eol:¬,trail:·,nbsp:·,extends:\
@@ -38,22 +54,43 @@ set listchars=tab:»·,eol:¬,trail:·,nbsp:·,extends:\
 set showbreak=¬
 
 " UTF-8 characters set
-set encoding=utf-8
+set encoding=utf-8 nobomb
+
+" Show the cursor position
+set ruler
+
+" Don’t show the intro message when starting Vim
+set shortmess=atI
+
+" Show the current mode
+set showmode
+
+" Show the (partial) command as it’s being typed
+set showcmd
 
 " Better status line
-set statusline=%y:%F%m%r%h%w\ [%03b:0x%02B]\ [%04l,%04v]" "\ | \%p%%\ |\ %L
+set statusline=%y\ %F%m%r%h%w\ (%03b:0x%02B)\ (%04l:%04v)\ (%p%%\ of\ %L)
 set laststatus=2
 
-" Show the window title on the status line
-let &titlestring=&statusline
-set titlestring+=\ {%{v:servername}}
+" Use the window title as the statusline
+"let &titlestring=&statusline
+"set title
 
 " Always set autoindenting on
 set autoindent
 
-" Move all backups to a directory under homedir
+" Don’t add empty newlines at the end of files
+set binary
+set noeol
+
+" Centralize backups, swapfiles and undo history
 "set backupdir=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
 "set directory=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
+set backupdir=~/.vim/backups
+set directory=~/.vim/swaps
+if exists("&undodir")
+	set undodir=~/.vim/undo
+endif
 
 " In many terminal emulators the mouse works just fine, thus enable it.
 "if has('mouse')
