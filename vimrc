@@ -86,8 +86,8 @@ set noeol
 " Centralize backups, swapfiles and undo history
 "set backupdir=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
 "set directory=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
-set backupdir=~/.vim/backups
-set directory=~/.vim/swaps
+set backupdir=~/.vim/backup
+set directory=~/.vim/swap
 if exists("&undodir")
 	set undodir=~/.vim/undo
 endif
