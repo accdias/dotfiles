@@ -8,7 +8,7 @@ set nocompatible
 
 " Use the operating system clipboard by default
 if exists("&clipboard")
-	set clipboard=unnamed
+   set clipboard=unnamed
 endif
 
 " Enhance command-line completion
@@ -38,6 +38,12 @@ set incsearch
 " Use a dark background for color schemes
 set background=dark
 
+" Set vim to use 256 colors
+set t_Co=256
+"colorscheme wombat256mod
+"colorscheme pablo
+colorscheme desert256
+
 " Respect modelines embeded in buffers
 set modeline
 set modelines=4
@@ -49,7 +55,6 @@ set noerrorbells
 set nostartofline
 
 " Better mark chars for list mode
-"set listchars=tab:»·,eol:¬,trail:·,nbsp:·,extends:\
 set listchars=tab:»·,eol:¬,trail:·,nbsp:·,extends:\
 set showbreak=¬
 
@@ -83,13 +88,14 @@ set autoindent
 set binary
 set noeol
 
+" Mark the right margin at column 80
+"set colorcolumn=80
+
 " Centralize backups, swapfiles and undo history
-"set backupdir=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
-"set directory=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
 set backupdir=~/.vim/backup
 set directory=~/.vim/swap
 if exists("&undodir")
-	set undodir=~/.vim/undo
+  set undodir=~/.vim/undo
 endif
 
 " In many terminal emulators the mouse works just fine, thus enable it.
@@ -104,9 +110,12 @@ if &t_Co > 2 || has("gui_running")
   set hlsearch
 endif
 
-" Expose white trailing white spaces
+" Expose trailing white spaces
 highlight WhitespaceEOL ctermbg=Red guibg=Red
 match WhitespaceEOL /\s\+$/
+
+" Remove All the Trailing Whitespaces
+"nnoremap <leader>W :%s,\s\+$,,<cr>:let @/=''<cr>
 
 " Remap Leader key to comma
 let mapleader=","
@@ -115,11 +124,11 @@ let mapleader=","
 noremap <silent><Leader>< :bp<cr>
 noremap <silent><Leader>> :bn<cr>
 
+" Use <Leader>s to sort a marked block
+noremap <silent><Leader>s :sort<cr>
+
 " Map ; to : and save a million keystrokes
 nnoremap ; :
-
-" Remove All the Trailing Whitespaces
-"nnoremap <leader>W :%s#\s\+$##<cr>:let @/=''<cr>
 
 " Run Python Code from Vim
 "map <f5> :w <cr>!clear <cr>:!python % <cr>
@@ -128,9 +137,9 @@ nnoremap ; :
 map Q gq
 
 " Auto close: parentheses, brackets, and braces
-imap { {}<left>
-imap ( ()<left>
-imap [ []<left>
+"imap { {}<left>
+"imap ( ()<left>
+"imap [ []<left>
 
 " Toggle booleans
 nmap <silent><Leader>h :set hlsearch! hlsearch?<CR>
@@ -162,16 +171,12 @@ if has("autocmd")
   " (happens when dropping a file on gvim).
   " Also don't do it when the mark is in the first line, that is the default
   " position when opening a file.
-  autocmd BufReadPost *
-    \ if line("'\"") > 1 && line("'\"") <= line("$") |
-    \   exe "normal! g`\"" |
-    \ endif
+  autocmd BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g`\"" | endif
 endif " has("autocmd")
 
 " Convenient command to see the difference between the current buffer and the
 " file it was loaded from, thus the changes you made.
 " Only define it when not defined already.
 if !exists(":DiffOrig")
-  command DiffOrig vert new | set bt=nofile | r # | 0d_ | diffthis
-		  \ | wincmd p | diffthis
+  command DiffOrig vert new | set bt=nofile | r # | 0d_ | diffthis | wincmd p | diffthis
 endif
