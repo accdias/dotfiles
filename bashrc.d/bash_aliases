@@ -33,3 +33,5 @@ alias ls='ls -hF --color=tty'                 # classify files in colour
 alias start='cygstart'
 alias chromeprofile='cd /cygdrive/c/Users/accdias/AppData/Local/Google/Chrome/User\ Data/Default'
 alias rmtorrents='find /cygdrive/c/Users/accdias/AppData/Roaming/uTorrent/ -type f -name "*.torrent" -ls -exec rm {} \;'
+alias roaming='cd /cygdrive/c/Users/accdias/AppData/Roaming/'
+alias appdata='cd /cygdrive/c/Users/accdias/AppData'
