@@ -120,7 +120,7 @@ terminfo xterm|fptwist hs@:cs=\E[%i%p1%d;%p2%dr:im=\E[4h:ei=\E[4l
 
 # -----------------------------------------------------------------------------
 # more xterm tweaks
-# 
+#
 #80/132 column switching must be enabled for ^AW to work
 #change init sequence to not switch width
 #termcapinfo  xterm Z0=\E[?3h:Z1=\E[?3l:is=\E[r\E[m\E[2J\E[H\E[?7h\E[?1;4;6l
