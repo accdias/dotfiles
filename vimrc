@@ -142,20 +142,29 @@ nnoremap ; :
 map Q gq
 
 " Auto close: parentheses, brackets, and braces
-"imap { {}<left>
-"imap ( ()<left>
-"imap [ []<left>
+imap { {}<left>
+imap ( ()<left>
+imap [ []<left>
 
 " Toggle booleans
-nmap <silent><Leader>h :set hlsearch! hlsearch?<CR>
-nmap <silent><Leader>l :set list! list?<CR>
-nmap <silent><Leader>n :set number! number?<CR>
-nmap <silent><Leader>p :set paste! paste?<CR>
-nmap <silent><Leader>w :set wrap! wrap?<CR>
+nmap <silent><leader>h :set hlsearch!<cr>
+nmap <silent><leader>l :set list!<cr>
+nmap <silent><leader>n :set number!<cr>
+nmap <silent><leader>p :set paste!<cr>
+nmap <silent><leader>w :set wrap!<cr>
 
 " CTRL-U in insert mode deletes a lot.  Use CTRL-G u to first break undo,
 " so that you can undo CTRL-U after inserting a line break.
 inoremap <C-U> <C-G>u<C-U>
+
+" User Ctrl-arrow keys to switch between splits
+noremap <c-up> <c-w>k
+noremap <c-down> <c-w>j
+noremap <c-right> <c-w>l
+noremap <c-left> <c-w>h
+
+" User Ctrl-a to select all text
+noremap <c-a> ggVG
 
 " Only do this part when compiled with support for autocommands.
 if has("autocmd")
