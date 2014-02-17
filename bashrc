@@ -49,7 +49,7 @@ shopt -s histappend
 #
 shopt -s checkwinsize
 # Completion options
-shopt -s completion_strip_exe
+[[ "$OSTYPE" == "cygwin" ]] && shopt -s completion_strip_exe
 #
 # These completion tuning parameters change the default behavior of bash_completion:
 #

@@ -7,3 +7,5 @@
 	whitespace = trailing-space,space-before-tab,indent-with-non-tab
 [color]
 	ui = true
+[push]
+	default = matching
