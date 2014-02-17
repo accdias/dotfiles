@@ -151,14 +151,11 @@ map Q gq
 imap { {}<left>
 imap ( ()<left>
 imap [ []<left>
-<<<<<<< HEAD
 
 " TODO: Set autocomplete of square brackets for html buffers
 "if &filetype == 'html'
 "	imap < <><left>
 "endif
-=======
->>>>>>> 37d7ca9d8b046605f9424836f3074c69192dbc74
 
 " Toggle booleans
 nmap <silent><leader>h :set hlsearch!<cr>
