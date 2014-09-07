@@ -3,8 +3,10 @@
 " Author: Antonio Dias <accdias@gmail.com>
 "
 
-" Use vim settings
-set nocompatible
+" Use vim settings instead of vi compatible mode
+if &compatible
+	set nocompatible
+endif
 
 " Use the operating system clipboard by default
 if exists("&clipboard")
@@ -16,6 +18,8 @@ set tabstop=4
 set softtabstop=4
 set shiftwidth=4
 set expandtab
+
+set showmatch
 
 " Enhance command-line completion
 set wildmenu
@@ -48,6 +52,7 @@ set background=dark
 set t_Co=256
 "colorscheme wombat256mod
 "colorscheme pablo
+"colorscheme xoria256
 colorscheme desert256
 
 " Respect modelines embeded in buffers

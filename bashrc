@@ -33,8 +33,8 @@
 # Don't wait for job termination notification
 # set -o notify
 #
-# Don't use ^D to exit
-#set -o ignoreeof
+# Allow ^D to exit the shell
+set +o ignoreeof
 #
 # Use case-insensitive filename globbing
 # shopt -s nocaseglob
@@ -48,6 +48,7 @@ shopt -s histappend
 
 #
 shopt -s checkwinsize
+
 # Completion options
 [[ "$OSTYPE" == "cygwin" ]] && shopt -s completion_strip_exe
 #
@@ -79,6 +80,10 @@ export HISTIGNORE=$'[ \t]*:&:[fb]g:exit'
 #
 # Whenever displaying the prompt, write the previous line to disk
 # export PROMPT_COMMAND="history -a"
+
+# Set terminal to 256 colors mode
+#export TERM=xterm
+export TERM=xterm-256color
 
 # Aliases
 #

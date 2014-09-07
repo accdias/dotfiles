@@ -29,6 +29,10 @@ alias ls='ls -hF --color=tty'                 # classify files in colour
 # alias ll='ls -l'                              # long list
 # alias la='ls -A'                              # all but . and ..
 # alias l='ls -CF'                              #
+alias update='sudo apt-get update'
+alias upgrade='sudo apt-get upgrade -y'
+alias dist-upgrade='sudo apt-get dist-upgrade -y'
+alias purge="sudo apt-get purge -y $(dpkg -l | awk '/^rc/{print $2}')"
 if [[  "$OSTYPE" == "cygwin" ]]; then
 	alias ping6="/cygdrive/c/Windows/SysWOW64/PING.EXE -6"
 	alias start='cygstart'
