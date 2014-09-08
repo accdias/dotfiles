@@ -1,26 +1,14 @@
- .bash_history
-  .bash_profile -> git/dotfiles/bash_profile
-   .bashrc -> git/dotfiles/bashrc
-    .bashrc.d -> git/dotfiles/bashrc.d/
-	 .config/
-	  .emacs.d/
-	   .gitconfig -> git/dotfiles/gitconfig
-	    .gnupg/
-		 .inputrc -> git/dotfiles/inputrc
-		  .lesshst
-		   .local/
-		    .minttyrc -> git/dotfiles/minttyrc
-			 .screenrc -> git/dotfiles/screenrc
-			  .sqlite_history
-			   .ssh/
-			    .vim -> git/dotfiles/vim/
-				 .viminfo
-				  .vimrc -> git/dotfiles/vimrc
-				   Desktop -> /cygdrive/c/Users/accdias/Desktop/
-				    Downloads -> /cygdrive/c/Users/accdias/Downloads/
-					 ez_setup.py
-					  firmware/
-					   get-pip.py
-					    git/
-						 setuptools-1.3.2.tar.gz
-						  vsftpd.conf
+default:
+
+symlinks:
+	ln -sf ${HOME}/dotfiles/bash_profile ${HOME}/.bash_profile
+	ln -sf ${HOME}/dotfiles/bashrc ${HOME}/.bashrc
+	ln -sf ${HOME}/dotfiles/bashrc.d ${HOME}/bashrc.d
+	ln -sf ${HOME}/dotfiles/gitconfig ${HOME}/.gitconfig
+	ln -sf ${HOME}/dotfiles/inputrc ${HOME}/.inputrc
+	ln -sf ${HOME}/dotfiles/minttyrc ${HOME}/.minttyrc
+	ln -sf ${HOME}/dotfiles/screenrc ${HOME}/.screenrc
+	ln -sf ${HOME}/dotfiles/vim ${HOME}/.vim
+	ln -sf ${HOME}/dotfiles/vimrc ${HOME}/.vimrc
+	ln -sf /cygdrive/c/Users/accdias/Desktop ${HOME}/Desktop
+	ln -sf /cygdrive/c/Users/accdias/Downloads ${HOME}/Downloads
