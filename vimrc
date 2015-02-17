@@ -14,10 +14,11 @@ if exists("&clipboard")
 endif
 
 " Use spaces instead of tabs
-set tabstop=4
+set tabstop=8
 set softtabstop=4
 set shiftwidth=4
 set expandtab
+set autoindent
 
 set showmatch
 
@@ -211,3 +212,7 @@ endif " has("autocmd")
 if !exists(":DiffOrig")
   command DiffOrig vert new | set bt=nofile | r # | 0d_ | diffthis | wincmd p | diffthis
 endif
+
+"ab teh the
+ab _utf8 # -*- coding: utf-8 -*-
+ab _vim # vim: expandtab tabstop=8 softtabstop=4 shiftwidth=4
