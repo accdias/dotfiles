@@ -32,16 +32,22 @@ alias ls='ls -hF --color=tty --group-directories-first'                 # classi
 
 case "$OSTYPE" in
     linux*)
-	case "$(lsb_release -sc)" in
-	    utopic)
-		source ~/.bashrc.d/bash_aliases.ubuntu
-		;;
-	    *)
-		;;
-	esac
+	OSCODENAME=$(lsb_release -sc)
+	;;
     cygwin)
-	source ~/.bashrc.d/bash_aliases.cygwin
-       ;;
+	OSCODENAME="cygwin"
+	;;
     *)
         ;;
+esac
+
+case "$OSCODENAME" in
+    utopic|karmic|lucid)
+	source ~/.bashrc.d/bash_aliases.ubuntu
+	;;
+    cygwin)
+	source ~/.bashrc.d/bash_aliases.cygwin
+	;;
+    *)
+	;;
 esac
