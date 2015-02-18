@@ -1,0 +1,6 @@
+# ~/.bashrc.d/bash_aliases.ubuntu
+#
+alias update='sudo apt-get update'
+alias upgrade='sudo apt-get upgrade -y'
+alias dist-upgrade='sudo apt-get dist-upgrade -y'
+alias purge="sudo apt-get purge -y $(dpkg -l | awk '/^rc/{print $2}')"

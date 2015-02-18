@@ -18,9 +18,9 @@
 # Misc :)
 alias less='less -r'                          # raw control characters
 # alias whence='type -a'                        # where, of a sort
-# alias grep='grep --color'                     # show differences in colour
-# alias egrep='egrep --color=auto'              # show differences in colour
-# alias fgrep='fgrep --color=auto'              # show differences in colour
+alias grep='grep --color'                     # show differences in colour
+alias egrep='egrep --color=auto'              # show differences in colour
+alias fgrep='fgrep --color=auto'              # show differences in colour
 #
 # Some shortcuts for different directory listings
 alias ls='ls -hF --color=tty --group-directories-first'                 # classify files in colour
@@ -29,15 +29,21 @@ alias ls='ls -hF --color=tty --group-directories-first'                 # classi
 # alias ll='ls -l'                              # long list
 # alias la='ls -A'                              # all but . and ..
 # alias l='ls -CF'                              #
-alias update='sudo apt-get update'
-alias upgrade='sudo apt-get upgrade -y'
-alias dist-upgrade='sudo apt-get dist-upgrade -y'
-alias purge="sudo apt-get purge -y $(dpkg -l | awk '/^rc/{print $2}')"
-if [[  "$OSTYPE" == "cygwin" ]]; then
-	alias ping6="/cygdrive/c/Windows/SysWOW64/PING.EXE -6"
-	alias start='cygstart'
-	alias chromeprofile='cd /cygdrive/c/Users/accdias/AppData/Local/Google/Chrome/User\ Data/Default'
-	alias rmtorrents='find /cygdrive/c/Users/accdias/AppData/Roaming/uTorrent/ -type f -name "*.torrent" -ls -exec rm {} \;'
-	alias roaming='cd /cygdrive/c/Users/accdias/AppData/Roaming/'
-	alias appdata='cd /cygdrive/c/Users/accdias/AppData'
-fi
+
+OSRELEASE=$(lsb_release -sc)
+
+case "$OSRELEASE" in
+    utopic)
+	source ~/.bashrc.d/bash_aliases.ubuntu
+	;;
+    *)
+	;;
+esac
+
+case "$OSTYPE" in
+    cygwin)
+	source ~/.bashrc.d/bash_aliases.cygwin
+       ;;
+    *)
+        ;;
+esac
