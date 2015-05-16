@@ -5,12 +5,12 @@
 
 " Use vim settings instead of vi compatible mode
 if &compatible
-	set nocompatible
+    set nocompatible
 endif
 
 " Use the operating system clipboard by default
 if exists("&clipboard")
-   set clipboard=unnamed
+    set clipboard=unnamed
 endif
 
 " Use spaces instead of tabs
@@ -34,8 +34,8 @@ set backspace=indent,eol,start
 " Optimize for fast terminal connections
 set ttyfast
 
-" Keep 50 lines of command line history
-set history=200
+" Keep 2000 lines of command line history
+set history=2000
 
 " Show the cursor position all the time
 set ruler
@@ -68,7 +68,7 @@ set nostartofline
 
 " Better mark chars for list mode
 set listchars=tab:»·,eol:¬,trail:·,nbsp:·,extends:\
-set showbreak=¬
+"set showbreak=¬
 
 " UTF-8 characters set
 set encoding=utf-8 nobomb
@@ -107,7 +107,7 @@ set noeol
 set backupdir=~/.vim/backup
 set directory=~/.vim/swap
 if exists("&undodir")
-  set undodir=~/.vim/undo
+    set undodir=~/.vim/undo
 endif
 
 " In many terminal emulators the mouse works just fine, thus enable it.
@@ -118,8 +118,8 @@ endif
 " Switch syntax highlighting on, when the terminal has colors
 " Also switch on highlighting the last used search pattern.
 if &t_Co > 2 || has("gui_running")
-  syntax on
-  set hlsearch
+    syntax on
+    set hlsearch
 endif
 
 " Expose trailing white spaces
@@ -155,9 +155,9 @@ nnoremap ; :
 map Q gq
 
 " Auto close: parentheses, brackets, and braces
-imap { {}<left>
-imap ( ()<left>
-imap [ []<left>
+"imap { {}<left>
+"imap ( ()<left>
+"imap [ []<left>
 
 " TODO: Set autocomplete of square brackets for html buffers
 "if &filetype == 'html'
@@ -186,31 +186,31 @@ noremap <c-a> ggVG
 
 " Only do this part when compiled with support for autocommands.
 if has("autocmd")
-  " Reload configuration upon saving (from vimbits.com)
-  autocmd! BufWritePost .vimrc source %
+    " Reload configuration upon saving (from vimbits.com)
+    autocmd! BufWritePost .vimrc source %
 
-  " Enable file type detection.
-  " Use the default filetype settings, so that mail gets 'tw' set to 72,
-  " 'cindent' is on in C files, etc.
-  " Also load indent files, to automatically do language-dependent indenting.
-  filetype plugin indent on
+    " Enable file type detection.
+    " Use the default filetype settings, so that mail gets 'tw' set to 72,
+    " 'cindent' is on in C files, etc.
+    " Also load indent files, to automatically do language-dependent indenting.
+    filetype plugin indent on
 
-  " For all text files set 'textwidth' to 78 characters.
-  autocmd FileType text setlocal textwidth=78
+    " For all text files set 'textwidth' to 78 characters.
+    autocmd FileType text setlocal textwidth=78
 
-  " When editing a file, always jump to the last known cursor position.
-  " Don't do it when the position is invalid or when inside an event handler
-  " (happens when dropping a file on gvim).
-  " Also don't do it when the mark is in the first line, that is the default
-  " position when opening a file.
-  autocmd BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g`\"" | endif
+    " When editing a file, always jump to the last known cursor position.
+    " Don't do it when the position is invalid or when inside an event handler
+    " (happens when dropping a file on gvim).
+    " Also don't do it when the mark is in the first line, that is the default
+    " position when opening a file.
+    autocmd BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g`\"" | endif
 endif " has("autocmd")
 
 " Convenient command to see the difference between the current buffer and the
 " file it was loaded from, thus the changes you made.
 " Only define it when not defined already.
 if !exists(":DiffOrig")
-  command DiffOrig vert new | set bt=nofile | r # | 0d_ | diffthis | wincmd p | diffthis
+    command DiffOrig vert new | set bt=nofile | r # | 0d_ | diffthis | wincmd p | diffthis
 endif
 
 "ab teh the
