@@ -1,0 +1,3 @@
+# ~/.bashrc.d/bash_aliases.ubuntu
+#
+alias update='sudo dnf clean all && sudo dnf update -y'

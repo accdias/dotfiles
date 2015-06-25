@@ -41,7 +41,10 @@ case "$OSTYPE" in
         ;;
 esac
 
-case "$OSCODENAME" in
+case "${OSCODENAME,,}" in
+    twentytwo)
+	source ~/.bashrc.d/bash_aliases.fedora
+	;;
     utopic|karmic|lucid)
 	source ~/.bashrc.d/bash_aliases.ubuntu
 	;;
