@@ -14,7 +14,7 @@ if exists("&clipboard")
 endif
 
 " Use spaces instead of tabs
-set tabstop=8
+set tabstop=4
 set softtabstop=4
 set shiftwidth=4
 set expandtab
@@ -24,6 +24,9 @@ set showmatch
 
 " Enhance command-line completion
 set wildmenu
+
+" redraw only when we need to
+set lazyredraw
 
 " Allow cursor keys in insert mode
 set esckeys
@@ -58,7 +61,6 @@ colorscheme desert256
 
 " Respect modelines embeded in buffers
 set modeline
-set modelines=4
 
 " Disable error bells
 set noerrorbells
@@ -67,8 +69,9 @@ set noerrorbells
 set nostartofline
 
 " Better mark chars for list mode
-set listchars=tab:»·,eol:¬,trail:·,nbsp:·,extends:\
+"set listchars=tab:»·,eol:¬,trail:·,nbsp:·,extends:\
 "set showbreak=¬
+set listchars=tab:»⋅,trail:⋅,nbsp:⋅
 
 " UTF-8 characters set
 set encoding=utf-8 nobomb
@@ -76,7 +79,7 @@ set encoding=utf-8 nobomb
 " Show the cursor position
 set ruler
 
-" Don’t show the intro message when starting Vim
+" Don't show the intro message when starting Vim
 set shortmess=atI
 
 " Show the current mode
@@ -96,9 +99,20 @@ set laststatus=2
 " Always set autoindenting on
 set autoindent
 
-" Don’t add empty newlines at the end of files
+" Don't add empty newlines at the end of files
 set binary
 set noeol
+
+" enable folding
+set foldenable
+" open most folds by default
+set foldlevelstart=10
+" 10 nested fold max
+set foldnestmax=10
+" fold based on indent level
+set foldmethod=indent
+" space open/closes folds
+nnoremap <space> za
 
 " Mark the right margin at column 80
 "set colorcolumn=80
