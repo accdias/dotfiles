@@ -28,17 +28,17 @@ set laststatus=2                     " use 2 lines for the status bar
 set statusline=
 set statusline=\ %03.3n              " buffer number
 set statusline+=\ │                  " Separator
-"set statusline+=%m                   " Modified flag
-set statusline+=\ %{&mod?'❗':'✓'}    " Custom modified flag
-"set statusline+=\ %F                 " File name full path
-"set statusline+=\ %f                 " file name
+set statusline+=%{&mod?'\ !':''}  " Custom modified flag
+"set statusline+=\ %F                " File name full path
+"set statusline+=\ %f                " file name
 set statusline+=\ %t                 " tail of file name
-set statusline+=\ │                  " Separator
 set statusline+=\ %y                 " File type
-set statusline+=%r                   " Flag read-only
-set statusline+=%h                   " Flag help buffer
-set statusline+=%W                   " Flag preview window
-set statusline+=[%{&ff}]             " New line format
+set statusline+=\ │                  " Separator
+set statusline+=\ %r                  " Flag read-only
+set statusline+=%h                  " Flag help buffer
+set statusline+=%w                   " Flag preview window
+set statusline+=[%{&ff}]            " New line format
+set statusline+=%{&paste?'[paste]':''}   " Custom paste indicator
 set statusline+=\ │                  " Separator
 set statusline+=%=                   " Left and right division
 set statusline+=\ │                  " Separator
@@ -50,7 +50,6 @@ set statusline+=\ col:%03.3c         " Column number
 set statusline+=\ │                  " Separator
 set statusline+=\ %3.3p%%               " File percentual position
 set statusline+=\                   " Separator
-" Ⓐ ⓵ ␍ ␊ ⌘ ⎇ ⌥ ✻ ❓ ❗ ❎  ✺ ✹ ✸ ✷ ✶ ✋
 set title                            " show file in titlebar
 set listchars=tab:»⋅,trail:⋅,nbsp:⋅  " Better mark chars for list mode
 "set showbreak=¬                      " show line breaks
