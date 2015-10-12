@@ -158,6 +158,7 @@ noremap <c-a> ggVG
 if has("autocmd")
     " Reload configuration upon saving (from vimbits.com)
     autocmd! BufWritePost .vimrc source %
+    autocmd! BufWritePost vimrc source %
 
     " Enable file type detection.
     " Use the default filetype settings, so that mail gets 'tw' set to 72,
