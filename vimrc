@@ -23,31 +23,6 @@ set showcmd                            " show typed command in status bar
 set showmatch                          " show matching bracket
 set matchtime=2                        " show matching bracket for 0.2 seconds
 set matchpairs+=<:>                    " specially for html
-set showmode                           " show mode in status bar
-set laststatus=2                       " use 2 lines for the status bar
-set statusline=
-set statusline=\ %03.3n                " buffer number
-set statusline+=\ │                    " Separator
-set statusline+=%{&mod?'\ !':''}       " Custom modified flag
-set statusline+=\ %<%F                 " File name full path
-set statusline+=\ %y                   " File type
-set statusline+=%r                     " Flag read-only
-set statusline+=%h                     " Flag help buffer
-set statusline+=%w                     " Flag preview window
-set statusline+=[%{&ff}]               " New line format
-set statusline+=%{&paste?'[paste]':''} " Custom paste indicator
-set statusline+=\ │                    " Separator
-set statusline+=%=                     " Left and right division
-set statusline+=\ │                    " Separator
-set statusline+=\ char:%03.3b          " ASCII code for char under cursor
-set statusline+=\ 0x%02.2B             " ASCII code in hexadecimal
-set statusline+=\ │                    " Separator
-set statusline+=\ line:%06.6l          " Line number
-set statusline+=\ │                    " Separator
-set statusline+=\ col:%03.3v           " Column number
-set statusline+=\ │                    " Separator
-set statusline+=\ %3.3P                " File percentual position
-set statusline+=\                      " Separator
 set title                              " show file in titlebar
 set listchars=tab:»⋅,trail:⋅,nbsp:⋅    " Better mark chars for list mode
 "set showbreak=¬                        " show line breaks
