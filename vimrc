@@ -13,17 +13,44 @@ if exists("&clipboard")
     set clipboard=unnamed
 endif
 
+" Display settings
+set background=dark     " enable for dark terminals
+set laststatus=2        " use 2 lines for the status bar
+set matchpairs+=<:>     " specially for html
+set matchtime=2         " show matching bracket for 0.2 seconds
+set nowrap              " dont wrap lines
+set number              " show line numbers
+set ruler               " show cursor position in status bar
+set scrolloff=2         " 2 lines above/below cursor when scrolling
+set showcmd             " show typed command in status bar
+set showmatch           " show matching bracket (briefly jump)
+set showmode            " show mode in status bar (insert/replace/...)
+set statusline=%y\ %F%m%r%h%w\ (%03b:0x%02B)\ (%04l:%04v)\ (%p%%\ of\ %L) " Better status line
+set title               " show file in titlebar
+set wildignore=*.o,*.obj,*.bak,*.exe,*.py[co],*.swp,*~,*.pyc,.svn
+set wildmenu            " completion with menu
+
 " Use spaces instead of tabs
 set tabstop=4
 set softtabstop=4
 set shiftwidth=4
 set expandtab
+
+" Autoindent settings
 set autoindent
+set smartindent
+set smarttab
 
-set showmatch
+" UNIX format for end of lines
+set fileformat=unix     " file mode is unix
+"set fileformats=unix,dos    " only detect unix file format, displays that ^M with dos files
 
-" Enhance command-line completion
-set wildmenu
+" case insensitive searching
+set ignorecase 
+" but become case sensitive if you type uppercase characters
+set smartcase
+" change the way backslashes are used in search patterns
+set magic
 
 " redraw only when we need to
 set lazyredraw
@@ -40,17 +67,8 @@ set ttyfast
 " Keep 2000 lines of command line history
 set history=2000
 
-" Show the cursor position all the time
-set ruler
-
-" Display incomplete commands
-set showcmd
-
 " Do incremental searching
 set incsearch
-
-" Use a dark background for color schemes
-set background=dark
 
 " Set vim to use 256 colors
 set t_Co=256
@@ -76,25 +94,8 @@ set listchars=tab:»⋅,trail:⋅,nbsp:⋅
 " UTF-8 characters set
 set encoding=utf-8 nobomb
 
-" Show the cursor position
-set ruler
-
 " Don't show the intro message when starting Vim
 set shortmess=atI
-
-" Show the current mode
-set showmode
-
-" Show the (partial) command as it’s being typed
-set showcmd
-
-" Better status line
-set statusline=%y\ %F%m%r%h%w\ (%03b:0x%02B)\ (%04l:%04v)\ (%p%%\ of\ %L)
-set laststatus=2
-
-" Use the window title as the statusline
-"let &titlestring=&statusline
-"set title
 
 " Always set autoindenting on
 set autoindent
@@ -140,9 +141,6 @@ endif
 highlight WhitespaceEOL ctermbg=Red guibg=Red
 match WhitespaceEOL /\s\+$/
 
-" Disable match of angle brackets
-"set matchpairs=(:),{:},[:]
-
 " Set the highlight colors of matching pairs to something more readable
 highlight MatchParen ctermbg=black ctermfg=red cterm=bold
 
@@ -172,11 +170,6 @@ map Q gq
 "imap { {}<left>
 "imap ( ()<left>
 "imap [ []<left>
-
-" TODO: Set autocomplete of square brackets for html buffers
-"if &filetype == 'html'
-"	imap < <><left>
-"endif
 
 " Toggle booleans
 nmap <silent><leader>h :set hlsearch!<cr>
