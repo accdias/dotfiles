@@ -14,51 +14,49 @@ if exists("&clipboard")
 endif
 
 " Display settings
-set background=dark                  " enable for dark terminals
-set nowrap                           " dont wrap lines
-"set number                           " show line numbers
-set ruler                            " show cursor position in status bar
-set scrolloff=2                      " 2 lines above/below cursor when scrolling
-set showcmd                          " show typed command in status bar
-set showmatch                        " show matching bracket
-set matchtime=2                      " show matching bracket for 0.2 seconds
-set matchpairs+=<:>                  " specially for html
-set showmode                         " show mode in status bar
-set laststatus=2                     " use 2 lines for the status bar
+set background=dark                    " enable for dark terminals
+set nowrap                             " dont wrap lines
+"set number                            " show line numbers
+set ruler                              " show cursor position in status bar
+set scrolloff=2                        " 2 lines above/below cursor when scrolling
+set showcmd                            " show typed command in status bar
+set showmatch                          " show matching bracket
+set matchtime=2                        " show matching bracket for 0.2 seconds
+set matchpairs+=<:>                    " specially for html
+set showmode                           " show mode in status bar
+set laststatus=2                       " use 2 lines for the status bar
 set statusline=
-set statusline=\ %03.3n              " buffer number
-set statusline+=\ │                  " Separator
-set statusline+=%{&mod?'\ !':''}  " Custom modified flag
-"set statusline+=\ %F                " File name full path
-"set statusline+=\ %f                " file name
-set statusline+=\ %t                 " tail of file name
-set statusline+=\ %y                 " File type
-set statusline+=\ │                  " Separator
-set statusline+=\ %r                  " Flag read-only
-set statusline+=%h                  " Flag help buffer
-set statusline+=%w                   " Flag preview window
-set statusline+=[%{&ff}]            " New line format
-set statusline+=%{&paste?'[paste]':''}   " Custom paste indicator
-set statusline+=\ │                  " Separator
-set statusline+=%=                   " Left and right division
-set statusline+=\ │                  " Separator
-set statusline+=\ char:%03.3b\ 0x%02.2B " ASCII code for char under cursor
-set statusline+=\ │                  " Separator
-set statusline+=\ line:%06.6l        " Line number
-set statusline+=\ │                  " Separator
-set statusline+=\ col:%03.3c         " Column number
-set statusline+=\ │                  " Separator
-set statusline+=\ %3.3p%%               " File percentual position
-set statusline+=\                   " Separator
-set title                            " show file in titlebar
-set listchars=tab:»⋅,trail:⋅,nbsp:⋅  " Better mark chars for list mode
-"set showbreak=¬                      " show line breaks
-set t_Co=256                         " Set vim to use 256 colors
-set encoding=utf-8 nobomb            " UTF-8 characters set
-set shortmess=atI                    " Disable vim intro message
-"set colorcolumn=80                   " Mark the right margin at column 80
+set statusline=\ %03.3n                " buffer number
+set statusline+=\ │                    " Separator
+set statusline+=%{&mod?'\ !':''}       " Custom modified flag
+set statusline+=\ %<%F                 " File name full path
+set statusline+=\ %y                   " File type
+set statusline+=%r                     " Flag read-only
+set statusline+=%h                     " Flag help buffer
+set statusline+=%w                     " Flag preview window
+set statusline+=[%{&ff}]               " New line format
+set statusline+=%{&paste?'[paste]':''} " Custom paste indicator
+set statusline+=\ │                    " Separator
+set statusline+=%=                     " Left and right division
+set statusline+=\ │                    " Separator
+set statusline+=\ char:%03.3b          " ASCII code for char under cursor
+set statusline+=\ 0x%02.2B             " ASCII code in hexadecimal
+set statusline+=\ │                    " Separator
+set statusline+=\ line:%06.6l          " Line number
+set statusline+=\ │                    " Separator
+set statusline+=\ col:%03.3v           " Column number
+set statusline+=\ │                    " Separator
+set statusline+=\ %3.3P                " File percentual position
+set statusline+=\                      " Separator
+set title                              " show file in titlebar
+set listchars=tab:»⋅,trail:⋅,nbsp:⋅    " Better mark chars for list mode
+"set showbreak=¬                        " show line breaks
+set t_Co=256                           " Set vim to use 256 colors
+set encoding=utf-8 nobomb              " UTF-8 characters set
+set shortmess=atI                      " Disable vim intro message
+"set colorcolumn=80                     " Mark the right margin at column 80
 
-set wildmenu                         " completion with menu
+set wildmenu                           " completion with menu
 set wildignore=*~
 set wildignore+=*.bak
 set wildignore+=*.exe
@@ -91,28 +89,28 @@ set binary
 set noeol
 
 " UNIX format for end of lines
-set fileformat=unix     " file mode is unix
+set fileformat=unix                    " file mode is unix
 
 " Search tweaks
-set ignorecase          " case insensitive searching
-set smartcase           " but become case sensitive if you type uppercase characters
-set magic               " change the way backslashes are used in search patterns
-"set incsearch           " Do incremental searching
+set ignorecase                         " case insensitive searching
+set smartcase                          " but become case sensitive if you type uppercase characters
+set magic                              " change the way backslashes are used in search patterns
+"set incsearch                          " Do incremental searching
 
-"set lazyredraw          " redraw only when we need to
-set esckeys             " Allow cursor keys in insert mode
-set backspace=indent,eol,start " Allow backspacing over everything in insert mode
-set ttyfast             " Optimize for fast terminal connections
-set history=2000        " Keep 2000 lines of command line history
+"set lazyredraw                         " redraw only when we need to
+set esckeys                            " Allow cursor keys in insert mode
+set backspace=indent,eol,start         " Allow backspacing over everything in insert mode
+set ttyfast                            " Optimize for fast terminal connections
+set history=2000                       " Keep 2000 lines of command line history
 
-set modeline            " Respect modelines embeded in buffers
-set noerrorbells        " Disable error bells
-set nostartofline       " Don’t reset cursor to start of line when moving around.
+set modeline                           " Respect modelines embeded in buffers
+set noerrorbells                       " Disable error bells
+set nostartofline                      " Don’t reset cursor to start of line when moving around.
 
-set foldenable          " enable folding
-set foldlevelstart=10   " open most folds by default
-set foldnestmax=10      " 10 nested fold max
-set foldmethod=indent   " fold based on indent level
+set foldenable                         " enable folding
+set foldlevelstart=10                  " open most folds by default
+set foldnestmax=10                     " 10 nested fold max
+set foldmethod=indent                  " fold based on indent level
 " space open/closes folds
 nnoremap <space> za
 
