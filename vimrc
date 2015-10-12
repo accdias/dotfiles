@@ -14,21 +14,67 @@ if exists("&clipboard")
 endif
 
 " Display settings
-set background=dark     " enable for dark terminals
-set laststatus=2        " use 2 lines for the status bar
-set matchpairs+=<:>     " specially for html
-set matchtime=2         " show matching bracket for 0.2 seconds
-set nowrap              " dont wrap lines
-set number              " show line numbers
-set ruler               " show cursor position in status bar
-set scrolloff=2         " 2 lines above/below cursor when scrolling
-set showcmd             " show typed command in status bar
-set showmatch           " show matching bracket (briefly jump)
-set showmode            " show mode in status bar (insert/replace/...)
-set statusline=%y\ %F%m%r%h%w\ (%03b:0x%02B)\ (%04l:%04v)\ (%p%%\ of\ %L) " Better status line
-set title               " show file in titlebar
-set wildignore=*.o,*.obj,*.bak,*.exe,*.py[co],*.swp,*~,*.pyc,.svn
-set wildmenu            " completion with menu
+set background=dark                  " enable for dark terminals
+set nowrap                           " dont wrap lines
+"set number                           " show line numbers
+set ruler                            " show cursor position in status bar
+set scrolloff=2                      " 2 lines above/below cursor when scrolling
+set showcmd                          " show typed command in status bar
+set showmatch                        " show matching bracket
+set matchtime=2                      " show matching bracket for 0.2 seconds
+set matchpairs+=<:>                  " specially for html
+set showmode                         " show mode in status bar
+set laststatus=2                     " use 2 lines for the status bar
+set statusline=
+set statusline=\ %03.3n              " buffer number
+set statusline+=\ │                  " Separator
+"set statusline+=%m                   " Modified flag
+set statusline+=\ %{&mod?'❗':'✓'}    " Custom modified flag
+"set statusline+=\ %F                 " File name full path
+"set statusline+=\ %f                 " file name
+set statusline+=\ %t                 " tail of file name
+set statusline+=\ │                  " Separator
+set statusline+=\ %y                 " File type
+set statusline+=%r                   " Flag read-only
+set statusline+=%h                   " Flag help buffer
+set statusline+=%W                   " Flag preview window
+set statusline+=[%{&ff}]             " New line format
+set statusline+=\ │                  " Separator
+set statusline+=%=                   " Left and right division
+set statusline+=\ │                  " Separator
+set statusline+=\ char:%03.3b\ 0x%02.2B " ASCII code for char under cursor
+set statusline+=\ │                  " Separator
+set statusline+=\ line:%06.6l        " Line number
+set statusline+=\ │                  " Separator
+set statusline+=\ col:%03.3c         " Column number
+set statusline+=\ │                  " Separator
+set statusline+=\ %3.3p%%               " File percentual position
+set statusline+=\                   " Separator
+" Ⓐ ⓵ ␍ ␊ ⌘ ⎇ ⌥ ✻ ❓ ❗ ❎  ✺ ✹ ✸ ✷ ✶ ✋
+set title                            " show file in titlebar
+set listchars=tab:»⋅,trail:⋅,nbsp:⋅  " Better mark chars for list mode
+"set showbreak=¬                      " show line breaks
+set t_Co=256                         " Set vim to use 256 colors
+set encoding=utf-8 nobomb            " UTF-8 characters set
+set shortmess=atI                    " Disable vim intro message
+"set colorcolumn=80                   " Mark the right margin at column 80
+
+set wildmenu                         " completion with menu
+set wildignore=*~
+set wildignore+=*.bak
+set wildignore+=*.exe
+set wildignore+=.git
+set wildignore+=*.o
+set wildignore+=*.obj
+set wildignore+=*.pyc
+set wildignore+=*.py[co]
+set wildignore+=.svn
+set wildignore+=*.swp
+
+"colorscheme wombat256mod
+"colorscheme pablo
+"colorscheme xoria256
+colorscheme desert256
 
 " Use spaces instead of tabs
 set tabstop=4
@@ -41,82 +87,35 @@ set autoindent
 set smartindent
 set smarttab
 
-" UNIX format for end of lines
-set fileformat=unix     " file mode is unix
-"set fileformats=unix,dos    " only detect unix file format, displays that ^M with dos files
-
-" case insensitive searching
-set ignorecase 
-" but become case sensitive if you type uppercase characters
-set smartcase
-" change the way backslashes are used in search patterns
-set magic
-
-" redraw only when we need to
-set lazyredraw
-
-" Allow cursor keys in insert mode
-set esckeys
-
-" Allow backspacing over everything in insert mode
-set backspace=indent,eol,start
-
-" Optimize for fast terminal connections
-set ttyfast
-
-" Keep 2000 lines of command line history
-set history=2000
-
-" Do incremental searching
-set incsearch
-
-" Set vim to use 256 colors
-set t_Co=256
-"colorscheme wombat256mod
-"colorscheme pablo
-"colorscheme xoria256
-colorscheme desert256
-
-" Respect modelines embeded in buffers
-set modeline
-
-" Disable error bells
-set noerrorbells
-
-" Don’t reset cursor to start of line when moving around.
-set nostartofline
-
-" Better mark chars for list mode
-"set listchars=tab:»·,eol:¬,trail:·,nbsp:·,extends:\
-"set showbreak=¬
-set listchars=tab:»⋅,trail:⋅,nbsp:⋅
-
-" UTF-8 characters set
-set encoding=utf-8 nobomb
-
-" Don't show the intro message when starting Vim
-set shortmess=atI
-
-" Always set autoindenting on
-set autoindent
-
 " Don't add empty newlines at the end of files
 set binary
 set noeol
 
-" enable folding
-set foldenable
-" open most folds by default
-set foldlevelstart=10
-" 10 nested fold max
-set foldnestmax=10
-" fold based on indent level
-set foldmethod=indent
+" UNIX format for end of lines
+set fileformat=unix     " file mode is unix
+
+" Search tweaks
+set ignorecase          " case insensitive searching
+set smartcase           " but become case sensitive if you type uppercase characters
+set magic               " change the way backslashes are used in search patterns
+"set incsearch           " Do incremental searching
+
+"set lazyredraw          " redraw only when we need to
+set esckeys             " Allow cursor keys in insert mode
+set backspace=indent,eol,start " Allow backspacing over everything in insert mode
+set ttyfast             " Optimize for fast terminal connections
+set history=2000        " Keep 2000 lines of command line history
+
+set modeline            " Respect modelines embeded in buffers
+set noerrorbells        " Disable error bells
+set nostartofline       " Don’t reset cursor to start of line when moving around.
+
+set foldenable          " enable folding
+set foldlevelstart=10   " open most folds by default
+set foldnestmax=10      " 10 nested fold max
+set foldmethod=indent   " fold based on indent level
 " space open/closes folds
 nnoremap <space> za
-
-" Mark the right margin at column 80
-"set colorcolumn=80
 
 " Centralize backups, swapfiles and undo history
 set backupdir=~/.vim/backup
@@ -125,9 +124,9 @@ if exists("&undodir")
     set undodir=~/.vim/undo
 endif
 
-" In many terminal emulators the mouse works just fine, thus enable it.
+" Enable mouse just for visual selection mode
 "if has('mouse')
-"  set mouse=a
+"  set mouse=v
 "endif
 
 " Switch syntax highlighting on, when the terminal has colors
@@ -144,11 +143,11 @@ match WhitespaceEOL /\s\+$/
 " Set the highlight colors of matching pairs to something more readable
 highlight MatchParen ctermbg=black ctermfg=red cterm=bold
 
-" Remove All the Trailing Whitespaces
-"nnoremap <leader>W :%s,\s\+$,,<cr>:let @/=''<cr>
-
 " Remap Leader key to comma
 let mapleader=","
+
+" Remove All the Trailing Whitespaces
+"nnoremap <leader>W :%s,\s\+$,,<cr>:let @/=''<cr>
 
 " Use <Leader>> and <Leader>< to page between buffers
 noremap <silent><Leader>< :bp<cr>
@@ -160,16 +159,8 @@ noremap <silent><Leader>s :sort<cr>
 " Map ; to : and save a million keystrokes
 nnoremap ; :
 
-" Run Python Code from Vim
-"map <f5> :w <cr>!clear <cr>:!python % <cr>
-
 " Don't use Ex mode, use Q for formatting
 map Q gq
-
-" Auto close: parentheses, brackets, and braces
-"imap { {}<left>
-"imap ( ()<left>
-"imap [ []<left>
 
 " Toggle booleans
 nmap <silent><leader>h :set hlsearch!<cr>
@@ -220,6 +211,7 @@ if !exists(":DiffOrig")
     command DiffOrig vert new | set bt=nofile | r # | 0d_ | diffthis | wincmd p | diffthis
 endif
 
-"ab teh the
+" Abbreviations
+ab _python #!/usr/bin/env python
 ab _utf8 # -*- coding: utf-8 -*-
-ab _vim # vim: expandtab tabstop=8 softtabstop=4 shiftwidth=4
+ab _vim # vim:ts=4:sts=4:sw=4:et
