@@ -1,6 +1,6 @@
 " ~/.vimrc
 "
-" Author: Antonio Dias <accdias@gmail.com>
+" Author: Antonio Dias <accdias <at> gmail.com>
 "
 
 " Use vim settings instead of vi compatible mode
