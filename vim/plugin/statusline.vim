@@ -5,9 +5,9 @@
 set showmode                           " Show mode in status bar
 set laststatus=2                       " Use 2 lines for the status bar
 set statusline=                        " Clear all settings
-set statusline=\ %03.3n                " Buffer number
-set statusline+=\ │                    " Separator
-set statusline+=%{&mod?'\ !':''}       " Custom modified flag
+set statusline=%1*\ %03.3n             " Buffer number
+set statusline+=\ %*│                  " Separator
+set statusline+=%2*%{&mod?'\ !':''}%*  " Custom modified flag
 set statusline+=\ %<%F                 " File name full path
 set statusline+=\ %y                   " File type
 set statusline+=%r                     " Flag read-only
@@ -29,5 +29,7 @@ set statusline+=\ │                    " Separator
 set statusline+=\ %3.3p%%              " File percentual position
 set statusline+=\                      " Separator
 
-hi StatusLine    cterm=bold,reverse ctermbg=black ctermfg=blue
+hi StatusLine    cterm=bold,reverse ctermbg=black  ctermfg=blue
 hi StatusLineNC  cterm=bold,reverse
+hi User1         cterm=bold,reverse ctermbg=white  ctermfg=blue
+hi User2         cterm=bold,reverse ctermbg=red    ctermfg=blue
