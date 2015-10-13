@@ -160,28 +160,27 @@ if has("autocmd")
     autocmd! BufWritePost .vimrc source %
     autocmd! BufWritePost vimrc source %
 
-    " Enable file type detection.
-    " Use the default filetype settings, so that mail gets 'tw' set to 72,
-    " 'cindent' is on in C files, etc.
-    " Also load indent files, to automatically do language-dependent indenting.
+    " Enable file type automatic detection.
     filetype plugin indent on
 
     " For all text files set 'textwidth' to 78 characters.
     autocmd FileType text setlocal textwidth=78
 
-    " When editing a file, always jump to the last known cursor position.
-    " Don't do it when the position is invalid or when inside an event handler
-    " (happens when dropping a file on gvim).
-    " Also don't do it when the mark is in the first line, that is the default
-    " position when opening a file.
+    " When opening a file, jump to the last known cursor position.
     autocmd BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g`\"" | endif
+
+    augroup localsettings
+        au FileType xslt,xml,css,html,xhtml,javascript,sh,config,c,cpp,docbook set smartindent tabstop=2 softtabstop=2 shiftwidth=2 expandtab
+        au FileType tex set wrap tabstop=2 softtabstop=2 shiftwidth=2 expandtab
+
+        " Conform to PEP8
+        au FileType python set tabstop=4 softtabstop=4 shiftwidth=4 expandtab cinwords=if,elif,else,for,while,try,except,finally,def,class
+    augroup END
 endif " has("autocmd")
 
-" Convenient command to see the difference between the current buffer and the
-" file it was loaded from, thus the changes you made.
-" Only define it when not defined already.
-if !exists(":DiffOrig")
-    command DiffOrig vert new | set bt=nofile | r # | 0d_ | diffthis | wincmd p | diffthis
+" Show ifference between the current buffer and the file it was loaded from.
+if !exists(":ShowDiff")
+    command ShowDiff vert new | set bt=nofile | r # | 0d_ | diffthis | wincmd p | diffthis
 endif
 
 " Abbreviations
