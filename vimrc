@@ -174,7 +174,7 @@ if has("autocmd")
         au FileType tex set wrap tabstop=2 softtabstop=2 shiftwidth=2 expandtab
 
         " Conform to PEP8
-        au FileType python set tabstop=4 softtabstop=4 shiftwidth=4 expandtab cinwords=if,elif,else,for,while,try,except,finally,def,class
+        au FileType python set cinwords=if,elif,else,for,while,try,except,finally,def,class
     augroup END
 endif " has("autocmd")
 
