@@ -1,4 +1,4 @@
-###dotfiles
+###My dotfiles collection
 
 This is my dotfiles collection, a set of configuration files I use to customize tools used in a daily basis.
 
@@ -18,6 +18,8 @@ ln -sf ~/git/dotfiles/vimrc ~/.vimrc
 ln -sf ~/git/dotfiles/vim ~/.vim
 ```
 
+###Credits
+
 ####screenrc
 
-My screenrc is heavily based on [Sven Guckes' screenrc](http://www.guckes.net/Setup/screenrc)
+My screenrc is heavily based on the one made by [Sven Guckes](http://www.guckes.net/Setup/screenrc)
