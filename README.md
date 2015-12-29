@@ -4,6 +4,7 @@ This is my dotfiles collection, a set of configuration files I use to customize 
 
 ###How do I use these files?
 
+```
 mkdir ~/git
 cd ~/git
 git clone https://github.com/accdias/dotfiles
@@ -15,6 +16,7 @@ ln -sf ~/git/dotfiles/gitconfig ~/.gitconfig
 ln -sf ~/git/dotfiles/inputrc ~/.inputrc
 ln -sf ~/git/dotfiles/vimrc ~/.vimrc
 ln -sf ~/git/dotfiles/vim ~/.vim
+```
 
 ####screenrc
 
