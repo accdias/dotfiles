@@ -4,7 +4,7 @@ This is my dotfiles collection, a set of configuration files I use to customize 
 
 ###How do I use these files?
 
-```
+```bash
 mkdir ~/git
 cd ~/git
 git clone https://github.com/accdias/dotfiles
