@@ -20,4 +20,4 @@ ln -sf ~/git/dotfiles/vim ~/.vim
 
 ####screenrc
 
-My screenrc is heavily based on http://www.guckes.net/Setup/screenrc
+My screenrc is heavily based on [Sven Guckes' screenrc](http://www.guckes.net/Setup/screenrc)
