@@ -17,6 +17,7 @@ ln -sf ~/git/dotfiles/inputrc ~/.inputrc
 ln -sf ~/git/dotfiles/vimrc ~/.vimrc
 ln -sf ~/git/dotfiles/vim ~/.vim
 ln -sf ~/git/dotfiles/Xresources ~/.Xresources
+ln -sf ~/git/dotfiles/zim ~/.config/zim
 ```
 
 ###Credits
