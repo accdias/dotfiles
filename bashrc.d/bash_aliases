@@ -30,6 +30,7 @@ alias ls='ls -hF --color=tty --group-directories-first' # classify files in colo
 # alias ll='ls -l'                              # long list
 # alias la='ls -A'                              # all but . and ..
 # alias l='ls -CF'                              #
+alias sumfile="awk 'BEGIN{s=0}{s=s+\$0}END{print s}'" # give the sum of values from a file
 
 case "$OSTYPE" in
     linux*)
