@@ -1,4 +1,4 @@
 # ~/.bashrc.d/bash_aliases.fedora
 #
-alias update='sudo dnf clean all && sudo dnf update -y'
+alias update='sudo dnf update -y --refresh'
 alias sxc='sxconsole $@ -R ~/Downloads -ME'
