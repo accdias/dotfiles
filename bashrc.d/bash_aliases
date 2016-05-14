@@ -44,7 +44,7 @@ case "$OSTYPE" in
 esac
 
 case "${OSCODENAME,,}" in
-    twentytwo|twentythree)
+    twentytwo|twentythree|twentyfour)
 		source ~/.bashrc.d/bash_aliases.fedora
 	;;
     utopic|karmic|lucid)
