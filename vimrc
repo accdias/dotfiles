@@ -134,6 +134,9 @@ nnoremap ; :
 " Don't use Ex mode, use Q for formatting
 map Q gq
 
+" Join 6 lines
+map <silent>1 :j6<cr><down>
+
 " Toggle booleans
 nmap <silent><leader>h :set hlsearch!<cr>
 nmap <silent><leader>l :set list!<cr>
