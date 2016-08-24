@@ -31,8 +31,8 @@ alias ls='ls -hF --color=tty --group-directories-first' # classify files in colo
 # alias la='ls -A'                              # all but . and ..
 # alias l='ls -CF'                              #
 alias sumfile="awk 'BEGIN{s=0}{s=s+\$0}END{print s}'" # give the sum of values from a file
-alias getmp3='youtube-dl --extract-audio --audio-format mp3 --audio-quality 9 $@'
-alias getogg='youtube-dl --extract-audio --audio-format vorbis --audio-quality 9 $@'
+alias getmp3='youtube-dl --quiet --extract-audio --audio-format mp3 --audio-quality 0 $@'
+alias getogg='youtube-dl --quiet --extract-audio --audio-format vorbis --audio-quality 0 $@'
 
 case "$OSTYPE" in
     linux*)
