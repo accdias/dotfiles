@@ -11,13 +11,15 @@ git clone https://github.com/accdias/dotfiles
 ln -sf ~/git/dotfiles/bash_profile ~/.bash_profile
 ln -sf ~/git/dotfiles/bashrc ~/.bashrc
 ln -sf ~/git/dotfiles/bashrc.d ~/.bashrc.d
-ln -sf ~/git/dotfiles/fonts.conf ~/.fonts.conf
 ln -sf ~/git/dotfiles/gitconfig ~/.gitconfig
 ln -sf ~/git/dotfiles/inputrc ~/.inputrc
 ln -sf ~/git/dotfiles/vimrc ~/.vimrc
 ln -sf ~/git/dotfiles/vim ~/.vim
 ln -sf ~/git/dotfiles/Xresources ~/.Xresources
 ln -sf ~/git/dotfiles/zim ~/.config/zim
+ln -sf ~/git/dotfiles/taskrc ~/.taskrc
+ln -sf ~/git/dotfiles/fonts.conf ~/.fonts.conf
+ln -sf ~/git/dotfiles/fonts ~/.local/share/fonts
 ```
 
 ###Credits
