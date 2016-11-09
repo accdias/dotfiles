@@ -240,7 +240,7 @@ if has("gui_running") || &t_Co == 88 || &t_Co == 256
     endfun
     " }}}
 
-    call <SID>X("Normal", "cccccc", "000000", "")
+    call <SID>X("Normal", "cccccc", "", "")
 
     " highlight groups
     call <SID>X("Cursor", "708090", "f0e68c", "")

@@ -182,7 +182,7 @@ else
     exec "hi Cursor         cterm=BOLD   ctermfg=255   ctermbg=167"
     exec "hi CursorIM       cterm=BOLD   ctermfg=255   ctermbg=167"
 
-    exec "hi Normal         cterm=NONE   ctermfg=255   ctermbg=233"
+    exec "hi Normal         cterm=NONE   ctermfg=255   ctermbg=none"
     exec "hi NonText        cterm=NONE   ctermfg=230   ctermbg=60"
     exec "hi Visual         cterm=NONE   ctermfg=255   ctermbg=68"
 
