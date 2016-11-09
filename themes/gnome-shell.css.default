@@ -19,7 +19,7 @@
  */
 /* GLOBALS */
 stage {
-  font-family: Noto Sans UI, Cantarell, Sans-Serif;
+  font-family: Cantarell, Sans-Serif;
   font-size: 11pt;
   color: #eeeeec; }
 

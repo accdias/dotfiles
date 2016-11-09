@@ -1,30 +1,4 @@
-87
-DroidSans-Bold.ttf -misc-droid sans-bold-r-normal--0-0-0-0-p-0-iso10646-1
-DroidSans-Bold.ttf -misc-droid sans-bold-r-normal--0-0-0-0-p-0-iso8859-1
-DroidSans.ttf -misc-droid sans-medium-r-normal--0-0-0-0-p-0-iso10646-1
-DroidSans.ttf -misc-droid sans-medium-r-normal--0-0-0-0-p-0-iso8859-1
-DroidSansMono.ttf -misc-droid sans mono-medium-r-normal--0-0-0-0-m-0-iso10646-1
-DroidSansMono.ttf -misc-droid sans mono-medium-r-normal--0-0-0-0-m-0-iso8859-1
-DroidSansMono.ttf -misc-droid sans mono-medium-r-normal--0-0-0-0-m-0-iso8859-10
-DroidSansMono.ttf -misc-droid sans mono-medium-r-normal--0-0-0-0-m-0-iso8859-15
-DroidSansMono.ttf -misc-droid sans mono-medium-r-normal--0-0-0-0-m-0-iso8859-2
-DroidSansMono.ttf -misc-droid sans mono-medium-r-normal--0-0-0-0-m-0-iso8859-3
-DroidSansMono.ttf -misc-droid sans mono-medium-r-normal--0-0-0-0-m-0-iso8859-4
-DroidSansMono.ttf -misc-droid sans mono-medium-r-normal--0-0-0-0-m-0-iso8859-5
-DroidSansMono.ttf -misc-droid sans mono-medium-r-normal--0-0-0-0-m-0-iso8859-9
-DroidSansMono.ttf -misc-droid sans mono-medium-r-normal--0-0-0-0-m-0-koi8-e
-DroidSansMono.ttf -misc-droid sans mono-medium-r-normal--0-0-0-0-m-0-koi8-r
-DroidSansMono.ttf -misc-droid sans mono-medium-r-normal--0-0-0-0-m-0-koi8-ru
-DroidSansMono.ttf -misc-droid sans mono-medium-r-normal--0-0-0-0-m-0-koi8-u
-DroidSansMono.ttf -misc-droid sans mono-medium-r-normal--0-0-0-0-m-0-koi8-uni
-DroidSerif-Bold.ttf -misc-droid serif-bold-r-normal--0-0-0-0-p-0-iso10646-1
-DroidSerif-Bold.ttf -misc-droid serif-bold-r-normal--0-0-0-0-p-0-iso8859-1
-DroidSerif-BoldItalic.ttf -misc-droid serif-bold-i-normal--0-0-0-0-p-0-iso10646-1
-DroidSerif-BoldItalic.ttf -misc-droid serif-bold-i-normal--0-0-0-0-p-0-iso8859-1
-DroidSerif-Italic.ttf -misc-droid serif-medium-i-normal--0-0-0-0-p-0-iso10646-1
-DroidSerif-Italic.ttf -misc-droid serif-medium-i-normal--0-0-0-0-p-0-iso8859-1
-DroidSerif.ttf -misc-droid serif-medium-r-normal--0-0-0-0-p-0-iso10646-1
-DroidSerif.ttf -misc-droid serif-medium-r-normal--0-0-0-0-p-0-iso8859-1
+19
 Hack-Bold.ttf -misc-hack-bold-r-normal--0-0-0-0-m-0-iso10646-1
 Hack-Bold.ttf -misc-hack-bold-r-normal--0-0-0-0-m-0-iso8859-1
 Hack-Bold.ttf -misc-hack-bold-r-normal--0-0-0-0-m-0-iso8859-15
@@ -44,45 +18,3 @@ Hack-Regular.ttf -misc-hack-medium-r-normal--0-0-0-0-m-0-iso8859-9
 Hack-Regular.ttf -misc-hack-medium-r-normal--0-0-0-0-m-0-koi8-r
 Hack-Regular.ttf -misc-hack-medium-r-normal--0-0-0-0-m-0-koi8-u
 Hack-RegularOblique.ttf -misc-hack-medium-o-normal--0-0-0-0-m-0-iso10646-1
-SourceCodePro-Black.ttf -adobe-source code pro black-black-r-normal--0-0-0-0-m-0-iso10646-1
-SourceCodePro-Black.ttf -adobe-source code pro black-black-r-normal--0-0-0-0-m-0-iso8859-1
-SourceCodePro-Black.ttf -adobe-source code pro black-black-r-normal--0-0-0-0-m-0-iso8859-15
-SourceCodePro-Black.ttf -adobe-source code pro black-black-r-normal--0-0-0-0-m-0-iso8859-2
-SourceCodePro-Black.ttf -adobe-source code pro black-black-r-normal--0-0-0-0-m-0-iso8859-3
-SourceCodePro-Black.ttf -adobe-source code pro black-black-r-normal--0-0-0-0-m-0-iso8859-9
-SourceCodePro-Bold.ttf -adobe-source code pro-bold-r-normal--0-0-0-0-m-0-iso10646-1
-SourceCodePro-Bold.ttf -adobe-source code pro-bold-r-normal--0-0-0-0-m-0-iso8859-1
-SourceCodePro-Bold.ttf -adobe-source code pro-bold-r-normal--0-0-0-0-m-0-iso8859-15
-SourceCodePro-Bold.ttf -adobe-source code pro-bold-r-normal--0-0-0-0-m-0-iso8859-2
-SourceCodePro-Bold.ttf -adobe-source code pro-bold-r-normal--0-0-0-0-m-0-iso8859-3
-SourceCodePro-Bold.ttf -adobe-source code pro-bold-r-normal--0-0-0-0-m-0-iso8859-9
-SourceCodePro-ExtraLight.ttf -adobe-source code pro extralight-extralight-r-normal--0-0-0-0-m-0-iso10646-1
-SourceCodePro-ExtraLight.ttf -adobe-source code pro extralight-extralight-r-normal--0-0-0-0-m-0-iso8859-1
-SourceCodePro-ExtraLight.ttf -adobe-source code pro extralight-extralight-r-normal--0-0-0-0-m-0-iso8859-15
-SourceCodePro-ExtraLight.ttf -adobe-source code pro extralight-extralight-r-normal--0-0-0-0-m-0-iso8859-2
-SourceCodePro-ExtraLight.ttf -adobe-source code pro extralight-extralight-r-normal--0-0-0-0-m-0-iso8859-3
-SourceCodePro-ExtraLight.ttf -adobe-source code pro extralight-extralight-r-normal--0-0-0-0-m-0-iso8859-9
-SourceCodePro-Light.ttf -adobe-source code pro light-light-r-normal--0-0-0-0-m-0-iso10646-1
-SourceCodePro-Light.ttf -adobe-source code pro light-light-r-normal--0-0-0-0-m-0-iso8859-1
-SourceCodePro-Light.ttf -adobe-source code pro light-light-r-normal--0-0-0-0-m-0-iso8859-15
-SourceCodePro-Light.ttf -adobe-source code pro light-light-r-normal--0-0-0-0-m-0-iso8859-2
-SourceCodePro-Light.ttf -adobe-source code pro light-light-r-normal--0-0-0-0-m-0-iso8859-3
-SourceCodePro-Light.ttf -adobe-source code pro light-light-r-normal--0-0-0-0-m-0-iso8859-9
-SourceCodePro-Medium.ttf -adobe-source code pro medium-medium-r-normal--0-0-0-0-m-0-iso10646-1
-SourceCodePro-Medium.ttf -adobe-source code pro medium-medium-r-normal--0-0-0-0-m-0-iso8859-1
-SourceCodePro-Medium.ttf -adobe-source code pro medium-medium-r-normal--0-0-0-0-m-0-iso8859-15
-SourceCodePro-Medium.ttf -adobe-source code pro medium-medium-r-normal--0-0-0-0-m-0-iso8859-2
-SourceCodePro-Medium.ttf -adobe-source code pro medium-medium-r-normal--0-0-0-0-m-0-iso8859-3
-SourceCodePro-Medium.ttf -adobe-source code pro medium-medium-r-normal--0-0-0-0-m-0-iso8859-9
-SourceCodePro-Regular.ttf -adobe-source code pro-medium-r-normal--0-0-0-0-m-0-iso10646-1
-SourceCodePro-Regular.ttf -adobe-source code pro-medium-r-normal--0-0-0-0-m-0-iso8859-1
-SourceCodePro-Regular.ttf -adobe-source code pro-medium-r-normal--0-0-0-0-m-0-iso8859-15
-SourceCodePro-Regular.ttf -adobe-source code pro-medium-r-normal--0-0-0-0-m-0-iso8859-2
-SourceCodePro-Regular.ttf -adobe-source code pro-medium-r-normal--0-0-0-0-m-0-iso8859-3
-SourceCodePro-Regular.ttf -adobe-source code pro-medium-r-normal--0-0-0-0-m-0-iso8859-9
-SourceCodePro-Semibold.ttf -adobe-source code pro semibold-semibold-r-normal--0-0-0-0-m-0-iso10646-1
-SourceCodePro-Semibold.ttf -adobe-source code pro semibold-semibold-r-normal--0-0-0-0-m-0-iso8859-1
-SourceCodePro-Semibold.ttf -adobe-source code pro semibold-semibold-r-normal--0-0-0-0-m-0-iso8859-15
-SourceCodePro-Semibold.ttf -adobe-source code pro semibold-semibold-r-normal--0-0-0-0-m-0-iso8859-2
-SourceCodePro-Semibold.ttf -adobe-source code pro semibold-semibold-r-normal--0-0-0-0-m-0-iso8859-3
-SourceCodePro-Semibold.ttf -adobe-source code pro semibold-semibold-r-normal--0-0-0-0-m-0-iso8859-9
