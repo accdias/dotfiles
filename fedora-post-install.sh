@@ -19,3 +19,4 @@ sudo dnf install -y gnome-icon-theme.noarch gnome-icon-theme-extras.noarch eleme
 
 # Install extra packages
 sudo dnf install -y tmate
+# End of file
