@@ -18,5 +18,15 @@ EOF
 sudo dnf install -y gnome-icon-theme.noarch gnome-icon-theme-extras.noarch elementary-icon-theme.noarch
 
 # Install extra packages
-sudo dnf install -y tmate
+sudo dnf install -y tmate tlp tlp-rdw
+sudo systemctl enable tlp.service
+
+# Change default I/O scheduler
+cat << EOF >/etc/udev/rules.d/60-io-scheduler.rules
+# set deadline scheduler for non-rotating disks
+ACTION=="add|change", KERNEL=="sd[a-z]", ATTR{queue/rotational}=="0", ATTR{queue/scheduler}="noop"
+# set deadline scheduler for rotating disks
+ACTION=="add|change", KERNEL=="sd[a-z]", ATTR{queue/rotational}=="1", ATTR{queue/scheduler}="deadline"
+EOF
+
 # End of file
