@@ -29,4 +29,17 @@ ACTION=="add|change", KERNEL=="sd[a-z]", ATTR{queue/rotational}=="0", ATTR{queue
 ACTION=="add|change", KERNEL=="sd[a-z]", ATTR{queue/rotational}=="1", ATTR{queue/scheduler}="deadline"
 EOF
 
+#for key in $(gsettings list-keys org.gnome.desktop.peripherals.touchpad); do echo -n "$key: "; gsettings get org.gnome.desktop.peripherals.touchpad $key; done
+#send-events: 'enabled'
+#natural-scroll: true
+#tap-to-click: true
+#two-finger-scrolling-enabled: true
+#left-handed: 'mouse'
+#click-method: 'fingers'
+#speed: 0.0
+#tap-and-drag: false
+#edge-scrolling-enabled: false
+#disable-while-typing: true
+
+
 # End of file
