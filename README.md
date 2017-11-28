@@ -1,8 +1,8 @@
-###My dotfiles collection
+### My dotfiles collection
 
 This is my dotfiles collection, a set of configuration files I use to customize tools used in a daily basis.
 
-###How do I use these files?
+### How do I use these files?
 
 ```sh
 mkdir ~/git
@@ -23,8 +23,8 @@ ln -sf ~/git/dotfiles/fonts ~/.local/share/fonts
 ln -sf ~/git/dotfiles/themes ~/.themes
 ```
 
-###Credits
+### Credits
 
-####screenrc
+#### screenrc
 
 My screenrc is heavily based on the one made by [Sven Guckes](http://www.guckes.net/Setup/screenrc)
