@@ -1,6 +1,10 @@
-### My dotfiles collection
+## My dotfiles collection
 
-This is my dotfiles collection, a set of configuration files I use to customize tools used in a daily basis.
+This is my dotfiles collection, a set of configuration files I use to customize tools used on a daily basis.
+
+### License
+
+These files are licensed under [Artistic License 2.0](LICENSE.txt)
 
 ### How do I use these files?
 
@@ -27,4 +31,4 @@ ln -sf ~/git/dotfiles/themes ~/.themes
 
 #### screenrc
 
-My screenrc is heavily based on the one made by [Sven Guckes](http://www.guckes.net/Setup/screenrc)
+My screenrc is heavily based on the one made by [Sven Guckes' screenrc](http://www.guckes.net/Setup/screenrc) file.
