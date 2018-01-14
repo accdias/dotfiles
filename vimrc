@@ -125,17 +125,17 @@ noremap <silent><Leader>s :sort<cr>
 nnoremap ; :
 
 " Don't use Ex mode, use Q for formatting
-map Q gq
+noremap Q gq
 
 " Join 6 lines
-map <silent>1 :j6<cr><down>
+noremap <silent>1 :j6<cr><down>
 
 " Toggle booleans
-nmap <silent><leader>h :set hlsearch!<cr>
-nmap <silent><leader>l :set list!<cr>
-nmap <silent><leader>n :set number!<cr>
-nmap <silent><leader>p :set paste!<cr>
-nmap <silent><leader>w :set wrap!<cr>
+noremap <silent><leader>h :set hlsearch!<cr>
+noremap <silent><leader>l :set list!<cr>
+noremap <silent><leader>n :set number!<cr>
+noremap <silent><leader>p :set paste!<cr>
+noremap <silent><leader>w :set wrap!<cr>
 
 " CTRL-U in insert mode deletes a lot.  Use CTRL-G u to first break undo,
 " so that you can undo CTRL-U after inserting a line break.
