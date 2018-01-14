@@ -159,6 +159,11 @@ noremap <c-a> ggVG
 
 " Only do this part when compiled with support for autocommands.
 if has("autocmd")
+    " Load a Python skelleton for new .py files
+    augroup templates
+        autocmd BufNewFile *.py 0r ~/.vim/skel/python
+    augroup END
+
     " Reload configuration upon saving (from vimbits.com)
     autocmd! BufWritePost .vimrc source %
     autocmd! BufWritePost vimrc source %
@@ -175,9 +180,9 @@ if has("autocmd")
     augroup localsettings
         au FileType xslt,xml,css,html,xhtml,javascript,sh,config,c,cpp,docbook set smartindent tabstop=2 softtabstop=2 shiftwidth=2 expandtab
         au FileType tex set wrap tabstop=2 softtabstop=2 shiftwidth=2 expandtab
-
         " Conform to PEP8
-        au FileType python set cinwords=if,elif,else,for,while,try,except,finally,def,class
+        au FileType python set tabstop=4 softtabstop=4 shiftwidth=4 expandtab
+        au FileType python set cinwords=any,with,if,elif,else,for,while,try,except,finally,def,class
     augroup END
 endif " has("autocmd")
 
