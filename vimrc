@@ -3,11 +3,6 @@
 " Author: Antonio Dias <accdias <at> gmail.com>
 "
 
-" Use vim settings instead of vi compatible mode
-if &compatible
-    set nocompatible
-endif
-
 " Use the operating system clipboard by default
 if exists("&clipboard")
     set clipboard=unnamed
@@ -56,7 +51,6 @@ set expandtab
 
 " Autoindent settings
 set autoindent
-set smartindent
 set smarttab
 
 " Don't add empty newlines at the end of files
@@ -157,6 +151,9 @@ noremap <c-left> <c-w>h
 " User Ctrl-a to select all text
 noremap <c-a> ggVG
 
+" Enable file type automatic detection.
+filetype plugin indent on
+
 " Only do this part when compiled with support for autocommands.
 if has("autocmd")
     augroup templates
@@ -174,27 +171,20 @@ if has("autocmd")
         autocmd BufNewFile * %s/@TIME@/\=strftime('%H:%M:%S')/ge
         autocmd BufNewFile * %s/@ISODATE@/\=strftime('%F')/ge
         autocmd BufNewFile * %s/@FULLDATE@/\=strftime('%c')/ge
+        " When opening a file, jump to the last known cursor position.
+        autocmd BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g`\"" | endif
+        " Reload configuration upon saving (from vimbits.com)
+        autocmd! BufWritePost .vimrc source %
+        autocmd! BufWritePost vimrc source %
     augroup END
 
-    " Reload configuration upon saving (from vimbits.com)
-    autocmd! BufWritePost .vimrc source %
-    autocmd! BufWritePost vimrc source %
-
-    " Enable file type automatic detection.
-    filetype plugin indent on
-
-    " For all text files set 'textwidth' to 78 characters.
-    autocmd FileType text setlocal textwidth=78
-
-    " When opening a file, jump to the last known cursor position.
-    autocmd BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g`\"" | endif
-
-    augroup localsettings
-        au FileType xslt,xml,css,html,xhtml,javascript,sh,config,c,cpp,docbook set smartindent tabstop=2 softtabstop=2 shiftwidth=2 expandtab
-        au FileType tex set wrap tabstop=2 softtabstop=2 shiftwidth=2 expandtab
+    augroup formats
+        " For all text files set 'textwidth' to 78 characters.
+        autocmd FileType text set textwidth=78
+        " Defaulst for some markup languages
+        autocmd FileType tex,xslt,xml,css,html,xhtml,javascript,sh,config,c,cpp,docbook set tabstop=2 softtabstop=2 shiftwidth=2 expandtab
         " Conform to PEP8
-        au FileType python set tabstop=4 softtabstop=4 shiftwidth=4 expandtab
-        au FileType python set cinwords=any,with,if,elif,else,for,while,try,except,finally,def,class
+        autocmd FileType python set tabstop=4 softtabstop=4 shiftwidth=4 expandtab cinwords=any,with,if,elif,else,for,while,try,except,finally,def,class
     augroup END
 endif " has("autocmd")
 
