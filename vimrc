@@ -166,13 +166,14 @@ if has("autocmd")
         "autocmd BufNewFile *.* silent! execute '0r ~/.vim/skel/'expand('<afile>:e')
         " Poor's man template system: replace some predefined @VAR@
         autocmd BufNewFile * %s/@FILENAME@/\=expand('<afile>:t')/ge
+        autocmd BufNewFile * %s/@FILETYPE@/\=&filetype/ge
+        autocmd BufNewFile * %s/@ENCODING@/\=&encoding/ge
         autocmd BufNewFile * %s/@DAY@/\=strftime('%d')/ge
         autocmd BufNewFile * %s/@MONTH@/\=strftime('%m')/ge
         autocmd BufNewFile * %s/@YEAR@/\=strftime('%Y')/ge
         autocmd BufNewFile * %s/@TIME@/\=strftime('%H:%M:%S')/ge
         autocmd BufNewFile * %s/@ISODATE@/\=strftime('%F')/ge
         autocmd BufNewFile * %s/@FULLDATE@/\=strftime('%c')/ge
-        "autocmd BufNewFile * %s/@ENCODING@/\=v:ctype/ge
     augroup END
 
     " Reload configuration upon saving (from vimbits.com)
