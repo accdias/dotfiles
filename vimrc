@@ -182,14 +182,14 @@ if has("autocmd")
 
     augroup formats
         " For all text files set 'textwidth' to 78 characters.
-        autocmd FileType text \
-            set textwidth=78
+        autocmd FileType text
+            \ set textwidth=78
         " Defaulst for some markup languages
-        autocmd FileType tex,xslt,xml,css,html,xhtml,javascript,sh,config,c,cpp,docbook \
-            set tabstop=2 softtabstop=2 shiftwidth=2 expandtab
+        autocmd FileType tex,xslt,xml,css,html,xhtml,javascript,sh,config,c,cpp,docbook
+            \ set tabstop=2 softtabstop=2 shiftwidth=2 expandtab
         " Conform to PEP8
-        autocmd FileType python \
-            set tabstop=4 softtabstop=4 shiftwidth=4 expandtab cinwords=any,with,if,elif,else,for,while,try,except,finally,def,class
+        autocmd FileType python
+            \ set tabstop=4 softtabstop=4 shiftwidth=4 expandtab cinwords=any,with,if,elif,else,for,while,try,except,finally,def,class
     augroup END
 endif " has("autocmd")
 
