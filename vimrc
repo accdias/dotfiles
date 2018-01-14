@@ -161,7 +161,7 @@ noremap <c-a> ggVG
 if has("autocmd")
     " Load a Python skelleton for new .py files
     augroup templates
-        autocmd BufNewFile *.py 0r ~/.vim/skel/python
+        autocmd BufNewFile *.py silent 0r ~/.vim/skel/python
     augroup END
 
     " Reload configuration upon saving (from vimbits.com)
