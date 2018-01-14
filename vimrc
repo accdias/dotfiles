@@ -1,17 +1,15 @@
 " ~/.vimrc
 "
-" Author: Antonio Dias <accdias <at> gmail.com>
+" Author: Antonio Dias <accdias@gmail.com>
 "
 
 " Use the operating system clipboard by default
 if exists("&clipboard")
-    set clipboard=unnamed
+    set clipboard^=unnamed
 endif
 
 " Display settings
-set background=dark                    " enable for dark terminals
 set nowrap                             " dont wrap lines
-"set number                            " show line numbers
 set ruler                              " show cursor position in status bar
 set scrolloff=2                        " 2 lines above/below cursor when scrolling
 set showcmd                            " show typed command in status bar
@@ -21,10 +19,9 @@ set matchpairs+=<:>                    " specially for html
 set title                              " show file in titlebar
 set listchars=tab:»⋅,trail:⋅,nbsp:⋅    " Better mark chars for list mode
 "set showbreak=¬                        " show line breaks
-set t_Co=256                           " Set vim to use 256 colors
 set encoding=utf-8 nobomb              " UTF-8 characters set
 set shortmess=atI                      " Disable vim intro message
-"set colorcolumn=80                     " Mark the right margin at column 80
+"set colorcolumn=75                     " Mark the right margin at column 80
 
 set wildmenu                           " completion with menu
 set wildignore=*~
@@ -46,7 +43,7 @@ set wildignore+=*.swp
 colorscheme desert256
 
 " Use spaces instead of tabs
-set tabstop=4
+set tabstop=8                          " See https://www.reddit.com/r/vim/wiki/tabstop
 set softtabstop=4
 set shiftwidth=4
 set expandtab
@@ -56,8 +53,8 @@ set autoindent
 set smarttab
 
 " Don't add empty newlines at the end of files
-set binary
-set noeol
+"set binary
+"set noeol
 
 " UNIX format for end of lines
 set fileformat=unix                    " file mode is unix
@@ -65,17 +62,17 @@ set fileformat=unix                    " file mode is unix
 " Search tweaks
 set ignorecase                         " case insensitive searching
 set smartcase                          " but become case sensitive if you type uppercase characters
-set magic                              " change the way backslashes are used in search patterns
+"set magic                              " change the way backslashes are used in search patterns
 "set incsearch                          " Do incremental searching
 
 "set lazyredraw                         " redraw only when we need to
-set esckeys                            " Allow cursor keys in insert mode
+"set esckeys                            " Allow cursor keys in insert mode
 set backspace=indent,eol,start         " Allow backspacing over everything in insert mode
 set ttyfast                            " Optimize for fast terminal connections
 set history=2000                       " Keep 2000 lines of command line history
 
-set modeline                           " Respect modelines embeded in buffers
-set noerrorbells                       " Disable error bells
+"set modeline                           " Respect modelines embeded in buffers
+"set noerrorbells                       " Disable error bells
 set nostartofline                      " Don’t reset cursor to start of line when moving around.
 
 set foldenable                         " enable folding
@@ -186,10 +183,10 @@ if has("autocmd")
             \ set textwidth=78
         " Defaulst for some markup languages
         autocmd FileType tex,xslt,xml,css,html,xhtml,javascript,sh,config,c,cpp,docbook
-            \ set tabstop=2 softtabstop=2 shiftwidth=2 expandtab
+            \ set softtabstop=2 shiftwidth=2
         " Conform to PEP8
         autocmd FileType python
-            \ set tabstop=4 softtabstop=4 shiftwidth=4 expandtab cinwords=any,with,if,elif,else,for,while,try,except,finally,def,class
+            \ set cinwords=any,with,if,elif,else,for,while,try,except,finally,def,class
     augroup END
 endif " has("autocmd")
 
@@ -199,6 +196,6 @@ if !exists(":ShowDiff")
 endif
 
 " Abbreviations
-ab _python #!/usr/bin/env python
-ab _utf8 # -*- coding: utf-8 -*-
-ab _vim # vim:ts=4:sts=4:sw=4:et
+abbreviate _python #!/usr/bin/env python
+abbreviate _utf8 # -*- coding: utf-8 -*-
+abbreviate _vim # vim:ts=4:sts=4:sw=4:et
