@@ -159,9 +159,20 @@ noremap <c-a> ggVG
 
 " Only do this part when compiled with support for autocommands.
 if has("autocmd")
-    " Load a Python skelleton for new .py files
     augroup templates
-        autocmd BufNewFile *.py silent 0r ~/.vim/skel/python
+        " Load ~/.vim/skel/python for new .py files
+        autocmd BufNewFile *.py silent! 0r ~/.vim/skel/python
+        " Load ~/.vim/skel/<ext> for new <filename>.<ext> file
+        "autocmd BufNewFile *.* silent! execute '0r ~/.vim/skel/'expand('<afile>:e')
+        " Poor's man template system: replace some predefined @VAR@
+        autocmd BufNewFile * %s/@FILENAME@/\=expand('<afile>:t')/ge
+        autocmd BufNewFile * %s/@DAY@/\=strftime('%d')/ge
+        autocmd BufNewFile * %s/@MONTH@/\=strftime('%m')/ge
+        autocmd BufNewFile * %s/@YEAR@/\=strftime('%Y')/ge
+        autocmd BufNewFile * %s/@TIME@/\=strftime('%H:%M:%S')/ge
+        autocmd BufNewFile * %s/@ISODATE@/\=strftime('%F')/ge
+        autocmd BufNewFile * %s/@FULLDATE@/\=strftime('%c')/ge
+        "autocmd BufNewFile * %s/@ENCODING@/\=v:ctype/ge
     augroup END
 
     " Reload configuration upon saving (from vimbits.com)
