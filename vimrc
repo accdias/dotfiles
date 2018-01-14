@@ -164,15 +164,15 @@ if has("autocmd")
         " Load ~/.vim/skel/<ext> for new <filename>.<ext> file
         "autocmd BufNewFile *.* silent! execute '0r ~/.vim/skel/'expand('<afile>:e')
         " Poor's man template system: replace some predefined @VAR@
-        autocmd BufNewFile * %s/@FILENAME@/\=expand('<afile>:t')/ge
-        autocmd BufNewFile * %s/@FILETYPE@/\=&filetype/ge
-        autocmd BufNewFile * %s/@ENCODING@/\=&encoding/ge
-        autocmd BufNewFile * %s/@DAY@/\=strftime('%d')/ge
-        autocmd BufNewFile * %s/@MONTH@/\=strftime('%m')/ge
-        autocmd BufNewFile * %s/@YEAR@/\=strftime('%Y')/ge
-        autocmd BufNewFile * %s/@TIME@/\=strftime('%H:%M:%S')/ge
-        autocmd BufNewFile * %s/@ISODATE@/\=strftime('%F')/ge
-        autocmd BufNewFile * %s/@FULLDATE@/\=strftime('%c')/ge
+        autocmd BufNewFile * silent! %s/@FILENAME@/\=expand('<afile>:t')/ge
+        autocmd BufNewFile * silent! %s/@FILETYPE@/\=&filetype/ge
+        autocmd BufNewFile * silent! %s/@ENCODING@/\=&encoding/ge
+        autocmd BufNewFile * silent! %s/@DAY@/\=strftime('%d')/ge
+        autocmd BufNewFile * silent! %s/@MONTH@/\=strftime('%m')/ge
+        autocmd BufNewFile * silent! %s/@YEAR@/\=strftime('%Y')/ge
+        autocmd BufNewFile * silent! %s/@TIME@/\=strftime('%H:%M:%S')/ge
+        autocmd BufNewFile * silent! %s/@ISODATE@/\=strftime('%F')/ge
+        autocmd BufNewFile * silent! %s/@FULLDATE@/\=strftime('%c')/ge
         " When opening a file, jump to the last known cursor position.
         autocmd BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g`\"" | endif
         " Reload configuration upon saving (from vimbits.com)
@@ -182,11 +182,14 @@ if has("autocmd")
 
     augroup formats
         " For all text files set 'textwidth' to 78 characters.
-        autocmd FileType text set textwidth=78
+        autocmd FileType text \
+            set textwidth=78
         " Defaulst for some markup languages
-        autocmd FileType tex,xslt,xml,css,html,xhtml,javascript,sh,config,c,cpp,docbook set tabstop=2 softtabstop=2 shiftwidth=2 expandtab
+        autocmd FileType tex,xslt,xml,css,html,xhtml,javascript,sh,config,c,cpp,docbook \
+            set tabstop=2 softtabstop=2 shiftwidth=2 expandtab
         " Conform to PEP8
-        autocmd FileType python set tabstop=4 softtabstop=4 shiftwidth=4 expandtab cinwords=any,with,if,elif,else,for,while,try,except,finally,def,class
+        autocmd FileType python \
+            set tabstop=4 softtabstop=4 shiftwidth=4 expandtab cinwords=any,with,if,elif,else,for,while,try,except,finally,def,class
     augroup END
 endif " has("autocmd")
 
