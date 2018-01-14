@@ -28,14 +28,16 @@ set shortmess=atI                      " Disable vim intro message
 
 set wildmenu                           " completion with menu
 set wildignore=*~
-set wildignore+=*.bak
-set wildignore+=*.exe
+set wildignore+=eggs/**
 set wildignore+=.git
+set wildignore+=.svn
+set wildignore+=*.bak
+set wildignore+=*.egg-info/**
+set wildignore+=*.exe
 set wildignore+=*.o
 set wildignore+=*.obj
 set wildignore+=*.pyc
 set wildignore+=*.py[co]
-set wildignore+=.svn
 set wildignore+=*.swp
 
 "colorscheme wombat256mod
