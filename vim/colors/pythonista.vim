@@ -23,7 +23,7 @@ highlight Boolean      ctermfg=38   ctermbg=NONE  cterm=bold
 highlight Character    ctermfg=142  ctermbg=NONE  cterm=NONE
 
 " Vim Stuff
-highlight Visual       ctermfg=253  ctermbg=235   cterm=NONE
+highlight Visual       ctermfg=196  ctermbg=229   cterm=bold
 highlight VertSplit    ctermfg=232  ctermbg=244   cterm=NONE
 highlight ErrorMsg     ctermfg=160  ctermbg=NONE  cterm=bold
 highlight MatchParen   ctermfg=160  ctermbg=NONE  cterm=bold
