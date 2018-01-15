@@ -37,10 +37,7 @@ set wildignore+=*.pyc
 set wildignore+=*.py[co]
 set wildignore+=*.swp
 
-"colorscheme wombat256mod
-"colorscheme pablo
-"colorscheme xoria256
-colorscheme desert256
+colorscheme pythonista
 
 " Use spaces instead of tabs
 set tabstop=8                          " See https://www.reddit.com/r/vim/wiki/tabstop
