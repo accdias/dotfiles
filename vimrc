@@ -154,9 +154,9 @@ filetype plugin indent on
 if has("autocmd")
     augroup templates
         " Load ~/.vim/skel/<type> for new <type> files
-        autocmd BufNewFile *.py silent! 0r ~/.vim/skel/python
+        autocmd BufNewFile *.* silent! execute '0r ~/.vim/skel/' . tolower(expand('%:e'))
         " Poor's man template system: replace some predefined @VAR@
-        autocmd BufNewFile * silent! %s/@FILENAME@/\=expand('<afile>:t')/ge
+        autocmd BufNewFile * silent! %s/@FILENAME@/\=expand('%:t')/ge
         autocmd BufNewFile * silent! %s/@FILETYPE@/\=&filetype/ge
         autocmd BufNewFile * silent! %s/@ENCODING@/\=&encoding/ge
         autocmd BufNewFile * silent! %s/@DAY@/\=strftime('%d')/ge
