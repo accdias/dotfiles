@@ -109,17 +109,10 @@ if &t_Co > 2 || has("gui_running")
 endif
 
 " Expose trailing white spaces
-highlight WhitespaceEOL ctermbg=Red guibg=Red
 match WhitespaceEOL /\s\+$/
-
-" Set the highlight colors of matching pairs to something more readable
-highlight MatchParen ctermbg=black ctermfg=red cterm=bold
 
 " Remap Leader key to comma
 let mapleader=","
-
-" Remove All the Trailing Whitespaces
-"nnoremap <leader>W :%s,\s\+$,,<cr>:let @/=''<cr>
 
 " Use <Leader>> and <Leader>< to page between buffers
 noremap <silent><Leader>< :bp<cr>
@@ -162,7 +155,18 @@ filetype plugin indent on
 
 " Only do this part when compiled with support for autocommands.
 if has("autocmd")
+    augroup formats
+        autocmd!
+        " For all text files set 'textwidth' to 78 characters.
+        autocmd FileType text
+            \ set textwidth=78
+        " Defaults for some languages
+        autocmd FileType tex,xslt,xml,css,html,xhtml,javascript,sh,config,c,cpp,docbook
+            \ set softtabstop=2 shiftwidth=2
+    augroup END
+
     augroup templates
+        autocmd!
         " Load ~/.vim/skel/<type> for new <type> files
         autocmd BufNewFile *.* silent! execute '0read ' . globpath(&rtp, 'skel/' . tolower(expand('<afile>:e')))
         " Poor's man template system: replace some predefined @VAR@
@@ -175,27 +179,28 @@ if has("autocmd")
         autocmd BufNewFile * silent! %s/@TIME@/\=strftime('%H:%M:%S')/ge
         autocmd BufNewFile * silent! %s/@ISODATE@/\=strftime('%F')/ge
         autocmd BufNewFile * silent! %s/@FULLDATE@/\=strftime('%c')/ge
+    augroup END
+
+    augroup movecursor
         " When opening a file, jump to the last known cursor position.
         autocmd BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g`\"" | endif
+    augroup END
+
+    augroup autotrim
+        autocmd!
+        " Remove trailing white spaces before saving
+        autocmd BufWritePre * silent! %s/\s\+$//ge
+    augroup END
+
+    augroup reloadvimrc
+        autocmd!
         " Reload configuration upon saving (from vimbits.com)
         autocmd! BufWritePost .vimrc source %
         autocmd! BufWritePost vimrc source %
     augroup END
-
-    augroup formats
-        " For all text files set 'textwidth' to 78 characters.
-        autocmd FileType text
-            \ set textwidth=78
-        " Defaulst for some markup languages
-        autocmd FileType tex,xslt,xml,css,html,xhtml,javascript,sh,config,c,cpp,docbook
-            \ set softtabstop=2 shiftwidth=2
-        " Conform to PEP8
-        autocmd FileType python
-            \ set cinwords=any,with,if,elif,else,for,while,try,except,finally,def,class
-    augroup END
 endif " has("autocmd")
 
-" Show ifference between the current buffer and the file it was loaded from.
+" Show difference between the current buffer and the file it was loaded from.
 if !exists(":ShowDiff")
     command ShowDiff vert new | set bt=nofile | r # | 0d_ | diffthis | wincmd p | diffthis
 endif

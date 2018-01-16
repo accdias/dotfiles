@@ -31,7 +31,7 @@ highlight FoldColumn       ctermfg=67   ctermbg=16    cterm=NONE
 highlight Folded           ctermfg=67   ctermbg=16    cterm=bold
 highlight IncSearch        ctermfg=124  ctermbg=7     cterm=bold
 highlight LineNr           ctermfg=58   ctermbg=NONE  cterm=NONE
-highlight MatchParen       ctermfg=160  ctermbg=NONE  cterm=bold
+highlight MatchParen       ctermfg=196  ctermbg=NONE  cterm=bold
 highlight NonText          ctermfg=58   ctermbg=NONE  cterm=NONE
 highlight Pmenu            ctermfg=81   ctermbg=16    cterm=NONE
 highlight PmenuSbar        ctermfg=81   ctermbg=16    cterm=NONE
@@ -55,5 +55,6 @@ highlight User2            ctermfg=9    ctermbg=25    cterm=bold
 highlight VertSplit        ctermfg=25   ctermbg=NONE  cterm=NONE
 highlight Visual           ctermfg=196  ctermbg=229   cterm=bold
 highlight WarningMsg       ctermfg=160  ctermbg=NONE  cterm=bold
+highlight WhitespaceEOL    ctermfg=196  ctermbg=196   cterm=NONE
 highlight WildMenu         ctermfg=25   ctermbg=117   cterm=bold
 " End of file
