@@ -39,6 +39,16 @@ set wildignore+=*.swp
 
 colorscheme pythonista
 
+" Change the vertical split character
+"set fillchars+=vert:┃
+"set fillchars+=vert:┆
+"set fillchars+=vert:┇
+set fillchars+=vert:┊
+"set fillchars+=vert:┋
+"set fillchars+=vert:╎
+"set fillchars+=vert:╏
+"set fillchars+=vert:║
+
 " Use spaces instead of tabs
 set tabstop=8                          " See https://www.reddit.com/r/vim/wiki/tabstop
 set softtabstop=4

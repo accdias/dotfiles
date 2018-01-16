@@ -52,7 +52,7 @@ highlight TabLineFill      ctermfg=46   ctermbg=NONE  cterm=NONE
 highlight TabLineSel       ctermfg=14   ctermbg=NONE  cterm=bold
 highlight User1            ctermfg=16   ctermbg=25    cterm=bold
 highlight User2            ctermfg=9    ctermbg=25    cterm=bold
-highlight VertSplit        ctermfg=232  ctermbg=244   cterm=NONE
+highlight VertSplit        ctermfg=25   ctermbg=NONE  cterm=NONE
 highlight Visual           ctermfg=196  ctermbg=229   cterm=bold
 highlight WarningMsg       ctermfg=160  ctermbg=NONE  cterm=bold
 highlight WildMenu         ctermfg=25   ctermbg=117   cterm=bold
