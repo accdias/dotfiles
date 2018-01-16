@@ -193,4 +193,4 @@ endif
 " Abbreviations
 abbreviate _python #!/usr/bin/env python
 abbreviate _utf8 # -*- coding: utf-8 -*-
-abbreviate _vim # vim:ts=4:sts=4:sw=4:et
+abbreviate _vim # vim:ts=8:sts=4:sw=4:et
