@@ -2,7 +2,7 @@
 " See https://jonasjacek.github.io/colors for codes
 let g:colors_name = "pythonista"
 " Basic style
-highlight Normal       ctermfg=253  ctermbg=NONE  cterm=NONE
+highlight Normal           ctermfg=253  ctermbg=NONE  cterm=NONE
 " Python related stuff
 highlight Boolean          ctermfg=38   ctermbg=NONE  cterm=bold
 highlight Character        ctermfg=142  ctermbg=NONE  cterm=NONE
@@ -13,7 +13,8 @@ highlight Float            ctermfg=141  ctermbg=NONE  cterm=NONE
 highlight Function         ctermfg=35   ctermbg=NONE  cterm=NONE
 highlight Include          ctermfg=25   ctermbg=NONE  cterm=bold
 highlight Number           ctermfg=141  ctermbg=NONE  cterm=NONE
-highlight Operator         ctermfg=81   ctermbg=NONE  cterm=NONE
+highlight Operator         ctermfg=33   ctermbg=NONE  cterm=NONE
+highlight Structure        ctermfg=81   ctermbg=NONE  cterm=NONE
 highlight PreProc          ctermfg=81   ctermbg=NONE  cterm=NONE
 highlight Special          ctermfg=81   ctermbg=NONE  cterm=NONE
 highlight Statement        ctermfg=209  ctermbg=NONE  cterm=bold
