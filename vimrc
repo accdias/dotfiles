@@ -204,3 +204,7 @@ endif
 abbreviate _python #!/usr/bin/env python
 abbreviate _utf8 # -*- coding: utf-8 -*-
 abbreviate _vim # vim:ts=8:sts=4:sw=4:et
+
+" Enable rainbow plugin features
+" set to 0 if you want to enable it later via :RainbowToggle
+let g:rainbow_active = 1
