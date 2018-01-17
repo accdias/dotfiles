@@ -1,6 +1,6 @@
-" ~/.vim/vimrc
+" ~/.vim/plugins/statusline.vim
 "
-" Author: Antonio Dias <accdias <at> gmail.com>
+" Author: Antonio Dias <accdias@gmail.com>
 "
 set showmode                           " Show mode in status bar
 set laststatus=2                       " Use 2 lines for the status bar
@@ -16,7 +16,6 @@ set statusline+=%w                     " Flag preview window
 set statusline+=[%{&ff}]               " New line format
 set statusline+=[%{&fenc?&fenc:&enc}]  " File enconding
 set statusline+=%{&paste?'[paste]':''} " Custom paste indicator
-set statusline+=\ ╲                    " Separator
 set statusline+=%=                     " Left and right division
 set statusline+=\ ╲                    " Separator
 set statusline+=\ char:%03.3b          " ASCII code for char under cursor
