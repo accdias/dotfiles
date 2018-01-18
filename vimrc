@@ -9,21 +9,21 @@ if exists("&clipboard")
 endif
 
 " Display settings
-set nowrap                             " dont wrap lines
-set ruler                              " show cursor position in status bar
-set scrolloff=2                        " 2 lines above/below cursor when scrolling
-set showcmd                            " show typed command in status bar
-set showmatch                          " show matching bracket
-set matchtime=2                        " show matching bracket for 0.2 seconds
-set matchpairs+=<:>                    " specially for html
-set title                              " show file in titlebar
-set listchars=tab:»⋅,trail:⋅,nbsp:⋅    " Better mark chars for list mode
+set nowrap                              " dont wrap lines
+set ruler                               " show cursor position in status bar
+set scrolloff=2                         " 2 lines above/below cursor when scrolling
+set showcmd                             " show typed command in status bar
+set showmatch                           " show matching bracket
+set matchtime=2                         " show matching bracket for 0.2 seconds
+set matchpairs+=<:>                     " specially for html
+set title                               " show file in titlebar
+set listchars=tab:»⋅,trail:⋅,nbsp:⋅     " Better mark chars for list mode
 "set showbreak=¬                        " show line breaks
-set encoding=utf-8 nobomb              " UTF-8 characters set
-set shortmess=atI                      " Disable vim intro message
+set encoding=utf-8 nobomb               " UTF-8 characters set
+set shortmess=atI                       " Disable vim intro message
 "set colorcolumn=75                     " Mark the right margin at column 80
 
-set wildmenu                           " completion with menu
+set wildmenu                            " completion with menu
 set wildignore=*~
 set wildignore+=eggs/**
 set wildignore+=.git
@@ -50,7 +50,7 @@ set fillchars+=vert:┊
 "set fillchars+=vert:║
 
 " Use spaces instead of tabs
-set tabstop=8                          " See https://www.reddit.com/r/vim/wiki/tabstop
+set tabstop=8                           " See https://www.reddit.com/r/vim/wiki/tabstop
 set softtabstop=4
 set shiftwidth=4
 set expandtab
@@ -64,28 +64,29 @@ set smarttab
 "set noeol
 
 " UNIX format for end of lines
-set fileformat=unix                    " file mode is unix
+set fileformat=unix                     " file mode is unix
 
 " Search tweaks
-set ignorecase                         " case insensitive searching
-set smartcase                          " but become case sensitive if you type uppercase characters
+set ignorecase                          " case insensitive searching
+set smartcase                           " but become case sensitive if you type uppercase characters
 "set magic                              " change the way backslashes are used in search patterns
 "set incsearch                          " Do incremental searching
 
 "set lazyredraw                         " redraw only when we need to
 "set esckeys                            " Allow cursor keys in insert mode
-set backspace=indent,eol,start         " Allow backspacing over everything in insert mode
-set ttyfast                            " Optimize for fast terminal connections
-set history=2000                       " Keep 2000 lines of command line history
+set backspace=indent,eol,start          " Allow backspacing over everything in insert mode
+set ttyfast                             " Optimize for fast terminal connections
+set history=2000                        " Keep 2000 lines of command line history
+set number                              " Show line numbers
 
 "set modeline                           " Respect modelines embeded in buffers
 "set noerrorbells                       " Disable error bells
-set nostartofline                      " Don’t reset cursor to start of line when moving around.
+set nostartofline                       " Don’t reset cursor to start of line when moving around.
 
-set foldenable                         " enable folding
-set foldlevelstart=10                  " open most folds by default
-set foldnestmax=10                     " 10 nested fold max
-set foldmethod=indent                  " fold based on indent level
+set foldenable                          " enable folding
+set foldlevelstart=10                   " open most folds by default
+set foldnestmax=10                      " 10 nested fold max
+set foldmethod=indent                   " fold based on indent level
 " space open/closes folds
 nnoremap <space> za
 
@@ -213,3 +214,15 @@ abbreviate _vim # vim:ts=8:sts=4:sw=4:et
 " Enable rainbow plugin features
 " set to 0 if you want to enable it later via :RainbowToggle
 let g:rainbow_active = 1
+
+" Validator plugin settings
+let g:validator_python_checkers = ['flake8']
+let g:validator_css_checkers = ['csslint']
+" Customize Validator error message
+"let g:validator_error_msg_format = "[ ● %d/%d issues ]"
+" To auto open quickfix window:
+let g:validator_auto_open_quickfix = 1
+" To show permanently the sign column
+let g:validator_permament_sign = 1
+" For validator with flake8
+let g:validator_python_flake8_args = '--max-line-length=120'

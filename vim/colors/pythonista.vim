@@ -3,6 +3,11 @@
 let g:colors_name = "pythonista"
 " Basic style
 highlight Normal           ctermfg=253  ctermbg=NONE  cterm=NONE
+" Validator plugin stuff
+highlight ValidatorErrorSign        ctermfg=9  ctermbg=NONE cterm=bold
+highlight ValidatorWarningSign      ctermfg=11 ctermbg=NONE cterm=bold
+highlight ValidatorStyleErrorSign   ctermfg=9  ctermbg=NONE cterm=bold
+highlight ValidatorStyleWarningSign ctermfg=11 ctermbg=NONE cterm=bold
 " Python related stuff
 highlight Boolean          ctermfg=38   ctermbg=NONE  cterm=bold
 highlight Character        ctermfg=142  ctermbg=NONE  cterm=NONE
@@ -38,6 +43,7 @@ highlight PmenuSbar        ctermfg=81   ctermbg=16    cterm=NONE
 highlight PmenuSel         ctermfg=202  ctermbg=16    cterm=NONE
 highlight PmenuThumb       ctermfg=81   ctermbg=16    cterm=NONE
 highlight Search           ctermfg=124  ctermbg=7     cterm=bold
+highlight SignColumn       ctermfg=15   ctermbg=NONE  cterm=bold
 highlight SpecialKey       ctermfg=81   ctermbg=NONE  cterm=bold
 highlight SpellBad         ctermfg=196  ctermbg=NONE  cterm=bold
 highlight SpellCap         ctermfg=195  ctermbg=NONE  cterm=bold
