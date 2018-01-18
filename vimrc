@@ -22,6 +22,8 @@ set listchars=tab:»⋅,trail:⋅,nbsp:⋅     " Better mark chars for list mode
 set encoding=utf-8 nobomb               " UTF-8 characters set
 set shortmess=atI                       " Disable vim intro message
 "set colorcolumn=75                     " Mark the right margin at column 80
+set signcolumn=yes                      " Always shows the sign column
+set number                              " Always shows line numbers
 
 set wildmenu                            " completion with menu
 set wildignore=*~
@@ -77,7 +79,6 @@ set smartcase                           " but become case sensitive if you type 
 set backspace=indent,eol,start          " Allow backspacing over everything in insert mode
 set ttyfast                             " Optimize for fast terminal connections
 set history=2000                        " Keep 2000 lines of command line history
-set number                              " Show line numbers
 
 "set modeline                           " Respect modelines embeded in buffers
 "set noerrorbells                       " Disable error bells
