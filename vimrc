@@ -227,3 +227,8 @@ let g:validator_auto_open_quickfix = 1
 let g:validator_permament_sign = 1
 " For validator with flake8
 let g:validator_python_flake8_args = '--max-line-length=120'
+" Change validator symbol
+let g:validator_error_symbol = 'x'
+let g:validator_warning_symbol = '!'
+let g:validator_style_error_symbol = 'x'
+let g:validator_style_warning_symbol = '!'
