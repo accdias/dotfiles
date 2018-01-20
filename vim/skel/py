@@ -1,15 +1,16 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 # -*- coding: @ENCODING@ -*-
+
 '''
     Usage:
         @FILENAME@ [-h,--help] [-v,--verbose] [--version]
 '''
 
-from __future__ import print_function
 import os
 import sys
 import re
 import argparse
+from pathlib import Path
 
 __author__ = 'Antonio Dias'
 __email__ = 'accdias@gmail.com'
@@ -44,35 +45,35 @@ class Pizza:
 
 
 # Function declarations
-def main ():
-    parser = argparse.ArgumentParser(description = __doc__)
+def main():
+    parser = argparse.ArgumentParser(description=__doc__)
 
     parser.add_argument(
-        'input', nargs = '?', default = '-',
-        metavar = 'INPUT_FILE', type = argparse.FileType('r'),
-        help = 'path to the input file (read from stdin if omitted)')
+        'input', nargs='?', default='-',
+        metavar='INPUT_FILE', type=argparse.FileType('r'),
+        help='path to the input file (read from stdin if omitted)')
 
     parser.add_argument(
-        'output', nargs = '?', default = '-',
-        metavar = 'OUTPUT_FILE', type = argparse.FileType('w'),
-        help = 'path to the output file (write to stdout if omitted)')
+        'output', nargs='?', default='-',
+        metavar='OUTPUT_FILE', type=argparse.FileType('w'),
+        help='path to the output file (write to stdout if omitted)')
 
     args = parser.parse_args()
 
-    #if len(args) < 1:
-    #    parser.error('missing argument')
+    if len(args) < 1:
+        parser.error('missing argument')
 
     for line in args.input:
-        print(line.strip(), file = args.output)
+        print(line.strip(), file=args.output)
 
 
 if __name__ == '__main__':
     try:
         main()
         sys.exit(0)
-    except KeyboardInterrupt, e: # Ctrl-C
+    except KeyboardInterrupt, e:  # Ctrl-C
         raise e
-    except SystemExit, e: # sys.exit()
+    except SystemExit, e:  # sys.exit()
         raise e
     except Exception, e:
         print('ERROR, UNEXPECTED EXCEPTION')
