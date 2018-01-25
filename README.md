@@ -31,4 +31,13 @@ ln -sf ~/git/dotfiles/themes ~/.themes
 
 #### screenrc
 
-My screenrc is heavily based on the one made by [Sven Guckes' screenrc](http://www.guckes.net/Setup/screenrc) file.
+* Kudos to [Sven Guckes](http://www.guckes.net) for his [screenrc](http://www.guckes.net/Setup/screenrc) file.
+
+### vimrc
+
+* Kudos to the nicest and smartest vim community at [/r/vim](https://www.reddit.com/vim) for tips about tuning, readbility and vimscript.
+
+### Gnome Terminal
+
+* Kudos to [Mayccoll](https://github.com/Mayccoll) and his [Gnome Terminal color schemes](https://github.com/Mayccoll/Gogh/blob/master/content/themes.md)
+
