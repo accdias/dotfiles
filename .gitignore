@@ -2,3 +2,4 @@ vim/backup/*
 vim/swap/*
 vim/undo/*
 vim/.netrwhist
+*.pyc
