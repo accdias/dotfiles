@@ -35,7 +35,7 @@ ln -sf ~/git/dotfiles/themes ~/.themes
 
 ### vimrc
 
-* Kudos to the nicest and smartest vim community at [/r/vim](https://www.reddit.com/vim) for tips about tuning, readbility and vimscript.
+* Kudos to the nicest and smartest vim community at [/r/vim](https://www.reddit.com/r/vim) for tips about tuning, readbility and vimscript.
 
 ### Gnome Terminal
 
