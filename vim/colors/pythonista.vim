@@ -1,4 +1,5 @@
 " Vim colorscheme -- pythonista
+" https://gihub.com/accdias/dotfiles/vim/colors/pythonista.vim
 " See https://jonasjacek.github.io/colors for codes
 let g:colors_name = "pythonista"
 " Basic style
@@ -63,4 +64,76 @@ highlight Visual                    ctermfg=196 ctermbg=229  cterm=bold
 highlight WarningMsg                ctermfg=160 ctermbg=NONE cterm=bold
 highlight WhitespaceEOL             ctermfg=196 ctermbg=196  cterm=NONE
 highlight WildMenu                  ctermfg=25  ctermbg=117  cterm=bold
-" End of file
+
+" General highlighting group links.
+highlight! link diffAdded       DiffAdd
+highlight! link diffRemoved     DiffDelete
+highlight! link diffChanged     DiffChange
+highlight! link StatusLineNC    StatusLine
+highlight! link Title           Normal
+highlight! link LineNr          NonText
+highlight! link MoreMsg         Normal
+highlight! link Question        DiffChange
+highlight! link TabLine         StatusLineNC
+highlight! link TabLineFill     StatusLineNC
+highlight! link VimHiGroup      VimGroup
+
+" Test the actual colorscheme
+syntax match Comment      "\"__Comment.*"
+syntax match Constant     "\"__Constant.*"
+syntax match Cursor       "\"__Cursor.*"
+syntax match CursorLine   "\"__CursorLine.*"
+syntax match DiffAdd      "\"__DiffAdd.*"
+syntax match DiffChange   "\"__DiffChange.*"
+syntax match DiffText     "\"__DiffText.*"
+syntax match DiffDelete   "\"__DiffDelete.*"
+syntax match Folded       "\"__Folded.*"
+syntax match Function     "\"__Function.*"
+syntax match Identifier   "\"__Identifier.*"
+syntax match IncSearch    "\"__IncSearch.*"
+syntax match NonText      "\"__NonText.*"
+syntax match Normal       "\"__Normal.*"
+syntax match Pmenu        "\"__Pmenu.*"
+syntax match PreProc      "\"__PreProc.*"
+syntax match Search       "\"__Search.*"
+syntax match Special      "\"__Special.*"
+syntax match SpecialKey   "\"__SpecialKey.*"
+syntax match Statement    "\"__Statement.*"
+syntax match StatusLine   "\"__StatusLine.*"
+syntax match StatusLineNC "\"__StatusLineNC.*"
+syntax match String       "\"__String.*"
+syntax match Todo         "\"__Todo.*"
+syntax match Type         "\"__Type.*"
+syntax match Underlined   "\"__Underlined.*"
+syntax match VertSplit    "\"__VertSplit.*"
+syntax match Visual       "\"__Visual.*"
+
+"__Comment              /* this is a comment */
+"__Constant             var = VALUE
+"__Cursor               char under the cursor?
+"__CursorLine           Line where the cursor is
+"__DiffAdd              +line added from file.orig
+"__DiffChange           line changed from file.orig
+"__DiffText             actual changes on this line
+"__DiffDelete           -line removed from file.orig
+"__Folded               +--- 1 line : Folded line ---
+"__Function             function sblah()
+"__Identifier           Never ran into that actually...
+"__IncSearch            Next search term
+"__NonText              This is not a text, move on
+"__Normal               Typical text goes like this
+"__Pmenu                Currently selected menu item
+"__PreProc              #define SHBLAH true
+"__Search               This is what youʼre searching for
+"__Special              true false NULL SIGTERM
+"__SpecialKey           Never ran into that either
+"__Statement            if else return for switch
+"__StatusLine           Statusline of current windows
+"__StatusLineNC         Statusline of other windows
+"__String               "Hello, World!"
+"__Todo                 TODO: remove todos from source
+"__Type                 int float char void unsigned uint32_t
+"__Underlined           Anything underlined
+"__VertSplit            :vsplit will only show ʼ | ʼ
+"__Visual               Selected text looks like this
+" vim:ts=8:sts=4:sw=4:et
