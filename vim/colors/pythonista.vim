@@ -1,15 +1,19 @@
 " Vim colorscheme -- pythonista
 " https://gihub.com/accdias/dotfiles/vim/colors/pythonista.vim
 " See https://jonasjacek.github.io/colors for codes
+
 let g:colors_name = "pythonista"
+
 " Basic style
 highlight Normal                    ctermfg=253 ctermbg=NONE cterm=NONE
+
 " Validator plugin stuff
 highlight ValidatorErrorSign        ctermfg=9   ctermbg=NONE cterm=bold
 highlight ValidatorStyleErrorSign   ctermfg=9   ctermbg=NONE cterm=bold
 highlight ValidatorStyleWarningSign ctermfg=11  ctermbg=NONE cterm=bold
 highlight ValidatorWarningSign      ctermfg=11  ctermbg=NONE cterm=bold
-" Python related stuff
+
+" Syntax related stuff
 highlight Boolean                   ctermfg=38  ctermbg=NONE cterm=bold
 highlight Character                 ctermfg=142 ctermbg=NONE cterm=NONE
 highlight Comment                   ctermfg=245 ctermbg=NONE cterm=NONE
@@ -26,6 +30,7 @@ highlight Statement                 ctermfg=209 ctermbg=NONE cterm=bold
 highlight String                    ctermfg=217 ctermbg=NONE cterm=NONE
 highlight Structure                 ctermfg=81  ctermbg=NONE cterm=NONE
 highlight Todo                      ctermfg=196 ctermbg=226  cterm=bold
+
 " Vim Stuff
 highlight ColorColumn               ctermfg=201 ctermbg=NONE cterm=bold
 highlight CursorLine                ctermfg=16  ctermbg=25   cterm=bold
@@ -78,36 +83,39 @@ highlight! link TabLine         StatusLineNC
 highlight! link TabLineFill     StatusLineNC
 highlight! link VimHiGroup      VimGroup
 
-" Test the actual colorscheme
-syntax match Comment      "\"__Comment.*"
-syntax match Constant     "\"__Constant.*"
-syntax match Cursor       "\"__Cursor.*"
-syntax match CursorLine   "\"__CursorLine.*"
-syntax match DiffAdd      "\"__DiffAdd.*"
-syntax match DiffChange   "\"__DiffChange.*"
-syntax match DiffText     "\"__DiffText.*"
-syntax match DiffDelete   "\"__DiffDelete.*"
-syntax match Folded       "\"__Folded.*"
-syntax match Function     "\"__Function.*"
-syntax match Identifier   "\"__Identifier.*"
-syntax match IncSearch    "\"__IncSearch.*"
-syntax match NonText      "\"__NonText.*"
-syntax match Normal       "\"__Normal.*"
-syntax match Pmenu        "\"__Pmenu.*"
-syntax match PreProc      "\"__PreProc.*"
-syntax match Search       "\"__Search.*"
-syntax match Special      "\"__Special.*"
-syntax match SpecialKey   "\"__SpecialKey.*"
-syntax match Statement    "\"__Statement.*"
-syntax match StatusLine   "\"__StatusLine.*"
-syntax match StatusLineNC "\"__StatusLineNC.*"
-syntax match String       "\"__String.*"
-syntax match Todo         "\"__Todo.*"
-syntax match Type         "\"__Type.*"
-syntax match Underlined   "\"__Underlined.*"
-syntax match VertSplit    "\"__VertSplit.*"
-syntax match Visual       "\"__Visual.*"
+" Test the colorscheme
+syntax match Comment            "\"__Comment.*"
+syntax match Constant           "\"__Constant.*"
+syntax match Cursor             "\"__Cursor.*"
+syntax match CursorLine         "\"__CursorLine.*"
+syntax match DiffAdd            "\"__DiffAdd.*"
+syntax match DiffChange         "\"__DiffChange.*"
+syntax match DiffText           "\"__DiffText.*"
+syntax match DiffDelete         "\"__DiffDelete.*"
+syntax match Folded             "\"__Folded.*"
+syntax match Function           "\"__Function.*"
+syntax match Identifier         "\"__Identifier.*"
+syntax match IncSearch          "\"__IncSearch.*"
+syntax match NonText            "\"__NonText.*"
+syntax match Normal             "\"__Normal.*"
+syntax match Pmenu              "\"__Pmenu.*"
+syntax match PreProc            "\"__PreProc.*"
+syntax match Search             "\"__Search.*"
+syntax match Special            "\"__Special.*"
+syntax match SpecialKey         "\"__SpecialKey.*"
+syntax match Statement          "\"__Statement.*"
+syntax match StatusLine         "\"__StatusLine.*"
+syntax match StatusLineNC       "\"__StatusLineNC.*"
+syntax match StatusLineTerm     "\"__StatusLineTerm.*"
+syntax match StatusLineTermNC   "\"__StatusLineTermNC.*"
+syntax match String             "\"__String.*"
+syntax match Todo               "\"__Todo.*"
+syntax match Type               "\"__Type.*"
+syntax match Underlined         "\"__Underlined.*"
+syntax match VertSplit          "\"__VertSplit.*"
+syntax match Visual             "\"__Visual.*"
 
+" Color examples for each match
 "__Comment              /* this is a comment */
 "__Constant             var = VALUE
 "__Cursor               char under the cursor?
@@ -130,6 +138,8 @@ syntax match Visual       "\"__Visual.*"
 "__Statement            if else return for switch
 "__StatusLine           Statusline of current windows
 "__StatusLineNC         Statusline of other windows
+"__StatusLineTerm       Statusline of current windows
+"__StatusLineTermNC     Statusline of other windows
 "__String               "Hello, World!"
 "__Todo                 TODO: remove todos from source
 "__Type                 int float char void unsigned uint32_t
