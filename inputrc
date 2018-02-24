@@ -1,9 +1,9 @@
-# To the extent possible under law, the author(s) have dedicated all 
-# copyright and related and neighboring rights to this software to the 
-# public domain worldwide. This software is distributed without any warranty. 
-# You should have received a copy of the CC0 Public Domain Dedication along 
-# with this software. 
-# If not, see <http://creativecommons.org/publicdomain/zero/1.0/>. 
+# To the extent possible under law, the author(s) have dedicated all
+# copyright and related and neighboring rights to this software to the
+# public domain worldwide. This software is distributed without any warranty.
+# You should have received a copy of the CC0 Public Domain Dedication along
+# with this software.
+# If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 
 # base-files version 4.1-1
 
@@ -47,28 +47,29 @@ set convert-meta off
 set input-meta on
 set output-meta on
 $if Bash
-  # Don't ring bell on completion
-  set bell-style none
+    # Don't ring bell on completion
+    set bell-style none
 
-  # or, don't beep at me - show me
-  #set bell-style visible
+    # or, don't beep at me - show me
+    #set bell-style visible
 
-  # Filename completion/expansion
-  #set completion-ignore-case on
-  set show-all-if-ambiguous on
+    # Filename completion/expansion
+    #set completion-ignore-case on
+    set show-all-if-ambiguous on
 
-  # Expand homedir name
-  #set expand-tilde on
+    # Expand homedir name
+    #set expand-tilde on
 
-  # Append "/" to all dirnames
-  set mark-directories on
-  set mark-symlinked-directories on
+    # Append "/" to all dirnames
+    set mark-directories on
+    set mark-symlinked-directories on
 
-  # Match all files
-  #set match-hidden-files on
+    # Match all files
+    #set match-hidden-files on
 
-  # 'Magic Space'
-  # Insert a space character then performs
-  # a history expansion in the line
-  Space: magic-space
+    # 'Magic Space'
+    # Insert a space character then performs
+    # a history expansion in the line
+    Space: magic-space
 $endif
+# vim:ts=8:sts=4:sw=4:et
