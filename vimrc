@@ -163,7 +163,7 @@ if has("autocmd")
         autocmd FileType text
             \ set textwidth=78
         " Defaults for some languages
-        autocmd FileType tex,xslt,xml,css,html,xhtml,javascript,sh,config,c,cpp,docbook
+        autocmd FileType tex,xslt,xml,css,html,xhtml,javascript,docbook
             \ set softtabstop=2 shiftwidth=2
     augroup END
 
