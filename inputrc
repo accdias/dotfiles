@@ -47,9 +47,6 @@ set convert-meta off
 set input-meta on
 set output-meta on
 $if Bash
-    # Set vi mode for line editing
-    #set editing-mode vi
-
     # Don't ring bell on completion
     set bell-style none
 
