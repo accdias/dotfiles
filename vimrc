@@ -161,10 +161,10 @@ if has("autocmd")
         autocmd!
         " For all text files set 'textwidth' to 78 characters.
         autocmd FileType text
-            \ set textwidth=78
+                \ set textwidth=78
         " Defaults for some languages
         autocmd FileType tex,xslt,xml,css,html,xhtml,javascript,docbook
-            \ set softtabstop=2 shiftwidth=2
+                \ set softtabstop=2 shiftwidth=2
     augroup END
 
     augroup templates
