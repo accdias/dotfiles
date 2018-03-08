@@ -227,7 +227,7 @@ let g:validator_auto_open_quickfix = 1
 " To show permanently the sign column
 let g:validator_permament_sign = 1
 " For validator with flake8
-let g:validator_python_flake8_args = '--max-line-length=120'
+let g:validator_python_flake8_args = '--max-line-length=1000'
 " Change validator symbol
 let g:validator_error_symbol = 'x'
 let g:validator_warning_symbol = '!'
