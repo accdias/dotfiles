@@ -223,7 +223,7 @@ let g:validator_css_checkers = ['csslint']
 " Customize Validator error message
 let g:validator_error_msg_format = "● %d/%d issues"
 " To auto open quickfix window:
-let g:validator_auto_open_quickfix = 1
+let g:validator_auto_open_quickfix = 0
 " To show permanently the sign column
 let g:validator_permament_sign = 1
 " For validator with flake8
