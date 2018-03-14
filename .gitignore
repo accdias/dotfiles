@@ -3,3 +3,5 @@ vim/swap/*
 vim/undo/*
 vim/.netrwhist
 *.pyc
+*.bak
+*~
