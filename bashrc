@@ -87,18 +87,24 @@ export TERM=xterm-256color
 
 # Aliases
 #
-# Some people use a different file for aliases
-[[ -f "${HOME}/.bashrc.d/bash_aliases" ]] && . "${HOME}/.bashrc.d/bash_aliases"
+# Some people uses a different file for aliases
+[[ -f "${HOME}/.bashrc.d/bash_aliases" ]] && source "${HOME}/.bashrc.d/bash_aliases"
 
 # Functions
 #
-# Some people use a different file for functions
-[[ -f "${HOME}/.bashrc.d/bash_functions" ]] && . "${HOME}/.bashrc.d/bash_functions"
+# Some people uses a different file for functions
+[[ -f "${HOME}/.bashrc.d/bash_functions" ]] && source "${HOME}/.bashrc.d/bash_functions"
 
 # Prompts
 #
-# Some people use a different file for functions
-[[ -f "${HOME}/.bashrc.d/bash_prompts" ]] && . "${HOME}/.bashrc.d/bash_prompts"
+# Some people uses a different file for prompts
+[[ -f "${HOME}/.bashrc.d/bash_prompts" ]] && source "${HOME}/.bashrc.d/bash_prompts"
+
+# Temporary settings
+#
+# Some people uses a different file for CLI temporary settings
+[[ -f "${HOME}/.bashrc.d/.bashrc.temp" ]] && source "${HOME}/.bashrc.temp"
+
 
 # Umask
 # /etc/profile sets 022, removing write perms to group + others.
