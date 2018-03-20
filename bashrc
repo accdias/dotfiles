@@ -103,7 +103,7 @@ export TERM=xterm-256color
 # Temporary settings
 #
 # Some people uses a different file for CLI temporary settings
-[[ -f "${HOME}/.bashrc.temp" ]] && source "${HOME}/.bashrc.temp"
+[[ -f "${HOME}/.bash_proxy" ]] && source "${HOME}/.bash_proxy"
 
 
 # Umask
