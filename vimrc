@@ -25,6 +25,8 @@ set shortmess=atI                       " Disable vim intro message
 set signcolumn=yes                      " Always shows the sign column
 set number                              " Always shows line numbers
 
+set path+=**                            " Make "find" search recursively
+
 set wildmenu                            " completion with menu
 set wildignore=*~
 set wildignore+=eggs/**
