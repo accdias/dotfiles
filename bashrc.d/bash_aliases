@@ -39,24 +39,24 @@ alias getmp4='youtube-dl --ignore-config --quiet $@'
 
 case "$OSTYPE" in
     linux*)
-		OSCODENAME=$(lsb_release -sc)
+	OSCODENAME=$(lsb_release -sc)
 	;;
     cygwin)
-		OSCODENAME="cygwin"
+	OSCODENAME="cygwin"
 	;;
     *)
         ;;
 esac
 
 case "${OSCODENAME,,}" in
-    twenty*)
-		source ~/.bashrc.d/bash_aliases.fedora
+    twenty*|thirty*)
+	source ~/.bashrc.d/bash_aliases.fedora
 	;;
     utopic|karmic|lucid)
-		source ~/.bashrc.d/bash_aliases.ubuntu
+	source ~/.bashrc.d/bash_aliases.ubuntu
 	;;
     cygwin)
-		source ~/.bashrc.d/bash_aliases.cygwin
+	source ~/.bashrc.d/bash_aliases.cygwin
 	;;
     *)
 	;;
