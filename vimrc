@@ -4,8 +4,9 @@
 "
 
 " Use the operating system clipboard by default
-if exists("&clipboard")
-    set clipboard^=unnamed
+if has("clipboard")
+    set clipboard^=unnamedplus
+    set clipboard+=autoselect
 endif
 
 " Display settings
@@ -21,7 +22,7 @@ set listchars=tab:»⋅,trail:⋅,nbsp:⋅     " Better mark chars for list mode
 "set showbreak=¬                        " show line breaks
 set encoding=utf-8 nobomb               " UTF-8 characters set
 set shortmess=atI                       " Disable vim intro message
-"set colorcolumn=75                     " Mark the right margin at column 80
+"set colorcolumn=75                     " Mark the right margin at column 75
 set signcolumn=yes                      " Always shows the sign column
 set number                              " Always shows line numbers
 
