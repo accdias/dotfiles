@@ -36,6 +36,10 @@ alias sumfile="awk 'BEGIN{s=0}{s=s+\$0}END{print s}'" # give the sum of values f
 alias getmp3='youtube-dl -x --audio-format mp3 $@'
 alias getogg='youtube-dl -x --audio-format vorbis $@'
 alias getmp4='youtube-dl --ignore-config --quiet $@'
+#
+# Proxy management
+alias proxyon='test -f ~/.bash_proxy_0 && mv ~/.bash_proxy{_0,}'
+alias proxyoff='test -f ~/.bash_proxy && mv ~/.bash_proxy{,_0}'
 
 case "$OSTYPE" in
     linux*)
