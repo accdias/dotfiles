@@ -38,7 +38,7 @@ alias getogg='youtube-dl -x --audio-format vorbis $@'
 alias getmp4='youtube-dl --ignore-config --quiet $@'
 #
 # Proxy management
-alias proxyon='test -f ~/.bash_proxy_0 && mv ~/.bash_proxy{_0,} && source ~/.bashrc_proxy'
+alias proxyon='test -f ~/.bash_proxy_0 && mv ~/.bash_proxy{_0,} && source ~/.bash_proxy'
 alias proxyoff='test -f ~/.bash_proxy && mv ~/.bash_proxy{,_0}'
 
 case "$OSTYPE" in
