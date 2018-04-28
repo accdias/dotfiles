@@ -68,8 +68,9 @@ set smarttab
 "set binary
 "set noeol
 
-" UNIX format for end of lines
-set fileformat=unix                     " file mode is unix
+set cm=blowfish2                        " Use a more secure encryption method (-X/+X)
+
+set fileformat=unix                     " Unix end of line format
 
 " Search tweaks
 set ignorecase                          " case insensitive searching
