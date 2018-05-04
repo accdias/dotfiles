@@ -24,7 +24,7 @@ ln -sf ~/git/dotfiles/zim ~/.config/zim
 ln -sf ~/git/dotfiles/taskrc ~/.taskrc
 ln -sf ~/git/dotfiles/fonts.conf ~/.fonts.conf
 ln -sf ~/git/dotfiles/fonts ~/.local/share/fonts
-ln -sf ~/git/dotfiles/themes ~/.themes
+ln -sf ~/git/dotfiles/themes ~/.local/share/themes
 ln -sf ~/git/dotfiles/elinks/elinks.conf ~/.elinks/elinks.conf
 ```
 
