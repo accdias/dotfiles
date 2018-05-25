@@ -1,4 +1,4 @@
-19
+79
 Hack-Bold.ttf -misc-hack-bold-r-normal--0-0-0-0-m-0-iso10646-1
 Hack-Bold.ttf -misc-hack-bold-r-normal--0-0-0-0-m-0-iso8859-1
 Hack-Bold.ttf -misc-hack-bold-r-normal--0-0-0-0-m-0-iso8859-15
@@ -18,3 +18,63 @@ Hack-Regular.ttf -misc-hack-medium-r-normal--0-0-0-0-m-0-iso8859-9
 Hack-Regular.ttf -misc-hack-medium-r-normal--0-0-0-0-m-0-koi8-r
 Hack-Regular.ttf -misc-hack-medium-r-normal--0-0-0-0-m-0-koi8-u
 Hack-RegularOblique.ttf -misc-hack-medium-o-normal--0-0-0-0-m-0-iso10646-1
+MyriadPro-Light.otf -adobe-myriad pro light-light-r-normal--0-0-0-0-p-0-iso10646-1
+MyriadPro-Light.otf -adobe-myriad pro light-light-r-normal--0-0-0-0-p-0-iso8859-1
+MyriadPro-Light.otf -adobe-myriad pro light-light-r-normal--0-0-0-0-p-0-iso8859-10
+MyriadPro-Light.otf -adobe-myriad pro light-light-r-normal--0-0-0-0-p-0-iso8859-15
+MyriadPro-Light.otf -adobe-myriad pro light-light-r-normal--0-0-0-0-p-0-iso8859-2
+MyriadPro-Light.otf -adobe-myriad pro light-light-r-normal--0-0-0-0-p-0-iso8859-3
+MyriadPro-Light.otf -adobe-myriad pro light-light-r-normal--0-0-0-0-p-0-iso8859-4
+MyriadPro-Light.otf -adobe-myriad pro light-light-r-normal--0-0-0-0-p-0-iso8859-5
+MyriadPro-Light.otf -adobe-myriad pro light-light-r-normal--0-0-0-0-p-0-iso8859-9
+MyriadPro-Light.otf -adobe-myriad pro light-light-r-normal--0-0-0-0-p-0-koi8-e
+MyriadPro-Light.otf -adobe-myriad pro light-light-r-normal--0-0-0-0-p-0-koi8-r
+MyriadPro-Light.otf -adobe-myriad pro light-light-r-normal--0-0-0-0-p-0-koi8-ru
+MyriadPro-Light.otf -adobe-myriad pro light-light-r-normal--0-0-0-0-p-0-koi8-u
+MyriadPro-Light.otf -adobe-myriad pro light-light-r-normal--0-0-0-0-p-0-koi8-uni
+MyriadSetPro-Semibold.ttf -apple-myriadsetpro semibold-semibold-r-normal--0-0-0-0-p-0-iso10646-1
+MyriadSetPro-Semibold.ttf -apple-myriadsetpro semibold-semibold-r-normal--0-0-0-0-p-0-iso8859-1
+MyriadSetPro-Semibold.ttf -apple-myriadsetpro semibold-semibold-r-normal--0-0-0-0-p-0-iso8859-10
+MyriadSetPro-Semibold.ttf -apple-myriadsetpro semibold-semibold-r-normal--0-0-0-0-p-0-iso8859-15
+MyriadSetPro-Semibold.ttf -apple-myriadsetpro semibold-semibold-r-normal--0-0-0-0-p-0-iso8859-2
+MyriadSetPro-Semibold.ttf -apple-myriadsetpro semibold-semibold-r-normal--0-0-0-0-p-0-iso8859-3
+MyriadSetPro-Semibold.ttf -apple-myriadsetpro semibold-semibold-r-normal--0-0-0-0-p-0-iso8859-4
+MyriadSetPro-Semibold.ttf -apple-myriadsetpro semibold-semibold-r-normal--0-0-0-0-p-0-iso8859-5
+MyriadSetPro-Semibold.ttf -apple-myriadsetpro semibold-semibold-r-normal--0-0-0-0-p-0-iso8859-9
+MyriadSetPro-Semibold.ttf -apple-myriadsetpro semibold-semibold-r-normal--0-0-0-0-p-0-koi8-e
+MyriadSetPro-Semibold.ttf -apple-myriadsetpro semibold-semibold-r-normal--0-0-0-0-p-0-koi8-r
+MyriadSetPro-Semibold.ttf -apple-myriadsetpro semibold-semibold-r-normal--0-0-0-0-p-0-koi8-ru
+MyriadSetPro-Semibold.ttf -apple-myriadsetpro semibold-semibold-r-normal--0-0-0-0-p-0-koi8-u
+MyriadSetPro-Semibold.ttf -apple-myriadsetpro semibold-semibold-r-normal--0-0-0-0-p-0-koi8-uni
+MyriadSetPro-Thin.ttf -adobe-myriadsetpro thin-light-r-normal--0-0-0-0-p-0-iso10646-1
+MyriadSetPro-Thin.ttf -adobe-myriadsetpro thin-light-r-normal--0-0-0-0-p-0-iso8859-1
+MyriadSetPro-Thin.ttf -adobe-myriadsetpro thin-light-r-normal--0-0-0-0-p-0-iso8859-10
+MyriadSetPro-Thin.ttf -adobe-myriadsetpro thin-light-r-normal--0-0-0-0-p-0-iso8859-15
+MyriadSetPro-Thin.ttf -adobe-myriadsetpro thin-light-r-normal--0-0-0-0-p-0-iso8859-2
+MyriadSetPro-Thin.ttf -adobe-myriadsetpro thin-light-r-normal--0-0-0-0-p-0-iso8859-3
+MyriadSetPro-Thin.ttf -adobe-myriadsetpro thin-light-r-normal--0-0-0-0-p-0-iso8859-4
+MyriadSetPro-Thin.ttf -adobe-myriadsetpro thin-light-r-normal--0-0-0-0-p-0-iso8859-9
+MyriadSetPro-ThinItalic.ttf -adobe-myriadsetpro thinitalic-light-i-normal--0-0-0-0-p-0-iso10646-1
+MyriadSetPro-ThinItalic.ttf -adobe-myriadsetpro thinitalic-light-i-normal--0-0-0-0-p-0-iso8859-1
+MyriadSetPro-ThinItalic.ttf -adobe-myriadsetpro thinitalic-light-i-normal--0-0-0-0-p-0-iso8859-10
+MyriadSetPro-ThinItalic.ttf -adobe-myriadsetpro thinitalic-light-i-normal--0-0-0-0-p-0-iso8859-15
+MyriadSetPro-ThinItalic.ttf -adobe-myriadsetpro thinitalic-light-i-normal--0-0-0-0-p-0-iso8859-2
+MyriadSetPro-ThinItalic.ttf -adobe-myriadsetpro thinitalic-light-i-normal--0-0-0-0-p-0-iso8859-3
+MyriadSetPro-ThinItalic.ttf -adobe-myriadsetpro thinitalic-light-i-normal--0-0-0-0-p-0-iso8859-4
+MyriadSetPro-ThinItalic.ttf -adobe-myriadsetpro thinitalic-light-i-normal--0-0-0-0-p-0-iso8859-9
+MyriadSetPro-Ultralight.ttf -adobe-myriadsetpro ultralight-light-r-normal--0-0-0-0-p-0-iso10646-1
+MyriadSetPro-Ultralight.ttf -adobe-myriadsetpro ultralight-light-r-normal--0-0-0-0-p-0-iso8859-1
+MyriadSetPro-Ultralight.ttf -adobe-myriadsetpro ultralight-light-r-normal--0-0-0-0-p-0-iso8859-10
+MyriadSetPro-Ultralight.ttf -adobe-myriadsetpro ultralight-light-r-normal--0-0-0-0-p-0-iso8859-15
+MyriadSetPro-Ultralight.ttf -adobe-myriadsetpro ultralight-light-r-normal--0-0-0-0-p-0-iso8859-2
+MyriadSetPro-Ultralight.ttf -adobe-myriadsetpro ultralight-light-r-normal--0-0-0-0-p-0-iso8859-3
+MyriadSetPro-Ultralight.ttf -adobe-myriadsetpro ultralight-light-r-normal--0-0-0-0-p-0-iso8859-4
+MyriadSetPro-Ultralight.ttf -adobe-myriadsetpro ultralight-light-r-normal--0-0-0-0-p-0-iso8859-9
+MyriadSetPro-UltralightItalic.ttf -adobe-myriadsetpro ultralightitalic-light-i-normal--0-0-0-0-p-0-iso10646-1
+MyriadSetPro-UltralightItalic.ttf -adobe-myriadsetpro ultralightitalic-light-i-normal--0-0-0-0-p-0-iso8859-1
+MyriadSetPro-UltralightItalic.ttf -adobe-myriadsetpro ultralightitalic-light-i-normal--0-0-0-0-p-0-iso8859-10
+MyriadSetPro-UltralightItalic.ttf -adobe-myriadsetpro ultralightitalic-light-i-normal--0-0-0-0-p-0-iso8859-15
+MyriadSetPro-UltralightItalic.ttf -adobe-myriadsetpro ultralightitalic-light-i-normal--0-0-0-0-p-0-iso8859-2
+MyriadSetPro-UltralightItalic.ttf -adobe-myriadsetpro ultralightitalic-light-i-normal--0-0-0-0-p-0-iso8859-3
+MyriadSetPro-UltralightItalic.ttf -adobe-myriadsetpro ultralightitalic-light-i-normal--0-0-0-0-p-0-iso8859-4
+MyriadSetPro-UltralightItalic.ttf -adobe-myriadsetpro ultralightitalic-light-i-normal--0-0-0-0-p-0-iso8859-9
