@@ -6,3 +6,4 @@ alias chromeprofile='cd /cygdrive/c/Users/accdias/AppData/Local/Google/Chrome/Us
 alias rmtorrents='find /cygdrive/c/Users/accdias/AppData/Roaming/uTorrent/ -type f -name "*.torrent" -ls -exec rm {} \;'
 alias roaming='cd /cygdrive/c/Users/accdias/AppData/Roaming/'
 alias appdata='cd /cygdrive/c/Users/accdias/AppData'
+# EOF

@@ -1,0 +1,68 @@
+# ~/.bashrc.d/bash_aliases.linux
+#
+# Some example alias instructions
+# If these are enabled they will be used instead of any instructions
+# they may mask.  For example, alias rm='rm -i' will mask the rm
+# application.  To override the alias instruction use a \ before, ie
+# \rm will call the real rm not the alias.
+#
+# Interactive operation...
+# alias rm='rm -i'
+# alias cp='cp -i'
+# alias mv='mv -i'
+#
+# Default to human readable figures
+# alias df='df -h'
+# alias du='du -h'
+#
+# Misc :)
+alias less='less -r'                              # raw control characters
+# alias whence='type -a'                          # where, of a sort
+alias grep='grep --color'                         # show differences in colour
+alias cgrep='egrep -v "^\s*(#|;|$)" --color=auto' # strip comments from files
+alias egrep='egrep --color=auto'                  # show differences in colour
+alias fgrep='fgrep --color=auto'                  # show differences in colour
+#
+# Some shortcuts for different directory listings
+alias ls='ls -hF --color=tty --group-directories-first' # classify files in colour show directories on top
+# alias dir='ls --color=auto --format=vertical'
+# alias vdir='ls --color=auto --format=long'
+# alias ll='ls -l'                              # long list
+# alias la='ls -A'                              # all but . and ..
+# alias l='ls -CF'                              #
+alias sumfile="awk 'BEGIN{s=0}{s=s+\$0}END{print s}'" # give the sum of values from a file
+
+# Proxy management
+alias proxyon='test -f ~/.bash_proxy_0 && mv ~/.bash_proxy{_0,} && source ~/.bash_proxy'
+alias proxyoff='test -f ~/.bash_proxy && mv ~/.bash_proxy{,_0}'
+
+# Do we have DNF?
+if test -r /usr/bin/dnf; then
+    alias update='sudo dnf update -y --refresh'
+fi
+
+# Do we have apt-get installed?
+if test -r /usr/bin/apt-get; then
+    alias update='sudo apt-get update'
+    alias upgrade='sudo apt-get upgrade -y'
+    alias dist-upgrade='sudo apt-get dist-upgrade -y'
+    alias purge='sudo apt-get purge -y $(dpkg -l | awk "/^rc/{print \$2}")'
+fi
+
+# dnf install -y youtube-dl
+if test -r /usr/bin/youtube-dl; then
+alias getmp3='youtube-dl -x --audio-format mp3 $@'
+alias getogg='youtube-dl -x --audio-format vorbis $@'
+alias getmp4='youtube-dl --ignore-config --quiet $@'
+fi
+
+# Do we have vimx installed?
+if test -r /usr/bin/vimx; then
+    alias vim='/usr/bin/vimx'
+fi
+
+# Do we have sxconsole installed?
+if test -r /usr/bin/sxconsole; then
+    alias sxc='sxconsole $@ -R ~/Downloads -ME'
+fi
+# EOF

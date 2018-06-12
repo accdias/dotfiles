@@ -1,7 +1,0 @@
-# ~/.bashrc.d/bash_aliases.fedora
-#
-alias update='sudo dnf update -y --refresh'
-alias sxc='sxconsole $@ -R ~/Downloads -ME'
-if test -r /usr/bin/vimx; then
-    alias vim='/usr/bin/vimx'
-fi
