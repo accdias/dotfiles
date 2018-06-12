@@ -1,0 +1,4 @@
+# ~/.bashrc.d/bash_aliases.osx
+#
+alias ls='ls -G'
+# EOF
