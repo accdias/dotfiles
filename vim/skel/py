@@ -1,4 +1,6 @@
+#!/usr/bin/env python
 # -*- coding: @ENCODING@ -*-
+from __future__ import print_function, with_statement, division
 import os
 
 __author__ = 'Antonio Dias'
