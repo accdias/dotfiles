@@ -2,9 +2,13 @@
 "
 " Author: Antonio Dias <accdias@gmail.com>
 "
+" This configuration uses UTF-8 encoding
+set encoding=utf-8 nobomb               " Display UTF-8 characters set
+set fileencoding=utf-8                  " Save files in UTF-8 enconding
+scriptencoding utf-8                    " Configuration file is in UTF-8
 
 " Use the operating system clipboard by default
-if has("clipboard")
+if has('clipboard')
     set clipboard^=unnamedplus
     set clipboard+=autoselect
 endif
@@ -20,7 +24,6 @@ set matchpairs+=<:>                     " specially for html
 set title                               " show file in titlebar
 set listchars=tab:»⋅,trail:⋅,nbsp:⋅     " Better mark chars for list mode
 "set showbreak=¬                        " show line breaks
-set encoding=utf-8 nobomb               " UTF-8 characters set
 set shortmess=atI                       " Disable vim intro message
 "set colorcolumn=75                     " Mark the right margin at column 75
 set signcolumn=yes                      " Always shows the sign column
@@ -98,7 +101,7 @@ nnoremap <space> za
 " Centralize backups, swapfiles and undo history
 set backupdir=~/.vim/backup
 set directory=~/.vim/swap
-if exists("&undodir")
+if exists('&undodir')
     set undodir=~/.vim/undo
 endif
 
@@ -109,7 +112,7 @@ endif
 
 " Switch syntax highlighting on, when the terminal has colors
 " Also switch on highlighting the last used search pattern.
-if &t_Co > 2 || has("gui_running")
+if &t_Co > 2 || has('gui_running')
     syntax on
     set hlsearch
 endif
@@ -118,7 +121,7 @@ endif
 match WhitespaceEOL /\s\+$/
 
 " Remap Leader key to comma
-let mapleader=","
+let mapleader=','
 
 " Use <Leader>> and <Leader>< to page between buffers
 noremap <silent><Leader>< :bp<cr>
@@ -160,7 +163,7 @@ noremap <c-a> ggVG
 filetype plugin indent on
 
 " Only do this part when compiled with support for autocommands.
-if has("autocmd")
+if has('autocmd')
     augroup formats
         autocmd!
         " For all text files set 'textwidth' to 78 characters.
@@ -207,7 +210,7 @@ if has("autocmd")
 endif " has("autocmd")
 
 " Show difference between the current buffer and the file it was loaded from.
-if !exists(":ShowDiff")
+if !exists(':ShowDiff')
     command ShowDiff vert new | set bt=nofile | r # | 0d_ | diffthis | wincmd p | diffthis
 endif
 
@@ -225,7 +228,7 @@ let g:rainbow_active = 1
 let g:validator_python_checkers = ['flake8']
 let g:validator_css_checkers = ['csslint']
 " Customize Validator error message
-let g:validator_error_msg_format = "● %d/%d issues"
+let g:validator_error_msg_format = '● %d/%d issues'
 " To auto open quickfix window:
 let g:validator_auto_open_quickfix = 0
 " To show permanently the sign column
