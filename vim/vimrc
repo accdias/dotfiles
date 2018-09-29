@@ -22,7 +22,14 @@ set showmatch                           " show matching bracket
 set matchtime=2                         " show matching bracket for 0.2 seconds
 set matchpairs+=<:>                     " specially for html
 set title                               " show file in titlebar
-set listchars=tab:»⋅,trail:⋅,nbsp:⋅     " Better mark chars for list mode
+" Better mark chars for list mode
+set listchars+=tab:»-
+set listchars+=trail:⋅
+set listchars+=nbsp:⋅
+set listchars+=space:⋅
+set listchars+=extends:>
+set listchars+=precedes:<
+
 "set showbreak=¬                        " show line breaks
 set shortmess=atI                       " Disable vim intro message
 "set colorcolumn=75                     " Mark the right margin at column 75
