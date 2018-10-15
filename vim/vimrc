@@ -2,12 +2,12 @@
 "
 " Author: Antonio Dias <accdias@gmail.com>
 "
-set cpoptions-=C                        " Use \ as line continuation
+set nocompatible                        " Use Vim defaults options
 
 " This configuration uses UTF-8 encoding
-set encoding=utf-8 nobomb               " Display UTF-8 characters set
-set fileencoding=utf-8                  " Save files in UTF-8 enconding
-scriptencoding utf-8                    " Configuration file is in UTF-8
+set encoding=utf8 nobomb                " Display UTF-8 characters set
+set fileencoding=utf8                   " Save files in UTF-8 enconding
+scriptencoding utf8                     " Configuration file is in UTF-8
 
 " Use the operating system clipboard by default
 if has('clipboard')
@@ -108,6 +108,11 @@ set foldmethod=indent                   " fold based on indent level
 nnoremap <space> za
 
 " Centralize backups, swapfiles and undo history
+if exists('&viminfo')
+    set viminfo='20,\"150               " read/write a .viminfo with 150 registers max
+    "set viminfofile=~/.vim/viminfo
+endif
+"set backup                             " keep a backup file
 set backupdir=~/.vim/backup
 set directory=~/.vim/swap
 if exists('&undodir')
