@@ -1,3 +1,4 @@
+# ~/.bashrc.d/bash_colors
 _bold='\e[1m'
 _dim='\e[2m'
 _italic='\e[3m'
@@ -38,4 +39,4 @@ _bright_blue='\e[34;1m'
 _bright_magenta='\e[35;1m'
 _bright_cyan='\e[36;1m'
 _bright_white='\e[37;1m'
-
+# vim:ts=8:sts=4:sw=4:et:ft=sh
