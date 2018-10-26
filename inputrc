@@ -74,5 +74,8 @@ $if Bash
     # Insert a space character then performs
     # a history expansion in the line
     Space: magic-space
+
+    set colored-stats On
+    set visible-stats On
 $endif
 # vim:ts=8:sts=4:sw=4:et
