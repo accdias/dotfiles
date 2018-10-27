@@ -1,4 +1,9 @@
 # ~/.inputrc: readline initialization file.
+#
+# Check "bind -P" for all keybindings
+#
+# Alt-s prefix the line with sudo
+"\es": "\C-asudo \C-e"
 
 # the following line is actually
 # equivalent to "\C-?": delete-char
@@ -56,6 +61,10 @@ set meta-flag on
 set convert-meta off
 set input-meta on
 set output-meta on
+
+# Show matching parentesis, brackets etc
+set blink-matching-paren on
+
 $if Bash
     # Don't ring bell on completion
     set bell-style none
