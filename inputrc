@@ -83,7 +83,13 @@ $if Bash
     Space: magic-space
 
     #set colored-stats On
-    #set visible-stats On
+    set visible-stats On
+    # Mark symlinked directories
+    set mark-symlinked-directories On
+    # Color the common prefix
+    set colored-completion-prefix On
+    # Color the common prefix in menu-complete
+    set menu-complete-display-prefix On
     # Don't show control characters output (e.g. ^C)
     set echo-control-characters off
 $endif
