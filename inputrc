@@ -1,25 +1,4 @@
-# To the extent possible under law, the author(s) have dedicated all
-# copyright and related and neighboring rights to this software to the
-# public domain worldwide. This software is distributed without any warranty.
-# You should have received a copy of the CC0 Public Domain Dedication along
-# with this software.
-# If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
-
-# base-files version 4.1-1
-
 # ~/.inputrc: readline initialization file.
-
-# The latest version as installed by the Cygwin Setup program can
-# always be found at /etc/defaults/etc/skel/.inputrc
-
-# Modifying /etc/skel/.inputrc directly will prevent
-# setup from updating it.
-
-# The copy in your home directory (~/.inputrc) is yours, please
-# feel free to customise it to create a shell
-# environment to your liking.  If you feel a change
-# would be benifitial to all, please feel free to send
-# a patch to the cygwin mailing list.
 
 # the following line is actually
 # equivalent to "\C-?": delete-char
@@ -41,14 +20,25 @@
 "\eOH": beginning-of-line
 "\eOF": end-of-line
 
+# Use up and down arrows to search history
+"\e[A": history-search-backward
+"\e[B": history-search-forward
+# Use left and right arrows as usual
+"\e[C": forward-char
+"\e[D": backward-char
+
 # Allow 8-bit input/output
 set meta-flag on
 set convert-meta off
 set input-meta on
 set output-meta on
 $if Bash
-    # Set vi mode for line editing
-    set editing-mode vi
+    # Set vi mode for line editing. This disable
+    # the arrows binding above
+    #set editing-mode vi
+    #set show-mode-in-prompt On
+    #set vi-ins-mode-string "\1\e[?2c"
+    #set vi-cmd-mode-string "\1\e[?8c"
 
     # Don't ring bell on completion
     set bell-style none
@@ -77,5 +67,6 @@ $if Bash
 
     set colored-stats On
     set visible-stats On
+    set echo-control-characters off
 $endif
 # vim:ts=8:sts=4:sw=4:et
