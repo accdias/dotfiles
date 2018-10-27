@@ -65,8 +65,8 @@ $if Bash
     # a history expansion in the line
     Space: magic-space
 
-    set colored-stats On
-    set visible-stats On
+    #set colored-stats On
+    #set visible-stats On
     set echo-control-characters off
 $endif
 # vim:ts=8:sts=4:sw=4:et
