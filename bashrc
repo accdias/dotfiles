@@ -81,28 +81,19 @@ export HISTIGNORE=$'[ \t]*:&:[fb]g:exit'
 # Whenever displaying the prompt, write the previous line to disk
 # export PROMPT_COMMAND="history -a"
 
-# Set terminal to 256 colors mode
-#export TERM=xterm
-export TERM=xterm-256color
-
 # Aliases
-#
-# Some people uses a different file for aliases
 [[ -f "${HOME}/.bashrc.d/bash_aliases" ]] && source "${HOME}/.bashrc.d/bash_aliases"
 
+# Colors
+[[ -f "${HOME}/.bashrc.d/bash_colors" ]] && source "${HOME}/.bashrc.d/bash_colors"
+
 # Functions
-#
-# Some people uses a different file for functions
 [[ -f "${HOME}/.bashrc.d/bash_functions" ]] && source "${HOME}/.bashrc.d/bash_functions"
 
 # Prompts
-#
-# Some people uses a different file for prompts
 [[ -f "${HOME}/.bashrc.d/bash_prompts" ]] && source "${HOME}/.bashrc.d/bash_prompts"
 
 # Temporary settings
-#
-# Some people uses a different file for CLI temporary settings
 [[ -f "${HOME}/.bash_proxy" ]] && source "${HOME}/.bash_proxy"
 
 
