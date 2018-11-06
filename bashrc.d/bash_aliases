@@ -7,7 +7,7 @@ case "$OSTYPE" in
 	OSCODENAME="cygwin"
 	;;
     darwin*)
-        OSCODENAME="osx"
+        OSCODENAME="macos"
         ;;
     *)
         ;;
