@@ -3,9 +3,10 @@
 startup_message off
 defflow off
 deflogin on
-defscrollback 10000
+defscrollback 1500000
 autodetach on
 
+sessionname "accdias"
 # This is how one can set a reattach password:
 # password ODSJQf.4IJN7E    # "1234"
 vbell off
@@ -18,7 +19,7 @@ vbell off
 shell -$SHELL
 
 # Set default terminal to xterm-color
-term xterm-color
+term screen-256color
 
 # set every new windows hardstatus line to somenthing descriptive
 hardstatus alwayslastline "%{WB} %n%{kB}*%{WB} %t %{kB}|%{WB} %?%W "
@@ -38,13 +39,13 @@ screen -t \# 0
 #screen -t python 3 python
 #
 
-# The Ctrl+Tab and Ctrl+Shift+Tab key combinations can be used to switch
-# session in GNU Screen. In order to do do, their use as shortcuts for
-# switching mintty windows needs to be disabled on the Keys page of the
-# options, and their keycodes need to be mapped in ~/.screenrc:
+# Bind Ctrl+Tab and Alt+Right to switch to next window,
+# Ctrl+Shift+Tab and Alt-Left to switch to the previous windoww
 
-bindkey "^[[1;5I" next
-bindkey "^[[1;6I" prev
+bindkey "^[[1;5I" next # Ctrl+Tab
+bindkey "^[[1;6I" prev # Ctrl+Shift+Tab
+bindkey "^[[1;3C" next # Alt-Right
+bindkey "^[[1;3D" prev # Alt-Left
 
 #remove some stupid / dangerous key bindings
 bind ^k
@@ -72,7 +73,6 @@ bind ^] paste [.]
 # autoaka testing
 # shellaka '> |tcsh'
 # shellaka '$ |sh'
-
 
 # -----------------------------------------------------------------------------
 # Flaws of termcap and standard settings are done here.
@@ -104,7 +104,7 @@ termcapinfo facit|vt100|xterm LP:G0
 #xterm understands both im/ic and doesn't have a status line.
 #Note: Do not specify im and ic in the real termcap/info file as
 #some programs (e.g. vi) will (no,no, may (jw)) not work anymore.
-termcap  xterm|fptwist hs@:cs=\E[%i%d;%dr:im=\E[4h:ei=\E[4l
+termcap xterm|fptwist hs@:cs=\E[%i%d;%dr:im=\E[4h:ei=\E[4l
 terminfo xterm|fptwist hs@:cs=\E[%i%p1%d;%p2%dr:im=\E[4h:ei=\E[4l
 
 # Long time I had this in my private screenrc file. But many people
@@ -141,11 +141,11 @@ termcapinfo xterm 'VR=\E[?5h:VN=\E[?5l'
 #termcapinfo xterm 'vi=\E[?25l:ve=\E[34h\E[?25h:vs=\E[34l'
 
 # emulate part of the 'K' charset
-termcapinfo   xterm 'XC=K%,%\E(B,[\304,\\\\\326,]\334,{\344,|\366,}\374,~\337'
+termcapinfo xterm 'XC=K%,%\E(B,[\304,\\\\\326,]\334,{\344,|\366,}\374,~\337'
 
 # xterm-52 tweaks:
 # - uses background color for delete operations
 termcapinfo xterm* be
 
 # advertise hardstatus support to $TERMCAP
-termcapinfo  * '' 'hs:ts=\E_:fs=\E\\:ds=\E_\E\\'
+termcapinfo * '' 'hs:ts=\E_:fs=\E\\:ds=\E_\E\\'
