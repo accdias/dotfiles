@@ -1,9 +1,9 @@
-# To the extent possible under law, the author(s) have dedicated all 
-# copyright and related and neighboring rights to this software to the 
-# public domain worldwide. This software is distributed without any warranty. 
-# You should have received a copy of the CC0 Public Domain Dedication along 
-# with this software. 
-# If not, see <http://creativecommons.org/publicdomain/zero/1.0/>. 
+# To the extent possible under law, the author(s) have dedicated all
+# copyright and related and neighboring rights to this software to the
+# public domain worldwide. This software is distributed without any warranty.
+# You should have received a copy of the CC0 Public Domain Dedication along
+# with this software.
+# If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 
 # base-files version 4.1-1
 
@@ -24,23 +24,28 @@
 # User dependent .bash_profile file
 
 # source the users bashrc if it exists
-if [ -f "${HOME}/.bashrc" ] ; then
-  source "${HOME}/.bashrc"
+if [[ -f "${HOME}/.bashrc" ]]; then
+    source "${HOME}/.bashrc"
 fi
 
 # Set PATH so it includes user's private bin if it exists
-if [ -d "${HOME}/usr/bin" ] ; then
-   PATH="${HOME}/usr/bin:${PATH}"
+if [[ -d "${HOME}/usr/bin" ]]; then
+    PATH="${HOME}/usr/bin:${PATH}"
 fi
 
 # Set MANPATH so it includes users' private man if it exists
-if [ -d "${HOME}/usr/man" ]; then
-  MANPATH="${HOME}/usr/man:${MANPATH}"
+if [[ -d "${HOME}/usr/man" ]]; then
+    MANPATH="${HOME}/usr/man:${MANPATH}"
 fi
 
 # Set INFOPATH so it includes users' private info if it exists
-if [ -d "${HOME}/usr/info" ]; then
-   INFOPATH="${HOME}/usr/info:${INFOPATH}"
+if [[ -d "${HOME}/usr/info" ]]; then
+    INFOPATH="${HOME}/usr/info:${INFOPATH}"
+fi
+
+# Execute screen if on SSH session
+if [[ ! $TERM =~ ^screen.* && -n $SSH_TTY && -n $(which screen) ]]; then
+    screen -xRR
 fi
 
 tput init
