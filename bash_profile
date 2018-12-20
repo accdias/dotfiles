@@ -43,9 +43,16 @@ if [[ -d "${HOME}/usr/info" ]]; then
     INFOPATH="${HOME}/usr/info:${INFOPATH}"
 fi
 
-# Execute screen if on SSH session
-if [[ ! $TERM =~ ^screen.* && -n $SSH_TTY && -n $(which screen) ]]; then
-    screen -xRR
+# Are you we on a SSH session?
+if [[ -n $SSH_TTY ]]; then
+    # Do we have screen installed?
+    if [[ -n $(which screen) ]]; then
+        # Is screen already running?
+        if [[ ! $TERM =~ ^screen.*  ]]; then
+            screen -xRR
+        fi
+    fi
 fi
 
+# JIC
 tput init
