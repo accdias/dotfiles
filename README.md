@@ -21,10 +21,12 @@ ln -sf ~/git/dotfiles/fonts.conf ~/.fonts.conf
 ln -sf ~/git/dotfiles/fonts ~/.local/share/fonts
 ln -sf ~/git/dotfiles/gitconfig ~/.gitconfig
 ln -sf ~/git/dotfiles/inputrc ~/.inputrc
+ln -sf ~/git/dotfiles/screenrc ~/.screenrc
 ln -sf ~/git/dotfiles/taskrc ~/.taskrc
 ln -sf ~/git/dotfiles/themes ~/.local/share/themes
 ln -sf ~/git/dotfiles/tmux.conf ~/.tmux.conf
 ln -sf ~/git/dotfiles/vim ~/.vim
+ln -sf ~/git/dotfiles/XCompose ~/.XCompose
 ln -sf ~/git/dotfiles/Xresources ~/.Xresources
 ln -sf ~/git/dotfiles/xsession ~/.xsession
 ln -sf ~/git/dotfiles/zim ~/.config/zim
