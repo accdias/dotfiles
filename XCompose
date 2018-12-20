@@ -1,0 +1,5 @@
+# ~/.XCompose
+include "%L"
+<dead_acute> <C>                        : "Ç"
+<dead_acute> <c>                        : "ç"
+# End of file
