@@ -1,5 +1,19 @@
 # ~/.XCompose
+# -*- coding: utf-8; mode: config -*-
+# vim: ft=config
 include "%L"
-<dead_acute> <C>                        : "Ç"
-<dead_acute> <c>                        : "ç"
+
+# See:
+# http://bleah.co.uk/~simon/stuff/XCompose
+# http://dotfiles.org/~inky/.XCompose
+# http://paste.lisp.org/display/73094
+# https://tools.ietf.org/html/rfc1345
+# Cedilla
+<dead_acute> <C>                    : "Ç"
+<dead_acute> <c>                    : "ç"
+# Arrows
+<Multi_key> <asciicircum> <bar>     : "↑" U2191
+<Multi_key> <bar> <asciicircum>     : "↑" U2191
+<Multi_key> <v> <bar>               : "↓" U2193
+<Multi_key> <bar> <v>               : "↓" U2193
 # End of file
