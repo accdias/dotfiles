@@ -1,6 +1,8 @@
 # ~/.XCompose
 # -*- coding: utf-8; mode: config -*-
 # vim: ft=config
+
+# See: /usr/share/X11/locale/en_US.UTF-8/Compose
 include "%L"
 
 # See:
@@ -8,12 +10,18 @@ include "%L"
 # http://dotfiles.org/~inky/.XCompose
 # http://paste.lisp.org/display/73094
 # https://tools.ietf.org/html/rfc1345
+
 # Cedilla
-<dead_acute> <C>                    : "Ç"
-<dead_acute> <c>                    : "ç"
+<dead_acute> <C>                : "Ç"
+<dead_acute> <c>                : "ç"
+
 # Arrows
-<Multi_key> <asciicircum> <bar>     : "↑" U2191
-<Multi_key> <bar> <asciicircum>     : "↑" U2191
-<Multi_key> <v> <bar>               : "↓" U2193
-<Multi_key> <bar> <v>               : "↓" U2193
+<dead_tilde> <less>             : "←" U2190
+<dead_tilde> <asciicircum>      : "↑" U2191
+<dead_tilde> <greater>          : "→" U2192
+<dead_tilde> <v>                : "↓" U2193
+
+# Dashes
+<dead_tilde> <minus>            : "–" U2013
+<dead_tilde> <minus> <minus>    : "—" U2014
 # End of file
