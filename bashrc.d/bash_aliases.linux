@@ -36,9 +36,15 @@ alias sumfile="awk 'BEGIN{s=0}{s=s+\$0}END{print s}'" # give the sum of values f
 alias proxyon='test -f ~/.bash_proxy_0 && mv ~/.bash_proxy{_0,} && source ~/.bash_proxy'
 alias proxyoff='test -f ~/.bash_proxy && mv ~/.bash_proxy{,_0}'
 
+# RPM based aliases
+if test -f /usr/bin/rpm; then
+    alias changelog='sudo rpm -q --changelog $@ | less'
+fi
+
 # Do we have DNF?
 if test -r /usr/bin/dnf; then
     alias update='sudo dnf update -y --refresh'
+    alias upgrade='sudo dnf upgrade -y --refresh'
 fi
 
 # Do we have apt-get installed?
