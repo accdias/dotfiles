@@ -98,7 +98,7 @@ bind ^] paste [.]
 # nx    terminal uses xon/xoff
 
 # Enable Shift PgUp and Shift PgDn
-termcapinfo xterm-color ti@:te@
+termcapinfo xterm* ti@:te@
 termcapinfo facit|vt100|xterm LP:G0
 
 #xterm understands both im/ic and doesn't have a status line.
