@@ -5,7 +5,7 @@
 set showmode                           " Show mode in status bar
 set laststatus=2                       " Use 2 lines for the status bar
 set statusline=                        " Clear all settings
-set statusline=%1*\ %03n%*             " Buffer number
+set statusline=%*\ %03n%*              " Buffer number
 set statusline+=\ ╲                    " Separator
 set statusline+=%2*%{&mod?'\ !':''}%*  " Custom modified flag
 set statusline+=\ %<%F                 " File name full path
