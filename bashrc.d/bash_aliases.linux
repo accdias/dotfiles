@@ -33,26 +33,26 @@ alias ls='ls -hF --color=tty --group-directories-first' # classify files in colo
 alias sumfile="awk 'BEGIN{s=0}{s=s+\$0}END{print s}'" # give the sum of values from a file
 
 # Proxy management
-alias proxyon='test -f ~/.bash_proxy_0 && mv ~/.bash_proxy{_0,} && source ~/.bash_proxy'
-alias proxyoff='test -f ~/.bash_proxy && mv ~/.bash_proxy{,_0}'
+alias proxyon='[[ -f ~/.bash_proxy_0 ]] && mv ~/.bash_proxy{_0,} && source ~/.bash_proxy'
+alias proxyoff='[[ -f ~/.bash_proxy ]] && mv ~/.bash_proxy{,_0}'
 
-# RPM based aliases
-changelog() {
-    if test -f /usr/bin/rpm; then
-        sudo rpm -q --changelog "$@" | less
-    else
-        echo rpm command not found
-    fi
-}
+# RPM based aliases and functions
+if [[ -r /usr/bin/rpm ]]; then
+    changelog() {
+        if [[ -n "$@" ]]; then
+            sudo rpm -q --changelog "$@" | less
+        fi
+    }
+fi
 
 # Do we have DNF?
-if test -r /usr/bin/dnf; then
+if [[ -r /usr/bin/dnf ]]; then
     alias update='sudo dnf update -y --refresh'
     alias upgrade='sudo dnf upgrade -y --refresh'
 fi
 
 # Do we have apt-get installed?
-if test -r /usr/bin/apt-get; then
+if [[ -r /usr/bin/apt-get ]]; then
     alias update='sudo apt-get update'
     alias upgrade='sudo apt-get upgrade -y'
     alias dist-upgrade='sudo apt-get dist-upgrade -y'
@@ -60,19 +60,19 @@ if test -r /usr/bin/apt-get; then
 fi
 
 # dnf install -y youtube-dl
-if test -r /usr/bin/youtube-dl; then
-alias getmp3='youtube-dl -x --audio-format mp3 "$@"'
-alias getogg='youtube-dl -x --audio-format vorbis "$@"'
-alias getmp4='youtube-dl --ignore-config --quiet "$@"'
+if [[ -r /usr/bin/youtube-dl ]]; then
+    alias getmp3='youtube-dl -x --audio-format mp3 "$@"'
+    alias getogg='youtube-dl -x --audio-format vorbis "$@"'
+    alias getmp4='youtube-dl --ignore-config --quiet "$@"'
 fi
 
 # Do we have vimx installed?
-if test -r /usr/bin/vimx; then
+if [[ -r /usr/bin/vimxi ]]; then
     alias vim='/usr/bin/vimx'
 fi
 
 # Do we have sxconsole installed?
-if test -r /usr/bin/sxconsole; then
+if [[ -r /usr/bin/sxconsole ]]; then
     alias sxc='sxconsole $@ -R ~/Downloads -ME'
 fi
 # EOF
