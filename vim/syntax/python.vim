@@ -22,8 +22,8 @@ let pythonOperatorList .= '\)'                " End of the long list of options
 let pythonOperatorList .= '[-&|+<>=*/!~]'     " The list of symbols that we don't want to follow
 let pythonOperatorList .= '\@!'               " Negative look-ahead (this and the \@<! prevent === etc from matching)
 
-exe "syn match pythonOperator display '" . pythonOperatorList . "'"
+execute "syntax match pythonOperator display '" . pythonOperatorList . "'"
 
-syn match pythonOperator display ';'
-hi link pythonOperator Operator
+syntax match pythonOperator display ';'
+highlight link pythonOperator Operator
 " vim:set sw=2 sts=2 ts=8 noet:
