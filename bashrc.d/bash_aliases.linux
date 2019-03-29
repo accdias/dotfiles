@@ -45,6 +45,15 @@ if [[ -r /usr/bin/rpm ]]; then
     }
 fi
 
+# gsettings based aliases and functions
+if [[ -r /usr/bin/gsettings ]]; then
+    wallpaper() {
+        if [[ -n "$@" ]]; then
+            gsettings set org.gnome.desktop.background picture-uri file://$@
+        fi
+    }
+fi
+
 # Do we have DNF?
 if [[ -r /usr/bin/dnf ]]; then
     alias update='sudo dnf update -y --refresh'
