@@ -56,26 +56,35 @@ ln -sf ~/git/dotfiles/zim ~/.config/zim
 ##### Selecting, Copying and Pasting
 
 * Enter scroll mode with the mouse wheel.
-* Select the text and press y.
+* Select the text and press <kbd>y</kbd>.
 * This copies the text into the clipboard.
-* Exit scroll mode with escape.
+* Exit scroll mode with <kbd>ESC</kbd>.
 
 ##### Advanced copy:
 
 * Enter scroll mode with the mouse wheel.
-* Select the text and press Y.
+* Select the text and press <kbd>Y</kbd>.
 * This copies the text into the terminal buffer and the clipboard.
-* Exit scroll mode with escape.
+* Exit scroll mode with <kbd>ESC</kbd>.
 
 ### Credits
 
+#### tmux.conf
+
+* Kudos to [Peter Forgacs](http://peterforgacs.github.io) for his
+[tmux.conf article](http://peterforgacs.github.io/2017/04/25/Tmux/)
+from where I borrowed some tweaks and the idea for a help on the keybindings.
+
 #### screenrc
 
-* Kudos to [Sven Guckes](http://www.guckes.net) for his [screenrc](http://www.guckes.net/Setup/screenrc) file.
+* Kudos to [Sven Guckes](http://www.guckes.net) for his
+[screenrc](http://www.guckes.net/Setup/screenrc) file.
 
 ### vimrc
 
-* Kudos to the nicest and smartest vim community at [/r/vim](https://www.reddit.com/r/vim) for tips about tuning, readbility and vimscript.
+* Kudos to the nicest and smartest vim community at
+[/r/vim](https://www.reddit.com/r/vim) for tips about
+tuning, readbility and vimscript.
 
 ### Gnome Terminal
 
