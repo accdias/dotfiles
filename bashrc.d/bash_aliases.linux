@@ -58,6 +58,13 @@ fi
 if [[ -r /usr/bin/dnf ]]; then
     alias update='sudo dnf update -y --refresh'
     alias upgrade='sudo dnf upgrade -y --refresh'
+    search() {
+        if [[ -n "$@" ]]; then
+            sudo dnf search "$@"
+        else
+            echo "Usage: search <something>"
+        fi
+    }
 fi
 
 # Do we have apt-get installed?
