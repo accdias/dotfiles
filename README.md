@@ -37,23 +37,23 @@ ln -sf ~/git/dotfiles/zim ~/.config/zim
 
 ##### Keybindings
 
-|Key combination                              |Action                 |
-|---------------------------------------------|-----------------------|
-|<kbd>Ctrl</kbd><kbd>a</kbd> 	              |Command                |
-|<kbd>Command</kbd><kbd>t</kbd>               |New window             |
-|<kbd>Command</kbd><kbd>w</kbd>               |Kill pane              |
-|<kbd>Command</kbd><kbd>q</kbd>               |Kill session           |
-|<kbd>Command</kbd><kbd>r</kbd>               |Reload tmux config     |
-|<kbd>Command</kbd><kbd>z</kbd>               |Zoom to pane           |
-|<kbd>Command</kbd><kbd>$</kbd>               |Rename session         |
-|<kbd>Command</kbd><kbd>,</kbd>               |Rename window          |
-|<kbd>Command</kbd><kbd>g</kbd>               |Split vertically       |
-|<kbd>Command</kbd><kbd>h</kbd>               |Split horizontally     |
-|<kbd>Command</kbd><kbd>?</kbd>               |List keyboard shortcuts|
-|<kbd>Command</kbd><kbd>:</kbd>               |Command prompt         |
-|<kbd>Command</kbd><kbd>s</kbd>               |List sessions          |
-|<kbd>Command</kbd><kbd>r</kbd>               |Reload session         |
-|<kbd>Command</kbd><kbd>Ctrl</kbd><kbd>s</kbd>|Save session           |
+| Key combination                               | Action                  |
+|:----------------------------------------------|:------------------------|
+| <kbd>Ctrl</kbd><kbd>a</kbd> 	                | Command                 |
+| <kbd>Command</kbd><kbd>t</kbd>                | New window              |
+| <kbd>Command</kbd><kbd>w</kbd>                | Kill pane               |
+| <kbd>Command</kbd><kbd>q</kbd>                | Kill session            |
+| <kbd>Command</kbd><kbd>r</kbd>                | Reload tmux config      |
+| <kbd>Command</kbd><kbd>z</kbd>                | Zoom to pane            |
+| <kbd>Command</kbd><kbd>$</kbd>                | Rename session          |
+| <kbd>Command</kbd><kbd>,</kbd>                | Rename window           |
+| <kbd>Command</kbd><kbd>g</kbd>                | Split vertically        |
+| <kbd>Command</kbd><kbd>h</kbd>                | Split horizontally      |
+| <kbd>Command</kbd><kbd>?</kbd>                | List keyboard shortcuts |
+| <kbd>Command</kbd><kbd>:</kbd>                | Command prompt          |
+| <kbd>Command</kbd><kbd>s</kbd>                | List sessions           |
+| <kbd>Command</kbd><kbd>r</kbd>                | Reload session          |
+| <kbd>Command</kbd><kbd>Ctrl</kbd><kbd>s</kbd> | Save session            |
 
 ##### Selecting, Copying and Pasting
 
