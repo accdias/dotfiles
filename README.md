@@ -82,13 +82,13 @@ from where I borrowed some tweaks and the idea for a help on the keybindings.
 * Kudos to [Sven Guckes](http://www.guckes.net) for his
 [screenrc](http://www.guckes.net/Setup/screenrc) file.
 
-### vimrc
+#### vimrc
 
 * Kudos to the nicest and smartest vim community at
 [/r/vim](https://www.reddit.com/r/vim) for tips about
 tuning, readbility and vimscript.
 
-### Gnome Terminal
+#### Gnome Terminal
 
 * Kudos to [Mayccoll](https://github.com/Mayccoll) and his [Gnome Terminal color schemes](https://github.com/Mayccoll/Gogh/blob/master/content/themes.md)
 
