@@ -4,11 +4,14 @@
 
 ### Navigating
 
+|Key combination         |Action             |
 |------------------------|-------------------|
 |<kbd>[</kbd><kbd>c</kbd>|Previous difference|
 |<kbd>]</kbd><kbd>c</kbd>|Next difference    |
 
 ### Editing
+
+|Key combination          |Action                                |
 |-------------------------|--------------------------------------|
 |<kbd>d</kbd><kbd>o</kbd> |Obtain difference                     |
 |                         |Pull the changes to the current file. |
@@ -18,6 +21,8 @@
 |<kbd>Z</kbd><kbd>Q</kbd> |Quit without checking changes         |
 
 ### Managing Folds
+
+|Key combination                                     |Action                     |
 |----------------------------------------------------|---------------------------|
 |<kbd>z</kbd><kbd>o</kbd> or <kbd>z</kbd><kbd>O</kbd>|Open                       |
 |<kbd>z</kbd><kbd>c</kbd> or <kbd>z</kbd><kbd>C</kbd>|Close                      |
