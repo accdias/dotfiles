@@ -3,7 +3,7 @@
 # Check "bind -P" for all keybindings
 #
 # Alt-s prefix the line with sudo
-"\es": "\C-asudo \C-e"
+"\es": "\C-P\C-asudo \C-e"
 
 # the following line is actually
 # equivalent to "\C-?": delete-char
