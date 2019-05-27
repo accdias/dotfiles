@@ -86,7 +86,7 @@ from where I borrowed some tweaks and the idea for a help on the keybindings.
 
 * Kudos to the nicest and smartest vim community at
 [/r/vim](https://www.reddit.com/r/vim) for tips about
-tuning, readbility and vimscript.
+tuning, readability and vimscript.
 
 #### Gnome Terminal
 
