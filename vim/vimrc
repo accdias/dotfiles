@@ -164,6 +164,12 @@ noremap <silent><leader>w :set wrap!<cr>
 " so that you can undo CTRL-U after inserting a line break.
 inoremap <C-U> <C-G>u<C-U>
 
+" Autoclose tags
+inoremap ( ()<Left>
+inoremap [ []<Left>
+inoremap { {}<Left>
+inoremap " ""<Left>
+
 " User Ctrl-arrow keys to switch between splits
 noremap <c-up> <c-w>k
 noremap <c-down> <c-w>j
