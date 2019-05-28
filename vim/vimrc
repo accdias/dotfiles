@@ -176,6 +176,10 @@ noremap <c-down> <c-w>j
 noremap <c-right> <c-w>l
 noremap <c-left> <c-w>h
 
+" Move line up and down
+nnoremap <silent><leader><up> :m-2<cr>==
+nnoremap <silent><leader><down> :m+<cr>==
+
 " User Ctrl-a to select all text
 noremap <c-a> ggVG
 
