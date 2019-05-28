@@ -165,10 +165,12 @@ noremap <silent><leader>w :set wrap!<cr>
 inoremap <C-U> <C-G>u<C-U>
 
 " Autoclose tags
-inoremap ( ()<Left>
-inoremap [ []<Left>
-inoremap { {}<Left>
-inoremap " ""<Left>
+inoremap ( ()<left>
+inoremap [ []<left>
+inoremap { {}<left>
+inoremap " ""<left>
+inoremap ' ''<left>
+inoremap ` ``<left>
 
 " User Ctrl-arrow keys to switch between splits
 noremap <c-up> <c-w>k
