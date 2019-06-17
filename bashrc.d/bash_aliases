@@ -1,11 +1,11 @@
 # ~/.bash_aliases
 case "$OSTYPE" in
     linux*)
-	OSCODENAME="linux"
-	;;
+        OSCODENAME="linux"
+        ;;
     cygwin)
-	OSCODENAME="cygwin"
-	;;
+        OSCODENAME="cygwin"
+        ;;
     darwin*)
         OSCODENAME="macos"
         ;;
