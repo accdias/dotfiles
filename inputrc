@@ -2,6 +2,10 @@
 #
 # Check "bind -P" for all keybindings
 #
+
+# Preserve distro defaults
+$include /etc/inputrc
+
 # Alt-s prefix the line with sudo
 "\es": "\C-P\C-asudo \C-e"
 
