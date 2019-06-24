@@ -34,14 +34,20 @@ $include /etc/inputrc
 $if mode=vi
     set keymap vi-command
     # these are for vi-command mode
-    "\e[A": history-search-backward
-    "\e[B": history-search-forward
-    j: history-search-forward
-    k: history-search-backward
+    #"\e[A": history-search-backward
+    #"\e[B": history-search-forward
+    "\e[A": history-substring-search-backward
+    "\e[B": history-substring-search-forward
+    #j: history-search-forward
+    #k: history-search-backward
+    j: history-substring-search-backward
+    k: history-substring-search-forward
     set keymap vi-insert
     # these are for vi-insert mode
-    "\e[A": history-search-backward
-    "\e[B": history-search-forward
+    #"\e[A": history-search-backward
+    #"\e[B": history-search-forward
+    "\e[A": history-substring-search-backward
+    "\e[B": history-substring-search-forward
 
     # Set vi mode for line editing. This disable
     # the arrows binding above
@@ -52,8 +58,10 @@ $if mode=vi
     #set vi-cmd-mode-string "\1\e[?6c\2"
 $else
     # Use up and down arrows to search history
-    "\e[A": history-search-backward
-    "\e[B": history-search-forward
+    #"\e[A": history-search-backward
+    #"\e[B": history-search-forward
+    "\e[A": history-substring-search-backward
+    "\e[B": history-substring-search-forward
 $endif
 
 # Use left and right arrows as usual
