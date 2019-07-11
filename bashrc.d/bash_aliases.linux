@@ -45,6 +45,11 @@ if [[ -r /usr/bin/rpm ]]; then
     }
 fi
 
+# Set vimdiff as default method for merging
+if [[ -r /usr/sbin/rpmconf ]]; then
+    alias rpmconf='/usr/bin/rpmconf -fvimdiff'
+fi
+
 # gsettings based aliases and functions
 if [[ -r /usr/bin/gsettings ]]; then
     wallpaper() {
@@ -56,13 +61,20 @@ fi
 
 # Do we have DNF?
 if [[ -r /usr/bin/dnf ]]; then
-    alias update='sudo dnf update -y --refresh'
-    alias upgrade='sudo dnf upgrade -y --refresh'
-    search() {
+    alias dnfupdate='sudo dnf update -y --refresh'
+    alias dnfupgrade='sudo dnf upgrade -y --refresh'
+    dnfsearch() {
         if [[ -n "$@" ]]; then
             sudo dnf search "$@"
         else
             echo "Usage: search <something>"
+        fi
+    }
+    dnfprovides() {
+        if [[ -n "$@" ]]; then
+            sudo dnf provides "*/$@"
+        else
+            echo "Usage: dnfprovides <something>"
         fi
     }
 fi
@@ -83,7 +95,7 @@ if [[ -r /usr/bin/youtube-dl ]]; then
 fi
 
 # Do we have vimx installed?
-if [[ -r /usr/bin/vimxi ]]; then
+if [[ -r /usr/bin/vimx ]]; then
     alias vim='/usr/bin/vimx'
 fi
 
