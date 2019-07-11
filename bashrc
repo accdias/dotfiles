@@ -79,7 +79,10 @@ export HISTIGNORE=$'[ \t]*:&:[fb]g:exit'
 # export HISTIGNORE=$'[ \t]*:&:[fb]g:exit:ls' # Ignore the ls command as well
 #
 # Whenever displaying the prompt, write the previous line to disk
-# export PROMPT_COMMAND="history -a"
+export PROMPT_COMMAND="history -a"
+#
+# Use vimdiff as the frontend for merging with rpmconf
+export MERGE=vimdiff
 
 # Aliases
 [[ -f "${HOME}/.bashrc.d/bash_aliases" ]] && source "${HOME}/.bashrc.d/bash_aliases"
