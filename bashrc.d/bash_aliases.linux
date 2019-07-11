@@ -72,7 +72,7 @@ if [[ -r /usr/bin/dnf ]]; then
     }
     dnfprovides() {
         if [[ -n "$@" ]]; then
-            sudo dnf provides "*/$@"
+            sudo dnf provides "*/$@" | grep -Ev '^(Repo|Matched|Filename|$)'
         else
             echo "Usage: dnfprovides <something>"
         fi
