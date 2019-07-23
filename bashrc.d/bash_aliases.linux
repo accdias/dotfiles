@@ -47,7 +47,7 @@ fi
 
 # Set vimdiff as default method for merging
 if [[ -r /usr/sbin/rpmconf ]]; then
-    alias rpmconf='/usr/bin/rpmconf -fvimdiff'
+    alias rpmconf='sudo /usr/bin/rpmconf -fvimdiff'
 fi
 
 # gsettings based aliases and functions
@@ -63,16 +63,23 @@ fi
 if [[ -r /usr/bin/dnf ]]; then
     alias dnfupdate='sudo dnf update -y --refresh'
     alias dnfupgrade='sudo dnf upgrade -y --refresh'
+    dnfinfo() {
+        if [[ -n "$@" ]]; then
+            sudo dnf info "$@"
+        else
+            echo "Usage: dnfinfo <package>"
+        fi
+    }
     dnfsearch() {
         if [[ -n "$@" ]]; then
             sudo dnf search "$@"
         else
-            echo "Usage: search <something>"
+            echo "Usage: dnfsearch <something>"
         fi
     }
     dnfprovides() {
         if [[ -n "$@" ]]; then
-            sudo dnf provides "*/$@" | grep -Ev '^(Repo|Matched|Filename|$)'
+            sudo dnf provides "$@" | grep -Ev '^(Repo|Matched|Filename|$)'
         else
             echo "Usage: dnfprovides <something>"
         fi
@@ -81,10 +88,12 @@ fi
 
 # Do we have apt-get installed?
 if [[ -r /usr/bin/apt-get ]]; then
-    alias update='sudo apt-get update'
-    alias upgrade='sudo apt-get upgrade -y'
-    alias dist-upgrade='sudo apt-get dist-upgrade -y'
-    alias purge='sudo apt-get purge -y $(dpkg -l | awk "/^rc/{print \$2}")'
+    alias aptupdate='sudo apt-get update'
+    alias aptupgrade='sudo apt-get upgrade -y'
+    alias aptdist-upgrade='sudo apt-get dist-upgrade -y'
+    aptpurge() {
+        sudo apt-get purge -y $(dpkg -l | awk "/^rc/{print \$2}")
+    }
 fi
 
 # dnf install -y youtube-dl
