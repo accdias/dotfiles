@@ -47,7 +47,7 @@ fi
 
 # Set vimdiff as default method for merging
 if [[ -r /usr/sbin/rpmconf ]]; then
-    alias rpmconf='sudo /usr/bin/rpmconf -fvimdiff'
+    alias rpmconf='sudo /usr/sbin/rpmconf -fvimdiff'
 fi
 
 # gsettings based aliases and functions
