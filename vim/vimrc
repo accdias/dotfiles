@@ -165,12 +165,12 @@ noremap <silent><leader>w :set wrap!<cr>
 inoremap <C-U> <C-G>u<C-U>
 
 " Autoclose tags
-inoremap ( ()<left>
-inoremap [ []<left>
-inoremap { {}<left>
-inoremap " ""<left>
-inoremap ' ''<left>
-inoremap ` ``<left>
+" inoremap ( ()<left>
+" inoremap [ []<left>
+" inoremap { {}<left>
+" inoremap " ""<left>
+" inoremap ' ''<left>
+" inoremap ` ``<left>
 
 " User Ctrl-arrow keys to switch between splits
 noremap <c-up> <c-w>k
@@ -184,6 +184,12 @@ nnoremap <silent><leader><down> :m+<cr>==
 
 " User Ctrl-a to select all text
 noremap <c-a> ggVG
+
+" Load ~/.vim/skel/<extension> for filename.<extension> files
+let g:template_skel_file=globpath(&rtp, 'skel/' . tolower(expand('%:e')))
+if filereadable(g:template_skel_file)
+    map ,,, :0read `=g:template_skel_file`<cr>G
+endif
 
 " Enable file type automatic detection.
 filetype plugin indent on
@@ -200,21 +206,19 @@ if has('autocmd')
             \ set softtabstop=2 shiftwidth=2
     augroup END
 
-    augroup templates
-        autocmd!
-        " Load ~/.vim/skel/<type> for new <type> files
-        autocmd BufNewFile *.* silent! execute '0read ' . globpath(&rtp, 'skel/' . tolower(expand('<afile>:e')))
-        " Poor man's template system: replace some predefined @VAR@
-        autocmd BufNewFile * silent! %s/@FILENAME@/\=expand('<afile>:t')/ge
-        autocmd BufNewFile * silent! %s/@FILETYPE@/\=&filetype/ge
-        autocmd BufNewFile * silent! %s/@ENCODING@/\=&encoding/ge
-        autocmd BufNewFile * silent! %s/@DAY@/\=strftime('%d')/ge
-        autocmd BufNewFile * silent! %s/@MONTH@/\=strftime('%m')/ge
-        autocmd BufNewFile * silent! %s/@YEAR@/\=strftime('%Y')/ge
-        autocmd BufNewFile * silent! %s/@TIME@/\=strftime('%H:%M:%S')/ge
-        autocmd BufNewFile * silent! %s/@ISODATE@/\=strftime('%F')/ge
-        autocmd BufNewFile * silent! %s/@FULLDATE@/\=strftime('%c')/ge
-    augroup END
+    " Poor man's template system: replace some predefined @VAR@
+"    augroup templates
+"        autocmd!
+"        autocmd BufReadPost * silent! %s/@FILENAME@/\=expand('<afile>:t')/ge
+"        autocmd BufReadPost * silent! %s/@FILETYPE@/\=&filetype/ge
+"        autocmd BufReadPost * silent! %s/@ENCODING@/\=&encoding/ge
+"        autocmd BufReadPost * silent! %s/@DAY@/\=strftime('%d')/ge
+"        autocmd BufReadPost * silent! %s/@MONTH@/\=strftime('%m')/ge
+"        autocmd BufReadPost * silent! %s/@YEAR@/\=strftime('%Y')/ge
+"        autocmd BufReadPost * silent! %s/@TIME@/\=strftime('%H:%M:%S')/ge
+"        autocmd BufReadPost * silent! %s/@ISODATE@/\=strftime('%F')/ge
+"        autocmd BufReadPost * silent! %s/@FULLDATE@/\=strftime('%c')/ge
+"    augroup END
 
     augroup movecursor
         " When opening a file, jump to the last known cursor position.
@@ -244,7 +248,7 @@ endif
 abbreviate _python #!/usr/bin/env python<cr>
 abbreviate _python3 #!/usr/bin/env python3<cr>
 abbreviate _utf8 # -*- coding: utf-8 -*-<cr>
-abbreviate _vim # vim:ts=8,sts=4,sw=4,et<cr>
+abbreviate _vim # vim:ts=8 sts=4 sw=4 et<cr>
 abbreviate _yml %YAML 1.2<cr>---<cr>
 
 " Enable rainbow plugin features
