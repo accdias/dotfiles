@@ -245,11 +245,11 @@ if !exists(':ShowDiff')
 endif
 
 " Abbreviations
-abbreviate _python #!/usr/bin/env python<cr>
-abbreviate _python3 #!/usr/bin/env python3<cr>
-abbreviate _utf8 # -*- coding: utf-8 -*-<cr>
-abbreviate _vim # vim:ts=8 sts=4 sw=4 et<cr>
-abbreviate _yml %YAML 1.2<cr>---<cr>
+abbreviate _python      #!/usr/bin/env python3<cr>
+abbreviate _python2     #!/usr/bin/env python2<cr>
+abbreviate _utf8        # -*- coding: utf-8 -*-<cr>
+abbreviate _vim         # vim:ts=8 sts=4 sw=4 et<cr>
+abbreviate _yml         %YAML 1.2<cr>---<cr>
 
 " Enable rainbow plugin features
 " set to 0 if you want to enable it later via :RainbowToggle
