@@ -54,5 +54,10 @@ if [[ -n $SSH_TTY ]]; then
     fi
 fi
 
+# Do we have keychain installed?
+if [[ -n $(which keychain) ]]; then
+    eval $(keychain --eval -q)
+fi
+
 # JIC
 tput init
