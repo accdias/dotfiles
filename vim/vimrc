@@ -4,9 +4,6 @@
 "
 set nocompatible                        " Use Vim defaults options
 
-" Enable spell checking
-set spell
-
 " This configuration uses UTF-8 encoding
 set encoding=utf8 nobomb                " Display UTF-8 characters set
 set fileencoding=utf8                   " Save files in UTF-8 enconding
@@ -201,9 +198,10 @@ filetype plugin indent on
 if has('autocmd')
     augroup formats
         autocmd!
-        " For all text files set 'textwidth' to 78 characters.
-        autocmd FileType text
-            \ set textwidth=78
+        " For all text files set 'textwidth' to 78 characters and spell
+        " checking
+        autocmd FileType text,markdown
+            \ setlocal textwidth=75 spell
         " Defaults for some languages
         autocmd FileType tex,xslt,xml,css,html,xhtml,javascript,docbook
             \ set softtabstop=2 shiftwidth=2
