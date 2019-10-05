@@ -4,6 +4,9 @@
 "
 set nocompatible                        " Use Vim defaults options
 
+" Enable spell checking
+set spell
+
 " This configuration uses UTF-8 encoding
 set encoding=utf8 nobomb                " Display UTF-8 characters set
 set fileencoding=utf8                   " Save files in UTF-8 enconding
