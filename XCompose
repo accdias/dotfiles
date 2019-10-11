@@ -22,5 +22,5 @@ include "%L"
 <dead_tilde> <minus>            : "–" U2013
 <dead_tilde> <minus> <minus>    : "—" U2014
 # Ellipsis
-<dead_tilde> <.>                : "…" U2026
+#<dead_tilde> <.>                : "…" U2026
 # -*- EOF -*-
