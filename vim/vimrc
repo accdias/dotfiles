@@ -249,6 +249,7 @@ endif
 iabclear
 iabbrev #!a     #!/usr/bin/awk -f<cr>
 iabbrev #!b     #!/bin/bash<cr>
+iabbrev #!g     #!/usr/bin/gjs<cr>
 iabbrev #!p     #!/usr/bin/env python3<cr># -*- coding: utf-8 -*-<cr># vim:ts=8:sts=4:sw=4:et<cr>
 iabbrev #!u     # -*- coding: utf-8 -*-
 iabbrev #!v     # vim:ts=8:sts=4:sw=4:et
