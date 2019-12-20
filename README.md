@@ -21,6 +21,7 @@ ln -sf ~/git/dotfiles/fonts.conf ~/.fonts.conf
 ln -sf ~/git/dotfiles/fonts ~/.local/share/fonts
 ln -sf ~/git/dotfiles/gitconfig ~/.gitconfig
 ln -sf ~/git/dotfiles/inputrc ~/.inputrc
+ln -sf ~/git/dotfiles/sway ~/.config/sway
 ln -sf ~/git/dotfiles/screenrc ~/.screenrc
 ln -sf ~/git/dotfiles/taskrc ~/.taskrc
 ln -sf ~/git/dotfiles/themes ~/.local/share/themes
@@ -71,16 +72,24 @@ ln -sf ~/git/dotfiles/zim ~/.config/zim
 
 ### Credits
 
-#### tmux.conf
+#### Gnome Terminal
 
-* Kudos to [Peter Forgacs](http://peterforgacs.github.io) for his
-[tmux.conf article](http://peterforgacs.github.io/2017/04/25/Tmux/)
-from where I borrowed some tweaks and the idea for a help on the keybindings.
+* Kudos to [Mayccoll](https://github.com/Mayccoll) and his
+[Gnome Terminal color schemes](https://github.com/Mayccoll/Gogh/blob/master/content/themes.md)
 
 #### screenrc
 
 * Kudos to [Sven Guckes](http://www.guckes.net) for his
 [screenrc](http://www.guckes.net/Setup/screenrc) file.
+
+#### sway
+* Check the [sway WiKi](https://github.com/swaywm/sway/wiki) out.
+
+#### tmux.conf
+
+* Kudos to [Peter Forgacs](http://peterforgacs.github.io) for his
+[tmux.conf article](http://peterforgacs.github.io/2017/04/25/Tmux/)
+from where I borrowed some tweaks and the idea for a help on the keybindings.
 
 #### vimrc
 
@@ -88,7 +97,4 @@ from where I borrowed some tweaks and the idea for a help on the keybindings.
 [/r/vim](https://www.reddit.com/r/vim) for tips about
 tuning, readability and vimscript.
 
-#### Gnome Terminal
-
-* Kudos to [Mayccoll](https://github.com/Mayccoll) and his [Gnome Terminal color schemes](https://github.com/Mayccoll/Gogh/blob/master/content/themes.md)
 
