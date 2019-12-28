@@ -1,0 +1,5 @@
+# ~/.config/matplotlib/matplotlibrc
+#backend: tk
+#backend: tkagg
+#backend: gtk3cairo
+backend: gtk3agg

@@ -21,6 +21,7 @@ ln -sf ~/git/dotfiles/fonts.conf ~/.fonts.conf
 ln -sf ~/git/dotfiles/fonts ~/.local/share/fonts
 ln -sf ~/git/dotfiles/gitconfig ~/.gitconfig
 ln -sf ~/git/dotfiles/inputrc ~/.inputrc
+ln -sf ~/git/dotfiles/matplotlibrc ~/.config/matplotlib/matplotlibrc
 ln -sf ~/git/dotfiles/sway ~/.config/sway
 ln -sf ~/git/dotfiles/screenrc ~/.screenrc
 ln -sf ~/git/dotfiles/taskrc ~/.taskrc
