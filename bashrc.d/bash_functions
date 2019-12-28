@@ -1,9 +1,8 @@
 # ~/.bash_functions
 #
 # a) function settitle
-settitle ()
-{
-   echo -ne "\e]2;$@\a\e]1;$@\a";
+settitle () {
+    echo -ne "\e]2;$@\a\e]1;$@\a";
 }
 #
 # b) function cd_func
@@ -12,8 +11,7 @@ settitle ()
 # To use it, uncomment it, source this file and try 'cd --'.
 # acd_func 1.0.5, 10-nov-2004
 # Petar Marinov, http:/geocities.com/h2428, this is public domain
-# cd_func ()
-# {
+# cd_func () {
 #   local x2 the_new_dir adir index
 #   local -i cnt
 #
@@ -65,16 +63,20 @@ settitle ()
 # }
 #
 # alias cd=cd_func
+#
+# Display the actual date and time
 now() {
-	echo $(date "+%Y-%m-%d %H:%M:%S") - "$@" >> $HOME/.now
+    echo $(date "+%Y-%m-%d %H:%M:%S") - "$@"
 }
+
+# Display 16 ANSI colors
 16colors() {
     #Background
     for bg in {40..47} {100..107} 49; do
     # Foreground
         for fg in {30..37} {90..97} 39; do
             # Formatting
-            for attr in 0 1 2 4 5 7 ; do
+            for attr in {0..7}; do
                 # Print the result
                 printf "\e[%d;%d;%dm ^[%d;%d;%dm \e[0m" $attr $bg $fg $attr $bg $fg
             done
@@ -83,19 +85,30 @@ now() {
     done
 }
 
+# Display 256 bit ANSI colors
 256colors() {
-    for fgbg in 38 48; do #Foreground/Background
-        #for color in {0..255} ; do #Colors
+    for fgbg in 38 48; do # Foreground/Background
+        # for color in {0..255}; do # Colors
         x=0
         echo -n " "
-        for color in {16..201} ; do #Colors
+        for color in {16..201}; do # Colors
             # Display the color
             printf "\e[%s;5;%sm%0.3d\e[0m" $fgbg $color $color
-            #Display 18 colors per lines
-            [ $(((x+1) % 18)) == 0 ] && echo
-            [ $(((x+1) % 6)) == 0 ] && echo -n " "
+            # Display 18 colors per lines
+            (((x + 1) % 18)) || echo
+            (((x + 1) % 6)) || echo -n " "
             ((x++))
         done
-        echo #New line
-   done
+        echo # New line
+    done
+}
+
+# Remove leading and trailing whitespace characters
+trim() {
+    local var="$*"
+    # remove leading whitespace characters
+    var="${var#"${var%%[![:space:]]*}"}"
+    # remove trailing whitespace characters
+    var="${var%"${var##*[![:space:]]}"}"
+    echo -n "$var"
 }
