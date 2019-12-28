@@ -104,6 +104,7 @@ now() {
 }
 
 # Remove leading and trailing whitespace characters
+# See: https://stackoverflow.com/a/3352015/6789321
 trim() {
     local var="$*"
     # remove leading whitespace characters
