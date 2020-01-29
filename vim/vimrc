@@ -262,7 +262,6 @@ let g:rainbow_active=1
 " Validator plugin settings
 let g:validator_python_checkers=['flake8']
 let g:validator_css_checkers=['csslint']
-let g:validator_yaml_checkers=['yamllint']
 let g:validator_go_checkers=['golint']
 " Customize Validator error message
 let g:validator_error_msg_format='● %d/%d issues'
