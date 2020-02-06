@@ -43,6 +43,17 @@ if [[ -r /usr/bin/rpm ]]; then
             sudo rpm -q --changelog "$@" | less
         fi
     }
+     rpmql() {
+        if [[ -n "$@" ]]; then
+            sudo rpm -ql "$@"
+        fi
+    }
+     rpmqf() {
+        if [[ -n "$@" ]]; then
+            sudo rpm -qf "$@"
+        fi
+    }
+
 fi
 
 # Set vimdiff as default method for merging
