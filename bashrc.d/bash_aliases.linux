@@ -81,6 +81,13 @@ if [[ -r /usr/bin/dnf ]]; then
             echo "Usage: dnfinfo <package>"
         fi
     }
+    dnfinstall() {
+        if [[ -n "$@" ]]; then
+            sudo dnf install "$@"
+        else
+            echo "Usage: dnfinstall <package>"
+        fi
+    }
     dnfsearch() {
         if [[ -n "$@" ]]; then
             sudo dnf search "$@"
