@@ -88,6 +88,13 @@ if [[ -r /usr/bin/dnf ]]; then
             echo "Usage: dnfinstall <package>"
         fi
     }
+    dnfremove() {
+        if [[ -n "$@" ]]; then
+            sudo dnf remove "$@"
+        else
+            echo "Usage: dnfremove <package>"
+        fi
+    }
     dnfsearch() {
         if [[ -n "$@" ]]; then
             sudo dnf search "$@"
