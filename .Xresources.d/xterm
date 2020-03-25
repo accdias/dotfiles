@@ -1,0 +1,68 @@
+/*
+ * X resource file for XTerm
+ * vim:ft=xdefaults:
+ *
+ * Maintained by Claud D. Park <posquit0.bj@gmail.com>
+ * http://www.posquit0.com/
+ */
+
+
+!!! General {{{
+  /* To report the TERM variable correctly with 256 colors support */
+  XTerm*termName: xterm-256color
+  /* Lines of history to save */
+  XTerm*saveLines: 4096
+  /* Interpret all incoming data as UTF-8 encoded */
+  XTerm*locale: True
+  /* Start as a login shell by prepending a - to argv[0] of the shell */
+  XTerm*loginShell: True
+!!! }}}
+
+
+!!! Fonts {{{
+  /* Set a font and styles */
+  XTerm*faceName: xft:Knack:style=Book:antialias=true:size=12
+  /* Set a CJK font and styles */
+  XTerm*faceNameDoublesize: xft:NanumGothicCoding
+!!! }}}
+
+
+!!! Visual {{{
+  /* Create the window with the specified X window gemoetry (default 80x24) */
+  XTerm*gemetry: 120x44
+  /* Reverse between foreground and background colors */
+  XTerm*reverseVideo: False
+  /* Use visual bell on receipt of a bell character */
+  XTerm*visualBell: True
+
+  /* Blink a cursor */
+  XTerm*cursorBlink: True
+
+  /* No scrollbar */
+  XTerm*ScrollBar: False
+  /* Set a scrollbar's position to right */
+  XTerm*rightScrollBar: True
+  /* Scroll to bottom when tty receives output */
+  XTerm*scrollTtyOutput: False
+!!! }}}
+
+
+!!! Key Mappings {{{
+  /* Use `Alt` key for keyboard shortcuts */
+  XTerm*metaSendsEscape: True
+!!! }}}
+
+! xterm*charClass: 33:48,35:48,37:48,43:48,45-47:48,64:48,95:48,126:48
+! xterm*eightBitInput: false
+/*
+ * Fix ctrl-h. Needed for weird xterm/tmx compatibility with apps.
+ * For my specific case, <C-h> was passed to vim as backspace, thus preventing
+ * the key sequence from being re-bound.
+ * See: http://www.ibb.net/~anne/keyboard.html
+ */
+!*VT100.Translations: #override \
+!        <Key>BackSpace: string(0x7F)\n\
+!        <Key>Delete:    string("\033[3~")\n\
+!        <Key>Home:      string("\033[1~")\n\
+!        <Key>End:       string("\033[4~")
+!*ttyModes: erase ^?
