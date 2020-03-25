@@ -7,15 +7,16 @@
  */
 
 /* To report the TERM variable correctly with 256 colors support */
-URxvt*termName: rxvt-unicode-256color
+!URxvt*termName: rxvt-unicode-256color
+URxvt*termName: xterm-256color
 /* Lines of history to save */
 URxvt*saveLines: 4096
 /* Start as a login shell by prepending a - to argv[0] of the shell */
-URxvt*loginShell: True
+URxvt*loginShell: true
 /* Turn on/off hold window after exit support. If enabled, urwvt will not immediately
  * destory its window when the program executed within it exits.
  * It will wait till it is being killed or closed by the user */
-URxvt*hold: False
+URxvt*hold: false
 
 /* A comma separated list of font names that are checked in order
 * when trying to find glyphs for characters */
@@ -32,7 +33,7 @@ URxvt*boldItalicFont: \
    xft:Fira Code Retina:size=10:bold:italic:antialias=true:hinting=true, \
    xft:Knack:size=10:bold:italic:antialias=true:hinting=true
 /* Double-buffering for xft (default enabled) */
-URxvt*buffered: True
+URxvt*buffered: true
 /* Letter spacing adjustment */
 URxvt.letterSpace: -1
 /* Specifies number of lines to insert between each row of the display */
@@ -51,26 +52,27 @@ URxvt*preeditType: OffTheSpot
 /* Create the window with the specified X window gemoetry (default 80x24) */
 URxvt*geometry: 120x44
 /* Reverse between foreground and background colors */
-URxvt*reverseVideo: False
+URxvt*reverseVideo: false
 /* To support true transparency */
 URxvt*depth: 32
 /* Set background with transparency */
 !URxvt*foreground: [100]#ffffff
-URxvt*background: [90]#000000
+!URxvt*background: [90]#000000
+!URxvt*background: [90]
 /* Fade the text by the given percentage when focus is lost */
 URxvt*fading: 30
 /* Use visual bell on receipt of a bell character */
-URxvt*visualBell: False
+URxvt*visualBell: false
 
 /* Blink a cursor */
-URxvt*cursorBlink: True
+URxvt*cursorBlink: true
 /* Make cursor an underline */
-URxvt*cursorUnderline: True
+URxvt*cursorUnderline: true
 
 /* No scrollbar */
-URxvt*scrollBar: False
+URxvt*scrollBar: false
 /* Set a scrollbar's position to right */
-URxvt*scrollBar_right: True
+URxvt*scrollBar_right: true
 /* Set the style of the scrollbar(rxvt, plain, next, xterm) */
 URxvt*scrollstyle: plain
 /* Use the specified color for the scrollbar(default #B2B2B2) */
@@ -78,33 +80,40 @@ URxvt*scrollColor: #777777
 /* Set the scrollbar width in pixels */
 URxvt*thickness: 5
 /* Scroll to bottom when a non-special key pressed */
-URxvt*scrollTtyKeypress: True
+URxvt*scrollTtyKeypress: true
 /* Scroll to bottom when tty receives output */
-URxvt*scrollTtyOutput: False
+URxvt*scrollTtyOutput: false
 /* Scroll with scrollback  buffer when tty recieves new lines
- * and scrollTtyOutput is False */
-URxvt*scrollWithBuffer: True
+ * and scrollTtyOutput is false */
+URxvt*scrollWithBuffer: true
 /* For speed. When receiving lots of lines, urxvt will only scroll
  * once in a while (around 60x/sec), resulting in fewer updates */
-URxvt*skipScroll: True
+URxvt*skipScroll: true
 
 /* The color of the border around the text area and between the scrollbar and the text */
 URxvt*borderColor: #000000
 /* Set MWM hints to request a borderless window */
-URxvt*borderLess: False
+URxvt*borderLess: false
 /* Internal border of number pixels */
 URxvt.internalBorder: 0
 /* External border of number pixels */
 URxvt.externalBorder: 0
 
 /* Draw underline on URL */
-URxvt*underlineURLs: True
+URxvt*underlineURLs: true
 
 /* Turn on/off ISO 14755 (default enabled) */
-URxvt*iso14755: False
+URxvt*iso14755: false
 /* Trun on/off ISO 14755 5.2 mode (default enabled) */
-URxvt*iso14755_52: False
+URxvt*iso14755_52: false
 
 URxvt.perl-ext-common: default,matcher
-URxvt.urlLauncher: google-chrome
+URxvt.urlLauncher: /usr/bin/xdg-open
 URxvt.matcher.button: 1
+
+/* Disable printing the terminal contents when pressing PrintScreen */
+URxvt.print-pipe: "cat >/dev/null"
+
+URxvt.secondaryScreen: 1
+URxvt.secondaryScroll: 0
+URxvt.secondaryWheel: 1

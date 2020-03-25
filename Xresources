@@ -1,1 +1,43 @@
-Xft.lcdfilter: lcddefault
+/*
+ * ~/.Xresources
+ * vim:ft=xdefaults:
+ *
+ * Maintained by Claud D. Park <posquit0.bj@gmail.com>
+ * http://www.posquit0.com/
+ *
+ * run "xrdb ~/.Xresources" after changes
+ */
+
+
+!!! General {{{
+  /* XCursor */
+!  #include ".Xresources.d/xcursor"
+  /* Color themes for X */
+! #include ".Xresources.d/colors/default"
+! #include ".Xresources.d/colors/material"
+ #include ".Xresources.d/colors/solarized-dark"
+! #include ".Xresources.d/colors/gnome-terminal"
+!!! }}}
+
+
+!!! Font {{{
+  Xft.dpi: 96
+  Xft.antialias: True
+  Xft.hinting: True
+  Xft.hintstyle: hintslight
+  Xft.lcdfilter: lcddefault
+  Xft.rgba: rgb
+!!! }}}
+
+
+!!! Terminals {{{
+  #include ".Xresources.d/urxvt"
+  #include ".Xresources.d/xterm"
+!!! }}}
+
+
+!!! X11 Applications {{{
+  /* XAutoLock for Lock Screen */
+!  #include ".Xresources.d/xautolock"
+
+!!! }}}

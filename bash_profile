@@ -54,5 +54,9 @@ if [[ -n $SSH_TTY ]]; then
     fi
 fi
 
+if [[ -x /usr/bin/dircolors ]]; then
+    eval $(/usr/bin/dircolors)
+fi
+
 # JIC
 tput init
