@@ -15,7 +15,9 @@
   /* Color themes for X */
 ! #include ".Xresources.d/colors/default"
 ! #include ".Xresources.d/colors/material"
- #include ".Xresources.d/colors/solarized-dark"
+ #include ".Xresources.d/colors/linux"
+! #include ".Xresources.d/colors/tango"
+! #include ".Xresources.d/colors/solarized-dark"
 ! #include ".Xresources.d/colors/gnome-terminal"
 !!! }}}
 

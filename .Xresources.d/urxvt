@@ -21,17 +21,15 @@ URxvt*hold: false
 /* A comma separated list of font names that are checked in order
 * when trying to find glyphs for characters */
 URxvt*font: \
-   xft:Fira Code Retina:size=10:antialias=true:hinting=true, \
-   xft:Knack:size=10:antialias=true:hinting=true
+   xft:Fira Code Retina:size=10:antialias=true:hinting=true
 URxvt*italicFont: \
-   xft:Fira Code Retina:size=10:italic:antialias=true:hinting=true, \
-   xft:Knack:size=10:italic:antialias=true:hinting=true
+   xft:Fira Code Retina:size=10:italic:antialias=true:hinting=true
 URxvt*boldFont: \
-   xft:Fira Code Retina:size=10:bold:antialias=true:hinting=true, \
-   xft:Knack:size=10:bold:antialias=true:hinting=true
+   xft:Fira Code Retina:size=10:bold:antialias=true:hinting=true
 URxvt*boldItalicFont: \
-   xft:Fira Code Retina:size=10:bold:italic:antialias=true:hinting=true, \
-   xft:Knack:size=10:bold:italic:antialias=true:hinting=true
+   xft:Fira Code Retina:size=10:bold:italic:antialias=true:hinting=true
+/* Enable support for bold and italic fonts */
+URxvt*fontStyles: true
 /* Double-buffering for xft (default enabled) */
 URxvt*buffered: true
 /* Letter spacing adjustment */
@@ -55,10 +53,6 @@ URxvt*geometry: 120x44
 URxvt*reverseVideo: false
 /* To support true transparency */
 URxvt*depth: 32
-/* Set background with transparency */
-!URxvt*foreground: [100]#ffffff
-!URxvt*background: [90]#000000
-!URxvt*background: [90]
 /* Fade the text by the given percentage when focus is lost */
 URxvt*fading: 30
 /* Use visual bell on receipt of a bell character */
@@ -100,16 +94,28 @@ URxvt.internalBorder: 0
 URxvt.externalBorder: 0
 
 /* Draw underline on URL */
-URxvt*underlineURLs: true
+URxvt*underlineURLs: false
 
 /* Turn on/off ISO 14755 (default enabled) */
 URxvt*iso14755: false
-/* Trun on/off ISO 14755 5.2 mode (default enabled) */
+/* Turn on/off ISO 14755 5.2 mode (default enabled) */
 URxvt*iso14755_52: false
+/* Use 21 instead of 16 bits to represent unicode characters */
+URxvt*unicode3: true
 
-URxvt.perl-ext-common: default,matcher
+/* Perl extensions */
+URxvt.perl-ext-common: default,selection-to-clipboard,confirm-paste
+
 URxvt.urlLauncher: /usr/bin/xdg-open
 URxvt.matcher.button: 1
+
+/* Bind C--, C-0(=) and C-+ to activate small, medium, and big font size resp. */
+!URxvt.keysym.C-Up:     font-size:increase
+!URxvt.keysym.C-Down:   font-size:decrease
+!URxvt.keysym.C-plus:   font-size:incglobal
+!URxvt.keysym.C-minus: font-size:decglobal
+!URxvt.keysym.C-equal:  font-size:reset
+!URxvt.keysym.C-slash:  font-size:show
 
 /* Disable printing the terminal contents when pressing PrintScreen */
 URxvt.print-pipe: "cat >/dev/null"
