@@ -1,15 +1,17 @@
-# vimdiff Cheat Sheet
+# vim Cheat Sheet
 
-## This is my vimdiff Cheat Sheet
+## This is my vim Cheat Sheet
 
-### Navigating
+### vimdiff
+
+#### Navigating
 
 |Key combination         |Action             |
 |------------------------|-------------------|
 |<kbd>[</kbd><kbd>c</kbd>|Previous difference|
 |<kbd>]</kbd><kbd>c</kbd>|Next difference    |
 
-### Editing
+#### Editing
 
 |Key combination          |Action                                |
 |-------------------------|--------------------------------------|
@@ -20,7 +22,7 @@
 |<kbd>:</kbd>diffupdate   |Re-scan the files for differences.    |
 |<kbd>Z</kbd><kbd>Q</kbd> |Quit without checking changes         |
 
-### Managing Folds
+#### Managing Folds
 
 |Key combination                                     |Action                     |
 |----------------------------------------------------|---------------------------|
@@ -33,3 +35,20 @@
 |<kbd>z</kbd><kbd>m</kbd>                            |Fold more (foldlevel += 1) |
 |<kbd>z</kbd><kbd>r</kbd>                            |Fold less (foldlevel -= 1) |
 |<kbd>z</kbd><kbd>x</kbd>                            |Update folds               |
+
+### Editing
+
+#### Changing case
+
+|Key combination                                  |Action                                            |
+|-------------------------------------------------|--------------------------------------------------|
+|<kbd>~</kbd>                                     |Changes the case of current character             |
+|<kbd>g</kbd><kbd>u</kbd><kbd>u</kbd>             |Change current line from upper to lower           |
+|<kbd>g</kbd><kbd>U</kbd><kbd>U</kbd>             |Change current LINE from lower to upper           |
+|<kbd>g</kbd><kbd>u</kbd><kbd>w</kbd>             |Change to end of current WORD from upper to lower |
+|<kbd>g</kbd><kbd>u</kbd><kbd>a</kbd><kbd>w</kbd> |Change all of current WORD to lower               |
+|<kbd>g</kbd><kbd>U</kbd><kbd>w</kbd>             |Change to end of current WORD from lower to upper |
+|<kbd>g</kbd><kbd>U</kbd><kbd>a</kbd><kbd>w</kbd> |Change all of current WORD to upper               |
+|<kbd>g</kbd><kbd>~</kbd><kbd>~</kbd>             |Invert case to entire line                        |
+|<kbd>g</kbd><kbd>~</kbd><kbd>w</kbd>             |Invert case to current WORD                       |
+|<kbd>g</kbd><kbd>u</kbd><kbd>G</kbd>             |Change to lowercase until the end of document     |
