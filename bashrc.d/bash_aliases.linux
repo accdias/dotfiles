@@ -111,6 +111,19 @@ if [[ -r /usr/bin/dnf ]]; then
     }
 fi
 
+
+# OpenSSH shortcuts
+if [[ -r /usr/bin/ssh-copy-id ]]; then
+    copy-id() {
+        if [[ -n "$@" ]]; then
+            ssh-copy-id -i ~/.ssh/pki/accdias/id_rsa.pub "$@"
+        else
+            echo "Usage: copy-id <host>"
+        fi
+    }
+fi
+
+
 # Do we have apt-get installed?
 if [[ -r /usr/bin/apt-get ]]; then
     alias aptupdate='sudo apt-get update'
