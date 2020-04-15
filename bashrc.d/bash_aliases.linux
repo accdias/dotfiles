@@ -36,6 +36,11 @@ alias sumfile="awk 'BEGIN{s=0}{s=s+\$0}END{print s}'" # give the sum of values f
 alias proxyon='[[ -f ~/.bash_proxy_0 ]] && mv ~/.bash_proxy{_0,} && source ~/.bash_proxy'
 alias proxyoff='[[ -f ~/.bash_proxy ]] && mv ~/.bash_proxy{,_0}'
 
+# curl based aliases and functions
+if [[ -r /usr/bin/curl ]]; then
+    alias myip='curl -s -o- http://ip4.me/api/ | cut -d, -f2 && curl -s -o- http://ip6.me/api/ | cut -d, -f2'
+fi
+
 # RPM based aliases and functions
 if [[ -r /usr/bin/rpm ]]; then
     changelog() {
