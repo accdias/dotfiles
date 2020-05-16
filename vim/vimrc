@@ -160,6 +160,9 @@ noremap <silent><leader>n :set number!<cr>
 noremap <silent><leader>p :set paste!<cr>
 noremap <silent><leader>w :set wrap!<cr>
 
+" Reindent the entire file
+noremap <F7> gg=G<C-o><C-o>
+
 " CTRL-U in insert mode deletes a lot.  Use CTRL-G u to first break undo,
 " so that you can undo CTRL-U after inserting a line break.
 inoremap <C-U> <C-G>u<C-U>
