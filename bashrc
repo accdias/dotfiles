@@ -75,8 +75,11 @@ export HISTCONTROL=$HISTCONTROL${HISTCONTROL+,}erasedups
 # Ignore some controlling instructions
 # HISTIGNORE is a colon-delimited list of patterns which should be excluded.
 # The '&' is a special pattern which suppresses duplicate entries.
-export HISTIGNORE=$'[ \t]*:&:[fb]g:exit'
-# export HISTIGNORE=$'[ \t]*:&:[fb]g:exit:ls' # Ignore the ls command as well
+# export HISTIGNORE=$'[ \t]*:&:[fb]g:exit'
+export HISTIGNORE=$'[ \t]*:&:[fb]g:exit:ls' # Ignore the ls command as well
+#
+# Save a "bit" more lines on the history
+export HISTSIZE=1000000
 #
 # Whenever displaying the prompt, write the previous line to disk
 export PROMPT_COMMAND="history -a"
@@ -84,7 +87,7 @@ export PROMPT_COMMAND="history -a"
 # Use vimdiff as the frontend for merging with rpmconf
 export MERGE=vimdiff
 #
-# Set colors for less to make man pages more readable
+# Set colors for less and make man pages more readable
 export LESS=-R
 export LESS_TERMCAP_mb=$'\E[1;31m'     # begin blink
 export LESS_TERMCAP_md=$'\E[1;36m'     # begin bold
