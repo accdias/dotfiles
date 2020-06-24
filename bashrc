@@ -110,10 +110,6 @@ export GROFF_NO_SGR=1                  # for konsole and gnome-terminal
 # Prompts
 [[ -f "${HOME}/.bashrc.d/bash_prompts" ]] && source "${HOME}/.bashrc.d/bash_prompts"
 
-# Temporary settings
-[[ -f "${HOME}/.bash_proxy" ]] && source "${HOME}/.bash_proxy"
-
-
 # Umask
 # /etc/profile sets 022, removing write perms to group + others.
 # Set a more restrictive umask: i.e. no exec perms for others:
