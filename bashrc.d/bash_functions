@@ -120,3 +120,14 @@ genpasswd() {
        	[ -z $l ] && l=20
       	tr -dc A-Za-z0-9_#@ < /dev/urandom | head -c ${l} | xargs
 }
+
+# Set/unset proxy variables
+setproxy() {
+    if [ "$1" == "-" ]; then
+        unset {http,https,ftp,socks}_proxy
+        unset {HTTP,HTTPS,FTP,SOCKS}_PROXY
+    else
+        export {http,https,ftp,socks}_proxy=socks5h://$1
+        export {HTTP,HTTPS,FTP,SOCKS}_PROXY=socks5h://$1
+    fi
+}
