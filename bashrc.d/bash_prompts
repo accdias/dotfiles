@@ -3,5 +3,5 @@
 # GIT_PS1_SHOWDIRTYSTATE=true
 # export PS1 GIT_PS1_SHOWDIRTYSTATE
 #PS1='\[\e[94m\]\u\[\e[0;49;32m\]@\[\e[91m\]\h\[\e[0m\]:\[\e[33m\]\w\[\e[0m\]\$ '
-PS1='\[\e[94m\]\u\[\e[91m\]@\[\e[92m\]\h\[\e[0m\]:\[\e[33m\]\w\[\e[0m\] \$ '
+PS1='\[\e]12;red\a\]\[\e[94m\]\u\[\e[91m\]@\[\e[92m\]\h\[\e[0m\]:\[\e[33m\]\w\[\e[0m\] \$ '
 export PS1
