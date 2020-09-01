@@ -26,4 +26,4 @@ set statusline+=\ ╲                    " Separator
 set statusline+=\ col:%v               " Column number
 set statusline+=\ ╲                    " Separator
 set statusline+=\ %p%%                 " File percentual position
-set statusline+=\                      " Separator
+set statusline+=\ %*                   " Restore normal highlight with %* or %0*
