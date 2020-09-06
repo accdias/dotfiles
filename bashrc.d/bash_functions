@@ -131,3 +131,8 @@ setproxy() {
         export {HTTP,HTTPS,FTP,SOCKS}_PROXY=socks5h://$1
     fi
 }
+
+bright() {
+    MAX=$(cat /sys/class/backlight/intel_backlight/max_brightness)
+    sudo dd status=none of=/sys/class/backlight/intel_backlight/brightness <<< $((MAX/4))
+}
