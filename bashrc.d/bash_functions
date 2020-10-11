@@ -117,22 +117,34 @@ trim() {
 # Generate strong passwords
 genpasswd() {
 	local l=$1
-       	[ -z $l ] && l=20
+       	[ -z $l ] && l=16
       	tr -dc A-Za-z0-9_#@ < /dev/urandom | head -c ${l} | xargs
 }
 
 # Set/unset proxy variables
 setproxy() {
     if [ "$1" == "-" ]; then
-        unset {http,https,ftp,socks}_proxy
-        unset {HTTP,HTTPS,FTP,SOCKS}_PROXY
+        unset {{HTTP,HTTPS,FTP,SOCKS}_PROXY,{http,https,ftp,socks}_proxy}
     else
-        export {http,https,ftp,socks}_proxy=socks5h://$1
-        export {HTTP,HTTPS,FTP,SOCKS}_PROXY=socks5h://$1
+        export {{HTTP,HTTPS,FTP,SOCKS}_PROXY,{http,https,ftp,socks}_proxy}=socks5h://$1
     fi
 }
 
 bright() {
-    MAX=$(cat /sys/class/backlight/intel_backlight/max_brightness)
-    sudo dd status=none of=/sys/class/backlight/intel_backlight/brightness <<< $((MAX/4))
+    local MAX=$(cat /sys/class/backlight/intel_backlight/max_brightness)
+    local LEVEL=$((MAX/4))
+    case $1 in
+        -r|--reset)
+        ;;
+        -m|--movie)
+            LEVEL=${MAX}
+        ;;
+        -b|--blank)
+            LEVEL=0
+        ;;
+        *)
+        ;;
+    esac
+    sudo dd status=none of=/sys/class/backlight/intel_backlight/brightness <<< ${LEVEL}
+    unset MAX LEVEL
 }
