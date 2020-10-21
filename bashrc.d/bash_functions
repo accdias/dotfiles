@@ -160,3 +160,9 @@ scanports() {
     local ports=$(listports)
     nmap -sC -sV -p${ports} ${host}
 }
+
+certdates() {
+    local a=$(openssl x509 -in ${1} -noout -startdate)
+    local b=$(openssl x509 -in ${1} -noout -enddate)
+    echo $(date +%Y%m%d --utc -d"${a/not*=}")-$(date +%Y%m%d --utc -d"${b/not*=}")
+}
