@@ -148,3 +148,15 @@ bright() {
     sudo dd status=none of=/sys/class/backlight/intel_backlight/brightness <<< ${LEVEL}
     unset MAX LEVEL
 }
+
+listports() {
+    local host=${1:-127.0.0.1}
+    local ports=$(nmap -p- --min-rate=1000 -T4 ${host} | awk 'BEGIN{FS="/";ORS=","}/^[0-9].*open/{print $1}')
+    echo ${ports%,}
+}
+
+scanports() {
+    local host=${1:-127.0.0.1}
+    local ports=$(listports)
+    nmap -sC -sV -p${ports} ${host}
+}
