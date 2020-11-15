@@ -1,12 +1,15 @@
 # ~/git/dotfiles/gitconfig
 [user]
-	name = Antonio Dias
-	email = accdias@gmail.com
+name = Antonio Dias
+email = accdias@gmail.com
+
 [core]
-	autocrlf = input
-	editor = vim
-	whitespace = trailing-space,space-before-tab,indent-with-non-tab
+autocrlf = input
+editor = vim
+whitespace = trailing-space,space-before-tab,indent-with-non-tab
+
 [color]
-	ui = true
+ui = true
+
 [push]
-	default = matching
+default = matching
