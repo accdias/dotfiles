@@ -86,6 +86,11 @@ export PROMPT_COMMAND="history -a"
 #
 # Use vimdiff as the frontend for merging with rpmconf
 export MERGE=vimdiff
+
+# Themes settings for QT applications
+export QT_QPA_PLATFORMTHEME=qt5ct
+export QT_AUTO_SCREEN_SCALE_FACTOR=1
+
 # Aliases
 [[ -f "${HOME}/.bashrc.d/bash_aliases" ]] && source "${HOME}/.bashrc.d/bash_aliases"
 
