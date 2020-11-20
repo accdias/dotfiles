@@ -33,7 +33,7 @@ highlight Todo                      ctermfg=196 ctermbg=226  cterm=bold
 
 " Vim Stuff
 highlight ColorColumn               ctermfg=201 ctermbg=NONE cterm=bold
-highlight CursorLine                ctermfg=16  ctermbg=25   cterm=bold
+highlight CursorLine                ctermfg=255 ctermbg=NONE cterm=bold
 highlight DiffAdd                   ctermfg=123 ctermbg=NONE cterm=bold
 highlight DiffChange                ctermfg=196 ctermbg=NONE cterm=bold
 highlight Directory                 ctermfg=81  ctermbg=NONE cterm=bold
