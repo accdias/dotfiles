@@ -38,7 +38,7 @@ set shortmess=atI                       " Disable vim intro message
 set signcolumn=yes                      " Always shows the sign column
 set number                              " Always shows line numbers
 set relativenumber                      " Always Shows line offsets based on the current line
-"set cursorline                         " Highlight current line
+set cursorline                          " Highlight current line
 "set cursorcolumn                       " Highlight current column
 
 set path+=**                            " Make "find" search recursively
