@@ -13,3 +13,5 @@ ui = true
 
 [push]
 default = matching
+[alias]
+co = checkout
