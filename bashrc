@@ -84,6 +84,9 @@ export HISTSIZE=1000000
 # Whenever displaying the prompt, write the previous line to disk
 export PROMPT_COMMAND="history -a"
 #
+# Set vim as my default editor
+export EDITOR=vim
+#
 # Use vimdiff as the frontend for merging with rpmconf
 export MERGE=vimdiff
 
