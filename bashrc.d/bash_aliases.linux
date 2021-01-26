@@ -32,6 +32,11 @@ alias ls='ls -hF --color=tty --group-directories-first' # classify files in colo
 # alias l='ls -CF'                              #
 alias sumfile="awk 'BEGIN{s=0}{s=s+\$0}END{print s}'" # give the sum of values from a file
 
+# Make dig less verbose
+if [[ -r /usr/bin/dig ]]; then
+    alias dig='dig +short'
+fi
+
 # curl based aliases and functions
 if [[ -r /usr/bin/curl ]]; then
     alias myip='curl -s -o- http://ip4.me/api/ | cut -d, -f2 && curl -s -o- http://ip6.me/api/ | cut -d, -f2'
