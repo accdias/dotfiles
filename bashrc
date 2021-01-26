@@ -94,6 +94,9 @@ export MERGE=vimdiff
 export QT_QPA_PLATFORMTHEME=qt5ct
 export QT_AUTO_SCREEN_SCALE_FACTOR=1
 
+# Make access to cd ~/<dir>
+export CDPATH=~
+
 # Aliases
 [[ -f "${HOME}/.bashrc.d/bash_aliases" ]] && source "${HOME}/.bashrc.d/bash_aliases"
 
