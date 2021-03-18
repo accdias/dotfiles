@@ -62,7 +62,9 @@ colorscheme pythonista
 
 " Default color scheme for diff mode
 if &diff
-    colorscheme desert
+    " Set terminal to 16 colors mode
+    set t_Co=8
+    " colorscheme desert
 endif
 
 
