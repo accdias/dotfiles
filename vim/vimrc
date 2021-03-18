@@ -57,7 +57,14 @@ set wildignore+=*.pyc
 set wildignore+=*.py[co]
 set wildignore+=*.swp
 
+" Default color scheme
 colorscheme pythonista
+
+" Default color scheme for diff mode
+if &diff
+    colorscheme desert
+endif
+
 
 " Change the vertical split character
 "set fillchars+=vert:┃
