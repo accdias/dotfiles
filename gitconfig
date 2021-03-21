@@ -13,5 +13,9 @@ ui = true
 
 [push]
 default = matching
+
 [alias]
 co = checkout
+
+[merge]
+tool = vimdiff
