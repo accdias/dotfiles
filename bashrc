@@ -97,11 +97,11 @@ export QT_AUTO_SCREEN_SCALE_FACTOR=1
 # Make access to cd ~/<dir>
 #export CDPATH=.:~
 
+# Color helper variables
+[[ -f "${HOME}/.bashrc.d/bash_colors" ]] && source "${HOME}/.bashrc.d/bash_colors"
+
 # Aliases
 [[ -f "${HOME}/.bashrc.d/bash_aliases" ]] && source "${HOME}/.bashrc.d/bash_aliases"
-
-# Colors
-[[ -f "${HOME}/.bashrc.d/bash_colors" ]] && source "${HOME}/.bashrc.d/bash_colors"
 
 # Functions
 [[ -f "${HOME}/.bashrc.d/bash_functions" ]] && source "${HOME}/.bashrc.d/bash_functions"
