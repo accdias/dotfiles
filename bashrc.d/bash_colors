@@ -8,56 +8,70 @@ export LS_COLORS='no=00;38;5;244:rs=0:di=00;38;5;33:ln=01;38;5;37:mh=00:pi=48;5;
 #
 # Set colors for less and make man pages more readable
 export LESS=-R
-export LESS_TERMCAP_mb=$'\E[1;31m'     # begin blink
-export LESS_TERMCAP_md=$'\E[1;36m'     # begin bold
-export LESS_TERMCAP_me=$'\E[0m'        # reset bold/blink
-export LESS_TERMCAP_so=$'\E[01;44;33m' # begin reverse video
-export LESS_TERMCAP_se=$'\E[0m'        # reset reverse video
-export LESS_TERMCAP_us=$'\E[1;32m'     # begin underline
-export LESS_TERMCAP_ue=$'\E[0m'        # reset underline
+export LESS_TERMCAP_mb=$'\e[1;31m'     # begin blink
+export LESS_TERMCAP_md=$'\e[1;36m'     # begin bold
+export LESS_TERMCAP_me=$'\e[0m'        # reset bold/blink
+export LESS_TERMCAP_so=$'\e[01;44;33m' # begin reverse video
+export LESS_TERMCAP_se=$'\e[0m'        # reset reverse video
+export LESS_TERMCAP_us=$'\e[1;32m'     # begin underline
+export LESS_TERMCAP_ue=$'\e[0m'        # reset underline
 export GROFF_NO_SGR=1                  # for konsole and gnome-terminal
-#export SYSTEMD_LESS=FRSXMK            # default options
-export SYSTEMD_LESS=-FRXMK              # remove S to have long lines wrapped instead of truncated
+#export SYSTEMD_LESS=FRSXMK             # default options
+export SYSTEMD_LESS=-FRXMK             # remove S to have long lines wrapped instead of truncated
 #
 # Define some ANSI sequences for easy use
-ansi_bold='\e[1m'
-ansi_dim='\e[2m'
-ansi_italic='\e[3m'
-ansi_underline='\e[4m'
-ansi_blink='\e[5m'
-ansi_reverse='\e[7m'
-ansi_conceal='\e[8m'
-ansi_reveal='\e[28m'
-ansi_strike='\e[9m'
-ansi_doublestrike='\e[9m'
-ansi_font0='\e[10m'
-ansi_font1='\e[11m'
-ansi_font2='\e[12m'
-ansi_font3='\e[13m'
-ansi_font4='\e[14m'
-ansi_font5='\e[15m'
-ansi_font6='\e[16m'
-ansi_font7='\e[17m'
-ansi_font8='\e[18m'
-ansi_font9='\e[19m'
-ansi_reset='\e[0m'
-ansi_framed='\e[51m'
-ansi_circled='\e[52m'
-ansi_overlined='\e[53m'
-ansi_black='\e[30m'
-ansi_red='\e[31m'
-ansi_green='\e[32m'
-ansi_yellow='\e[33m'
-ansi_blue='\e[34m'
-ansi_magenta='\e[35m'
-ansi_cyan='\e[36m'
-ansi_white='\e[37m'
-ansi_bright_black='\e[30;1m'
-ansi_bright_red='\e[31;1m'
-ansi_bright_green='\e[32;1m'
-ansi_bright_yellow='\e[33;1m'
-ansi_bright_blue='\e[34;1m'
-ansi_bright_magenta='\e[35;1m'
-ansi_bright_cyan='\e[36;1m'
-ansi_bright_white='\e[37;1m'
+_reset_=$'\e[0m'
+#
+# Styles
+_bold_=$'\e[1m'
+_dim_=$'\e[2m'
+_italic_=$'\e[3m'
+_underline_=$'\e[4m'
+_blink_=$'\e[5m'
+_reverse_=$'\e[7m'
+_conceal_=$'\e[8m'
+_reveal_=$'\e[28m'
+_strike_=$'\e[9m\]'
+_doublestrike_=$'\e[9m'
+_frame_=$'\e[51m'
+_circle_=$'\e[52m'
+_overline_=$'\e[53m'
+#
+# Font selection
+_font0_=$'\e[10m'
+_font1_=$'\e[11m'
+_font2_=$'\e[12m'
+_font3_=$'\e[13m'
+_font4_=$'\e[14m'
+_font5_=$'\e[15m'
+_font6_=$'\e[16m'
+_font7_=$'\e[17m'
+_font8_=$'\e[18m'
+_font9_=$'\e[19m'
+#
+# Foreground colors
+_black_=$'\e[30m'
+_red_=$'\e[31m'
+_green_=$'\e[32m'
+_yellow_=$'\e[33m'
+_blue_=$'\e[34m'
+_magenta_=$'\e[35m'
+_cyan_=$'\e[36m'
+_white_=$'\e[37m'
+#
+# Foreground bright colors
+_bright_black_=$'\e[30;1m'
+_bright_red_=$'\e[31;1m'
+_bright_green_=$'\e[32;1m'
+_bright_yellow_=$'\e[33;1m'
+_bright_blue_=$'\e[34;1m'
+_bright_magenta_=$'\e[35;1m'
+_bright_cyan_=$'\e[36;1m'
+_bright_white_=$'\e[37;1m'
+#
+# Cursor colors
+_cursor_red_=$'\e]12;red;\a'
+_cursor_green_=$'\e]12;green;\a'
+_cursor_blue_=$'\e]12;blue;\a'
+_cursor_yellow_=$'\e]12;yellow;\a'
 # vim:ts=8:sts=4:sw=4:et:ft=sh
