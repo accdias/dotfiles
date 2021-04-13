@@ -3,5 +3,5 @@
 #GIT_PS1_SHOWDIRTYSTATE=true
 #export GIT_PS1_SHOWDIRTYSTATE
 # See ~/.bashrc.d/bash_colors
-PS1="${_cursor_yellow_}${_blue_}\u${_red_}@${_green_}\h${_reset_}:${_bright_yellow_}\w${_reset_} \$ "
+PS1="${_cursor_red_}${_blue_}\u${_red_}@${_green_}\h${_reset_}:${_bright_yellow_}\w${_reset_} \$ "
 export PS1
