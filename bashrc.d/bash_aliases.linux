@@ -75,6 +75,7 @@ fi
 if [[ -r /usr/bin/dnf ]]; then
     alias dnfupdate='sudo dnf update -y --refresh'
     alias dnfupgrade='sudo dnf upgrade -y --refresh'
+    alias dnfhistory='sudo dnf history --reverse | tail'
     dnfinfo() {
         if [[ -n "$@" ]]; then
             sudo dnf info "$@"
