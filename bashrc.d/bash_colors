@@ -70,8 +70,8 @@ _bright_cyan_=$'\[\e[36;1m\]'
 _bright_white_=$'\[\e[37;1m\]'
 #
 # Cursor colors
-_cursor_red_=$'\[\e]12;red;\a\]'
-_cursor_green_=$'\[\e]12;green;\a\]'
-_cursor_blue_=$'\[\e]12;blue;\a\]'
-_cursor_yellow_=$'\[\e]12;yellow;\a\]'
+_cursor_red_=$'\[\e]12;red\a\]'
+_cursor_green_=$'\[\e]12;green\a\]'
+_cursor_blue_=$'\[\e]12;blue\a\]'
+_cursor_yellow_=$'\[\e]12;yellow\a\]'
 # vim:ts=8:sts=4:sw=4:et:ft=sh
