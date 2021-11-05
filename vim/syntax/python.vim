@@ -1,4 +1,9 @@
-" Vim syntax file
+" ~/.vim/syntax/python.vim
+
+" Abbreviations
+au FileType python :iab ifmain if __name__ == '__main__':<cr>
+
+" Synxtax highlighting
 let pythonOperatorList  = '[-&|+<>=*/!~]'     " A list of symbols that we don't want to immediately precede the operator
 let pythonOperatorList .= '\@<!'              " Negative look-behind (check that the preceding symbols aren't there)
 let pythonOperatorList .= '\%('               " Beginning of a list of possible operators
