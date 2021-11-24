@@ -31,6 +31,7 @@ syn match logFloatNumber  '\<\d.\d\+[eE]\?\>'
 
 syn keyword logBoolean    TRUE FALSE True False true false
 syn keyword logNull       NULL Null null
+syn keyword logNone       NONE None none
 
 syn region logString      start=/"/ end=/"/ end=/$/ skip=/\\./
 " Quoted strings, but no match on quotes like "don't", "plurals' elements"
@@ -110,6 +111,7 @@ hi def link logBinaryNumber Number
 hi def link logFloatNumber Float
 hi def link logBoolean Boolean
 hi def link logNull Constant
+hi def link logNone Constant
 hi def link logString String
 
 hi def link logDate Identifier
