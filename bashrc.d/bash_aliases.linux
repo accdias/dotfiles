@@ -113,6 +113,14 @@ if [[ -r /usr/bin/dnf ]]; then
     }
 fi
 
+# Fetchs a file from an URL
+fetchit() {
+    filename=$(basename "$1")
+    filename=${filename/\?*/}
+    if [[ -n "$1" -a -n "${filename}" ]]; then
+        curl -q -o "${filename}" "$1"
+    fi
+}
 
 # OpenSSH shortcuts
 if [[ -r /usr/bin/ssh-copy-id ]]; then
@@ -124,7 +132,6 @@ if [[ -r /usr/bin/ssh-copy-id ]]; then
         fi
     }
 fi
-
 
 # Do we have apt-get installed?
 if [[ -r /usr/bin/apt-get ]]; then
