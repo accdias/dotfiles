@@ -117,7 +117,7 @@ fi
 fetchit() {
     filename=$(basename "$1")
     filename=${filename/\?*/}
-    if [[ -n "$1" -a -n "${filename}" ]]; then
+    if [[ -n "$1" ]] && [[ -n "${filename}" ]]; then
         curl -q -o "${filename}" "$1"
     fi
 }
@@ -159,4 +159,17 @@ fi
 if [[ -r /usr/bin/sxconsole ]]; then
     alias sxc='sxconsole $@ -R ~/Downloads -ME'
 fi
+
+# Convert human sizes to bytes
+if [[ -r /usr/bin/numfmt ]]; then
+    alias bytes='numfmt --from=iec'
+fi
+
+# ffmpeg aliases
+if [[ -r /usr/bin/ffmpeg ]]; then
+    alias addsrt='echo ffmpeg -i "${1}" -i "${1/.mp4/.srt}" c:v copy -c:a copy -c:s mov_text "${1/.mp4/-srt.mp4}"'
+    alias mkv2mp4='echo ffmpeg -i "${1}" -codec copy "${1/.mkv/.mp4}"'
+    alias avi2mp4='echo ffmpeg -i "${1}" -codec copy "${1/.avi/.mp4}"'
+fi
+
 # EOF
