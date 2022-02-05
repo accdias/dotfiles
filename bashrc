@@ -76,7 +76,7 @@ export HISTCONTROL=$HISTCONTROL${HISTCONTROL+,}erasedups
 # HISTIGNORE is a colon-delimited list of patterns which should be excluded.
 # The '&' is a special pattern which suppresses duplicate entries.
 # export HISTIGNORE=$'[ \t]*:&:[fb]g:exit'
-export HISTIGNORE=$'[ \t]*:&:[fb]g:exit:ls' # Ignore the ls command as well
+export HISTIGNORE=$'[ \t]*:&:[fb]g:exit:ls*:dmesg:htop:top:mount*:umount*:df*:du*:history*:cd*:sync:grep*:ps*'
 #
 # Save a "bit" more lines on the history
 export HISTSIZE=1000000
