@@ -21,6 +21,7 @@ ln -sf ~/git/dotfiles/fonts.conf ~/.fonts.conf
 ln -sf ~/git/dotfiles/fonts ~/.local/share/fonts
 ln -sf ~/git/dotfiles/gitconfig ~/.gitconfig
 ln -sf ~/git/dotfiles/inputrc ~/.inputrc
+mkdir -p ~/.config/matplotlib
 ln -sf ~/git/dotfiles/matplotlibrc ~/.config/matplotlib/matplotlibrc
 ln -sf ~/git/dotfiles/sway ~/.config/sway
 ln -sf ~/git/dotfiles/screenrc ~/.screenrc
@@ -32,6 +33,8 @@ ln -sf ~/git/dotfiles/XCompose ~/.XCompose
 ln -sf ~/git/dotfiles/Xresources ~/.Xresources
 ln -sf ~/git/dotfiles/xsession ~/.xsession
 ln -sf ~/git/dotfiles/zim ~/.config/zim
+mkdir -p ~/.config/alacritty
+ln -sf ~/git/dotfiles/alacritty.yml ~/.config/alacritty/alacritty.yml
 ```
 ### Help
 
