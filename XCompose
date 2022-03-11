@@ -21,6 +21,10 @@ include "%L"
 <dead_tilde> <V>             : "↑" U2191
 <dead_tilde> <greater>       : "→" U2192
 <dead_tilde> <v>             : "↓" U2193
+<dead_tilde> <Left>          : "←" U2190
+<dead_tilde> <Up>            : "↑" U2191
+<dead_tilde> <Right>         : "→" U2192
+<dead_tilde> <Down>          : "↓" U2193
 # Dashes
 <dead_tilde> <minus>         : "–" U2013
 <dead_tilde> <minus> <minus> : "—" U2014
