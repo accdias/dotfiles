@@ -2,32 +2,35 @@
 # -*- coding: utf-8; mode: config -*-
 # vim: ft=config
 
-# See: /usr/share/X11/locale/en_US.UTF-8/Compose
+# Run ibus restart to reload on Gnome
+
+# See
+# - /usr/share/X11/locale/en_US.UTF-8/Compose
 include "%L"
 
-# See:
-# http://bleah.co.uk/~simon/stuff/XCompose
-# and
-# https://tools.ietf.org/html/rfc1345
+# See
+# - http://bleah.co.uk/~simon/stuff/XCompose
+# - https://tools.ietf.org/html/rfc1345
 
 # Apostrophe
-<dead_acute> <dead_acute>    : "'"
-<dead_acute>                 : "'"
+<dead_acute> <dead_acute>               : "'"
+<dead_acute>                            : "'"
+
 # Cedilla
-<dead_acute> <C>             : "Ç"
-<dead_acute> <c>             : "ç"
+<dead_acute> <C>                        : "Ç"
+<dead_acute> <c>                        : "ç"
+
 # Arrows
-<dead_tilde> <less>          : "←" U2190
-<dead_tilde> <V>             : "↑" U2191
-<dead_tilde> <greater>       : "→" U2192
-<dead_tilde> <v>             : "↓" U2193
-<dead_tilde> <Left>          : "←" U2190
-<dead_tilde> <Up>            : "↑" U2191
-<dead_tilde> <Right>         : "→" U2192
-<dead_tilde> <Down>          : "↓" U2193
+<dead_tilde> <Left>                     : "←" U2190
+<dead_tilde> <Up>                       : "↑" U2191
+<dead_tilde> <Right>                    : "→" U2192
+<dead_tilde> <Down>                     : "↓" U2193
+
 # Dashes
-<dead_tilde> <minus>         : "–" U2013
-<dead_tilde> <minus> <minus> : "—" U2014
+<dead_tilde> <minus>                    : "–" U2013
+<dead_tilde> <minus> <minus>            : "—" U2014
+
 # Ellipsis
-#<dead_tilde> <.>             : "…" U2026
+<dead_tilde> <period> <period> <period> : "…" U2026
+
 # -*- EOF -*-
