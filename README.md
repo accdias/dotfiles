@@ -33,8 +33,7 @@ ln -sf ~/git/dotfiles/XCompose ~/.XCompose
 ln -sf ~/git/dotfiles/Xresources ~/.Xresources
 ln -sf ~/git/dotfiles/xsession ~/.xsession
 ln -sf ~/git/dotfiles/zim ~/.config/zim
-mkdir -p ~/.config/alacritty
-ln -sf ~/git/dotfiles/alacritty.yml ~/.config/alacritty/alacritty.yml
+ln -sf ~/git/dotfiles/alacritty ~/.config/alacritty
 ```
 ### Help
 
