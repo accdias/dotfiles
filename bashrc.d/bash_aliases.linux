@@ -133,12 +133,32 @@ if [[ -r /usr/bin/ssh-copy-id ]]; then
     }
 fi
 
+if [[ -r /usr/bin/ssh-keygen ]]; then
+    pubkey() {
+        if [[ -n "$@" ]]; then
+            ssh-keygen -y -f "$@" > "$@".pub
+        else
+            echo "Usage: pubkey <private-key-file>"
+        fi
+    }
+fi
+
+if [[ -r /usr/bin/ssh ]]; then
+    noage() {
+        if [[ -n "$@" ]]; then
+            ssh $1 "sudo chage -I -1 -m 0 -M 99999 -E -1 $2"
+        else
+            echo "Usage: noage <host> <account>"
+        fi
+    }
+fi
+
 # Do we have apt-get installed?
 if [[ -r /usr/bin/apt-get ]]; then
-    alias aptupdate='sudo apt-get update'
-    alias aptupgrade='sudo apt-get upgrade -y'
-    alias aptdist-upgrade='sudo apt-get dist-upgrade -y'
-    aptpurge() {
+    alias aptupd='sudo apt-get update'
+    alias aptupg='sudo apt-get upgrade -y'
+    alias aptdist='sudo apt-get dist-upgrade -y'
+    aptpur() {
         sudo apt-get purge -y $(dpkg -l | awk "/^rc/{print \$2}")
     }
 fi
