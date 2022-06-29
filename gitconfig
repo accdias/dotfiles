@@ -21,3 +21,5 @@ co = checkout
 tool = vimdiff
 [init]
 	defaultBranch = main
+[credential]
+	helper = /usr/lib/git-core/git-credential-libsecret
