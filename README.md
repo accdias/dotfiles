@@ -82,27 +82,13 @@ ln -sf ~/git/dotfiles/alacritty ~/.config/alacritty
 
 ### Credits
 
-#### Gnome Terminal
-
-* Kudos to [Mayccoll](https://github.com/Mayccoll) and his
-[Gnome Terminal color schemes](https://github.com/Mayccoll/Gogh/blob/master/content/themes.md)
-
-#### screenrc
-
-* Kudos to [Sven Guckes](http://www.guckes.net) for his
-[screenrc](http://www.guckes.net/Setup/screenrc) file.
-
-#### sway
-* Check the [sway WiKi](https://github.com/swaywm/sway/wiki) out.
-
-#### tmux.conf
-
-* Kudos to [Peter Forgacs](http://peterforgacs.github.io) for his
-[tmux.conf article](http://peterforgacs.github.io/2017/04/25/Tmux/)
-from where I borrowed some tweaks and the idea for a help on the keybindings.
-
-#### vimrc
-
-* Kudos to the nicest and smartest vim community at
-[/r/vim](https://www.reddit.com/r/vim) for tips about
-tuning, readability and vimscript.
+- Gnome Terminal
+  * Kudos to [Mayccoll](https://github.com/Mayccoll) and his [Gnome Terminal color schemes](https://github.com/Mayccoll/Gogh/blob/master/content/themes.md)
+- screenrc
+  * Kudos to [Sven Guckes](http://www.guckes.net) for his [screenrc](http://www.guckes.net/Setup/screenrc) file.
+- sway
+  * Check the [sway WiKi](https://github.com/swaywm/sway/wiki) out.
+- tmux.conf
+  * Kudos to [Peter Forgacs](http://peterforgacs.github.io) for his [tmux.conf article](http://peterforgacs.github.io/2017/04/25/Tmux/) from where I borrowed some tweaks and the idea for a help on the keybindings.
+- vimrc
+  * Kudos to the nicest and smartest vim community at [/r/vim](https://www.reddit.com/r/vim) for tips about tuning, readability and vimscript.
