@@ -44,6 +44,7 @@ ln -sf ~/git/dotfiles/alacritty ~/.config/alacritty
 | Key combination                               | Action                  |
 |:----------------------------------------------|:------------------------|
 | <kbd>Ctrl</kbd><kbd>a</kbd> 	                | Command                 |
+|                                               |                         |
 | <kbd>Command</kbd><kbd>t</kbd>                | New window              |
 | <kbd>Command</kbd><kbd>w</kbd>                | Kill pane               |
 | <kbd>Command</kbd><kbd>q</kbd>                | Kill session            |
@@ -51,8 +52,8 @@ ln -sf ~/git/dotfiles/alacritty ~/.config/alacritty
 | <kbd>Command</kbd><kbd>z</kbd>                | Zoom to pane            |
 | <kbd>Command</kbd><kbd>$</kbd>                | Rename session          |
 | <kbd>Command</kbd><kbd>,</kbd>                | Rename window           |
-| <kbd>Command</kbd><kbd>g</kbd>                | Split vertically        |
-| <kbd>Command</kbd><kbd>h</kbd>                | Split horizontally      |
+| <kbd>Command</kbd><kbd>v</kbd>                | Split vertically        |
+| <kbd>Command</kbd><kbd>s</kbd>                | Split horizontally      |
 | <kbd>Command</kbd><kbd>?</kbd>                | List keyboard shortcuts |
 | <kbd>Command</kbd><kbd>:</kbd>                | Command prompt          |
 | <kbd>Command</kbd><kbd>s</kbd>                | List sessions           |
@@ -99,5 +100,3 @@ from where I borrowed some tweaks and the idea for a help on the keybindings.
 * Kudos to the nicest and smartest vim community at
 [/r/vim](https://www.reddit.com/r/vim) for tips about
 tuning, readability and vimscript.
-
-
