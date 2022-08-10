@@ -11,7 +11,11 @@ scriptencoding utf8                     " Configuration file is in UTF-8
 
 " Use the operating system clipboard by default
 if has('clipboard')
-    set clipboard^=unnamedplus
+    if has('unnamedplus')
+        set clipboard^=unnamedplus
+    else
+        set clipboard^=unnamed
+    endif
     set clipboard+=autoselect
 endif
 
