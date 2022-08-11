@@ -1,3 +1,5 @@
 # ~/.bash_logout
-[[ -r ~/.bashrc.d/${OSCODENAME}/logout ]] && source ~/.bashrc.d/${OSCODENAME}/logout
+if [[ -r ~/.bashrc.d/${OSCODENAME}/logout ]]; then
+    source ~/.bashrc.d/${OSCODENAME}/logout
+fi
 # EOF
