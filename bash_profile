@@ -39,8 +39,13 @@ esac
 export OSCODENAME
 
 # source the users bashrc if it exists
-if [[ -f "${HOME}/.bashrc" ]]; then
+if [[ -r "${HOME}/.bashrc" ]]; then
     source "${HOME}/.bashrc"
+fi
+
+# source platform specific profile if it exists
+if [[ -r "${HOME}/.bashrc.d/${OSCODENAME}/profile" ]]; then
+    source "${HOME}/.bashrc.d/${OSCODENAME}/profile"
 fi
 
 # Set PATH so it includes user's private bin if it exists
