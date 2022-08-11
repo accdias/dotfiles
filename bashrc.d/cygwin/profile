@@ -5,8 +5,8 @@ if [[ -d "/cygdrive/c/Program Files/Oracle/VirtualBox" ]]; then
 fi
 
 # Start ssh-pageant if available
-if [ -z "$SSH_PAGEANT_PID" -a -x /usr/bin/pageant ]; then
-    eval $(/usr/bin/pageant -q)
+if [ -z "$SSH_PAGEANT_PID" -a -x /usr/bin/ssh-pageant ]; then
+    eval $(/usr/bin/ssh-pageant -q)
 fi
 trap logout HUP
 
