@@ -1,6 +1,6 @@
 # ~/.bashrc.d/bash_aliases.cygwin
 alias start='cygstart'
-alias chromeprofile="cd /cygdrive/c/Users/${USER}/AppData/Local/Google/Chrome/User\ Data/Default'
+alias chromeprofile="cd /cygdrive/c/Users/${USER}/AppData/Local/Google/Chrome/User\ Data/Default"
 alias rmtorrents="find /cygdrive/c/Users/${USER}/AppData/Roaming/uTorrent/ -type f -name '*.torrent' -ls -exec rm {} +;"
 alias roaming="cd /cygdrive/c/Users/${USER}/AppData/Roaming/"
 alias appdata='cd /cygdrive/c/Users/${USER}/AppData'
