@@ -102,16 +102,16 @@ export LIBVA_DRIVER_NAME=iHD
 #export CDPATH=.:~
 
 # Color helper variables
-[[ -f "${HOME}/.bashrc.d/bash_colors" ]] && source "${HOME}/.bashrc.d/bash_colors"
+[[ -f "${HOME}/.bashrc.d/bash_colors" ]] && source "${HOME}/.bashrc.d/colors"
 
 # Aliases
-[[ -f "${HOME}/.bashrc.d/bash_aliases" ]] && source "${HOME}/.bashrc.d/bash_aliases"
+[[ -f "${HOME}/.bashrc.d/aliases" ]] && source "${HOME}/.bashrc.d/aliases"
 
 # Functions
-[[ -f "${HOME}/.bashrc.d/bash_functions" ]] && source "${HOME}/.bashrc.d/bash_functions"
+[[ -f "${HOME}/.bashrc.d/bash_functions" ]] && source "${HOME}/.bashrc.d/functions"
 
 # Prompts
-[[ -f "${HOME}/.bashrc.d/bash_prompts" ]] && source "${HOME}/.bashrc.d/bash_prompts"
+[[ -f "${HOME}/.bashrc.d/bash_prompts" ]] && source "${HOME}/.bashrc.d/prompts"
 
 # Umask
 # /etc/profile sets 022, removing write perms to group + others.
