@@ -1,5 +1,104 @@
-# ~/.bash_aliases
+# ~/.bashrc.d/common/aliases
+#
+# Some example alias instructions
+# If these are enabled they will be used instead of any instructions
+# they may mask.  For example, alias rm='rm -i' will mask the rm
+# application.  To override the alias instruction use a \ before, ie
+# \rm will call the real rm not the alias.
+#
+# Interactive operation...
+# alias rm='rm -i'
+# alias cp='cp -i'
+# alias mv='mv -i'
+#
+# Default to human readable figures
+# alias df='df -h'
+# alias du='du -h'
+#
+# Misc :)
+alias less='less -r'                              # raw control characters
+# alias whence='type -a'                          # where, of a sort
+alias grep='grep --color'                         # show differences in colour
+alias cgrep='egrep -v "^\s*(#|;|$)" --color=auto' # strip comments from files
+alias egrep='egrep --color=auto'                  # show differences in colour
+alias fgrep='fgrep --color=auto'                  # show differences in colour
+#
+# Some shortcuts for different directory listings
+alias ls='ls -hF --color=tty --group-directories-first' # classify files in colour show directories on top
+# alias dir='ls --color=auto --format=vertical'
+# alias vdir='ls --color=auto --format=long'
+# alias ll='ls -l'                              # long list
+# alias la='ls -A'                              # all but . and ..
+# alias l='ls -CF'                              #
+
+# give the sum of values from a file
+alias sumfile="awk 'BEGIN{s=0}{s=s+\$0}END{print s}'"
+
+# curl based aliases and functions
+if [[ -r /usr/bin/curl ]]; then
+    alias myip='curl -s -o- http://ip4.me/api/ | cut -d, -f2 && curl -s -o- http://ip6.me/api/ | cut -d, -f2'
+fi
+
+# OpenSSH shortcuts
+if [[ -r /usr/bin/ssh-copy-id ]]; then
+    copy-id() {
+        if [[ -n "$@" ]]; then
+            ssh-copy-id -i ~/.ssh/pki/accdias/id_rsa.pub "$@"
+        else
+            echo "Usage: copy-id <host>"
+        fi
+    }
+fi
+
+if [[ -r /usr/bin/ssh-keygen ]]; then
+    pubkey() {
+        if [[ -n "$@" ]]; then
+            ssh-keygen -y -f "$@" > "$@".pub
+        else
+            echo "Usage: pubkey <private-key-file>"
+        fi
+    }
+fi
+
+if [[ -r /usr/bin/ssh ]]; then
+    noage() {
+        if [[ -n "$@" ]]; then
+            ssh $1 "sudo chage -I -1 -m 0 -M 99999 -E -1 $2"
+        else
+            echo "Usage: noage <host> <account>"
+        fi
+    }
+fi
+
+# Fetchs a file from an URL
+fetchit() {
+    filename=$(basename "$1")
+    filename=${filename/\?*/}
+    if [[ -n "$1" ]] && [[ -n "${filename}" ]]; then
+        curl -q -o "${filename}" "$1"
+    fi
+}
+
+# Do we have vimx installed?
+if [[ -r /usr/bin/vimx ]]; then
+    alias vim='/usr/bin/vimx'
+fi
+
+# Convert human sizes to bytes
+if [[ -r /usr/bin/numfmt ]]; then
+    alias bytes='numfmt --from=iec'
+fi
+
+# ffmpeg aliases
+if [[ -r /usr/bin/ffmpeg ]]; then
+    alias addsrt='echo ffmpeg -i "${1}" -i "${1/.mp4/.srt}" c:v copy -c:a copy -c:s mov_text "${1/.mp4/-srt.mp4}"'
+    alias mkv2mp4='echo ffmpeg -i "${1}" -codec copy "${1/.mkv/.mp4}"'
+    alias avi2mp4='echo ffmpeg -i "${1}" -codec copy "${1/.avi/.mp4}"'
+fi
+
 # source platform specific aliases
 if test -r ~/.bashrc.d/${OSCODENAME}/aliases; then
     source ~/.bashrc.d/${OSCODENAME}/aliases
 fi
+
+# EOF
