@@ -1,0 +1,13 @@
+# ~/.bashrc.d/cygwin/profile
+# Check if VirtualBox is available
+if [[ -d "/cygdrive/c/Program Files/Oracle/VirtualBox" ]]; then
+    export PATH="${PATH}:/cygdrive/c/Program Files/Oracle/VirtualBox"
+fi
+
+# Start ssh-pageant if available
+if [[ -z "$SSH_PAGEANT_PID" -a -x /usr/bin/pageant ]]; then
+    eval $(/usr/bin/pageant -q)
+fi
+trap logout HUP
+
+# EOF
