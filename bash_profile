@@ -23,6 +23,21 @@
 
 # User dependent .bash_profile file
 
+case "$OSTYPE" in
+    linux*)
+        OSCODENAME="linux"
+        ;;
+    cygwin)
+        OSCODENAME="cygwin"
+        ;;
+    darwin*)
+        OSCODENAME="macos"
+        ;;
+    *)
+        ;;
+esac
+export OSCODENAME
+
 # source the users bashrc if it exists
 if [[ -f "${HOME}/.bashrc" ]]; then
     source "${HOME}/.bashrc"

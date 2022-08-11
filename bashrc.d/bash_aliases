@@ -1,18 +1,5 @@
 # ~/.bash_aliases
-case "$OSTYPE" in
-    linux*)
-        OSCODENAME="linux"
-        ;;
-    cygwin)
-        OSCODENAME="cygwin"
-        ;;
-    darwin*)
-        OSCODENAME="macos"
-        ;;
-    *)
-        ;;
-esac
-
-if test -r ~/.bashrc.d/bash_aliases.${OSCODENAME}; then
-    source ~/.bashrc.d/bash_aliases.${OSCODENAME}
+# source platform specific aliases
+if test -r ~/.bashrc.d/${OSCODENAME}/aliases; then
+    source ~/.bashrc.d/${OSCODENAME}/aliases
 fi
