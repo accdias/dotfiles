@@ -10,7 +10,7 @@
 !URxvt*termName: rxvt-unicode-256color
 URxvt*termName: xterm-256color
 /* Lines of history to save */
-URxvt*saveLines: 4096
+URxvt*saveLines: 1000000
 /* Start as a login shell by prepending a - to argv[0] of the shell */
 URxvt*loginShell: true
 /* Turn on/off hold window after exit support. If enabled, urwvt will not immediately
@@ -94,7 +94,7 @@ URxvt.internalBorder: 0
 URxvt.externalBorder: 0
 
 /* Draw underline on URL */
-URxvt*underlineURLs: false
+URxvt*underlineURLs: true
 
 /* Turn on/off ISO 14755 (default enabled) */
 URxvt*iso14755: false
@@ -109,13 +109,15 @@ URxvt.perl-ext-common: default,selection-to-clipboard,confirm-paste
 URxvt.urlLauncher: /usr/bin/xdg-open
 URxvt.matcher.button: 1
 
-/* Bind C--, C-0(=) and C-+ to activate small, medium, and big font size resp. */
-!URxvt.keysym.C-Up:     font-size:increase
-!URxvt.keysym.C-Down:   font-size:decrease
-!URxvt.keysym.C-plus:   font-size:incglobal
+/* Bind Ctrl -, Ctrl 0 and Ctrl + to decrese, reset, and increse font size
+ * depends on Perl font-size extension
+ */
+!URxvt.keysym.C-Up:    font-size:increase
+!URxvt.keysym.C-Down:  font-size:decrease
+!URxvt.keysym.C-equal: font-size:incglobal
 !URxvt.keysym.C-minus: font-size:decglobal
-!URxvt.keysym.C-equal:  font-size:reset
-!URxvt.keysym.C-slash:  font-size:show
+!URxvt.keysym.C-0:     font-size:reset
+!URxvt.keysym.C-slash: font-size:show
 
 /* Disable printing the terminal contents when pressing PrintScreen */
 URxvt.print-pipe: "cat >/dev/null"
