@@ -11,11 +11,13 @@
   /* To report the TERM variable correctly with 256 colors support */
   XTerm*termName: xterm-256color
   /* Lines of history to save */
-  XTerm*saveLines: 4096
+  XTerm*saveLines: 1000000
   /* Interpret all incoming data as UTF-8 encoded */
   XTerm*locale: True
   /* Start as a login shell by prepending a - to argv[0] of the shell */
   XTerm*loginShell: True
+  /* Selected content is copied to clipboard */
+  XTerm*selectToClipboard: True
 !!! }}}
 
 
