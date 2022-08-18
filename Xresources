@@ -23,7 +23,8 @@
 
 
 !!! Font {{{
-  Xft.dpi: 96
+!  Xft.dpi: 96
+  Xft.dpi: 100
   Xft.antialias: True
   Xft.hinting: True
   Xft.hintstyle: hintslight
