@@ -2,12 +2,50 @@
 #
 # Check "bind -P" for all keybindings
 #
+# vim:ts=8:sts=4:sw=4:et
 
 # Preserve distro defaults
 $include /etc/inputrc
 
-# Alt-s prefix the line with sudo
-"\es": "\C-P\C-asudo \C-e"
+# Allow 8-bit input/output
+set meta-flag on
+set convert-meta off
+set input-meta on
+set output-meta on
+
+# Show matching parentesis, brackets etc
+set blink-matching-paren on
+
+# Some systems need this to enable the arrow keys
+#set enable-keypad on
+
+$if Bash
+    # Insert a space in the end of line a history expansion
+    Space: magic-space
+    # Disable terminal beeps
+    set bell-style none
+    # Filename completion/expansion
+    #set completion-ignore-case on
+    set show-all-if-ambiguous on
+    # Expand homedir name
+    #set expand-tilde on
+    # Match all files
+    #set match-hidden-files on
+    # Use different colors to indicate file types
+    set colored-stats On
+    # Show visible marks to indicate file types
+    set visible-stats On
+    # Append "/" to all directory names
+    set mark-directories on
+    # Mark symlinked directories
+    set mark-symlinked-directories On
+    # Color the common prefix
+    set colored-completion-prefix On
+    # Color the common prefix in menu-complete
+    set menu-complete-display-prefix On
+    # Don't show control characters output (e.g. ^C)
+    set echo-control-characters off
+$endif
 
 # the following line is actually
 # equivalent to "\C-?": delete-char
@@ -29,88 +67,19 @@ $include /etc/inputrc
 "\eOH": beginning-of-line
 "\eOF": end-of-line
 
-#set editing-mode vi
+# ESC-s appends "sudo" to the beginning of the current line
+"\es": "\C-asudo \C-e"
 
-$if mode=vi
-    set keymap vi-command
-    # these are for vi-command mode
-    #"\e[A": history-search-backward
-    #"\e[B": history-search-forward
-    "\e[A": history-substring-search-backward
-    "\e[B": history-substring-search-forward
-    #j: history-search-forward
-    #k: history-search-backward
-    j: history-substring-search-backward
-    k: history-substring-search-forward
-    set keymap vi-insert
-    # these are for vi-insert mode
-    #"\e[A": history-search-backward
-    #"\e[B": history-search-forward
-    "\e[A": history-substring-search-backward
-    "\e[B": history-substring-search-forward
-
-    # Set vi mode for line editing. This disable
-    # the arrows binding above
-    #set show-mode-in-prompt On
-
-    # Change cursor shape to indicate the mode
-    #set vi-ins-mode-string "\1\e[?8c\2"
-    #set vi-cmd-mode-string "\1\e[?6c\2"
-$else
-    # Use up and down arrows to search history
-    #"\e[A": history-search-backward
-    #"\e[B": history-search-forward
-    "\e[A": history-substring-search-backward
-    "\e[B": history-substring-search-forward
-$endif
+# Use up and down arrows to search history
+"\e[A": history-substring-search-backward
+"\e[B": history-substring-search-forward
 
 # Use left and right arrows as usual
 "\e[C": forward-char
 "\e[D": backward-char
 
-# Allow 8-bit input/output
-set meta-flag on
-set convert-meta off
-set input-meta on
-set output-meta on
+# Use Alt-left and Alt-right to move to beginning and end of line
+"\e[1;3D": beginning-of-line
+"\e[1;3C": end-of-line
 
-# Show matching parentesis, brackets etc
-set blink-matching-paren on
-
-$if Bash
-    # Don't ring bell on completion
-    set bell-style none
-
-    # or, don't beep at me - show me
-    #set bell-style visible
-
-    # Filename completion/expansion
-    #set completion-ignore-case on
-    set show-all-if-ambiguous on
-
-    # Expand homedir name
-    #set expand-tilde on
-
-    # Append "/" to all dirnames
-    set mark-directories on
-    set mark-symlinked-directories on
-
-    # Match all files
-    #set match-hidden-files on
-
-    # Insert a space in the end of line a history expansion
-    Space: magic-space
-    # Use different colors to indicate file types
-    set colored-stats On
-    # Show visible marks to indicate file types
-    set visible-stats On
-    # Mark symlinked directories
-    set mark-symlinked-directories On
-    # Color the common prefix
-    set colored-completion-prefix On
-    # Color the common prefix in menu-complete
-    set menu-complete-display-prefix On
-    # Don't show control characters output (e.g. ^C)
-    set echo-control-characters off
-$endif
-# vim:ts=8:sts=4:sw=4:et
+# End of file
