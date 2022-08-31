@@ -98,12 +98,11 @@ $if Bash
     # Match all files
     #set match-hidden-files on
 
-    # 'Magic Space'
-    # Insert a space character then performs
-    # a history expansion in the line
+    # Insert a space in the end of line a history expansion
     Space: magic-space
-
-    #set colored-stats On
+    # Use different colors to indicate file types
+    set colored-stats On
+    # Show visible marks to indicate file types
     set visible-stats On
     # Mark symlinked directories
     set mark-symlinked-directories On
