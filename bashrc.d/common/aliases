@@ -47,6 +47,16 @@ alias sumfile="awk 'BEGIN{s=0}{s=s+\$0}END{print s}'"
 # curl based aliases and functions
 if [[ -r /usr/bin/curl ]]; then
     alias myip='curl -s -o- http://ip4.me/api/ | cut -d, -f2 && curl -s -o- http://ip6.me/api/ | cut -d, -f2'
+    alias weather='curl wttr.in'
+    alias tempo='curl wttr.in'
+# Fetchs a file from an URL
+fetchit() {
+    filename=$(basename "$1")
+    filename=${filename/\?*/}
+    if [[ -n "$1" ]] && [[ -n "${filename}" ]]; then
+        curl -q -o "${filename}" "$1"
+    fi
+}
 fi
 
 # OpenSSH shortcuts
@@ -79,15 +89,6 @@ if [[ -r /usr/bin/ssh ]]; then
         fi
     }
 fi
-
-# Fetchs a file from an URL
-fetchit() {
-    filename=$(basename "$1")
-    filename=${filename/\?*/}
-    if [[ -n "$1" ]] && [[ -n "${filename}" ]]; then
-        curl -q -o "${filename}" "$1"
-    fi
-}
 
 # Do we have vimx installed?
 if [[ -r /usr/bin/vimx ]]; then
