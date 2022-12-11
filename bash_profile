@@ -78,5 +78,8 @@ if [[ -x /usr/bin/dircolors ]]; then
     eval $(/usr/bin/dircolors)
 fi
 
+# Disable pygame nag prompt
+export PYGAME_HIDE_SUPPORT_PROMPT=yes
+
 # JIC
 tput init
