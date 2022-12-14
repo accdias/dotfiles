@@ -222,7 +222,7 @@ if has('autocmd')
         autocmd FileType text,markdown
             \ setlocal textwidth=75 " spell
         " Defaults for some languages
-        autocmd FileType tex,xslt,xml,css,html,xhtml,javascript,docbook
+        autocmd FileType tex,xslt,xml,css,html,xhtml,javascript,docbook,json
             \ set softtabstop=2 shiftwidth=2
     augroup END
 
