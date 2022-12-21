@@ -90,4 +90,10 @@ fi
 if [[ -r /usr/bin/sxconsole ]]; then
     alias sxc='sxconsole $@ -R ~/Downloads -ME'
 fi
+
+# Do we have ether-wake installed?
+if [[ -r /usr/sbin/ether-wake ]]; then
+    alias wakeup='sudo ether-wake'
+fi
+
 # EOF
