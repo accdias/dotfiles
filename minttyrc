@@ -1,5 +1,7 @@
 AllowBlinking=no
 BellTaskbar=no
+BellFlash=no
+BellType=0
 BoldAsColour=yes
 BoldAsFont=no
 Charset=UTF-8
