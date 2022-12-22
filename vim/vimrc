@@ -28,6 +28,9 @@ set showmatch                           " show matching bracket
 set matchtime=2                         " show matching bracket for 0.2 seconds
 set matchpairs+=<:>                     " specially for html
 set title                               " show file in titlebar
+set visualbell                          " set visualbell and ...
+set t_vb=                               " ...make it do nothing
+
 " Better mark chars for list mode
 set listchars+=tab:»-
 set listchars+=trail:⋅
