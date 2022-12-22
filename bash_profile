@@ -27,7 +27,7 @@ case "$OSTYPE" in
     linux*)
         OSCODENAME="linux"
         ;;
-    cygwin)
+    cygwin | msys)
         OSCODENAME="cygwin"
         ;;
     darwin*)
