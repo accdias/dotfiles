@@ -51,6 +51,7 @@ shopt -s checkwinsize
 
 # Completion options
 [[ "$OSTYPE" == "cygwin" ]] && shopt -s completion_strip_exe
+[[ "$OSTYPE" == "msys" ]] && shopt -s completion_strip_exe
 #
 # These completion tuning parameters change the default behavior of bash_completion:
 #

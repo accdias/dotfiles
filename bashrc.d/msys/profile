@@ -1,0 +1,16 @@
+# ~/.bashrc.d/msys/profile
+
+export MSYS=winsymlinks
+
+# Check if VirtualBox is available
+if [[ -d "/c/Program Files/Oracle/VirtualBox" ]]; then
+    export PATH="${PATH}:/c/Program Files/Oracle/VirtualBox"
+fi
+
+# Start ssh-pageant if available
+if [ -z "$SSH_PAGEANT_PID" -a -x /usr/bin/ssh-pageant ]; then
+    eval $(/usr/bin/ssh-pageant -q)
+fi
+trap logout HUP
+
+# EOF

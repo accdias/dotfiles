@@ -30,6 +30,9 @@ case "$OSTYPE" in
     cygwin | msys)
         OSCODENAME="cygwin"
         ;;
+    msys)
+        OSCODENAME="msys"
+        ;;
     darwin*)
         OSCODENAME="macos"
         ;;
