@@ -1,19 +1,22 @@
-79
+83
 Hack-Bold.ttf -misc-hack-bold-r-normal--0-0-0-0-m-0-iso10646-1
 Hack-Bold.ttf -misc-hack-bold-r-normal--0-0-0-0-m-0-iso8859-1
 Hack-Bold.ttf -misc-hack-bold-r-normal--0-0-0-0-m-0-iso8859-15
+Hack-Bold.ttf -misc-hack-bold-r-normal--0-0-0-0-m-0-iso8859-7
 Hack-Bold.ttf -misc-hack-bold-r-normal--0-0-0-0-m-0-iso8859-9
 Hack-Bold.ttf -misc-hack-bold-r-normal--0-0-0-0-m-0-koi8-r
 Hack-Bold.ttf -misc-hack-bold-r-normal--0-0-0-0-m-0-koi8-u
 Hack-BoldOblique.ttf -misc-hack-bold-o-normal--0-0-0-0-m-0-iso10646-1
 Hack-BoldOblique.ttf -misc-hack-bold-o-normal--0-0-0-0-m-0-iso8859-1
 Hack-BoldOblique.ttf -misc-hack-bold-o-normal--0-0-0-0-m-0-iso8859-15
+Hack-BoldOblique.ttf -misc-hack-bold-o-normal--0-0-0-0-m-0-iso8859-7
 Hack-BoldOblique.ttf -misc-hack-bold-o-normal--0-0-0-0-m-0-iso8859-9
 Hack-BoldOblique.ttf -misc-hack-bold-o-normal--0-0-0-0-m-0-koi8-r
 Hack-BoldOblique.ttf -misc-hack-bold-o-normal--0-0-0-0-m-0-koi8-u
 Hack-Regular.ttf -misc-hack-medium-r-normal--0-0-0-0-m-0-iso10646-1
 Hack-Regular.ttf -misc-hack-medium-r-normal--0-0-0-0-m-0-iso8859-1
 Hack-Regular.ttf -misc-hack-medium-r-normal--0-0-0-0-m-0-iso8859-15
+Hack-Regular.ttf -misc-hack-medium-r-normal--0-0-0-0-m-0-iso8859-7
 Hack-Regular.ttf -misc-hack-medium-r-normal--0-0-0-0-m-0-iso8859-9
 Hack-Regular.ttf -misc-hack-medium-r-normal--0-0-0-0-m-0-koi8-r
 Hack-Regular.ttf -misc-hack-medium-r-normal--0-0-0-0-m-0-koi8-u
@@ -40,6 +43,7 @@ MyriadSetPro-Semibold.ttf -apple-myriadsetpro semibold-semibold-r-normal--0-0-0-
 MyriadSetPro-Semibold.ttf -apple-myriadsetpro semibold-semibold-r-normal--0-0-0-0-p-0-iso8859-3
 MyriadSetPro-Semibold.ttf -apple-myriadsetpro semibold-semibold-r-normal--0-0-0-0-p-0-iso8859-4
 MyriadSetPro-Semibold.ttf -apple-myriadsetpro semibold-semibold-r-normal--0-0-0-0-p-0-iso8859-5
+MyriadSetPro-Semibold.ttf -apple-myriadsetpro semibold-semibold-r-normal--0-0-0-0-p-0-iso8859-7
 MyriadSetPro-Semibold.ttf -apple-myriadsetpro semibold-semibold-r-normal--0-0-0-0-p-0-iso8859-9
 MyriadSetPro-Semibold.ttf -apple-myriadsetpro semibold-semibold-r-normal--0-0-0-0-p-0-koi8-e
 MyriadSetPro-Semibold.ttf -apple-myriadsetpro semibold-semibold-r-normal--0-0-0-0-p-0-koi8-r
