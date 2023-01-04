@@ -124,9 +124,10 @@ genpasswd() {
 # Set/unset proxy variables
 setproxy() {
     if [ "$1" == "-" ]; then
-        unset {{HTTP,HTTPS,FTP,SOCKS}_PROXY,{http,https,ftp,socks}_proxy}
+        unset {{HTTP,HTTPS,FTP,SOCKS,NO}_PROXY,{http,https,ftp,socks,no}_proxy}
     else
         export {{HTTP,HTTPS,FTP,SOCKS}_PROXY,{http,https,ftp,socks}_proxy}=socks5h://$1
+        export no_proxy='localhost; 172.31.254.*; 192.168.*'
     fi
 }
 
