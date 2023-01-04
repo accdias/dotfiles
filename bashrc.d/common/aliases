@@ -49,14 +49,15 @@ if [[ -r /usr/bin/curl ]]; then
     alias myip='curl -s -o- http://ip4.me/api/ | cut -d, -f2 && curl -s -o- http://ip6.me/api/ | cut -d, -f2'
     alias weather='curl wttr.in'
     alias tempo='curl wttr.in'
-# Fetchs a file from an URL
-fetchit() {
-    filename=$(basename "$1")
-    filename=${filename/\?*/}
-    if [[ -n "$1" ]] && [[ -n "${filename}" ]]; then
-        curl -q -o "${filename}" "$1"
-    fi
-}
+
+    # Fetchs a file from an URL
+    fetchit() {
+        filename=$(basename "$1")
+        filename=${filename/\?*/}
+        if [[ -n "$1" ]] && [[ -n "${filename}" ]]; then
+            curl -q -o "${filename}" "$1"
+        fi
+    }
 fi
 
 # OpenSSH shortcuts
@@ -108,7 +109,7 @@ if [[ -r /usr/bin/ffmpeg ]]; then
 fi
 
 # source platform specific aliases
-if test -r ~/.bashrc.d/${OSCODENAME}/aliases; then
+if [[ -r ~/.bashrc.d/${OSCODENAME}/aliases]]; then
     source ~/.bashrc.d/${OSCODENAME}/aliases
 fi
 
