@@ -109,7 +109,7 @@ if [[ -r /usr/bin/ffmpeg ]]; then
 fi
 
 # source platform specific aliases
-if [[ -r ~/.bashrc.d/${OSCODENAME}/aliases]]; then
+if [[ -r ~/.bashrc.d/${OSCODENAME}/aliases ]]; then
     source ~/.bashrc.d/${OSCODENAME}/aliases
 fi
 
