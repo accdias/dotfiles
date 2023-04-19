@@ -15,7 +15,6 @@ git clone https://github.com/accdias/dotfiles
 cd ~
 ln -sf ~/git/dotfiles/XCompose ~/.XCompose
 ln -sf ~/git/dotfiles/Xresources ~/.Xresources
-ln -sf ~/git/dotfiles/alacritty ~/.config/alacritty
 ln -sf ~/git/dotfiles/bash_profile ~/.bash_profile
 ln -sf ~/git/dotfiles/bashrc ~/.bashrc
 ln -sf ~/git/dotfiles/bashrc.d ~/.bashrc.d
