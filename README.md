@@ -43,11 +43,11 @@ ln -sf ~/git/dotfiles/zim ~/.config/zim
 |:----------------------------------------------|:------------------------|
 | <kbd>Ctrl</kbd><kbd>a</kbd> 	                | Command                 |
 |                                               |                         |
+| <kbd>Alt</kbd><kbd>0</kbd>                    | Load default workspace  |
+|                                               |                         |
 | <kbd>Command</kbd><kbd>:</kbd>                | Command prompt          |
 |                                               |                         |
-| <kbd>Command</kbd><kbd>r</kbd>                | Reload tmux config      |
-| <kbd>Command</kbd><kbd>r</kbd>                | Reload session          |
-| <kbd>Command</kbd><kbd>Ctrl</kbd><kbd>s</kbd> | Save session            |
+| <kbd>Command</kbd><kbd>r</kbd>                | Reload configuration    |
 |                                               |                         |
 | <kbd>Command</kbd><kbd>t</kbd>                | New window              |
 |                                               |                         |
@@ -57,9 +57,9 @@ ln -sf ~/git/dotfiles/zim ~/.config/zim
 | <kbd>Command</kbd><kbd>$</kbd>                | Rename session          |
 | <kbd>Command</kbd><kbd>,</kbd>                | Rename window           |
 |                                               |                         |
-| <kbd>Command</kbd><kbd>v</kbd>                | Split vertically        |
-| <kbd>Command</kbd><kbd>s</kbd>                | Split horizontally      |
-| <kbd>Command</kbd><kbd>z</kbd>                | Zoom to pane            |
+| <kbd>Command</kbd><kbd>-</kbd>                | Split pane vertically   |
+| <kbd>Command</kbd><kbd>|</kbd>                | Split pane horizontally |
+| <kbd>Command</kbd><kbd>z</kbd>                | Zoom pane in and out    |
 |                                               |                         |
 | <kbd>Command</kbd><kbd>?</kbd>                | List keyboard shortcuts |
 | <kbd>Command</kbd><kbd>s</kbd>                | List sessions           |
