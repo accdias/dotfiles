@@ -218,6 +218,14 @@ filetype plugin indent on
 
 " Only do this part when compiled with support for autocommands.
 if has('autocmd')
+    function StripTrailingWhitespace()
+      if !&binary && &filetype != 'diff'
+        normal mZ
+        %s/\s\+$//e
+        normal `Z
+      endif
+    endfunction
+
     augroup formats
         autocmd!
         " For all text files set 'textwidth' to 78 characters and spell
@@ -251,7 +259,7 @@ if has('autocmd')
     augroup autotrim
         autocmd!
         " Remove trailing white spaces before saving
-        autocmd BufWritePre * silent! %s/\s\+$//ge
+        autocmd BufWritePre * call StripTrailingWhitespace()
     augroup END
 
     augroup reloadvimrc
