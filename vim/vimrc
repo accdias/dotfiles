@@ -218,25 +218,20 @@ filetype plugin indent on
 
 " Only do this part when compiled with support for autocommands.
 if has('autocmd')
-    function StripTrailingWhitespace()
-      if !&binary && &filetype != 'diff'
-        normal mZ
-        %s/\s\+$//e
-        normal `Z
-      endif
-    endfunction
+    augroup markdown_tweaks
+        autocmd FileType markdown
+            \ setlocal textwidth=75 foldlevel=2
+        autocmd FileType markdown
+            \ let g:markdown_folding=1
+    augroup END
 
     augroup formats
         autocmd!
-        " For all text files set 'textwidth' to 78 characters and spell
-        " checking
-        autocmd FileType text,markdown
-            \ setlocal textwidth=75 " spell
-        autocmd FileType markdown
-            \ let g:markdown_folding=1
-        autocmd FileType markdown
-            \ setlocal foldlevel=2
-        " Defaults for some languages
+        " Text files with textwidth set to 78 characters
+        " and spell checking
+        autocmd FileType text
+            \ setlocal textwidth=75 spell
+       " Defaults for some languages
         autocmd FileType tex,xslt,xml,css,html,xhtml,javascript,docbook,json
             \ set softtabstop=2 shiftwidth=2
     augroup END
@@ -261,9 +256,16 @@ if has('autocmd')
     augroup END
 
     augroup autotrim
+        function AutoTrim()
+          if !&binary && &filetype != 'diff'
+            normal mZ
+            %s/\s\+$//e
+            normal `Z
+          endif
+        endfunction
         autocmd!
         " Remove trailing white spaces before saving
-        autocmd BufWritePre * call StripTrailingWhitespace()
+        autocmd BufWritePre * call AutoTrim()
     augroup END
 
     augroup reloadvimrc
