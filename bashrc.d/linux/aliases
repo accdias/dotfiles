@@ -36,9 +36,9 @@ fi
 
 # Do we have DNF?
 if [[ -r /usr/bin/dnf ]]; then
-    alias dnfupdate='sudo dnf update -y --refresh'
-    alias dnfupgrade='sudo dnf upgrade -y --refresh'
-    alias dnfhistory='sudo dnf history --reverse | tail'
+    alias dnfupd='sudo dnf update -y --refresh'
+    alias dnfupg='sudo dnf upgrade -y --refresh'
+    alias dnfhis='sudo dnf history --reverse | tail'
     dnfinfo() {
         if [[ -n "$@" ]]; then
             sudo dnf info "$@"
@@ -46,14 +46,14 @@ if [[ -r /usr/bin/dnf ]]; then
             echo "Usage: dnfinfo <package>"
         fi
     }
-    dnfinstall() {
+    dnfins() {
         if [[ -n "$@" ]]; then
             sudo dnf install "$@"
         else
             echo "Usage: dnfinstall <package>"
         fi
     }
-    dnfremove() {
+    dnfrm() {
         if [[ -n "$@" ]]; then
             sudo dnf remove "$@"
         else
@@ -93,7 +93,7 @@ fi
 
 # Do we have ether-wake installed?
 if [[ -r /usr/sbin/ether-wake ]]; then
-    alias wakeup='sudo ether-wake'
+    alias wakeup='sudo ether-wake -i enp0s25'
 fi
 
 # EOF
