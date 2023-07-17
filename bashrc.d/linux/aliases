@@ -36,40 +36,40 @@ fi
 
 # Do we have DNF?
 if [[ -r /usr/bin/dnf ]]; then
-    alias dnfupd='sudo dnf update -y --refresh'
-    alias dnfupg='sudo dnf upgrade -y --refresh'
-    alias dnfhis='sudo dnf history --reverse | tail'
+    alias dnfupd='sudo /usr/bin/dnf update -y --refresh'
+    alias dnfupg='sudo /usr/bin/dnf upgrade -y --refresh'
+    alias dnfhis='sudo /usr/bin/dnf history --reverse last-9..last'
     dnfinfo() {
         if [[ -n "$@" ]]; then
-            sudo dnf info "$@"
+            sudo /usr/bin/dnf info "$@"
         else
             echo "Usage: dnfinfo <package>"
         fi
     }
     dnfins() {
         if [[ -n "$@" ]]; then
-            sudo dnf install "$@"
+            sudo /usr/bin/dnf install "$@"
         else
             echo "Usage: dnfinstall <package>"
         fi
     }
     dnfrm() {
         if [[ -n "$@" ]]; then
-            sudo dnf remove "$@"
+            sudo /usr/bin/dnf remove "$@"
         else
             echo "Usage: dnfremove <package>"
         fi
     }
     dnfsearch() {
         if [[ -n "$@" ]]; then
-            sudo dnf search "$@"
+            sudo /usr/bin/dnf search "$@"
         else
             echo "Usage: dnfsearch <something>"
         fi
     }
     dnfprovides() {
         if [[ -n "$@" ]]; then
-            sudo dnf provides "$@" | grep -Ev '^(Repo|Matched|Filename|$)'
+            sudo /usr/bin/dnf provides "$@" | grep -Ev '^(Repo|Matched|Filename|$)'
         else
             echo "Usage: dnfprovides <something>"
         fi
