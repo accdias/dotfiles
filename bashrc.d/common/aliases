@@ -24,21 +24,32 @@ if [[ -r /usr/bin/less ]]; then
 fi
 
 # grep aliases
-if [[ -r /usr/bin/less ]]; then
+if [[ -r /usr/bin/grep ]]; then
     alias grep='grep --color'                         # show differences in colour
     alias cgrep='egrep --color -v "^\s*(#|;|$)"' # strip comments from files
     alias egrep='egrep --color'                  # show differences in colour
     alias fgrep='fgrep --color'                  # show differences in colour
 fi
 
-# ls aliases
-if [[ -r /usr/bin/less ]]; then
+if [[ -r /usr/bin/ls ]]; then
     alias ls='ls -hF --color=tty --group-directories-first --hyperlink' # classify files in colour show directories on top
     # alias dir='ls --color=auto --format=vertical'
     # alias vdir='ls --color=auto --format=long'
     # alias ll='ls -l' # long list
     # alias la='ls -A' # all but . and ..
     # alias l='ls -CF' #
+fi
+
+# Prefer exa if available
+if [[ -r /usr/bin/exa]]; then
+    # classify files in colour show directories on top
+    alias ls='/usr/bin/exa -F --color=auto --icons --group-directories-first'
+fi
+
+# Prefer lsd if available
+if [[ -r /usr/bin/lsd ]]; then
+    # classify files in colour show directories on top
+    alias ls='/usr/bin/lsd'
 fi
 
 # give the sum of values from a file
