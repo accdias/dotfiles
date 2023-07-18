@@ -41,7 +41,7 @@ if [[ -r /usr/bin/ls ]]; then
 fi
 
 # Prefer exa if available
-if [[ -r /usr/bin/exa]]; then
+if [[ -r /usr/bin/exa ]]; then
     # classify files in colour show directories on top
     alias ls='/usr/bin/exa -F --color=auto --icons --group-directories-first'
 fi
