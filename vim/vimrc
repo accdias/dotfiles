@@ -150,6 +150,12 @@ if &t_Co > 2 || has('gui_running')
     set hlsearch
 endif
 
+" Enable VIM 8+ builtin plugin system
+if has('package')
+    packloadall
+    silent! helptags ALL
+endif
+
 " Expose trailing white spaces
 match WhitespaceEOL /\s\+$/
 
