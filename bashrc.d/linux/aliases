@@ -36,9 +36,17 @@ fi
 
 # Do we have DNF?
 if [[ -r /usr/bin/dnf ]]; then
-    alias dnfupd='sudo /usr/bin/dnf update -y --refresh'
-    alias dnfupg='sudo /usr/bin/dnf upgrade -y --refresh'
-    alias dnfhis='sudo /usr/bin/dnf history --reverse last-9..last'
+    alias dnfupdate='sudo /usr/bin/dnf update -y --refresh'
+    alias dnfupgrade='sudo /usr/bin/dnf upgrade -y --refresh'
+    alias dnftail='sudo /usr/bin/dnf history --reverse last-9..last'
+    alias dnfundo='sudo /usr/bin/dnf history undo last'
+    dnfsearch() {
+        if [[ -n "$@" ]]; then
+            sudo /usr/bin/dnf search "$@"
+        else
+            echo "Usage: dnfsearch <something>"
+        fi
+    }
     dnfinfo() {
         if [[ -n "$@" ]]; then
             sudo /usr/bin/dnf info "$@"
@@ -46,25 +54,18 @@ if [[ -r /usr/bin/dnf ]]; then
             echo "Usage: dnfinfo <package>"
         fi
     }
-    dnfins() {
+    dnfinstall() {
         if [[ -n "$@" ]]; then
             sudo /usr/bin/dnf install "$@"
         else
             echo "Usage: dnfinstall <package>"
         fi
     }
-    dnfrm() {
+    dnfremove() {
         if [[ -n "$@" ]]; then
             sudo /usr/bin/dnf remove "$@"
         else
             echo "Usage: dnfremove <package>"
-        fi
-    }
-    dnfsearch() {
-        if [[ -n "$@" ]]; then
-            sudo /usr/bin/dnf search "$@"
-        else
-            echo "Usage: dnfsearch <something>"
         fi
     }
     dnfprovides() {
