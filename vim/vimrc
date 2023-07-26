@@ -161,6 +161,7 @@ match WhitespaceEOL /\s\+$/
 
 " Remap Leader key to comma
 let mapleader=','
+let maplocalleader=','
 
 " Use <Leader>> and <Leader>< to page between buffers
 noremap <silent><Leader>< :bp<cr>
