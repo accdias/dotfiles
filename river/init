@@ -74,8 +74,7 @@ riverctl map-pointer normal Super BTN_RIGHT resize-view
 # Super + Middle Mouse Button to toggle float
 riverctl map-pointer normal Super BTN_MIDDLE toggle-float
 
-for i in $(seq 1 9)
-do
+for i in {1..9}; do
     tags=$((1 << ($i - 1)))
 
     # Super+[1-9] to focus tag [0-8]
@@ -121,8 +120,7 @@ riverctl map passthrough Super F11 enter-mode normal
 
 # Various media key mapping examples for both normal and locked mode which do
 # not have a modifier
-for mode in normal locked
-do
+for mode in normal locked; do
     # Eject the optical drive (well if you still have one that is)
     riverctl map $mode None XF86Eject spawn 'eject -T'
 
