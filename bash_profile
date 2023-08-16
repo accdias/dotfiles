@@ -67,15 +67,15 @@ if [[ -d "${HOME}/usr/info" ]]; then
 fi
 
 # Are you we on a SSH session?
-if [[ -n $SSH_TTY ]]; then
-    # Do we have screen installed?
-    if [[ -n $(which screen) ]]; then
-        # Is screen already running?
-        if [[ ! $TERM =~ ^screen.*  ]]; then
-            screen -xRR
-        fi
-    fi
-fi
+# if [[ -n $SSH_TTY ]]; then
+#     # Do we have screen installed?
+#     if [[ -n $(which screen) ]]; then
+#         # Is screen already running?
+#         if [[ ! $TERM =~ ^screen.*  ]]; then
+#             screen -xRR
+#         fi
+#     fi
+# fi
 
 if [[ -x /usr/bin/dircolors ]]; then
     eval $(/usr/bin/dircolors)
