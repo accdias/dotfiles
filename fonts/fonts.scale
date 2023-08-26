@@ -1,4 +1,274 @@
-120
+390
+3270NerdFont-Condensed.ttf -misc-3270 nerd font cond-medium-r-normal--0-0-0-0-m-0-iso10646-1
+3270NerdFont-Condensed.ttf -misc-3270 nerd font cond-medium-r-normal--0-0-0-0-m-0-iso8859-1
+3270NerdFont-Condensed.ttf -misc-3270 nerd font cond-medium-r-normal--0-0-0-0-m-0-iso8859-10
+3270NerdFont-Condensed.ttf -misc-3270 nerd font cond-medium-r-normal--0-0-0-0-m-0-iso8859-15
+3270NerdFont-Condensed.ttf -misc-3270 nerd font cond-medium-r-normal--0-0-0-0-m-0-iso8859-2
+3270NerdFont-Condensed.ttf -misc-3270 nerd font cond-medium-r-normal--0-0-0-0-m-0-iso8859-3
+3270NerdFont-Condensed.ttf -misc-3270 nerd font cond-medium-r-normal--0-0-0-0-m-0-iso8859-4
+3270NerdFont-Condensed.ttf -misc-3270 nerd font cond-medium-r-normal--0-0-0-0-m-0-iso8859-5
+3270NerdFont-Condensed.ttf -misc-3270 nerd font cond-medium-r-normal--0-0-0-0-m-0-iso8859-7
+3270NerdFont-Condensed.ttf -misc-3270 nerd font cond-medium-r-normal--0-0-0-0-m-0-iso8859-9
+3270NerdFont-Condensed.ttf -misc-3270 nerd font cond-medium-r-normal--0-0-0-0-m-0-koi8-e
+3270NerdFont-Condensed.ttf -misc-3270 nerd font cond-medium-r-normal--0-0-0-0-m-0-koi8-r
+3270NerdFont-Condensed.ttf -misc-3270 nerd font cond-medium-r-normal--0-0-0-0-m-0-koi8-ru
+3270NerdFont-Condensed.ttf -misc-3270 nerd font cond-medium-r-normal--0-0-0-0-m-0-koi8-u
+3270NerdFont-Condensed.ttf -misc-3270 nerd font cond-medium-r-normal--0-0-0-0-m-0-koi8-uni
+3270NerdFont-Regular.ttf -misc-3270 nerd font-medium-r-normal--0-0-0-0-m-0-iso10646-1
+3270NerdFont-Regular.ttf -misc-3270 nerd font-medium-r-normal--0-0-0-0-m-0-iso8859-1
+3270NerdFont-Regular.ttf -misc-3270 nerd font-medium-r-normal--0-0-0-0-m-0-iso8859-10
+3270NerdFont-Regular.ttf -misc-3270 nerd font-medium-r-normal--0-0-0-0-m-0-iso8859-15
+3270NerdFont-Regular.ttf -misc-3270 nerd font-medium-r-normal--0-0-0-0-m-0-iso8859-2
+3270NerdFont-Regular.ttf -misc-3270 nerd font-medium-r-normal--0-0-0-0-m-0-iso8859-3
+3270NerdFont-Regular.ttf -misc-3270 nerd font-medium-r-normal--0-0-0-0-m-0-iso8859-4
+3270NerdFont-Regular.ttf -misc-3270 nerd font-medium-r-normal--0-0-0-0-m-0-iso8859-5
+3270NerdFont-Regular.ttf -misc-3270 nerd font-medium-r-normal--0-0-0-0-m-0-iso8859-7
+3270NerdFont-Regular.ttf -misc-3270 nerd font-medium-r-normal--0-0-0-0-m-0-iso8859-9
+3270NerdFont-Regular.ttf -misc-3270 nerd font-medium-r-normal--0-0-0-0-m-0-koi8-e
+3270NerdFont-Regular.ttf -misc-3270 nerd font-medium-r-normal--0-0-0-0-m-0-koi8-r
+3270NerdFont-Regular.ttf -misc-3270 nerd font-medium-r-normal--0-0-0-0-m-0-koi8-ru
+3270NerdFont-Regular.ttf -misc-3270 nerd font-medium-r-normal--0-0-0-0-m-0-koi8-u
+3270NerdFont-Regular.ttf -misc-3270 nerd font-medium-r-normal--0-0-0-0-m-0-koi8-uni
+3270NerdFont-SemiCondensed.ttf -misc-3270 nerd font semcond-medium-r-normal--0-0-0-0-m-0-iso10646-1
+3270NerdFont-SemiCondensed.ttf -misc-3270 nerd font semcond-medium-r-normal--0-0-0-0-m-0-iso8859-1
+3270NerdFont-SemiCondensed.ttf -misc-3270 nerd font semcond-medium-r-normal--0-0-0-0-m-0-iso8859-10
+3270NerdFont-SemiCondensed.ttf -misc-3270 nerd font semcond-medium-r-normal--0-0-0-0-m-0-iso8859-15
+3270NerdFont-SemiCondensed.ttf -misc-3270 nerd font semcond-medium-r-normal--0-0-0-0-m-0-iso8859-2
+3270NerdFont-SemiCondensed.ttf -misc-3270 nerd font semcond-medium-r-normal--0-0-0-0-m-0-iso8859-3
+3270NerdFont-SemiCondensed.ttf -misc-3270 nerd font semcond-medium-r-normal--0-0-0-0-m-0-iso8859-4
+3270NerdFont-SemiCondensed.ttf -misc-3270 nerd font semcond-medium-r-normal--0-0-0-0-m-0-iso8859-5
+3270NerdFont-SemiCondensed.ttf -misc-3270 nerd font semcond-medium-r-normal--0-0-0-0-m-0-iso8859-7
+3270NerdFont-SemiCondensed.ttf -misc-3270 nerd font semcond-medium-r-normal--0-0-0-0-m-0-iso8859-9
+3270NerdFont-SemiCondensed.ttf -misc-3270 nerd font semcond-medium-r-normal--0-0-0-0-m-0-koi8-e
+3270NerdFont-SemiCondensed.ttf -misc-3270 nerd font semcond-medium-r-normal--0-0-0-0-m-0-koi8-r
+3270NerdFont-SemiCondensed.ttf -misc-3270 nerd font semcond-medium-r-normal--0-0-0-0-m-0-koi8-ru
+3270NerdFont-SemiCondensed.ttf -misc-3270 nerd font semcond-medium-r-normal--0-0-0-0-m-0-koi8-u
+3270NerdFont-SemiCondensed.ttf -misc-3270 nerd font semcond-medium-r-normal--0-0-0-0-m-0-koi8-uni
+3270NerdFontMono-Condensed.ttf -misc-3270 nerd font mono cond-medium-r-normal--0-0-0-0-m-0-iso10646-1
+3270NerdFontMono-Condensed.ttf -misc-3270 nerd font mono cond-medium-r-normal--0-0-0-0-m-0-iso8859-1
+3270NerdFontMono-Condensed.ttf -misc-3270 nerd font mono cond-medium-r-normal--0-0-0-0-m-0-iso8859-10
+3270NerdFontMono-Condensed.ttf -misc-3270 nerd font mono cond-medium-r-normal--0-0-0-0-m-0-iso8859-15
+3270NerdFontMono-Condensed.ttf -misc-3270 nerd font mono cond-medium-r-normal--0-0-0-0-m-0-iso8859-2
+3270NerdFontMono-Condensed.ttf -misc-3270 nerd font mono cond-medium-r-normal--0-0-0-0-m-0-iso8859-3
+3270NerdFontMono-Condensed.ttf -misc-3270 nerd font mono cond-medium-r-normal--0-0-0-0-m-0-iso8859-4
+3270NerdFontMono-Condensed.ttf -misc-3270 nerd font mono cond-medium-r-normal--0-0-0-0-m-0-iso8859-5
+3270NerdFontMono-Condensed.ttf -misc-3270 nerd font mono cond-medium-r-normal--0-0-0-0-m-0-iso8859-7
+3270NerdFontMono-Condensed.ttf -misc-3270 nerd font mono cond-medium-r-normal--0-0-0-0-m-0-iso8859-9
+3270NerdFontMono-Condensed.ttf -misc-3270 nerd font mono cond-medium-r-normal--0-0-0-0-m-0-koi8-e
+3270NerdFontMono-Condensed.ttf -misc-3270 nerd font mono cond-medium-r-normal--0-0-0-0-m-0-koi8-r
+3270NerdFontMono-Condensed.ttf -misc-3270 nerd font mono cond-medium-r-normal--0-0-0-0-m-0-koi8-ru
+3270NerdFontMono-Condensed.ttf -misc-3270 nerd font mono cond-medium-r-normal--0-0-0-0-m-0-koi8-u
+3270NerdFontMono-Condensed.ttf -misc-3270 nerd font mono cond-medium-r-normal--0-0-0-0-m-0-koi8-uni
+3270NerdFontMono-Regular.ttf -misc-3270 nerd font mono-medium-r-normal--0-0-0-0-m-0-iso10646-1
+3270NerdFontMono-Regular.ttf -misc-3270 nerd font mono-medium-r-normal--0-0-0-0-m-0-iso8859-1
+3270NerdFontMono-Regular.ttf -misc-3270 nerd font mono-medium-r-normal--0-0-0-0-m-0-iso8859-10
+3270NerdFontMono-Regular.ttf -misc-3270 nerd font mono-medium-r-normal--0-0-0-0-m-0-iso8859-15
+3270NerdFontMono-Regular.ttf -misc-3270 nerd font mono-medium-r-normal--0-0-0-0-m-0-iso8859-2
+3270NerdFontMono-Regular.ttf -misc-3270 nerd font mono-medium-r-normal--0-0-0-0-m-0-iso8859-3
+3270NerdFontMono-Regular.ttf -misc-3270 nerd font mono-medium-r-normal--0-0-0-0-m-0-iso8859-4
+3270NerdFontMono-Regular.ttf -misc-3270 nerd font mono-medium-r-normal--0-0-0-0-m-0-iso8859-5
+3270NerdFontMono-Regular.ttf -misc-3270 nerd font mono-medium-r-normal--0-0-0-0-m-0-iso8859-7
+3270NerdFontMono-Regular.ttf -misc-3270 nerd font mono-medium-r-normal--0-0-0-0-m-0-iso8859-9
+3270NerdFontMono-Regular.ttf -misc-3270 nerd font mono-medium-r-normal--0-0-0-0-m-0-koi8-e
+3270NerdFontMono-Regular.ttf -misc-3270 nerd font mono-medium-r-normal--0-0-0-0-m-0-koi8-r
+3270NerdFontMono-Regular.ttf -misc-3270 nerd font mono-medium-r-normal--0-0-0-0-m-0-koi8-ru
+3270NerdFontMono-Regular.ttf -misc-3270 nerd font mono-medium-r-normal--0-0-0-0-m-0-koi8-u
+3270NerdFontMono-Regular.ttf -misc-3270 nerd font mono-medium-r-normal--0-0-0-0-m-0-koi8-uni
+3270NerdFontMono-SemiCondensed.ttf -misc-3270 nerd font mono semcond-medium-r-normal--0-0-0-0-m-0-iso10646-1
+3270NerdFontMono-SemiCondensed.ttf -misc-3270 nerd font mono semcond-medium-r-normal--0-0-0-0-m-0-iso8859-1
+3270NerdFontMono-SemiCondensed.ttf -misc-3270 nerd font mono semcond-medium-r-normal--0-0-0-0-m-0-iso8859-10
+3270NerdFontMono-SemiCondensed.ttf -misc-3270 nerd font mono semcond-medium-r-normal--0-0-0-0-m-0-iso8859-15
+3270NerdFontMono-SemiCondensed.ttf -misc-3270 nerd font mono semcond-medium-r-normal--0-0-0-0-m-0-iso8859-2
+3270NerdFontMono-SemiCondensed.ttf -misc-3270 nerd font mono semcond-medium-r-normal--0-0-0-0-m-0-iso8859-3
+3270NerdFontMono-SemiCondensed.ttf -misc-3270 nerd font mono semcond-medium-r-normal--0-0-0-0-m-0-iso8859-4
+3270NerdFontMono-SemiCondensed.ttf -misc-3270 nerd font mono semcond-medium-r-normal--0-0-0-0-m-0-iso8859-5
+3270NerdFontMono-SemiCondensed.ttf -misc-3270 nerd font mono semcond-medium-r-normal--0-0-0-0-m-0-iso8859-7
+3270NerdFontMono-SemiCondensed.ttf -misc-3270 nerd font mono semcond-medium-r-normal--0-0-0-0-m-0-iso8859-9
+3270NerdFontMono-SemiCondensed.ttf -misc-3270 nerd font mono semcond-medium-r-normal--0-0-0-0-m-0-koi8-e
+3270NerdFontMono-SemiCondensed.ttf -misc-3270 nerd font mono semcond-medium-r-normal--0-0-0-0-m-0-koi8-r
+3270NerdFontMono-SemiCondensed.ttf -misc-3270 nerd font mono semcond-medium-r-normal--0-0-0-0-m-0-koi8-ru
+3270NerdFontMono-SemiCondensed.ttf -misc-3270 nerd font mono semcond-medium-r-normal--0-0-0-0-m-0-koi8-u
+3270NerdFontMono-SemiCondensed.ttf -misc-3270 nerd font mono semcond-medium-r-normal--0-0-0-0-m-0-koi8-uni
+3270NerdFontPropo-Condensed.ttf -misc-3270 nerd font propo cond-medium-r-normal--0-0-0-0-p-0-iso10646-1
+3270NerdFontPropo-Condensed.ttf -misc-3270 nerd font propo cond-medium-r-normal--0-0-0-0-p-0-iso8859-1
+3270NerdFontPropo-Condensed.ttf -misc-3270 nerd font propo cond-medium-r-normal--0-0-0-0-p-0-iso8859-10
+3270NerdFontPropo-Condensed.ttf -misc-3270 nerd font propo cond-medium-r-normal--0-0-0-0-p-0-iso8859-15
+3270NerdFontPropo-Condensed.ttf -misc-3270 nerd font propo cond-medium-r-normal--0-0-0-0-p-0-iso8859-2
+3270NerdFontPropo-Condensed.ttf -misc-3270 nerd font propo cond-medium-r-normal--0-0-0-0-p-0-iso8859-3
+3270NerdFontPropo-Condensed.ttf -misc-3270 nerd font propo cond-medium-r-normal--0-0-0-0-p-0-iso8859-4
+3270NerdFontPropo-Condensed.ttf -misc-3270 nerd font propo cond-medium-r-normal--0-0-0-0-p-0-iso8859-5
+3270NerdFontPropo-Condensed.ttf -misc-3270 nerd font propo cond-medium-r-normal--0-0-0-0-p-0-iso8859-7
+3270NerdFontPropo-Condensed.ttf -misc-3270 nerd font propo cond-medium-r-normal--0-0-0-0-p-0-iso8859-9
+3270NerdFontPropo-Condensed.ttf -misc-3270 nerd font propo cond-medium-r-normal--0-0-0-0-p-0-koi8-e
+3270NerdFontPropo-Condensed.ttf -misc-3270 nerd font propo cond-medium-r-normal--0-0-0-0-p-0-koi8-r
+3270NerdFontPropo-Condensed.ttf -misc-3270 nerd font propo cond-medium-r-normal--0-0-0-0-p-0-koi8-ru
+3270NerdFontPropo-Condensed.ttf -misc-3270 nerd font propo cond-medium-r-normal--0-0-0-0-p-0-koi8-u
+3270NerdFontPropo-Condensed.ttf -misc-3270 nerd font propo cond-medium-r-normal--0-0-0-0-p-0-koi8-uni
+3270NerdFontPropo-Regular.ttf -misc-3270 nerd font propo-medium-r-normal--0-0-0-0-p-0-iso10646-1
+3270NerdFontPropo-Regular.ttf -misc-3270 nerd font propo-medium-r-normal--0-0-0-0-p-0-iso8859-1
+3270NerdFontPropo-Regular.ttf -misc-3270 nerd font propo-medium-r-normal--0-0-0-0-p-0-iso8859-10
+3270NerdFontPropo-Regular.ttf -misc-3270 nerd font propo-medium-r-normal--0-0-0-0-p-0-iso8859-15
+3270NerdFontPropo-Regular.ttf -misc-3270 nerd font propo-medium-r-normal--0-0-0-0-p-0-iso8859-2
+3270NerdFontPropo-Regular.ttf -misc-3270 nerd font propo-medium-r-normal--0-0-0-0-p-0-iso8859-3
+3270NerdFontPropo-Regular.ttf -misc-3270 nerd font propo-medium-r-normal--0-0-0-0-p-0-iso8859-4
+3270NerdFontPropo-Regular.ttf -misc-3270 nerd font propo-medium-r-normal--0-0-0-0-p-0-iso8859-5
+3270NerdFontPropo-Regular.ttf -misc-3270 nerd font propo-medium-r-normal--0-0-0-0-p-0-iso8859-7
+3270NerdFontPropo-Regular.ttf -misc-3270 nerd font propo-medium-r-normal--0-0-0-0-p-0-iso8859-9
+3270NerdFontPropo-Regular.ttf -misc-3270 nerd font propo-medium-r-normal--0-0-0-0-p-0-koi8-e
+3270NerdFontPropo-Regular.ttf -misc-3270 nerd font propo-medium-r-normal--0-0-0-0-p-0-koi8-r
+3270NerdFontPropo-Regular.ttf -misc-3270 nerd font propo-medium-r-normal--0-0-0-0-p-0-koi8-ru
+3270NerdFontPropo-Regular.ttf -misc-3270 nerd font propo-medium-r-normal--0-0-0-0-p-0-koi8-u
+3270NerdFontPropo-Regular.ttf -misc-3270 nerd font propo-medium-r-normal--0-0-0-0-p-0-koi8-uni
+3270NerdFontPropo-SemiCondensed.ttf -misc-3270 nerd font propo semcond-medium-r-normal--0-0-0-0-p-0-iso10646-1
+3270NerdFontPropo-SemiCondensed.ttf -misc-3270 nerd font propo semcond-medium-r-normal--0-0-0-0-p-0-iso8859-1
+3270NerdFontPropo-SemiCondensed.ttf -misc-3270 nerd font propo semcond-medium-r-normal--0-0-0-0-p-0-iso8859-10
+3270NerdFontPropo-SemiCondensed.ttf -misc-3270 nerd font propo semcond-medium-r-normal--0-0-0-0-p-0-iso8859-15
+3270NerdFontPropo-SemiCondensed.ttf -misc-3270 nerd font propo semcond-medium-r-normal--0-0-0-0-p-0-iso8859-2
+3270NerdFontPropo-SemiCondensed.ttf -misc-3270 nerd font propo semcond-medium-r-normal--0-0-0-0-p-0-iso8859-3
+3270NerdFontPropo-SemiCondensed.ttf -misc-3270 nerd font propo semcond-medium-r-normal--0-0-0-0-p-0-iso8859-4
+3270NerdFontPropo-SemiCondensed.ttf -misc-3270 nerd font propo semcond-medium-r-normal--0-0-0-0-p-0-iso8859-5
+3270NerdFontPropo-SemiCondensed.ttf -misc-3270 nerd font propo semcond-medium-r-normal--0-0-0-0-p-0-iso8859-7
+3270NerdFontPropo-SemiCondensed.ttf -misc-3270 nerd font propo semcond-medium-r-normal--0-0-0-0-p-0-iso8859-9
+3270NerdFontPropo-SemiCondensed.ttf -misc-3270 nerd font propo semcond-medium-r-normal--0-0-0-0-p-0-koi8-e
+3270NerdFontPropo-SemiCondensed.ttf -misc-3270 nerd font propo semcond-medium-r-normal--0-0-0-0-p-0-koi8-r
+3270NerdFontPropo-SemiCondensed.ttf -misc-3270 nerd font propo semcond-medium-r-normal--0-0-0-0-p-0-koi8-ru
+3270NerdFontPropo-SemiCondensed.ttf -misc-3270 nerd font propo semcond-medium-r-normal--0-0-0-0-p-0-koi8-u
+3270NerdFontPropo-SemiCondensed.ttf -misc-3270 nerd font propo semcond-medium-r-normal--0-0-0-0-p-0-koi8-uni
+CodeNewRomanNerdFont-Bold.otf -misc-codenewroman nerd font-bold-r-normal--0-0-0-0-p-0-iso10646-1
+CodeNewRomanNerdFont-Bold.otf -misc-codenewroman nerd font-bold-r-normal--0-0-0-0-p-0-iso8859-1
+CodeNewRomanNerdFont-Bold.otf -misc-codenewroman nerd font-bold-r-normal--0-0-0-0-p-0-iso8859-10
+CodeNewRomanNerdFont-Bold.otf -misc-codenewroman nerd font-bold-r-normal--0-0-0-0-p-0-iso8859-15
+CodeNewRomanNerdFont-Bold.otf -misc-codenewroman nerd font-bold-r-normal--0-0-0-0-p-0-iso8859-2
+CodeNewRomanNerdFont-Bold.otf -misc-codenewroman nerd font-bold-r-normal--0-0-0-0-p-0-iso8859-3
+CodeNewRomanNerdFont-Bold.otf -misc-codenewroman nerd font-bold-r-normal--0-0-0-0-p-0-iso8859-4
+CodeNewRomanNerdFont-Bold.otf -misc-codenewroman nerd font-bold-r-normal--0-0-0-0-p-0-iso8859-5
+CodeNewRomanNerdFont-Bold.otf -misc-codenewroman nerd font-bold-r-normal--0-0-0-0-p-0-iso8859-7
+CodeNewRomanNerdFont-Bold.otf -misc-codenewroman nerd font-bold-r-normal--0-0-0-0-p-0-iso8859-9
+CodeNewRomanNerdFont-Bold.otf -misc-codenewroman nerd font-bold-r-normal--0-0-0-0-p-0-koi8-e
+CodeNewRomanNerdFont-Bold.otf -misc-codenewroman nerd font-bold-r-normal--0-0-0-0-p-0-koi8-r
+CodeNewRomanNerdFont-Bold.otf -misc-codenewroman nerd font-bold-r-normal--0-0-0-0-p-0-koi8-ru
+CodeNewRomanNerdFont-Bold.otf -misc-codenewroman nerd font-bold-r-normal--0-0-0-0-p-0-koi8-u
+CodeNewRomanNerdFont-Bold.otf -misc-codenewroman nerd font-bold-r-normal--0-0-0-0-p-0-koi8-uni
+CodeNewRomanNerdFont-Italic.otf -misc-codenewroman nerd font-medium-i-normal--0-0-0-0-p-0-iso10646-1
+CodeNewRomanNerdFont-Italic.otf -misc-codenewroman nerd font-medium-i-normal--0-0-0-0-p-0-iso8859-1
+CodeNewRomanNerdFont-Italic.otf -misc-codenewroman nerd font-medium-i-normal--0-0-0-0-p-0-iso8859-10
+CodeNewRomanNerdFont-Italic.otf -misc-codenewroman nerd font-medium-i-normal--0-0-0-0-p-0-iso8859-15
+CodeNewRomanNerdFont-Italic.otf -misc-codenewroman nerd font-medium-i-normal--0-0-0-0-p-0-iso8859-2
+CodeNewRomanNerdFont-Italic.otf -misc-codenewroman nerd font-medium-i-normal--0-0-0-0-p-0-iso8859-3
+CodeNewRomanNerdFont-Italic.otf -misc-codenewroman nerd font-medium-i-normal--0-0-0-0-p-0-iso8859-4
+CodeNewRomanNerdFont-Italic.otf -misc-codenewroman nerd font-medium-i-normal--0-0-0-0-p-0-iso8859-5
+CodeNewRomanNerdFont-Italic.otf -misc-codenewroman nerd font-medium-i-normal--0-0-0-0-p-0-iso8859-7
+CodeNewRomanNerdFont-Italic.otf -misc-codenewroman nerd font-medium-i-normal--0-0-0-0-p-0-iso8859-9
+CodeNewRomanNerdFont-Italic.otf -misc-codenewroman nerd font-medium-i-normal--0-0-0-0-p-0-koi8-e
+CodeNewRomanNerdFont-Italic.otf -misc-codenewroman nerd font-medium-i-normal--0-0-0-0-p-0-koi8-r
+CodeNewRomanNerdFont-Italic.otf -misc-codenewroman nerd font-medium-i-normal--0-0-0-0-p-0-koi8-ru
+CodeNewRomanNerdFont-Italic.otf -misc-codenewroman nerd font-medium-i-normal--0-0-0-0-p-0-koi8-u
+CodeNewRomanNerdFont-Italic.otf -misc-codenewroman nerd font-medium-i-normal--0-0-0-0-p-0-koi8-uni
+CodeNewRomanNerdFont-Regular.otf -misc-codenewroman nerd font-medium-r-normal--0-0-0-0-p-0-iso10646-1
+CodeNewRomanNerdFont-Regular.otf -misc-codenewroman nerd font-medium-r-normal--0-0-0-0-p-0-iso8859-1
+CodeNewRomanNerdFont-Regular.otf -misc-codenewroman nerd font-medium-r-normal--0-0-0-0-p-0-iso8859-10
+CodeNewRomanNerdFont-Regular.otf -misc-codenewroman nerd font-medium-r-normal--0-0-0-0-p-0-iso8859-15
+CodeNewRomanNerdFont-Regular.otf -misc-codenewroman nerd font-medium-r-normal--0-0-0-0-p-0-iso8859-2
+CodeNewRomanNerdFont-Regular.otf -misc-codenewroman nerd font-medium-r-normal--0-0-0-0-p-0-iso8859-3
+CodeNewRomanNerdFont-Regular.otf -misc-codenewroman nerd font-medium-r-normal--0-0-0-0-p-0-iso8859-4
+CodeNewRomanNerdFont-Regular.otf -misc-codenewroman nerd font-medium-r-normal--0-0-0-0-p-0-iso8859-5
+CodeNewRomanNerdFont-Regular.otf -misc-codenewroman nerd font-medium-r-normal--0-0-0-0-p-0-iso8859-7
+CodeNewRomanNerdFont-Regular.otf -misc-codenewroman nerd font-medium-r-normal--0-0-0-0-p-0-iso8859-9
+CodeNewRomanNerdFont-Regular.otf -misc-codenewroman nerd font-medium-r-normal--0-0-0-0-p-0-koi8-e
+CodeNewRomanNerdFont-Regular.otf -misc-codenewroman nerd font-medium-r-normal--0-0-0-0-p-0-koi8-r
+CodeNewRomanNerdFont-Regular.otf -misc-codenewroman nerd font-medium-r-normal--0-0-0-0-p-0-koi8-ru
+CodeNewRomanNerdFont-Regular.otf -misc-codenewroman nerd font-medium-r-normal--0-0-0-0-p-0-koi8-u
+CodeNewRomanNerdFont-Regular.otf -misc-codenewroman nerd font-medium-r-normal--0-0-0-0-p-0-koi8-uni
+CodeNewRomanNerdFontMono-Bold.otf -misc-codenewroman nerd font mono-bold-r-normal--0-0-0-0-m-0-iso10646-1
+CodeNewRomanNerdFontMono-Bold.otf -misc-codenewroman nerd font mono-bold-r-normal--0-0-0-0-m-0-iso8859-1
+CodeNewRomanNerdFontMono-Bold.otf -misc-codenewroman nerd font mono-bold-r-normal--0-0-0-0-m-0-iso8859-10
+CodeNewRomanNerdFontMono-Bold.otf -misc-codenewroman nerd font mono-bold-r-normal--0-0-0-0-m-0-iso8859-15
+CodeNewRomanNerdFontMono-Bold.otf -misc-codenewroman nerd font mono-bold-r-normal--0-0-0-0-m-0-iso8859-2
+CodeNewRomanNerdFontMono-Bold.otf -misc-codenewroman nerd font mono-bold-r-normal--0-0-0-0-m-0-iso8859-3
+CodeNewRomanNerdFontMono-Bold.otf -misc-codenewroman nerd font mono-bold-r-normal--0-0-0-0-m-0-iso8859-4
+CodeNewRomanNerdFontMono-Bold.otf -misc-codenewroman nerd font mono-bold-r-normal--0-0-0-0-m-0-iso8859-5
+CodeNewRomanNerdFontMono-Bold.otf -misc-codenewroman nerd font mono-bold-r-normal--0-0-0-0-m-0-iso8859-7
+CodeNewRomanNerdFontMono-Bold.otf -misc-codenewroman nerd font mono-bold-r-normal--0-0-0-0-m-0-iso8859-9
+CodeNewRomanNerdFontMono-Bold.otf -misc-codenewroman nerd font mono-bold-r-normal--0-0-0-0-m-0-koi8-e
+CodeNewRomanNerdFontMono-Bold.otf -misc-codenewroman nerd font mono-bold-r-normal--0-0-0-0-m-0-koi8-r
+CodeNewRomanNerdFontMono-Bold.otf -misc-codenewroman nerd font mono-bold-r-normal--0-0-0-0-m-0-koi8-ru
+CodeNewRomanNerdFontMono-Bold.otf -misc-codenewroman nerd font mono-bold-r-normal--0-0-0-0-m-0-koi8-u
+CodeNewRomanNerdFontMono-Bold.otf -misc-codenewroman nerd font mono-bold-r-normal--0-0-0-0-m-0-koi8-uni
+CodeNewRomanNerdFontMono-Italic.otf -misc-codenewroman nerd font mono-medium-i-normal--0-0-0-0-m-0-iso10646-1
+CodeNewRomanNerdFontMono-Italic.otf -misc-codenewroman nerd font mono-medium-i-normal--0-0-0-0-m-0-iso8859-1
+CodeNewRomanNerdFontMono-Italic.otf -misc-codenewroman nerd font mono-medium-i-normal--0-0-0-0-m-0-iso8859-10
+CodeNewRomanNerdFontMono-Italic.otf -misc-codenewroman nerd font mono-medium-i-normal--0-0-0-0-m-0-iso8859-15
+CodeNewRomanNerdFontMono-Italic.otf -misc-codenewroman nerd font mono-medium-i-normal--0-0-0-0-m-0-iso8859-2
+CodeNewRomanNerdFontMono-Italic.otf -misc-codenewroman nerd font mono-medium-i-normal--0-0-0-0-m-0-iso8859-3
+CodeNewRomanNerdFontMono-Italic.otf -misc-codenewroman nerd font mono-medium-i-normal--0-0-0-0-m-0-iso8859-4
+CodeNewRomanNerdFontMono-Italic.otf -misc-codenewroman nerd font mono-medium-i-normal--0-0-0-0-m-0-iso8859-5
+CodeNewRomanNerdFontMono-Italic.otf -misc-codenewroman nerd font mono-medium-i-normal--0-0-0-0-m-0-iso8859-7
+CodeNewRomanNerdFontMono-Italic.otf -misc-codenewroman nerd font mono-medium-i-normal--0-0-0-0-m-0-iso8859-9
+CodeNewRomanNerdFontMono-Italic.otf -misc-codenewroman nerd font mono-medium-i-normal--0-0-0-0-m-0-koi8-e
+CodeNewRomanNerdFontMono-Italic.otf -misc-codenewroman nerd font mono-medium-i-normal--0-0-0-0-m-0-koi8-r
+CodeNewRomanNerdFontMono-Italic.otf -misc-codenewroman nerd font mono-medium-i-normal--0-0-0-0-m-0-koi8-ru
+CodeNewRomanNerdFontMono-Italic.otf -misc-codenewroman nerd font mono-medium-i-normal--0-0-0-0-m-0-koi8-u
+CodeNewRomanNerdFontMono-Italic.otf -misc-codenewroman nerd font mono-medium-i-normal--0-0-0-0-m-0-koi8-uni
+CodeNewRomanNerdFontMono-Regular.otf -misc-codenewroman nerd font mono-medium-r-normal--0-0-0-0-m-0-iso10646-1
+CodeNewRomanNerdFontMono-Regular.otf -misc-codenewroman nerd font mono-medium-r-normal--0-0-0-0-m-0-iso8859-1
+CodeNewRomanNerdFontMono-Regular.otf -misc-codenewroman nerd font mono-medium-r-normal--0-0-0-0-m-0-iso8859-10
+CodeNewRomanNerdFontMono-Regular.otf -misc-codenewroman nerd font mono-medium-r-normal--0-0-0-0-m-0-iso8859-15
+CodeNewRomanNerdFontMono-Regular.otf -misc-codenewroman nerd font mono-medium-r-normal--0-0-0-0-m-0-iso8859-2
+CodeNewRomanNerdFontMono-Regular.otf -misc-codenewroman nerd font mono-medium-r-normal--0-0-0-0-m-0-iso8859-3
+CodeNewRomanNerdFontMono-Regular.otf -misc-codenewroman nerd font mono-medium-r-normal--0-0-0-0-m-0-iso8859-4
+CodeNewRomanNerdFontMono-Regular.otf -misc-codenewroman nerd font mono-medium-r-normal--0-0-0-0-m-0-iso8859-5
+CodeNewRomanNerdFontMono-Regular.otf -misc-codenewroman nerd font mono-medium-r-normal--0-0-0-0-m-0-iso8859-7
+CodeNewRomanNerdFontMono-Regular.otf -misc-codenewroman nerd font mono-medium-r-normal--0-0-0-0-m-0-iso8859-9
+CodeNewRomanNerdFontMono-Regular.otf -misc-codenewroman nerd font mono-medium-r-normal--0-0-0-0-m-0-koi8-e
+CodeNewRomanNerdFontMono-Regular.otf -misc-codenewroman nerd font mono-medium-r-normal--0-0-0-0-m-0-koi8-r
+CodeNewRomanNerdFontMono-Regular.otf -misc-codenewroman nerd font mono-medium-r-normal--0-0-0-0-m-0-koi8-ru
+CodeNewRomanNerdFontMono-Regular.otf -misc-codenewroman nerd font mono-medium-r-normal--0-0-0-0-m-0-koi8-u
+CodeNewRomanNerdFontMono-Regular.otf -misc-codenewroman nerd font mono-medium-r-normal--0-0-0-0-m-0-koi8-uni
+CodeNewRomanNerdFontPropo-Bold.otf -misc-codenewroman nerd font propo-bold-r-normal--0-0-0-0-p-0-iso10646-1
+CodeNewRomanNerdFontPropo-Bold.otf -misc-codenewroman nerd font propo-bold-r-normal--0-0-0-0-p-0-iso8859-1
+CodeNewRomanNerdFontPropo-Bold.otf -misc-codenewroman nerd font propo-bold-r-normal--0-0-0-0-p-0-iso8859-10
+CodeNewRomanNerdFontPropo-Bold.otf -misc-codenewroman nerd font propo-bold-r-normal--0-0-0-0-p-0-iso8859-15
+CodeNewRomanNerdFontPropo-Bold.otf -misc-codenewroman nerd font propo-bold-r-normal--0-0-0-0-p-0-iso8859-2
+CodeNewRomanNerdFontPropo-Bold.otf -misc-codenewroman nerd font propo-bold-r-normal--0-0-0-0-p-0-iso8859-3
+CodeNewRomanNerdFontPropo-Bold.otf -misc-codenewroman nerd font propo-bold-r-normal--0-0-0-0-p-0-iso8859-4
+CodeNewRomanNerdFontPropo-Bold.otf -misc-codenewroman nerd font propo-bold-r-normal--0-0-0-0-p-0-iso8859-5
+CodeNewRomanNerdFontPropo-Bold.otf -misc-codenewroman nerd font propo-bold-r-normal--0-0-0-0-p-0-iso8859-7
+CodeNewRomanNerdFontPropo-Bold.otf -misc-codenewroman nerd font propo-bold-r-normal--0-0-0-0-p-0-iso8859-9
+CodeNewRomanNerdFontPropo-Bold.otf -misc-codenewroman nerd font propo-bold-r-normal--0-0-0-0-p-0-koi8-e
+CodeNewRomanNerdFontPropo-Bold.otf -misc-codenewroman nerd font propo-bold-r-normal--0-0-0-0-p-0-koi8-r
+CodeNewRomanNerdFontPropo-Bold.otf -misc-codenewroman nerd font propo-bold-r-normal--0-0-0-0-p-0-koi8-ru
+CodeNewRomanNerdFontPropo-Bold.otf -misc-codenewroman nerd font propo-bold-r-normal--0-0-0-0-p-0-koi8-u
+CodeNewRomanNerdFontPropo-Bold.otf -misc-codenewroman nerd font propo-bold-r-normal--0-0-0-0-p-0-koi8-uni
+CodeNewRomanNerdFontPropo-Italic.otf -misc-codenewroman nerd font propo-medium-i-normal--0-0-0-0-p-0-iso10646-1
+CodeNewRomanNerdFontPropo-Italic.otf -misc-codenewroman nerd font propo-medium-i-normal--0-0-0-0-p-0-iso8859-1
+CodeNewRomanNerdFontPropo-Italic.otf -misc-codenewroman nerd font propo-medium-i-normal--0-0-0-0-p-0-iso8859-10
+CodeNewRomanNerdFontPropo-Italic.otf -misc-codenewroman nerd font propo-medium-i-normal--0-0-0-0-p-0-iso8859-15
+CodeNewRomanNerdFontPropo-Italic.otf -misc-codenewroman nerd font propo-medium-i-normal--0-0-0-0-p-0-iso8859-2
+CodeNewRomanNerdFontPropo-Italic.otf -misc-codenewroman nerd font propo-medium-i-normal--0-0-0-0-p-0-iso8859-3
+CodeNewRomanNerdFontPropo-Italic.otf -misc-codenewroman nerd font propo-medium-i-normal--0-0-0-0-p-0-iso8859-4
+CodeNewRomanNerdFontPropo-Italic.otf -misc-codenewroman nerd font propo-medium-i-normal--0-0-0-0-p-0-iso8859-5
+CodeNewRomanNerdFontPropo-Italic.otf -misc-codenewroman nerd font propo-medium-i-normal--0-0-0-0-p-0-iso8859-7
+CodeNewRomanNerdFontPropo-Italic.otf -misc-codenewroman nerd font propo-medium-i-normal--0-0-0-0-p-0-iso8859-9
+CodeNewRomanNerdFontPropo-Italic.otf -misc-codenewroman nerd font propo-medium-i-normal--0-0-0-0-p-0-koi8-e
+CodeNewRomanNerdFontPropo-Italic.otf -misc-codenewroman nerd font propo-medium-i-normal--0-0-0-0-p-0-koi8-r
+CodeNewRomanNerdFontPropo-Italic.otf -misc-codenewroman nerd font propo-medium-i-normal--0-0-0-0-p-0-koi8-ru
+CodeNewRomanNerdFontPropo-Italic.otf -misc-codenewroman nerd font propo-medium-i-normal--0-0-0-0-p-0-koi8-u
+CodeNewRomanNerdFontPropo-Italic.otf -misc-codenewroman nerd font propo-medium-i-normal--0-0-0-0-p-0-koi8-uni
+CodeNewRomanNerdFontPropo-Regular.otf -misc-codenewroman nerd font propo-medium-r-normal--0-0-0-0-p-0-iso10646-1
+CodeNewRomanNerdFontPropo-Regular.otf -misc-codenewroman nerd font propo-medium-r-normal--0-0-0-0-p-0-iso8859-1
+CodeNewRomanNerdFontPropo-Regular.otf -misc-codenewroman nerd font propo-medium-r-normal--0-0-0-0-p-0-iso8859-10
+CodeNewRomanNerdFontPropo-Regular.otf -misc-codenewroman nerd font propo-medium-r-normal--0-0-0-0-p-0-iso8859-15
+CodeNewRomanNerdFontPropo-Regular.otf -misc-codenewroman nerd font propo-medium-r-normal--0-0-0-0-p-0-iso8859-2
+CodeNewRomanNerdFontPropo-Regular.otf -misc-codenewroman nerd font propo-medium-r-normal--0-0-0-0-p-0-iso8859-3
+CodeNewRomanNerdFontPropo-Regular.otf -misc-codenewroman nerd font propo-medium-r-normal--0-0-0-0-p-0-iso8859-4
+CodeNewRomanNerdFontPropo-Regular.otf -misc-codenewroman nerd font propo-medium-r-normal--0-0-0-0-p-0-iso8859-5
+CodeNewRomanNerdFontPropo-Regular.otf -misc-codenewroman nerd font propo-medium-r-normal--0-0-0-0-p-0-iso8859-7
+CodeNewRomanNerdFontPropo-Regular.otf -misc-codenewroman nerd font propo-medium-r-normal--0-0-0-0-p-0-iso8859-9
+CodeNewRomanNerdFontPropo-Regular.otf -misc-codenewroman nerd font propo-medium-r-normal--0-0-0-0-p-0-koi8-e
+CodeNewRomanNerdFontPropo-Regular.otf -misc-codenewroman nerd font propo-medium-r-normal--0-0-0-0-p-0-koi8-r
+CodeNewRomanNerdFontPropo-Regular.otf -misc-codenewroman nerd font propo-medium-r-normal--0-0-0-0-p-0-koi8-ru
+CodeNewRomanNerdFontPropo-Regular.otf -misc-codenewroman nerd font propo-medium-r-normal--0-0-0-0-p-0-koi8-u
+CodeNewRomanNerdFontPropo-Regular.otf -misc-codenewroman nerd font propo-medium-r-normal--0-0-0-0-p-0-koi8-uni
 Fira Code Bold Nerd Font Complete Mono.ttf -misc-firacode nerd font mono-bold-r-normal--0-0-0-0-m-0-iso10646-1
 Fira Code Bold Nerd Font Complete Mono.ttf -misc-firacode nerd font mono-bold-r-normal--0-0-0-0-m-0-iso8859-1
 Fira Code Bold Nerd Font Complete Mono.ttf -misc-firacode nerd font mono-bold-r-normal--0-0-0-0-m-0-iso8859-10
