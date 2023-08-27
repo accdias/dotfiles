@@ -21,6 +21,8 @@ endif
 
 " Use truecolor
 " set termguicolors
+set t_8b="\<Esc>[48;2;%lu;%lu;%lum"
+set t_8f="\<Esc>[38;2;%lu;%lu;%lum"
 
 " Default color scheme
 " TODO: Find a truecolor compatible color scheme
@@ -160,7 +162,7 @@ if has('package')
 endif
 
 " Expose trailing white spaces
-match WhitespaceEOL /\s\+$/
+match EOLWhiteSpaces /\s\+$/
 
 " Remap Leader key to comma
 let mapleader=','

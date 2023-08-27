@@ -67,7 +67,7 @@ highlight User2                     ctermfg=9    ctermbg=25   cterm=bold
 highlight VertSplit                 ctermfg=25   ctermbg=NONE cterm=NONE
 highlight Visual                    ctermfg=196  ctermbg=229  cterm=bold
 highlight WarningMsg                ctermfg=160  ctermbg=NONE cterm=bold
-highlight WhitespaceEOL             ctermfg=196  ctermbg=196  cterm=NONE
+highlight EOLWhiteSpaces            ctermfg=0    ctermbg=196  cterm=NONE
 highlight WildMenu                  ctermfg=25   ctermbg=117  cterm=bold
 
 " General highlighting group links.
@@ -114,6 +114,7 @@ syntax match Type               "\"__Type.*"
 syntax match Underlined         "\"__Underlined.*"
 syntax match VertSplit          "\"__VertSplit.*"
 syntax match Visual             "\"__Visual.*"
+syntax match EOLWhiteSpaces     "\"__EOLWhiteSpaces.*"
 
 " Color examples for each match
 "__Comment              /* this is a comment */
@@ -146,4 +147,5 @@ syntax match Visual             "\"__Visual.*"
 "__Underlined           Anything underlined
 "__VertSplit            :vsplit will only show ʼ | ʼ
 "__Visual               Selected text looks like this
+"__EOLWhiteSpaces       End of line white spaces
 " vim:ts=8:sts=4:sw=4:et
