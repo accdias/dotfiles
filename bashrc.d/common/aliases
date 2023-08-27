@@ -1,6 +1,12 @@
 # ~/.bashrc.d/common/aliases
 #
 
+# Get rid of some nag screens
+
+alias \
+	bc='bc -ql' \
+	ffmpeg='ffmpeg -hide_banner'
+
 # less aliases
 if [[ -r /usr/bin/less ]]; then
     alias less='less -r'                              # raw control characters
