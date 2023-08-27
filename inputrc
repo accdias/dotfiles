@@ -19,6 +19,12 @@ set blink-matching-paren on
 # Some systems need this to enable the arrow keys
 #set enable-keypad on
 
+# Show mode by just changing the prompt shape
+set show-mode-in-prompt on
+set emacs-mode-string \1\e[0 q\2
+set vi-ins-mode-string \1\e[1 q\2
+set vi-cmd-mode-string \1\e[5 q\2
+
 $if Bash
     # Insert a space in the end of line a history expansion
     Space: magic-space
@@ -47,39 +53,13 @@ $if Bash
     set echo-control-characters off
 $endif
 
-# the following line is actually
-# equivalent to "\C-?": delete-char
-"\e[3~": delete-char
+$if mode=emacs
+    # ESC-s appends "sudo" to the beginning of the current line
+    "\es": "\C-asudo \C-e"
 
-# VT
-"\e[1~": beginning-of-line
-"\e[4~": end-of-line
-
-# kvt
-"\e[H": beginning-of-line
-"\e[F": end-of-line
-
-# rxvt and konsole (i.e. the KDE-app...)
-"\e[7~": beginning-of-line
-"\e[8~": end-of-line
-
-# VT220
-"\eOH": beginning-of-line
-"\eOF": end-of-line
-
-# ESC-s appends "sudo" to the beginning of the current line
-"\es": "\C-asudo \C-e"
-
-# Use up and down arrows to search history
-"\e[A": history-substring-search-backward
-"\e[B": history-substring-search-forward
-
-# Use left and right arrows as usual
-"\e[C": forward-char
-"\e[D": backward-char
-
-# Use Alt-left and Alt-right to move to beginning and end of line
-"\e[1;3D": beginning-of-line
-"\e[1;3C": end-of-line
+    # Use up and down arrows to search history
+    "\e[A": history-substring-search-backward
+    "\e[B": history-substring-search-forward
+$endif
 
 # End of file
