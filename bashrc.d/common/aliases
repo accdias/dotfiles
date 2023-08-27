@@ -75,7 +75,7 @@ if [[ -r /usr/bin/ssh-keygen ]]; then
     }
 fi
 
-if [[ -r /usr/bin/ssh ]]; then
+if [[ -r /usr/bin/chage ]]; then
     noage() {
         if [[ -n "$@" ]]; then
             ssh $1 "sudo chage -I -1 -m 0 -M 99999 -E -1 $2"
