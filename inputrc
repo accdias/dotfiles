@@ -19,11 +19,18 @@ set blink-matching-paren on
 # Some systems need this to enable the arrow keys
 #set enable-keypad on
 
-# Show mode by just changing the prompt shape
+# Set cursor style (DECSCUSR), VT520.
+# \1\e[0 q\2 -> blinking block.
+# \1\e[1 q\2 -> blinking block (default).
+# \1\e[2 q\2 -> steady block.
+# \1\e[3 q\2 -> blinking underline.
+# \1\e[4 q\2 -> steady underline.
+# \1\e[5 q\2 -> blinking bar, xterm.
+# \1\e[6 q\2 -> steady bar, xterm.
 set show-mode-in-prompt on
-set emacs-mode-string \1\e[0 q\2
+set emacs-mode-string \1\e[3 q\2
 set vi-ins-mode-string \1\e[1 q\2
-set vi-cmd-mode-string \1\e[5 q\2
+set vi-cmd-mode-string \1\e[6 q\2
 
 $if Bash
     # Insert a space in the end of line a history expansion
