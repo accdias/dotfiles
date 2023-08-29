@@ -34,6 +34,8 @@ from qtile_extras import widget
 from qtile_extras.widget.decorations import PowerLineDecoration
 
 mod = 'mod4'
+
+# Terminals in my preference order
 terminal = guess_terminal([
     'kitty',
     'foot',
@@ -74,6 +76,7 @@ keys = [
         desc='Toggle between split and unsplit sides of stack',
     ),
     Key([mod], 'Return', lazy.spawn(terminal), desc='Launch terminal'),
+    Key([mod], 'g', lazy.spawn('/usr/bin/google-chrome-stable'), desc='Google Chrome'),
     # Toggle between different layouts as defined below
     Key([mod], 'Tab', lazy.next_layout(), desc='Toggle between layouts'),
     Key([mod], 'w', lazy.window.kill(), desc='Kill focused window'),
