@@ -162,8 +162,11 @@ if has('package')
     silent! helptags ALL
 endif
 
-" Expose trailing white spaces
-match EOLWhiteSpaces /\s\+$/
+" Expose trailing white spaces when entering/leaving insert mode
+highlight default EOLWhiteSpaces ctermbg=#bf0000 guibg=#bf0000
+autocmd ColorScheme * highlight default EOLWhiteSpaces ctermbg=#bf0000 guibg=#bf0000
+autocmd InsertEnter * match EOLWhiteSpaces /\\\@<![\u3000[:space:]]\+\%#\@<!$/
+autocmd InsertLeave * match EOLWhiteSpaces /\\\@<![\u3000[:space:]]\+$/
 
 " Remap Leader key to comma
 let mapleader=','
