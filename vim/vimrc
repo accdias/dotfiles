@@ -239,6 +239,8 @@ if has('autocmd')
             \ setlocal textwidth=75 foldlevel=2
         autocmd FileType markdown
             \ let g:markdown_folding=1
+        " Align GitHub-flavored Markdown tables
+        autocmd FileType markdown vmap <Leader><Bslash> :EasyAlign*<Bar><Enter>
     augroup END
 
     augroup formats
