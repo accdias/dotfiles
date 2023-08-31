@@ -93,14 +93,16 @@ powerline = {
         # forward_slash
         # back_slash
         # zig_zag
-        PowerLineDecoration(path='zig_zag')
+        # rounded_left
+        # rounded_right
+        PowerLineDecoration(path='forward_slash')
     ]
 }
 
 widget_defaults = dict(
     font='FiraCode Nerd Font Mono',
     fontsize=11,
-    padding=2,
+    padding=3,
     **powerline
 )
 
@@ -108,21 +110,39 @@ extension_defaults = widget_defaults.copy()
 
 bg = cycle(('#afafaf', '#0f9fdf'))
 
+openweather_config = dict(
+    app_key='23f22b04945a57e3400b72e7ff4f36c7',
+    cityid='3449324',  # São Caetano do Sul
+    format='{main_temp:2.0f}°{units_temperature} {humidity:2.0f}%',
+)
+
+groupbox_config = dict(
+    borderwidth=2,
+    active='#afafaf',
+    inactive='#404040',
+    disable_drag=True,
+    block_highlight_text_color='#af0000',
+    highlight_color='#0f9fdf',
+    highlight_method='block'
+)
+
+logoff_button = dict(
+    filename=icons_dir/'logout.svg',
+    background='#ff0000',
+    mouse_callbacks={'Button1': lazy.shutdown()},
+    decorations=[],
+)
+
 screens = [
     Screen(
         top=bar.Bar(
             [
                 widget.CurrentLayoutIcon(background=next(bg), decorations=[]),
-                widget.GroupBox(background=next(bg), borderwidth=2),
+                widget.GroupBox(**groupbox_config, background=next(bg)),
                 widget.WindowName(background=next(bg)),
-                widget.Clock(format='%A, %d.%m %H:%M', background=next(bg)),
-                widget.Wttr(format='%t (%f)', background=next(bg), location={'São Paulo': 'SP'}),
-                widget.Image(
-                    filename=icons_dir/'logout.svg',
-                    background='#ff0000',
-                    mouse_callbacks={'Button1': lazy.shutdown()},
-                    decorations=[],
-                ),
+                widget.Clock(format='%A, %d/%m %H:%M', background=next(bg)),
+                widget.OpenWeather(**openweather_config, background=next(bg)),
+                widget.Image(**logoff_button),
             ],
             20,
         ),
