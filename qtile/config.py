@@ -32,26 +32,26 @@ icons_dir = Path('~/.config/qtile/images')
 
 keys = [
     Key([mod], 'h', lazy.layout.left()),
-    Key([mod], 'l', lazy.layout.right()),
     Key([mod], 'j', lazy.layout.down()),
     Key([mod], 'k', lazy.layout.up()),
-    Key([mod], 'space', lazy.layout.next()),
-    Key([mod, 'shift'], 'h', lazy.layout.shuffle_left()),
-    Key([mod, 'shift'], 'l', lazy.layout.shuffle_right()),
-    Key([mod, 'shift'], 'j', lazy.layout.shuffle_down()),
-    Key([mod, 'shift'], 'k', lazy.layout.shuffle_up()),
-    Key([mod, 'control'], 'h', lazy.layout.grow_left()),
-    Key([mod, 'control'], 'l', lazy.layout.grow_right()),
-    Key([mod, 'control'], 'j', lazy.layout.grow_down()),
-    Key([mod, 'control'], 'k', lazy.layout.grow_up()),
+    Key([mod], 'l', lazy.layout.right()),
     Key([mod], 'n', lazy.layout.normalize()),
-    Key([mod, 'shift'], 'Return', lazy.layout.toggle_split()),
-    Key([mod], 'Return', lazy.spawn(terminal)),
-    Key([mod], 'Tab', lazy.next_layout()),
-    Key([mod], 'w', lazy.window.kill()),
-    Key([mod, 'control'], 'r', lazy.reload_config()),
-    Key([mod, 'control'], 'q', lazy.shutdown()),
     Key([mod], 'r', lazy.spawncmd()),
+    Key([mod], 'w', lazy.window.kill()),
+    Key([mod], 'space', lazy.layout.next()),
+    Key([mod], 'Tab', lazy.next_layout()),
+    Key([mod], 'Return', lazy.spawn(terminal)),
+    Key([mod,  'shift'], 'h', lazy.layout.shuffle_left()),
+    Key([mod,  'shift'], 'j', lazy.layout.shuffle_down()),
+    Key([mod,  'shift'], 'k', lazy.layout.shuffle_up()),
+    Key([mod,  'shift'], 'l', lazy.layout.shuffle_right()),
+    Key([mod,  'shift'], 'Return', lazy.layout.toggle_split()),
+    Key([mod,  'control'], 'h', lazy.layout.grow_left()),
+    Key([mod,  'control'], 'j', lazy.layout.grow_down()),
+    Key([mod,  'control'], 'k', lazy.layout.grow_up()),
+    Key([mod,  'control'], 'l', lazy.layout.grow_right()),
+    Key([mod,  'control'], 'q', lazy.shutdown()),
+    Key([mod,  'control'], 'r', lazy.reload_config()),
 ]
 
 for _ in (Group(_) for _ in '123456789'):
@@ -103,6 +103,7 @@ widget_defaults = dict(
     font='FiraCode Nerd Font Mono',
     fontsize=11,
     padding=3,
+    foreground='#000000',
     **powerline
 )
 
@@ -118,16 +119,17 @@ openweather_config = dict(
 
 groupbox_config = dict(
     borderwidth=2,
-    active='#afafaf',
+    active='#ffffff',
     inactive='#404040',
     disable_drag=True,
-    block_highlight_text_color='#af0000',
+    block_highlight_text_color='#ffffff',
     highlight_color='#0f9fdf',
     highlight_method='block'
 )
 
 logoff_button = dict(
     filename=icons_dir/'logout.svg',
+    foreground='#ffffff',
     background='#ff0000',
     mouse_callbacks={'Button1': lazy.shutdown()},
     decorations=[],
