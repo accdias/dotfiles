@@ -111,13 +111,18 @@ extension_defaults = widget_defaults.copy()
 
 bg = cycle(('#afafaf', '#0f9fdf'))
 
-openweather_config = dict(
+openweather_options = dict(
     app_key='23f22b04945a57e3400b72e7ff4f36c7',
     cityid='3449324',  # São Caetano do Sul
     format='{main_temp:2.0f}°{units_temperature} {humidity:2.0f}%',
 )
 
-groupbox_config = dict(
+wttr_options = dict(
+    location={'São Paulo': 'Home'},
+    format='%t (%f)',
+)
+
+groupbox_options = dict(
     borderwidth=2,
     active='#ffffff',
     inactive='#404040',
@@ -127,7 +132,7 @@ groupbox_config = dict(
     highlight_method='block'
 )
 
-logoff_button = dict(
+logoff_button_options = dict(
     filename=icons_dir/'logout.svg',
     foreground='#ffffff',
     background='#ff0000',
