@@ -140,11 +140,12 @@ screens = [
         top=bar.Bar(
             [
                 widget.CurrentLayoutIcon(background=next(bg), decorations=[]),
-                widget.GroupBox(**groupbox_config, background=next(bg)),
+                widget.GroupBox(**groupbox_options, background=next(bg)),
                 widget.WindowName(background=next(bg)),
                 widget.Clock(format='%A, %d/%m %H:%M', background=next(bg)),
-                widget.OpenWeather(**openweather_config, background=next(bg)),
-                widget.Image(**logoff_button),
+                # widget.OpenWeather(**openweather_options, background=next(bg)),
+                widget.Wttr(**wttr_options, background=next(bg)),
+                widget.Image(**logoff_button_options),
             ],
             20,
         ),
