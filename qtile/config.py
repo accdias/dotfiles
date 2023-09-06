@@ -18,6 +18,10 @@ from qtile_extras.widget.decorations import (
 )
 
 
+home_dir = Path('~/')
+icons_dir = home_dir / '.config/qtile/images'
+wallpapers_dir = home_dir / '.local/share/backgrounds/'
+
 mod = 'mod4'
 
 # Terminals in my preference order
@@ -27,8 +31,6 @@ terminal = guess_terminal([
     'st',
     'gnome-terminal'
 ])
-
-icons_dir = Path('~/.config/qtile/images')
 
 keys = [
     Key([mod], 'h', lazy.layout.left()),
@@ -140,6 +142,13 @@ logoff_button_options = dict(
     decorations=[],
 )
 
+wallpaper_options = dict(
+    # wallpaper=wallpapers.WALLPAPER_TILES,
+    # wallpaper=wallpapers.WALLPAPER_TRIANGLES,
+    wallpaper=wallpapers.WALLPAPER_TRIANGLES_ROUNDED,
+    wallpaper_mode='fill',
+)
+
 screens = [
     Screen(
         top=bar.Bar(
@@ -154,10 +163,7 @@ screens = [
             ],
             20,
         ),
-        # wallpaper=wallpapers.WALLPAPER_TILES,
-        # wallpaper=wallpapers.WALLPAPER_TRIANGLES,
-        wallpaper=wallpapers.WALLPAPER_TRIANGLES_ROUNDED,
-        wallpaper_mode="fill"
+        **wallpaper_options,
     ),
 ]
 
