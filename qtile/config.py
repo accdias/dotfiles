@@ -81,6 +81,26 @@ for _ in (Group(_) for _ in '123456789'):
         # Key([mod, 'shift'], i.name, lazy.window.togroup(i.name))
     ])
 
+groups = [
+    ScratchPad('scratchpad', [
+        # define a drop down terminal.
+        # it is placed in the upper third of screen by default.
+        DropDown('term', terminal, opacity=0.88, height=0.55, width=0.80, ),
+
+        # define another terminal exclusively for qshell at different position
+        DropDown('qshell', f'{terminal} qshell',
+                 x=0.05, y=0.4, width=0.9, height=0.6, opacity=0.9,
+                 on_focus_lost_hide=True)
+    ]),
+]
+
+keys.extend([
+    # Scratchpad
+    # toggle visibiliy of above defined DropDown named 'term'
+    Key([], 'F12', lazy.group['scratchpad'].dropdown_toggle('term')),
+    Key([], 'F11', lazy.group['scratchpad'].dropdown_toggle('qshell')),
+])
+
 layout_borders = {
     'border_on_single': True,
     'border_focus': '#0f9fdf',
