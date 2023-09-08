@@ -18,11 +18,15 @@ from qtile_extras.widget.decorations import (
 )
 
 
-home_dir = Path('~/')
-icons_dir = home_dir / '.config/qtile/images'
-wallpapers_dir = home_dir / '.local/share/backgrounds/'
+class Paths():
+    def __init__(self):
+        self.home = Path('~/').expanduser()
+        self.config = self.home / '.config/qtile/config.py'
+        self.icons = self.home / '.config/qtile/images'
+        self.wallpapers = self.home / '.local/share/backgrounds'
 
-mod = 'mod4'
+
+paths = Paths()
 
 # Terminals in my preference order
 terminal = guess_terminal([
@@ -31,6 +35,9 @@ terminal = guess_terminal([
     'st',
     'gnome-terminal'
 ])
+
+# Windows/Star/Opt Key
+mod = 'mod4'
 
 keys = [
     Key([mod], 'h', lazy.layout.left()),
@@ -53,7 +60,15 @@ keys = [
     Key([mod,  'control'], 'k', lazy.layout.grow_up()),
     Key([mod,  'control'], 'l', lazy.layout.grow_right()),
     Key([mod,  'control'], 'q', lazy.shutdown()),
+    Key([mod,  'control'], 'e', lazy.spawn(f'{terminal} vim {paths.config}')),
     Key([mod,  'control'], 'r', lazy.reload_config()),
+    Key([mod,  'control'], 'w', lazy.spawn('wofi')),
+    # Multimedia keys
+    Key([],    'XF86AudioRaiseVolume', lazy.spawn('amixer sset Master 5%+')),
+    Key([],    'XF86AudioLowerVolume', lazy.spawn('amixer sset Master 5%-')),
+    Key([],    'XF86AudioMute', lazy.spawn('amixer sset Master toggle')),
+    Key([],    'XF86AudioNext', lazy.spawn('mpc next')),
+    Key([],    'XF86AudioPrev', lazy.spawn('mpc prev')),
 ]
 
 for _ in (Group(_) for _ in '123456789'):
@@ -135,7 +150,7 @@ groupbox_options = dict(
 )
 
 logoff_button_options = dict(
-    filename=icons_dir/'logout.svg',
+    filename=paths.icons / 'logout.svg',
     foreground='#ffffff',
     background='#ff0000',
     mouse_callbacks={'Button1': lazy.shutdown()},
