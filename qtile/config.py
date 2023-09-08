@@ -8,6 +8,8 @@ from libqtile.config import (
     Key,
     Match,
     Screen,
+    ScratchPad,
+    DropDown,
 )
 from libqtile.lazy import lazy
 from libqtile.utils import guess_terminal
@@ -64,11 +66,12 @@ keys = [
     Key([mod,  'control'], 'r', lazy.reload_config()),
     Key([mod,  'control'], 'w', lazy.spawn('wofi')),
     # Multimedia keys
-    Key([],    'XF86AudioRaiseVolume', lazy.spawn('amixer sset Master 5%+')),
-    Key([],    'XF86AudioLowerVolume', lazy.spawn('amixer sset Master 5%-')),
-    Key([],    'XF86AudioMute', lazy.spawn('amixer sset Master toggle')),
-    Key([],    'XF86AudioNext', lazy.spawn('mpc next')),
-    Key([],    'XF86AudioPrev', lazy.spawn('mpc prev')),
+
+    Key([],    'XF86AudioLowerVolume', lazy.spawn('pactl set-sink-volume 0 -10%')),
+    Key([],    'XF86AudioRaiseVolume', lazy.spawn('pactl set-sink-volume 0 +10%')),
+    Key([],    'XF86AudioMute', lazy.spawn('pactl set-sink-mute @DEFAULT_SINK@ toggle')),
+    # Key([],    'XF86AudioNext', lazy.spawn('mpc next')),
+    # Key([],    'XF86AudioPrev', lazy.spawn('mpc prev')),
 ]
 
 for _ in (Group(_) for _ in '123456789'):
