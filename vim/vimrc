@@ -243,6 +243,11 @@ if has('autocmd')
         autocmd FileType markdown vmap <Leader><Bslash> :EasyAlign*<Bar><Enter>
     augroup END
 
+    augroup python_tweaks
+        autocmd FileType python
+            \ let &makeprg='pylint-3 --output-format=text --msg-template="{path}:{line}:{column}:{C}: [{symbol}] {msg}" --reports=no %'
+    augroup END
+
     augroup formats
         autocmd!
         " Text files with textwidth set to 78 characters
