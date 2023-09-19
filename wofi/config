@@ -1,2 +1,2 @@
-mode=run
+# ~/.config/wofi/config
 gtk_dark=true
