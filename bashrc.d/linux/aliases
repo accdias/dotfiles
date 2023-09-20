@@ -75,6 +75,13 @@ if [[ -r /usr/bin/dnf ]]; then
             echo "Usage: dnfprovides <something>"
         fi
     }
+    dnflist() {
+        if [[ -n "$@" ]]; then
+            sudo /usr/bin/dnf repoquery -l "$@"
+        else
+            echo "Usage: dnflist <package>"
+        fi
+    }
 fi
 
 # Do we have apt-get installed?
