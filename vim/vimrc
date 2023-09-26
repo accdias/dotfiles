@@ -195,6 +195,9 @@ noremap <silent><leader>n :set number!<cr>
 noremap <silent><leader>p :set paste!<cr>
 noremap <silent><leader>w :set wrap!<cr>
 
+" Sum a selection of numbers
+noremap <silent><leader>s :echo eval(substitute(substitute(@0, '[^0-9]\+', '+', 'g'), '+$', '', 'g'))<cr>
+
 " Reindent the entire file
 noremap <silent><leader>r gg=G<C-o><C-o>
 
