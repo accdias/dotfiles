@@ -22,10 +22,10 @@
 @define-color base0F #D65D0E;
 
 window {
-    opacity: 0.9;
-    border: 0px;
+    opacity: 1.0;
+    border: 5px;
     border-radius: 10px;
-    font-family: Cantarell;
+    font-family: UbuntuMono Nerd Font;
     font-size: 14px;
 }
 
