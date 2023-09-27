@@ -1,6 +1,7 @@
+import subprocess
 from pathlib import Path
 from itertools import cycle
-from libqtile import bar, layout
+from libqtile import bar, layout, hook
 from libqtile.config import (
     Click,
     Drag,
@@ -8,24 +9,32 @@ from libqtile.config import (
     Key,
     Match,
     Screen,
-    ScratchPad,
-    DropDown,
+    # ScratchPad,
+    # DropDown,
 )
+from libqtile import qtile
 from libqtile.lazy import lazy
 from libqtile.utils import guess_terminal
 from qtile_extras import widget
-from qtile_extras.resources import wallpapers
+# from qtile_extras.resources import wallpapers
 from qtile_extras.widget.decorations import (
-    PowerLineDecoration
+    PowerLineDecoration,
+    # BorderDecoration
 )
 
 
 class Paths():
     def __init__(self):
-        self.home = Path('~/').expanduser()
+        self.home = Path('~').expanduser()
         self.config = self.home / '.config/qtile/config.py'
-        self.icons = self.home / '.config/qtile/images'
+        self.icons = self.home / '.config/qtile/icons'
         self.wallpapers = self.home / '.local/share/backgrounds'
+        self.auto_start = self.home / '.config/qtile/autostart.sh'
+
+
+@hook.subscribe.startup_once
+def start_once():
+    subprocess.call([paths.auto_start])
 
 
 paths = Paths()
@@ -35,10 +44,11 @@ terminal = guess_terminal([
     'kitty',
     'foot',
     'st',
+    'eterm',
     'gnome-terminal'
 ])
 
-# Windows/Star/Opt Key
+# Windows/Start/Opt Key
 mod = 'mod4'
 
 keys = [
@@ -52,26 +62,30 @@ keys = [
     Key([mod], 'space', lazy.layout.next()),
     Key([mod], 'Tab', lazy.next_layout()),
     Key([mod], 'Return', lazy.spawn(terminal)),
-    Key([mod,  'shift'], 'h', lazy.layout.shuffle_left()),
-    Key([mod,  'shift'], 'j', lazy.layout.shuffle_down()),
-    Key([mod,  'shift'], 'k', lazy.layout.shuffle_up()),
-    Key([mod,  'shift'], 'l', lazy.layout.shuffle_right()),
-    Key([mod,  'shift'], 'Return', lazy.layout.toggle_split()),
-    Key([mod,  'control'], 'h', lazy.layout.grow_left()),
-    Key([mod,  'control'], 'j', lazy.layout.grow_down()),
-    Key([mod,  'control'], 'k', lazy.layout.grow_up()),
-    Key([mod,  'control'], 'l', lazy.layout.grow_right()),
-    Key([mod,  'control'], 'q', lazy.shutdown()),
-    Key([mod,  'control'], 'e', lazy.spawn(f'{terminal} vim {paths.config}')),
-    Key([mod,  'control'], 'r', lazy.reload_config()),
-    Key([mod,  'control'], 'w', lazy.spawn('wofi')),
+
+    Key([mod, 'shift'], 'h', lazy.layout.shuffle_left()),
+    Key([mod, 'shift'], 'j', lazy.layout.shuffle_down()),
+    Key([mod, 'shift'], 'k', lazy.layout.shuffle_up()),
+    Key([mod, 'shift'], 'l', lazy.layout.shuffle_right()),
+    Key([mod, 'shift'], 'Return', lazy.layout.toggle_split()),
+    # Key([mod, 'shift'], 'w', lazy.spawn(f'feh -x -l {paths.wallpapers}')),
+    Key([mod, 'shift'], 'w', lazy.spawn(f'feh -z --bg-fill {paths.wallpapers}')),
+
+    Key([mod, 'control'], 'h', lazy.layout.grow_left()),
+    Key([mod, 'control'], 'j', lazy.layout.grow_down()),
+    Key([mod, 'control'], 'k', lazy.layout.grow_up()),
+    Key([mod, 'control'], 'l', lazy.layout.grow_right()),
+    Key([mod, 'control'], 'q', lazy.shutdown()),
+    Key([mod, 'control'], 'e', lazy.spawn(f'{terminal} vim {paths.config}')),
+    Key([mod, 'control'], 'r', lazy.reload_config()),
+    Key([mod, 'control'], 'w', lazy.spawn('wofi drun')),
     # Multimedia keys
 
-    Key([],    'XF86AudioLowerVolume', lazy.spawn('pactl set-sink-volume 0 -10%')),
-    Key([],    'XF86AudioRaiseVolume', lazy.spawn('pactl set-sink-volume 0 +10%')),
-    Key([],    'XF86AudioMute', lazy.spawn('pactl set-sink-mute @DEFAULT_SINK@ toggle')),
-    # Key([],    'XF86AudioNext', lazy.spawn('mpc next')),
-    # Key([],    'XF86AudioPrev', lazy.spawn('mpc prev')),
+    Key([], 'XF86AudioLowerVolume', lazy.spawn('pactl set-sink-volume 0 -10%')),
+    Key([], 'XF86AudioRaiseVolume', lazy.spawn('pactl set-sink-volume 0 +10%')),
+    Key([], 'XF86AudioMute', lazy.spawn('pactl set-sink-mute @DEFAULT_SINK@ toggle')),
+    # Key([], 'XF86AudioNext', lazy.spawn('mpc next')),
+    # Key([], 'XF86AudioPrev', lazy.spawn('mpc prev')),
 ]
 
 for _ in (Group(_) for _ in '123456789'):
@@ -81,25 +95,25 @@ for _ in (Group(_) for _ in '123456789'):
         # Key([mod, 'shift'], i.name, lazy.window.togroup(i.name))
     ])
 
-groups = [
-    ScratchPad('scratchpad', [
-        # define a drop down terminal.
-        # it is placed in the upper third of screen by default.
-        DropDown('term', terminal, opacity=0.88, height=0.55, width=0.80, ),
-
-        # define another terminal exclusively for qshell at different position
-        DropDown('qshell', f'{terminal} qshell',
-                 x=0.05, y=0.4, width=0.9, height=0.6, opacity=0.9,
-                 on_focus_lost_hide=True)
-    ]),
-]
-
-keys.extend([
-    # Scratchpad
-    # toggle visibiliy of above defined DropDown named 'term'
-    Key([], 'F12', lazy.group['scratchpad'].dropdown_toggle('term')),
-    Key([], 'F11', lazy.group['scratchpad'].dropdown_toggle('qshell')),
-])
+# groups = [
+#     ScratchPad('scratchpad', [
+#         # define a drop down terminal.
+#         # it is placed in the upper third of screen by default.
+#         DropDown('term', terminal, opacity=0.88, height=0.55, width=0.80, ),
+#
+#         # define another terminal exclusively for qshell at different position
+#         DropDown('qshell', f'{terminal} qshell',
+#                  x=0.05, y=0.4, width=0.9, height=0.6, opacity=0.9,
+#                  on_focus_lost_hide=True)
+#     ]),
+# ]
+#
+# keys.extend([
+#     # Scratchpad
+#     # toggle visibiliy of above defined DropDown named 'term'
+#     Key([], 'F12', lazy.group['scratchpad'].dropdown_toggle('term')),
+#     Key([], 'F11', lazy.group['scratchpad'].dropdown_toggle('qshell')),
+# ])
 
 layout_borders = {
     'border_on_single': True,
@@ -140,7 +154,8 @@ powerline = {
 }
 
 widget_defaults = dict(
-    font='FiraCode Nerd Font Mono',
+    # font='FiraCode Nerd Font Mono',
+    font='Ubuntu',
     fontsize=11,
     padding=3,
     foreground='#000000',
@@ -169,7 +184,7 @@ groupbox_options = dict(
     disable_drag=True,
     block_highlight_text_color='#ffffff',
     highlight_color='#0f9fdf',
-    highlight_method='block'
+    highlight_method='block',
 )
 
 logoff_button_options = dict(
@@ -183,20 +198,54 @@ logoff_button_options = dict(
 wallpaper_options = dict(
     # wallpaper=wallpapers.WALLPAPER_TILES,
     # wallpaper=wallpapers.WALLPAPER_TRIANGLES,
-    wallpaper=wallpapers.WALLPAPER_TRIANGLES_ROUNDED,
+    # wallpaper=wallpapers.WALLPAPER_TRIANGLES_ROUNDED,
+    wallpaper=paths.wallpapers / 'Marc-Olivier Jodoin_-HIiNFXcbtQ.jpeg',
     wallpaper_mode='fill',
+)
+
+pulse_volume_options = dict(
+    emoji=True,
+)
+
+bt_mouse_options = dict(
+    hci='/dev_CE_F1_DA_54_95_2F',
+    fmt='\uf294',
+)
+
+bt_keyboard_options = dict(
+    hci='/dev_F4_73_35_72_48_5D',
+    fmt=' \uf294 ',
+)
+
+
+def start_menu_run_wofi():
+    qtile.cmd_spawn('wofi drun')
+
+
+start_menu_options = dict(
+    filename=paths.icons / 'python-light.svg',
+    background=next(bg),
+    padding=5,
+    mouse_callbacks={'Button1': start_menu_run_wofi},
+    decorations=[]
 )
 
 screens = [
     Screen(
         top=bar.Bar(
             [
+                widget.Image(**start_menu_options),
                 widget.CurrentLayoutIcon(background=next(bg), decorations=[]),
                 widget.GroupBox(**groupbox_options, background=next(bg)),
                 widget.WindowName(background=next(bg)),
                 widget.Clock(format='%A, %d/%m %H:%M', background=next(bg)),
+                # widget.StatusNotifier(background=next(bg)),
                 # widget.OpenWeather(**openweather_options, background=next(bg)),
                 widget.Wttr(**wttr_options, background=next(bg)),
+                # widget.PulseVolume(**pulse_volume_options, background=next(bg)),
+                widget.Bluetooth(**bt_keyboard_options, background=next(bg)),
+                widget.Bluetooth(**bt_mouse_options, background=next(bg)),
+                widget.Volume(background=next(bg)),
                 widget.Image(**logoff_button_options),
             ],
             20,
@@ -221,12 +270,13 @@ floating_layout = layout.Floating(
     float_rules=[
         # Run the utility of `xprop` to see the wm class and name of an X client.
         *layout.Floating.default_float_rules,
-        Match(wm_class='confirmreset'),  # gitk
-        Match(wm_class='makebranch'),  # gitk
-        Match(wm_class='maketag'),  # gitk
-        Match(wm_class='ssh-askpass'),  # ssh-askpass
-        Match(title='branchdialog'),  # gitk
-        Match(title='pinentry'),  # GPG key password entry
+        Match(wm_class='confirmreset'),   # gitk
+        Match(wm_class='makebranch'),     # gitk
+        Match(wm_class='maketag'),        # gitk
+        Match(wm_class='ssh-askpass'),    # ssh-askpass
+        Match(wm_class='Enpass.Enpass'),  # Enpass
+        Match(title='branchdialog'),      # gitk
+        Match(title='pinentry'),          # GPG key password entry
     ]
 )
 auto_fullscreen = True
