@@ -101,7 +101,7 @@ export QT_AUTO_SCREEN_SCALE_FACTOR=1
 export LIBVA_DRIVER_NAME=radeonsi
 
 # Make access to cd ~/<dir>
-#export CDPATH=.:~
+export CDPATH=~:~/git
 
 # Color helper variables
 [[ -f "${HOME}/.bashrc.d/common/colors" ]] && source "${HOME}/.bashrc.d/common/colors"
