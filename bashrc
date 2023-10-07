@@ -100,8 +100,10 @@ export QT_AUTO_SCREEN_SCALE_FACTOR=1
 #export LIBVA_DRIVER_NAME=iHD
 export LIBVA_DRIVER_NAME=radeonsi
 
-# Make access to cd ~/<dir>
-export CDPATH=~:~/git
+# See help cd. Also do NOT export it to prevent
+# weird behavior on shell scripts due to cd being
+# more verbose when CDPATH is set.gg
+CDPATH=~:~/git
 
 # Color helper variables
 [[ -f "${HOME}/.bashrc.d/common/colors" ]] && source "${HOME}/.bashrc.d/common/colors"
