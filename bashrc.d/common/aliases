@@ -7,6 +7,11 @@ alias \
 	bc='bc -ql' \
 	ffmpeg='ffmpeg -hide_banner'
 
+# Work around annoying output of cd when CDPATH is set
+if [[ -n "${CDPATH}" ]]; then
+    alias cd='>/dev/null cd'
+fi
+
 # less aliases
 if [[ -r /usr/bin/less ]]; then
     alias less='less -r'                              # raw control characters
