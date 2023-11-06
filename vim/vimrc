@@ -321,20 +321,4 @@ iabbrev #!y     %YAML 1.2<cr>---<cr>
 " set to 0 if you want to enable it later via :RainbowToggle
 let g:rainbow_active=1
 
-" Validator plugin settings
-let g:validator_python_checkers=['flake8']
-let g:validator_css_checkers=['csslint']
-let g:validator_go_checkers=['golint']
-" Customize Validator error message
-let g:validator_error_msg_format='● %d/%d issues'
-" To auto open quickfix window:
-let g:validator_auto_open_quickfix=0
-" To show permanently the sign column
-let g:validator_permament_sign=1
-" For validator with flake8
-let g:validator_python_flake8_args='--max-line-length=1000'
-" Change validator symbol
-let g:validator_error_symbol='●'
-let g:validator_warning_symbol='○'
-let g:validator_style_error_symbol='●'
-let g:validator_style_warning_symbol='○'
+let g:ale_virtualtext_cursor=0
