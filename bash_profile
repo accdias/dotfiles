@@ -27,11 +27,8 @@ case "$OSTYPE" in
     linux*)
         OSCODENAME="linux"
         ;;
-    cygwin | msys)
+    cygwin|msys)
         OSCODENAME="cygwin"
-        ;;
-    msys)
-        OSCODENAME="msys"
         ;;
     darwin*)
         OSCODENAME="macos"
@@ -52,18 +49,18 @@ if [[ -r "${HOME}/.bashrc.d/${OSCODENAME}/profile" ]]; then
 fi
 
 # Set PATH so it includes user's private bin if it exists
-if [[ -d "${HOME}/usr/bin" ]]; then
-    PATH="${HOME}/usr/bin:${PATH}"
+if [[ -d "${HOME}/.local/bin" ]]; then
+    PATH="${HOME}/.local/bin:${PATH}"
 fi
 
 # Set MANPATH so it includes users' private man if it exists
-if [[ -d "${HOME}/usr/man" ]]; then
-    MANPATH="${HOME}/usr/man:${MANPATH}"
+if [[ -d "${HOME}/.local/man" ]]; then
+    MANPATH="${HOME}/.local/man:${MANPATH}"
 fi
 
 # Set INFOPATH so it includes users' private info if it exists
-if [[ -d "${HOME}/usr/info" ]]; then
-    INFOPATH="${HOME}/usr/info:${INFOPATH}"
+if [[ -d "${HOME}/.local/info" ]]; then
+    INFOPATH="${HOME}/.local/info:${INFOPATH}"
 fi
 
 # Are you we on a SSH session?
