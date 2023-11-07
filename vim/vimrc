@@ -321,4 +321,19 @@ iabbrev #!y     %YAML 1.2<cr>---<cr>
 " set to 0 if you want to enable it later via :RainbowToggle
 let g:rainbow_active=1
 
+let g:ale_linters={'python': ['flake8', 'pylint']}
+
+" See: https://flake8.pycqa.org/en/latest/user/error-codes.html
+"let g:ale_python_flake8_options="--extend-ignore=E402"
+
+" See: pylint --list-msgs-enabled
+let g:ale_python_pylint_options="--disable=C0112,C0114,C0115,C0116"
+
+" Do not show error messages inline
 let g:ale_virtualtext_cursor=0
+
+let g:ale_sign_column_always=1
+
+let g:ale_sign_error='●'
+let g:ale_sign_info='○'
+let g:ale_sign_warning='!'
