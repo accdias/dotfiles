@@ -67,6 +67,9 @@ $if mode=emacs
     # Use up and down arrows to search history
     "\e[A": history-substring-search-backward
     "\e[B": history-substring-search-forward
+
+    # Use Ctrl-b to delete filenames
+    "\C-b": unix-filename-rubout
 $endif
 
 # End of file
