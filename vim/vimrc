@@ -337,5 +337,5 @@ let g:ale_sign_info='○'
 let g:ale_sign_warning='●'
 let g:ale_echo_msg_format='[%linter%] [%severity%] %s'
 
-" Clear vim-ale gutter background color
-highlight ALEWarningSign ctermfg=yellow
+highlight link ALEErrorSign    Error
+highlight link ALEWarningSign  Warning
