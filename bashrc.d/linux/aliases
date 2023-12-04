@@ -84,6 +84,9 @@ if [[ -r /usr/bin/dnf ]]; then
     }
 fi
 
+# Remove tor files
+alias untor='/usr/bin/rm -fr ~/.local/share/torbrowser ~/.cache/torbrowser ~/.config/torbrowser'
+
 # Do we have apt-get installed?
 if [[ -r /usr/bin/apt-get ]]; then
     alias aptupd='sudo apt-get update'
