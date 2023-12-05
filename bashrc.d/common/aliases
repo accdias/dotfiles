@@ -40,6 +40,12 @@ if [[ -r /usr/bin/exa ]]; then
     alias ls='/usr/bin/exa -F --color=auto --icons --group-directories-first'
 fi
 
+# Prefer exa if available
+if [[ -r /usr/bin/eza ]]; then
+    # classify files in colour show directories on top
+    alias ls='/usr/bin/eza -F --color=auto --icons --group-directories-first'
+fi
+
 # Prefer lsd if available
 if [[ -r /usr/bin/lsd ]]; then
     # classify files in colour show directories on top
