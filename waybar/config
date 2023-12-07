@@ -1,0 +1,28 @@
+// vim:ft=json
+{
+    "layer": "top",
+    "position": "top",
+    "height": 16,
+    "modules-left": ["river/tags"],
+    "modules-center": ["river/window"],
+    "modules-right": ["wireplumber", "network", "clock", "tray"],
+    "tray": {
+        "icon-size": 14,
+        "spacing": 2
+    },
+    "clock": {
+        // "timezone": "America/New_York",
+        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+        "format-alt": "{:%Y-%m-%d}"
+    },
+    "network": {
+        // "interface": "wlp2*", // (Optional) To force the use of this interface
+        "format-wifi": "{essid} ({signalStrength}%) ",
+        "format-ethernet": "{ipaddr}/{cidr} ",
+        "tooltip-format": "{ifname} via {gwaddr} ",
+        "format-linked": "{ifname} (No IP) ",
+        "format-disconnected": "Disconnected ⚠",
+        "format-alt": "{ifname}: {ipaddr}/{cidr}"
+    },
+}
+
