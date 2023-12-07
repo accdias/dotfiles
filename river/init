@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/bash
 
 # This is the example configuration file for river.
 #
@@ -11,7 +11,8 @@
 # Note: the "Super" modifier is also known as Logo, GUI, Windows, Mod4, etc.
 
 # Super+Shift+Return to start an instance of foot (https://codeberg.org/dnkl/foot)
-riverctl map normal Super+Shift Return spawn foot
+#riverctl map normal Super+Shift Return spawn foot
+riverctl map normal Super+Shift Return spawn kitty
 
 # Super+Q to close the focused view
 riverctl map normal Super Q close
@@ -75,7 +76,7 @@ riverctl map-pointer normal Super BTN_RIGHT resize-view
 riverctl map-pointer normal Super BTN_MIDDLE toggle-float
 
 for i in {1..9}; do
-    tags=$((1 << ($i - 1)))
+    tags=$((1 << (i - 1)))
 
     # Super+[1-9] to focus tag [0-8]
     riverctl map normal Super $i set-focused-tags $tags
@@ -83,10 +84,10 @@ for i in {1..9}; do
     # Super+Shift+[1-9] to tag focused view with tag [0-8]
     riverctl map normal Super+Shift $i set-view-tags $tags
 
-    # Super+Control+[1-9] to toggle focus of tag [0-8]
+    # Super+Ctrl+[1-9] to toggle focus of tag [0-8]
     riverctl map normal Super+Control $i toggle-focused-tags $tags
 
-    # Super+Shift+Control+[1-9] to toggle tag [0-8] of focused view
+    # Super+Shift+Ctrl+[1-9] to toggle tag [0-8] of focused view
     riverctl map normal Super+Shift+Control $i toggle-view-tags $tags
 done
 
@@ -121,40 +122,36 @@ riverctl map passthrough Super F11 enter-mode normal
 # Various media key mapping examples for both normal and locked mode which do
 # not have a modifier
 for mode in normal locked; do
-    # Eject the optical drive (well if you still have one that is)
-    riverctl map $mode None XF86Eject spawn 'eject -T'
-
     # Control pulse audio volume with pamixer (https://github.com/cdemoulins/pamixer)
     riverctl map $mode None XF86AudioRaiseVolume  spawn 'pamixer -i 5'
     riverctl map $mode None XF86AudioLowerVolume  spawn 'pamixer -d 5'
     riverctl map $mode None XF86AudioMute         spawn 'pamixer --toggle-mute'
-
-    # Control MPRIS aware media players with playerctl (https://github.com/altdesktop/playerctl)
-    riverctl map $mode None XF86AudioMedia spawn 'playerctl play-pause'
-    riverctl map $mode None XF86AudioPlay  spawn 'playerctl play-pause'
-    riverctl map $mode None XF86AudioPrev  spawn 'playerctl previous'
-    riverctl map $mode None XF86AudioNext  spawn 'playerctl next'
-
-    # Control screen backlight brightness with light (https://github.com/haikarainen/light)
-    riverctl map $mode None XF86MonBrightnessUp   spawn 'light -A 5'
-    riverctl map $mode None XF86MonBrightnessDown spawn 'light -U 5'
 done
 
 # Set background and border color
 riverctl background-color 0x002b36
 riverctl border-color-focused 0x93a1a1
 riverctl border-color-unfocused 0x586e75
+riverctl border-width 1
+
+riverctl spawn "swaybg --mode fill --image ~/.config/background"
+riverctl spawn "waybar"
+riverctl spawn "/opt/enpass/Enpass -minimize"
+
+# Set keyboard layout
+riverctl keyboard-layout -model pc104 -variant intl -options "terminate:ctrl_alt_bksp" us
 
 # Set keyboard repeat rate
-riverctl set-repeat 50 300
+riverctl set-repeat 40 250
 
-# Make all views with an app-id that starts with "float" and title "foo" start floating.
-riverctl rule-add float -app-id 'float*' -title 'foo'
+# Make certain views start floating
+riverctl float-filter-add app-id float
+riverctl float-filter-add title "popup title with spaces"
 
-# Make all views with app-id "bar" and any title use client-side decorations
-riverctl rule-add csd -app-id "bar"
+# Set app-ids and titles of views which should use client side decorations
+riverctl csd-filter-add app-id "gedit"
 
 # Set the default layout generator to be rivertile and start it.
 # River will send the process group of the init executable SIGTERM on exit.
 riverctl default-layout rivertile
-rivertile -view-padding 6 -outer-padding 6 &
+rivertile -view-padding 2 -outer-padding 2 &
