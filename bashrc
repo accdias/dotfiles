@@ -103,7 +103,7 @@ export LIBVA_DRIVER_NAME=radeonsi
 # See help cd. Also do NOT export it to prevent
 # weird behavior on shell scripts due to cd being
 # more verbose when CDPATH is set.gg
-CDPATH=~:~/git
+CDPATH=.:~:~/git
 
 # Color helper variables
 [[ -f "${HOME}/.bashrc.d/common/colors" ]] && source "${HOME}/.bashrc.d/common/colors"
