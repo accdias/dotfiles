@@ -10,6 +10,12 @@
 
 # Note: the "Super" modifier is also known as Logo, GUI, Windows, Mod4, etc.
 
+# Set keyboard layout
+riverctl keyboard-layout -model pc104 -variant intl -options "terminate:ctrl_alt_bksp" us
+
+# Set keyboard repeat rate
+riverctl set-repeat 40 250
+
 # Super+Shift+Return to start an instance of foot (https://codeberg.org/dnkl/foot)
 #riverctl map normal Super+Shift Return spawn foot
 riverctl map normal Super+Shift Return spawn kitty
@@ -19,6 +25,9 @@ riverctl map normal Super Q close
 
 # Super+Shift+E to exit river
 riverctl map normal Super+Shift E exit
+
+# Super+R to run wofi
+riverctl map normal Super+Shift R spawn wofi
 
 # Super+J and Super+K to focus the next/previous view in the layout stack
 riverctl map normal Super J focus-view next
@@ -136,13 +145,8 @@ riverctl border-width 1
 
 riverctl spawn "swaybg --mode fill --image ~/.config/background"
 riverctl spawn "waybar"
+riverctl spawn "picom"
 riverctl spawn "/opt/enpass/Enpass -minimize"
-
-# Set keyboard layout
-riverctl keyboard-layout -model pc104 -variant intl -options "terminate:ctrl_alt_bksp" us
-
-# Set keyboard repeat rate
-riverctl set-repeat 40 250
 
 # Make certain views start floating
 riverctl float-filter-add app-id float
