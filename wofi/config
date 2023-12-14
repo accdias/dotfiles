@@ -1,2 +1,11 @@
 # ~/.config/wofi/config
 gtk_dark=true
+show=drun
+width=500
+height=500
+always_parse_args=true
+show_all=true
+print_command=true
+layer=overlay
+insensitive=true
+prompt=Search...
