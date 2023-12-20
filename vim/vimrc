@@ -163,8 +163,8 @@ if has('package')
 endif
 
 " Expose trailing white spaces when entering/leaving insert mode
-highlight default EOLWhiteSpaces ctermbg=#bf0000 guibg=#bf0000
-autocmd ColorScheme * highlight default EOLWhiteSpaces ctermbg=#bf0000 guibg=#bf0000
+highlight default EOLWhiteSpaces ctermbg=red guibg=red
+autocmd ColorScheme * highlight default EOLWhiteSpaces ctermbg=red guibg=red
 autocmd InsertEnter * match EOLWhiteSpaces /\\\@<![\u3000[:space:]]\+\%#\@<!$/
 autocmd InsertLeave * match EOLWhiteSpaces /\\\@<![\u3000[:space:]]\+$/
 
