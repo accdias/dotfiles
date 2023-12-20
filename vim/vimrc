@@ -25,8 +25,9 @@ let &t_8b="\<Esc>[48;2;%lu;%lu;%lum"
 let &t_8f="\<Esc>[38;2;%lu;%lu;%lum"
 
 " Default color scheme
-" dnf install -y vim-jellybeans
-colorscheme jellybeans
+" TODO: Find a truecolor compatible color scheme
+colorscheme pythonista
+"colorscheme wombat256mod
 
 " Default color scheme for diff mode
 if &diff
@@ -162,8 +163,8 @@ if has('package')
 endif
 
 " Expose trailing white spaces when entering/leaving insert mode
-highlight default EOLWhiteSpaces ctermbg=red guibg=red
-autocmd ColorScheme * highlight default EOLWhiteSpaces ctermbg=red guibg=red
+highlight default EOLWhiteSpaces ctermbg=#bf0000 guibg=#bf0000
+autocmd ColorScheme * highlight default EOLWhiteSpaces ctermbg=#bf0000 guibg=#bf0000
 autocmd InsertEnter * match EOLWhiteSpaces /\\\@<![\u3000[:space:]]\+\%#\@<!$/
 autocmd InsertLeave * match EOLWhiteSpaces /\\\@<![\u3000[:space:]]\+$/
 
