@@ -1,0 +1,17 @@
+#!/bin/bash
+[ -d /proc/sys/net/ipv4/conf/wg0 ] || \
+[ -d /proc/sys/net/ipv4/conf/at1 ] || \
+[ -d /proc/sys/net/ipv4/conf/be1 ] || \
+[ -d /proc/sys/net/ipv4/conf/bg1 ] || \
+[ -d /proc/sys/net/ipv4/conf/ch1 ] || \
+[ -d /proc/sys/net/ipv4/conf/hk1 ] || \
+[ -d /proc/sys/net/ipv4/conf/hu1 ] || \
+[ -d /proc/sys/net/ipv4/conf/is1 ] || \
+[ -d /proc/sys/net/ipv4/conf/it1 ] || \
+[ -d /proc/sys/net/ipv4/conf/nl1 ] || \
+[ -d /proc/sys/net/ipv4/conf/no1 ] || \
+[ -d /proc/sys/net/ipv4/conf/rs1 ] || \
+[ -d /proc/sys/net/ipv4/conf/tun0 ] && \
+echo '{"text":"Connected","class":"connected","percentage":100}' || \
+echo '{"text":"Disconnected","class":"disconnected","percentage":0}'
+

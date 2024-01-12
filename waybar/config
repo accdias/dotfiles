@@ -1,28 +1,78 @@
+// ~/.config/waybar/config
 // vim:ft=json
 {
-    "layer": "top",
-    "position": "top",
-    "height": 16,
-    "modules-left": ["river/tags"],
-    "modules-center": ["river/window"],
-    "modules-right": ["wireplumber", "network", "clock", "tray"],
-    "tray": {
-        "icon-size": 14,
-        "spacing": 2
+  "layer": "top",
+  "position": "top",
+  "height": 27,
+  "modules-left": ["hyprland/workspaces"],
+  "modules-center": ["hyprland/window"],
+  "modules-right": ["pulseaudio", "clock", "tray"],
+  // Left
+  "hyprland/workspaces": {
+    "active-only": false,
+    "all-outputs": true,
+    "disable-scroll": false,
+    "on-scroll-up": "hyprctl dispatch workspace e-1",
+    "on-scroll-down": "hyprctl dispatch workspace e+1",
+    "persistent-workspaces": {
+      "1": [],
+      "2": [],
+      "3": [],
+      "4": [],
+      "5": [],
+      "6": [],
+      "7": [],
+      "8": [],
+      "9": [],
+      "10": [],
     },
-    "clock": {
-        // "timezone": "America/New_York",
-        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
-        "format-alt": "{:%Y-%m-%d}"
-    },
-    "network": {
-        // "interface": "wlp2*", // (Optional) To force the use of this interface
-        "format-wifi": "{essid} ({signalStrength}%) ",
-        "format-ethernet": "{ipaddr}/{cidr} ",
-        "tooltip-format": "{ifname} via {gwaddr} ",
-        "format-linked": "{ifname} (No IP) ",
-        "format-disconnected": "Disconnected ⚠",
-        "format-alt": "{ifname}: {ipaddr}/{cidr}"
-    },
-}
+    "sort-by-number": true,
+  },
 
+  // Center
+  "hyprland/window": {
+    "max-length": 200,
+    "separate-outputs": true
+  },
+
+  // Right
+  "pulseaudio": {
+    "tooltip": false,
+    // "scroll-step": 1, // %, can be a float
+    "format": "{volume}% {icon} {format_source}",
+    "format-bluetooth": "{volume}% {icon}  {format_source}",
+    "format-bluetooth-muted": " {icon}  {format_source}",
+    "format-muted": " {format_source}",
+    "format-source": "{volume}% ",
+    "format-source-muted": "",
+    "format-icons": {
+      "headphone": "",
+      "hands-free": "",
+      "headset": "",
+      "phone": "",
+      "portable": "",
+      "car": "",
+      "default": ["", "", ""]
+    },
+    "on-click-right": "pavucontrol",
+    "on-click-middle": "pactl set-source-mute @DEFAULT_SOURCE@ toggle",
+    "on-click": "pactl set-sink-mute @DEFAULT_SINK@ toggle"
+  },
+  "clock": {
+    // "timezone": "America/New_York",
+    "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+    "format-alt": "{:%Y-%m-%d}"
+  },
+  "tray": {
+    "icon-size": 14,
+    "spacing": 2
+  },
+  "custom/vpn":{
+    "format": "vpn {icon}",
+    "tooltip-format": "{icon}",
+    "exec": "~/.config/waybar/modules/vpn",
+    "return-type": "json",
+    "interval": 5,
+    "format-icons": ["",""]
+  },
+}
