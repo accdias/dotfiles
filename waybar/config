@@ -38,6 +38,7 @@
   // Right
   "pulseaudio": {
     "tooltip": false,
+    "icon-size": 14,
     // "scroll-step": 1, // %, can be a float
     "format": "{volume}% {icon} {format_source}",
     "format-bluetooth": "{volume}% {icon}  {format_source}",
@@ -68,6 +69,7 @@
     "spacing": 2
   },
   "custom/vpn":{
+    "icon-size": 14,
     "format": "vpn {icon}",
     "tooltip-format": "{icon}",
     "exec": "~/.config/waybar/modules/vpn",

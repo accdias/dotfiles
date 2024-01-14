@@ -1,1 +1,56 @@
-tokio-night-style.css
+* {
+  font-family: JetBrainsMono Nerd Font Mono;
+  font-weight: 900;
+  font-size: 9pt;
+  color: #cdd6f4;
+  margin: 0;
+  padding: 0;
+  border-radius: 0;
+}
+
+/* Set background color of main waybar window */
+window#waybar {
+  background: rgba(26, 27, 38, 0.95);
+  padding: 0;
+  margin: 0;
+}
+
+/* Hide window module when not focused on window or empty workspace */
+window#waybar.empty #window {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  background-color: transparent;
+}
+
+tooltip {
+  background: #1e1e2e;
+  font-size: 7pt;
+}
+
+#workspaces {
+  margin-right: -5px;
+}
+
+#workspaces button.active {
+  background: #7aa2f7;
+  border-bottom: 3px solid #cdd6f4;
+  transition: all 0.2s ease-in-out;
+}
+
+#workspaces button.focused {
+  background: #7aa2f7;
+}
+
+#workspaces button.urgent {
+  background: #f7768e;
+}
+
+#workspaces button:hover {
+  background: #7aa2f7;
+}
+
+#clock,
+#tray {
+  margin-left: 5px;
+}
