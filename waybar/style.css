@@ -28,6 +28,10 @@ tooltip {
   font-size: 7pt;
 }
 
+#icon {
+  font-size: 16pt;
+}
+
 #workspaces {
   margin-right: -5px;
 }
@@ -50,7 +54,29 @@ tooltip {
   background: #7aa2f7;
 }
 
-#clock,
-#tray {
-  margin-left: 5px;
+#workspaces button.icon {
+  font-size: 16pt;
 }
+
+#tray,
+#custom-foot,
+#custom-exit,
+#custom-vpn {
+  margin-left: 5px;
+  padding: 0 5px 0 5px;
+  font-size: 16pt;
+}
+
+#bluetooth,
+#pulseaudio,
+#wireplumber,
+#network {
+  margin-left: 5px;
+  padding: 0 5px 0 5px;
+}
+
+:hover {
+  background: #7aa2f7;
+}
+
+
