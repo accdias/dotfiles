@@ -44,7 +44,7 @@
       "7": "7",
       "8": "8",
       "9": "9",
-      "10": "<span size=\"14pt\">\uf26c</span>"
+      "10": "<span size='14pt'>\uf26c</span>"
       // "active": "*",
       // "default": ""
     },
@@ -61,15 +61,15 @@
       // Windows that contain "foot" in either class or title.
       // For optimization reasons, it will only match against a title
       // if at least one other window explicitly matches against a title.
-      // "foot": "<span size=\"14pt\">\uf489</span>: foot",
+      // "foot": "<span size='14pt'>\uf489</span>: foot",
       // "kitty": "",
       // "code": "",
     },
     "on-scroll-up": "hyprctl dispatch workspace e-1",
     "on-scroll-down": "hyprctl dispatch workspace e+1",
     "persistent-workspaces": {
-      "HDMI-A-1": [ 1, 2, 3, 4, 5, 6, 7, 8, 9 ],
-      "HDMI-A-2": [ 10 ]
+      "DP-1": [ 1, 2, 3, 4, 5, 6, 7, 8, 9 ], // Monitor
+      "HDMI-A-1": [ 10 ] // TV
     },
     "sort-by-number": true,
   },
@@ -125,13 +125,13 @@
     "scrolllock": false,
     "format": "{icon}",
     "format-icons": {
-      "locked": "<span size=\"14pt\">󰪛</span>",
+      "locked": "<span size='14pt'>󰪛</span>",
       "unlocked": ""
     }
   },
   "wireplumber": {
-    "format": "<span font=\"16px\">{icon}</span> {volume}%",
-    "format-muted": "<span font=\"16px\">\uf026</span> 0%",
+    "format": "<span font='14px'>{icon}</span> {volume}%",
+    "format-muted": "<span font='14px'>\uf026</span> 0%",
     "format-icons": {
       "headphone": "",
       "hands-free": "󰋎",
@@ -201,7 +201,7 @@
 
   // Power Menu
   "custom/exit": {
-    "format": "<span size=\"14pt\"></span>",
+    "format": "<span size='14pt'></span>",
     "on-click": "wlogout",
     "tooltip": false
   },
