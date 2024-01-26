@@ -1,5 +1,5 @@
 * {
-  font-family: JetBrainsMono Nerd Font Mono;
+  font-family: "JetBrainsMono Nerd Font Mono", "Font Awesome 6 Free";
   font-weight: 900;
   font-size: 9pt;
   color: #cdd6f4;
@@ -30,6 +30,10 @@ tooltip {
 
 #icon {
   font-size: 16pt;
+}
+
+.pill {
+  background: #f9f9f9 url("background-image.jpg") repeat-y right top;
 }
 
 #workspaces {
