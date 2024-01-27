@@ -95,12 +95,8 @@ export MERGE=vimdiff
 export QT_QPA_PLATFORMTHEME=qt5ct
 export QT_AUTO_SCREEN_SCALE_FACTOR=1
 
+# Set Video Accelleration Driver
 [[ -r "${HOME}/.bash_gpu" ]] && source "${HOME}/.bash_gpu"
-
-# Video Accelleration Driver T450s
-# dnf install intel-media-driver.x86_64
-export LIBVA_DRIVER_NAME=iHD
-#export LIBVA_DRIVER_NAME=radeonsi
 
 # See help cd. Also do NOT export it to prevent
 # weird behavior on shell scripts due to cd being
