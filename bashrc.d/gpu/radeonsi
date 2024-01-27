@@ -1,0 +1,3 @@
+# ~/.bashrc.d/gpu/radeonsi
+# dnf install mesa-dri-drivers
+export LIBVA_DRIVER_NAME=radeonsi

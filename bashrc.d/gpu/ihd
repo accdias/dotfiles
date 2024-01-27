@@ -1,0 +1,3 @@
+# ~/.bashrc/gpu/ihd
+# dnf install intel-media-driver.x86_64
+export LIBVA_DRIVER_NAME=iHD
