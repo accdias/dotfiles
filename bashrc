@@ -66,7 +66,7 @@ shopt -s checkwinsize
 #
 # Uncomment to turn on programmable completion enhancements.
 # Any completions you add in ~/.bash_completion are sourced last.
-[[ -f /etc/bash_completion ]] && . /etc/bash_completion
+[[ -r /etc/bash_completion ]] && . /etc/bash_completion
 
 # History Options
 #
@@ -95,7 +95,7 @@ export MERGE=vimdiff
 export QT_QPA_PLATFORMTHEME=qt5ct
 export QT_AUTO_SCREEN_SCALE_FACTOR=1
 
-[[ -f "${HOME}/.bash_gpu" ]] && source "${HOME}/.bash_gpu"
+[[ -r "${HOME}/.bash_gpu" ]] && source "${HOME}/.bash_gpu"
 
 # Video Accelleration Driver T450s
 # dnf install intel-media-driver.x86_64
@@ -108,16 +108,16 @@ export LIBVA_DRIVER_NAME=iHD
 CDPATH=.:~:~/git
 
 # Color helper variables
-[[ -f "${HOME}/.bashrc.d/common/colors" ]] && source "${HOME}/.bashrc.d/common/colors"
+[[ -r "${HOME}/.bashrc.d/common/colors" ]] && source "${HOME}/.bashrc.d/common/colors"
 
 # Aliases
-[[ -f "${HOME}/.bashrc.d/common/aliases" ]] && source "${HOME}/.bashrc.d/common/aliases"
+[[ -r "${HOME}/.bashrc.d/common/aliases" ]] && source "${HOME}/.bashrc.d/common/aliases"
 
 # Functions
-[[ -f "${HOME}/.bashrc.d/common/functions" ]] && source "${HOME}/.bashrc.d/common/functions"
+[[ -r "${HOME}/.bashrc.d/common/functions" ]] && source "${HOME}/.bashrc.d/common/functions"
 
 # Prompts
-[[ -f "${HOME}/.bashrc.d/common/prompts" ]] && source "${HOME}/.bashrc.d/common/prompts"
+[[ -r "${HOME}/.bashrc.d/common/prompts" ]] && source "${HOME}/.bashrc.d/common/prompts"
 
 # Umask
 # /etc/profile sets 022, removing write perms to group + others.
