@@ -6,29 +6,27 @@
   "height": 24,
   "modules-left": [
     "hyprland/workspaces",
-    "hyprland/submap"
+    "hyprland/submap",
     // "custom/foot",
+    "custom/vim"
   ],
   "modules-center": [
     // "hyprland/window"
     "clock"
   ],
   "modules-right": [
+    "temperature",
     "keyboard-state",
     // "bluetooth",
+    // "pulseaudio",
     "wireplumber",
     "tray",
     // "custom/vpn",
-    "network",
+    // "network",
     "custom/exit"
   ],
 
   // Left
-  "hyprland/submap": {
-    "format": "✌️ {}",
-    "max-length": 8,
-    "tooltip": false
-  },
   "hyprland/workspaces": {
     "active-only": false,
     "all-outputs": true,
@@ -44,7 +42,7 @@
       "7": "7",
       "8": "8",
       "9": "9",
-      "10": "<span size='14pt'>\uf26c</span>"
+      "10": "<span size='10pt'>\uea85</span>"
       // "active": "*",
       // "default": ""
     },
@@ -61,7 +59,7 @@
       // Windows that contain "foot" in either class or title.
       // For optimization reasons, it will only match against a title
       // if at least one other window explicitly matches against a title.
-      // "foot": "<span size='14pt'>\uf489</span>: foot",
+      // "foot": "<span size='10pt'>\uf489</span>: foot",
       // "kitty": "",
       // "code": "",
     },
@@ -73,38 +71,24 @@
     },
     "sort-by-number": true,
   },
+
+  "hyprland/submap": {
+    "format": "✌️ {}",
+    "max-length": 8,
+    "tooltip": false
+  },
+
   "custom/foot": {
     "format": "\uf489",
     "tooltip": false,
     "on-click": "exec foot"
   },
+
   "clock": {
     "format": "{:%a %b %d %H:%M}",
-    "format-alt": "{:%A, %B %d, %Y %H:%M}",
-    "tooltip-format": "{timezoned_time_list}\n{calendar}",
-    "timezones": [ "America/Sao_Paulo", "UTC", "Europe/London", "Europe/Netherlands" ],
-    "calendar": {
-      "mode"          : "month",
-      "mode-mon-col"  : 3,
-      "weeks-pos"     : "left",
-      "on-scroll"     : 1,
-      "on-click-right": "mode",
-      "format": {
-        "today":      "<span background='#7aa2f7'><b>{}</b></span>",
-        "days":       "<b>{}</b>",
-        "weeks":      "<span color='#ffead3'><b>W{}</b></span>",
-        "weekdays":   "<span color='#ffead3'><b>{}</b></span>",
-        "months":     "<span color='#ffead3'><b>{}</b></span>"
-      }
-    },
-    "actions": {
-      "on-click-right": "mode",
-      "on-click-forward": "tz_up",
-      "on-click-backward": "tz_down",
-      "on-scroll-up": "shift_up",
-      "on-scroll-down": "shift_down"
-    }
+    "format-alt": "{:%A, %B %d, %Y %H:%M}"
   },
+
   "hyprland/window": {
     "max-length": 200,
     "separate-outputs": true,
@@ -119,19 +103,33 @@
   },
 
   // Right
+  "temperature": {
+    // "thermal-zone": 2,
+    "hwmon-path": [
+      // GPU
+      "/sys/class/hwmon/hwmon1/temp1_input"
+      // // NVME
+      // "/sys/class/hwmon/hwmon0/temp1_input"
+    ],
+    "critical-threshold": 80,
+    "format": "{temperatureC}°C <span size='10pt'>\uf2c9</span>",
+    "format-critical": "{temperatureC}°C <span size='10pt'>\uf2c7</span>"
+  },
+
   "keyboard-state": {
     "numlock": false,
     "capslock": true,
     "scrolllock": false,
     "format": "{icon}",
     "format-icons": {
-      "locked": "<span size='14pt'>󰪛</span>",
+      "locked": "<span size='10pt'>󰪛</span>",
       "unlocked": ""
     }
   },
+
   "wireplumber": {
-    "format": "<span font='14px'>{icon}</span> {volume}%",
-    "format-muted": "<span font='14px'>\uf026</span> 0%",
+    "format": "<span font='10pt'>{icon}</span> {volume}%",
+    "format-muted": "<span font='10pt'>\uf026</span> 0%",
     "format-icons": {
       "headphone": "",
       "hands-free": "󰋎",
@@ -143,6 +141,7 @@
     },
     "on-click": "pactl set-sink-mute @DEFAULT_SINK@ toggle"
   },
+
   "pulseaudio": {
     "tooltip": false,
     "icon-size": 14,
@@ -201,7 +200,7 @@
 
   // Power Menu
   "custom/exit": {
-    "format": "<span size='14pt'></span>",
+    "format": "<span size='10pt'>\u23fb</span>",
     "on-click": "wlogout",
     "tooltip": false
   },
