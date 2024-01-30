@@ -1,7 +1,8 @@
 * {
-  font-family: "JetBrainsMono Nerd Font Mono", "FontAwesome 6 Free";
+  /* font-family: "JetBrainsMono Nerd Font Mono", "FontAwesome 6 Free"; */
+  font-family: "JetBrainsMono Nerd Font Propo";
   font-weight: 900;
-  font-size: 9pt;
+  font-size: 9.5pt;
   color: #cdd6f4;
   margin: 0;
   padding: 0;
@@ -50,10 +51,6 @@ tooltip {
   background: #7aa2f7;
 }
 
-.icon {
-  font-size: 14pt;
-}
-
 #tray,
 #custom-foot,
 #custom-exit,
@@ -69,9 +66,3 @@ tooltip {
   margin-left: 5px;
   padding: 0 5px 0 5px;
 }
-
-:hover {
-  background: #7aa2f7;
-}
-
-
