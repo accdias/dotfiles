@@ -42,7 +42,8 @@
       "7": "7",
       "8": "8",
       "9": "9",
-      "10": "<span size='10pt'>\uea85</span>"
+      "10": "\uea85"
+      //"10": "<span size='10pt'>\uea85</span>"
       // "active": "*",
       // "default": ""
     },
@@ -112,8 +113,10 @@
       // "/sys/class/hwmon/hwmon0/temp1_input"
     ],
     "critical-threshold": 80,
-    "format": "{temperatureC}°C <span size='10pt'>\uf2c9</span>",
-    "format-critical": "{temperatureC}°C <span size='10pt'>\uf2c7</span>"
+    //"format": "{temperatureC}°C <span size='10pt'>\uf2c9</span>",
+    "format": "\uf2c9 {temperatureC}°C",
+    //"format-critical": "{temperatureC}°C <span size='10pt'>\uf2c7</span>"
+    "format-critical": "\uf2c7 {temperatureC}°C"
   },
 
   "keyboard-state": {
@@ -122,14 +125,15 @@
     "scrolllock": false,
     "format": "{icon}",
     "format-icons": {
-      "locked": "<span size='10pt'>󰪛</span>",
+      //"locked": "<span size='10pt'>󰪛</span>",
+      "locked": "󰪛",
       "unlocked": ""
     }
   },
 
   "wireplumber": {
-    "format": "<span font='10pt'>{icon}</span> {volume}%",
-    "format-muted": "<span font='10pt'>\uf026</span> 0%",
+    "format": "{icon} {volume}%",
+    "format-muted": "\uf026 0%",
     "format-icons": {
       "headphone": "",
       "hands-free": "󰋎",
@@ -144,7 +148,7 @@
 
   "pulseaudio": {
     "tooltip": false,
-    "icon-size": 14,
+    // "icon-size": 14,
     // "scroll-step": 1, // %, can be a float
     "format": "{icon}:{volume}% {format_source}",
     "format-muted": "{icon}:0% {format_source}",
@@ -168,13 +172,13 @@
 
   // Systray
   "tray": {
-    "icon-size": 12,
+    // "icon-size": 12,
     "spacing": 2
   },
 
   // VPN Status
   "custom/vpn":{
-    "icon-size": 14,
+    // "icon-size": 14,
     "format": "{icon}",
     "tooltip-format": "{icon}",
     "exec": "~/.config/waybar/modules/vpn",
@@ -200,7 +204,8 @@
 
   // Power Menu
   "custom/exit": {
-    "format": "<span size='10pt'>\u23fb</span>",
+    // "format": "<span size='10pt'>\u23fb</span>",
+    "format": "\u23fb",
     "on-click": "wlogout",
     "tooltip": false
   },

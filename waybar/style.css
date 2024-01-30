@@ -1,5 +1,5 @@
 * {
-  font-family: "JetBrainsMono Nerd Font Mono", "Font Awesome 6 Free";
+  font-family: "JetBrainsMono Nerd Font Mono", "FontAwesome 6 Free";
   font-weight: 900;
   font-size: 9pt;
   color: #cdd6f4;
@@ -28,14 +28,6 @@ tooltip {
   font-size: 7pt;
 }
 
-#icon {
-  font-size: 16pt;
-}
-
-.pill {
-  background: #f9f9f9 url("background-image.jpg") repeat-y right top;
-}
-
 #workspaces {
   margin-right: -5px;
 }
@@ -58,8 +50,8 @@ tooltip {
   background: #7aa2f7;
 }
 
-#workspaces button.icon {
-  font-size: 16pt;
+.icon {
+  font-size: 14pt;
 }
 
 #tray,
@@ -68,7 +60,6 @@ tooltip {
 #custom-vpn {
   margin-left: 5px;
   padding: 0 5px 0 5px;
-  font-size: 16pt;
 }
 
 #bluetooth,
