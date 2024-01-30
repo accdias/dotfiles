@@ -1,0 +1,9 @@
+# ~/.config/swaylock/config
+image=~/.config/background
+ignore-empty-password
+
+# Show/Hide indicator circle
+indicator-idle-visible
+indicator-radius=100
+indicator-thickness=10
+indicator-caps-lock
