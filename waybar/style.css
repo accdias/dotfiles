@@ -24,11 +24,6 @@ window#waybar.empty #window {
   background-color: transparent;
 }
 
-tooltip {
-  background: #1e1e2e;
-  font-size: 7pt;
-}
-
 #workspaces {
   margin-right: -5px;
 }
@@ -51,19 +46,26 @@ tooltip {
   background: #7aa2f7;
 }
 
-#tray,
-#custom-foot,
-#custom-vim,
-#custom-exit,
-#custom-vpn {
-  margin-left: 5px;
+#window {
+  margin-left: 10px;
   padding: 0 5px 0 5px;
 }
 
+tooltip {
+  background: #1e1e2e;
+  font-size: 7pt;
+}
+
 #bluetooth,
+#custom-exit,
+#custom-foot,
+#custom-vim,
+#custom-vpn,
+#keyboard-state,
+#network,
 #pulseaudio,
-#wireplumber,
-#network {
+#tray,
+#wireplumber {
   margin-left: 5px;
   padding: 0 5px 0 5px;
 }
