@@ -56,12 +56,6 @@
     "sort-by-number": true,
   },
 
-  "hyprland/submap": {
-    "format": "✌️ {}",
-    "max-length": 8,
-    "tooltip": false
-  },
-
   "custom/vim": {
     "format": "\ue7c5", // nf-dev-vim
     "tooltip": false,
@@ -76,7 +70,14 @@
   "hyprland/window": {
     "max-length": 200,
     "separate-outputs": true,
-    "format": "{}"
+    "format": "{}",
+    "rewrite": {
+      "(.*) - Brave": "$1",
+      "(.*) - Chromium": "$1",
+      "(.*) - Brave Search": "$1",
+      "(.*) - Outlook": "$1",
+      "(.*) Microsoft Teams": "$1"
+    }
   },
 
   // Right
