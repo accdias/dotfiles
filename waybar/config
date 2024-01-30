@@ -6,9 +6,8 @@
   "height": 24,
   "modules-left": [
     "hyprland/workspaces",
-    "hyprland/submap",
-    // "custom/foot",
-    "custom/vim"
+    "custom/vim",
+    "hyprland/window"
   ],
   "modules-center": [
     // "hyprland/window"
@@ -20,7 +19,7 @@
     // "bluetooth",
     // "pulseaudio",
     "wireplumber",
-    "tray",
+    // "tray",
     // "custom/vpn",
     // "network",
     "custom/exit"
@@ -33,6 +32,8 @@
     "disable-scroll": false,
     "format": "{icon}",
     "format-icons": {
+      "active": "",
+      "default": "",
       "1": "1",
       "2": "2",
       "3": "3",
@@ -42,28 +43,10 @@
       "7": "7",
       "8": "8",
       "9": "9",
-      "10": "\uea85"
-      //"10": "<span size='10pt'>\uea85</span>"
-      // "active": "*",
-      // "default": ""
+      "10": "\uf26c" // nf-fa-tv
     },
     "format-window-separator": ":",
     "window-rewrite-default": "",
-    "window-rewrite": {
-      // Windows whose titles contain "youtube"
-      "title<.*youtube.*>": "",
-      // Windows whose classes are "firefox"
-      "class<brave>": "",
-      // Windows whose class is "firefox" and title contains "github".
-      // Note that "class" always comes first.
-      "class<brave> title<.*github.*>": ""
-      // Windows that contain "foot" in either class or title.
-      // For optimization reasons, it will only match against a title
-      // if at least one other window explicitly matches against a title.
-      // "foot": "<span size='10pt'>\uf489</span>: foot",
-      // "kitty": "",
-      // "code": "",
-    },
     "on-scroll-up": "hyprctl dispatch workspace e-1",
     "on-scroll-down": "hyprctl dispatch workspace e+1",
     "persistent-workspaces": {
@@ -79,10 +62,10 @@
     "tooltip": false
   },
 
-  "custom/foot": {
-    "format": "\uf489",
+  "custom/vim": {
+    "format": "\ue7c5", // nf-dev-vim
     "tooltip": false,
-    "on-click": "exec foot"
+    "on-click": "exec foot vim"
   },
 
   "clock": {
@@ -93,14 +76,7 @@
   "hyprland/window": {
     "max-length": 200,
     "separate-outputs": true,
-    "format": "{}",
-    "rewrite": {
-      "(.*) - Brave": " $1",
-      "(.*) - bash": "> [$1]",
-      "(.*) - bash": "\uf489 [$1]",
-      "(.*) - foot": "\uf489 [$1]",
-      "(.*) - kitty": "\uf489 [$1]"
-    }
+    "format": "{}"
   },
 
   // Right
@@ -113,9 +89,7 @@
       // "/sys/class/hwmon/hwmon0/temp1_input"
     ],
     "critical-threshold": 80,
-    //"format": "{temperatureC}°C <span size='10pt'>\uf2c9</span>",
     "format": "\uf2c9 {temperatureC}°C",
-    //"format-critical": "{temperatureC}°C <span size='10pt'>\uf2c7</span>"
     "format-critical": "\uf2c7 {temperatureC}°C"
   },
 
@@ -125,7 +99,6 @@
     "scrolllock": false,
     "format": "{icon}",
     "format-icons": {
-      //"locked": "<span size='10pt'>󰪛</span>",
       "locked": "󰪛",
       "unlocked": ""
     }
@@ -148,8 +121,7 @@
 
   "pulseaudio": {
     "tooltip": false,
-    // "icon-size": 14,
-    // "scroll-step": 1, // %, can be a float
+    "scroll-step": 10, // %, can be a float
     "format": "{icon}:{volume}% {format_source}",
     "format-muted": "{icon}:0% {format_source}",
     "format-bluetooth": "{icon}:{volume}%  {format_source}",
@@ -172,13 +144,11 @@
 
   // Systray
   "tray": {
-    // "icon-size": 12,
     "spacing": 2
   },
 
   // VPN Status
   "custom/vpn":{
-    // "icon-size": 14,
     "format": "{icon}",
     "tooltip-format": "{icon}",
     "exec": "~/.config/waybar/modules/vpn",
@@ -204,7 +174,6 @@
 
   // Power Menu
   "custom/exit": {
-    // "format": "<span size='10pt'>\u23fb</span>",
     "format": "\u23fb",
     "on-click": "wlogout",
     "tooltip": false
