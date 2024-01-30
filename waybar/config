@@ -6,7 +6,6 @@
   "height": 24,
   "modules-left": [
     "hyprland/workspaces",
-    "custom/vim",
     "hyprland/window"
   ],
   "modules-center": [
@@ -14,8 +13,8 @@
     "clock"
   ],
   "modules-right": [
-    "temperature",
     "keyboard-state",
+    "temperature",
     // "bluetooth",
     // "pulseaudio",
     "wireplumber",
@@ -32,8 +31,8 @@
     "disable-scroll": false,
     "format": "{icon}",
     "format-icons": {
-      "active": "",
-      "default": "",
+      // "active": "",
+      // "default": "",
       "1": "1",
       "2": "2",
       "3": "3",
@@ -73,10 +72,9 @@
     "format": "{}",
     "rewrite": {
       "(.*) - Brave": "$1",
-      "(.*) - Chromium": "$1",
       "(.*) - Brave Search": "$1",
-      "(.*) - Outlook": "$1",
-      "(.*) Microsoft Teams": "$1"
+      "(.*) - VIM": "\ue7c5 $1",
+      "foot": "󰽒"
     }
   },
 
