@@ -1,10 +1,11 @@
 #window {
+  font-family: "JetBrainsMono Nerd Font Propo";
+  font-weight: 900;
+  font-size: 9.5pt;
   margin: 0px;
   border: 2px solid #414868;
   border-radius: 8px;
   background-color: rgba(21, 22, 30, 0.5);
-  font-family: SpaceMono Nerd Font;
-  font-size: 16px;
 }
 
 #input {
@@ -14,7 +15,7 @@
 }
 
 #input image {
-	color: #c0caf5;
+  color: #c0caf5;
 }
 
 #inner-box {
@@ -38,14 +39,14 @@
   margin: 5px;
   border: none;
   color: #c0caf5;
-} 
+}
 
 #entry:selected {
-	background-color: #414868;
-	font-weight: normal;
+  background-color: #414868;
+  font-weight: normal;
 }
 
 #text:selected {
-	background-color: #414868;
-	font-weight: normal;
+  background-color: #414868;
+  font-weight: normal;
 }
