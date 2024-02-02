@@ -1,3 +1,0 @@
-[submodule "dotfiles.wiki"]
-	path = dotfiles.wiki
-	url = ssh://git@github.com/accdias/dotfiles/dotfiles.wiki
