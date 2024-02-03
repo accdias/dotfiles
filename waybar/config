@@ -71,6 +71,7 @@
     "separate-outputs": true,
     "format": "{}",
     "rewrite": {
+      "(.*) - (.*) - Brave": "$2",
       "(.*) - Brave": "$1",
       "(.*) - Brave Search": "$1",
       "(.*) - VIM": "\ue7c5 $1",
