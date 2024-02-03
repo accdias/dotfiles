@@ -63,7 +63,8 @@
 
   "clock": {
     "format": "{:%a %b %d %H:%M}",
-    "format-alt": "{:%A, %B %d, %Y %H:%M}"
+    // "format-alt": "{:%A, %B %d, %Y %H:%M}",
+    "on-click": "exec gnome-clocks"
   },
 
   "hyprland/window": {
