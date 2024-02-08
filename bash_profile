@@ -74,12 +74,17 @@ fi
 #     fi
 # fi
 
-if [[ -x /usr/bin/dircolors ]]; then
-    eval $(/usr/bin/dircolors)
-fi
+[[ -x "$(command -v dircolors)" ]] && eval "$(/usr/bin/dircolors)"
 
 # Disable pygame nag prompt
 export PYGAME_HIDE_SUPPORT_PROMPT=yes
+
+# Set default directory for config files
+export XDG_CONFIG_HOME="${XDG_CONFIG_HOME:-${HOME}/.config}"
+
+# Use kfc to set the terminal theme
+# dnf install -y kfc
+[[ -x "$(command -v kfc)" ]] && kfc -s vscode
 
 # JIC
 tput init
