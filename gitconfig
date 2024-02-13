@@ -18,7 +18,7 @@ default = matching
 [alias]
 co = checkout
 cm = commit -m
-	stall = stash --all
+stall = stash --all
 
 [merge]
 tool = vimdiff
@@ -28,3 +28,9 @@ defaultBranch = main
 
 [credential]
 helper = /usr/lib/git-core/git-credential-libsecret
+
+[column]
+ui = auto
+
+[branch]
+sort = -committerdate
