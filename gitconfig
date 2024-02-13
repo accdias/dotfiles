@@ -18,6 +18,7 @@ default = matching
 [alias]
 co = checkout
 cm = commit -m
+	stall = stash --all
 
 [merge]
 tool = vimdiff
