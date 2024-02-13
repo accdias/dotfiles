@@ -15,7 +15,8 @@ ui = true
 default = matching
 
 [alias]
-co = checkout
+	co = checkout
+	cm = commit -m
 
 [merge]
 tool = vimdiff
