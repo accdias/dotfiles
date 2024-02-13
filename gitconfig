@@ -1,4 +1,5 @@
 # ~/git/dotfiles/gitconfig
+# vim: ft=dosini
 [user]
 name = Antonio Dias
 email = accdias@gmail.com
@@ -15,12 +16,14 @@ ui = true
 default = matching
 
 [alias]
-	co = checkout
-	cm = commit -m
+co = checkout
+cm = commit -m
 
 [merge]
 tool = vimdiff
+
 [init]
-	defaultBranch = main
+defaultBranch = main
+
 [credential]
-	helper = /usr/lib/git-core/git-credential-libsecret
+helper = /usr/lib/git-core/git-credential-libsecret
