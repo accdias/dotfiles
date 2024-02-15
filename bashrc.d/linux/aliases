@@ -87,6 +87,11 @@ fi
 # Remove tor files
 alias untor='/usr/bin/rm -fr ~/.local/share/torbrowser ~/.cache/torbrowser ~/.config/torbrowser'
 
+# Flush journal files
+if [[ -x "$(command -v journalctl)" ]]; then
+    alias journalflush='sudo journalctl --rotate; sudo journalctl --vacuum-time=1s'
+fi
+
 # Do we have apt-get installed?
 if [[ -r /usr/bin/apt-get ]]; then
     alias aptupd='sudo apt-get update'
