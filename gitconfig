@@ -39,3 +39,6 @@ sort = -committerdate
 
 [rerere]
 enabled = true
+
+[diff]
+algorithm = histogram
