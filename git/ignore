@@ -1,0 +1,4 @@
+# ~/config/git/ignore
+.idea
+.DS_Store
+*~
