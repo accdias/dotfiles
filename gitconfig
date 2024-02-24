@@ -8,7 +8,7 @@ email = accdias@gmail.com
 autocrlf = input
 editor = vim
 whitespace = trailing-space,space-before-tab,indent-with-non-tab
-pager = delta
+#pager = delta
 
 [color]
 ui = true
