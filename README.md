@@ -11,28 +11,27 @@ These files are licensed under [Artistic License 2.0](LICENSE.txt)
 
 ```sh
 mkdir ~/git
-cd ~/git
-git clone https://github.com/accdias/dotfiles
-cd ~
-ln -sf ~/git/dotfiles/XCompose ~/.XCompose
-ln -sf ~/git/dotfiles/Xresources ~/.Xresources
-ln -sf ~/git/dotfiles/bash_profile ~/.bash_profile
-ln -sf ~/git/dotfiles/bashrc ~/.bashrc
-ln -sf ~/git/dotfiles/bashrc.d ~/.bashrc.d
-ln -sf ~/git/dotfiles/elinks/elinks.conf ~/.elinks/elinks.conf
-ln -sf ~/git/dotfiles/fonts ~/.local/share/fonts
-ln -sf ~/git/dotfiles/fonts.conf ~/.fonts.conf
-ln -sf ~/git/dotfiles/gitconfig ~/.gitconfig
-ln -sf ~/git/dotfiles/inputrc ~/.inputrc
-ln -sf ~/git/dotfiles/matplotlib ~/.config/matplotlib
-ln -sf ~/git/dotfiles/screenrc ~/.screenrc
-ln -sf ~/git/dotfiles/sway ~/.config/sway
-ln -sf ~/git/dotfiles/taskrc ~/.taskrc
-ln -sf ~/git/dotfiles/themes ~/.local/share/themes
-ln -sf ~/git/dotfiles/tmux ~/.config/tmux
-ln -sf ~/git/dotfiles/vim ~/.vim
-ln -sf ~/git/dotfiles/xsession ~/.xsession
-ln -sf ~/git/dotfiles/zim ~/.config/zim
+git clone https://github.com/accdias/dotfiles ~/git/dotfiles/accdias
+ln -sf ~/git/dotfiles/accdias/fonts ~/.local/share/fonts
+ln -sf ~/git/dotfiles/accdias/XCompose ~/.XCompose
+ln -sf ~/git/dotfiles/accdias/Xresources ~/.Xresources
+ln -sf ~/git/dotfiles/accdias/bash_profile ~/.bash_profile
+ln -sf ~/git/dotfiles/accdias/bashrc ~/.bashrc
+ln -sf ~/git/dotfiles/accdias/bashrc.d ~/.bashrc.d
+ln -sf ~/git/dotfiles/accdias/elinks/elinks.conf ~/.elinks/elinks.conf
+ln -sf ~/git/dotfiles/accdias/fonts ~/.local/share/fonts
+ln -sf ~/git/dotfiles/accdias/fonts.conf ~/.fonts.conf
+ln -sf ~/git/dotfiles/accdias/gitconfig ~/.gitconfig
+ln -sf ~/git/dotfiles/accdias/inputrc ~/.inputrc
+ln -sf ~/git/dotfiles/accdias/matplotlib ~/.config/matplotlib
+ln -sf ~/git/dotfiles/accdias/screenrc ~/.screenrc
+ln -sf ~/git/dotfiles/accdias/sway ~/.config/sway
+ln -sf ~/git/dotfiles/accdias/taskrc ~/.taskrc
+ln -sf ~/git/dotfiles/accdias/themes ~/.local/share/themes
+ln -sf ~/git/dotfiles/accdias/tmux ~/.config/tmux
+ln -sf ~/git/dotfiles/accdias/vim ~/.vim
+ln -sf ~/git/dotfiles/accdias/xsession ~/.xsession
+ln -sf ~/git/dotfiles/accdias/zim ~/.config/zim
 ```
 
 ### Credits
