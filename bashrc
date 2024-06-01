@@ -119,3 +119,6 @@ CDPATH=.:~:~/git
 # /etc/profile sets 022, removing write perms to group + others.
 # Set a more restrictive umask: i.e. no exec perms for others:
 umask 027
+
+source <(/usr/bin/conda shell.bash hook 2> /dev/null)
+conda deactivate
