@@ -20,10 +20,11 @@
 
 
 !!! Font {{{
-!  Xft.dpi: 96
-  Xft.dpi: 100
+  Xft.dpi: 96
+!  Xft.dpi: 100
   Xft.antialias: True
   Xft.hinting: True
+  Xft.autohint: False
   Xft.hintstyle: hintslight
   Xft.lcdfilter: lcddefault
   Xft.rgba: rgb
