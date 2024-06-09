@@ -112,4 +112,9 @@ if [[ -r /usr/sbin/ether-wake ]]; then
     alias wakeup='sudo ether-wake -i eth0'
 fi
 
+# Use w3mman as man pager if available
+if [[ -r /usr/bin/w3mman ]]; then
+    alias man=/usr/bin/w3mman
+fi
+
 # EOF
