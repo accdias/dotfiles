@@ -20,6 +20,7 @@ default = matching
 co = checkout
 cm = commit -m
 stall = stash --all
+	pr = pull --rebase
 
 [merge]
 tool = vimdiff
