@@ -6,7 +6,8 @@
 
 # See
 # - /usr/share/X11/locale/en_US.UTF-8/Compose
-include "%L"
+# include "%L"
+/usr/share/X11/locale/pt_BR.UTF-8/Compose
 
 # See
 # - http://bleah.co.uk/~simon/stuff/XCompose
