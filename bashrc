@@ -121,4 +121,3 @@ CDPATH=.:~:~/git
 umask 027
 
 source <(/usr/bin/conda shell.bash hook 2> /dev/null)
-conda deactivate
