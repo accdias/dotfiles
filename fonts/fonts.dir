@@ -1,4 +1,4 @@
-390
+1734
 3270NerdFont-Condensed.ttf -misc-3270 nerd font cond-medium-r-normal--0-0-0-0-m-0-iso10646-1
 3270NerdFont-Condensed.ttf -misc-3270 nerd font cond-medium-r-normal--0-0-0-0-m-0-iso8859-1
 3270NerdFont-Condensed.ttf -misc-3270 nerd font cond-medium-r-normal--0-0-0-0-m-0-iso8859-10
@@ -389,3 +389,1347 @@ Fira code semibold nerd font complete.ttf -misc-firacode nerd font-semibold-r-no
 Fira code semibold nerd font complete.ttf -misc-firacode nerd font-semibold-r-normal--0-0-0-0-p-0-koi8-ru
 Fira code semibold nerd font complete.ttf -misc-firacode nerd font-semibold-r-normal--0-0-0-0-p-0-koi8-u
 Fira code semibold nerd font complete.ttf -misc-firacode nerd font-semibold-r-normal--0-0-0-0-p-0-koi8-uni
+JetBrainsMonoNLNerdFont-Bold.ttf -misc-jetbrainsmononl nf-bold-r-normal--0-0-0-0-p-0-iso10646-1
+JetBrainsMonoNLNerdFont-Bold.ttf -misc-jetbrainsmononl nf-bold-r-normal--0-0-0-0-p-0-iso8859-1
+JetBrainsMonoNLNerdFont-Bold.ttf -misc-jetbrainsmononl nf-bold-r-normal--0-0-0-0-p-0-iso8859-10
+JetBrainsMonoNLNerdFont-Bold.ttf -misc-jetbrainsmononl nf-bold-r-normal--0-0-0-0-p-0-iso8859-15
+JetBrainsMonoNLNerdFont-Bold.ttf -misc-jetbrainsmononl nf-bold-r-normal--0-0-0-0-p-0-iso8859-2
+JetBrainsMonoNLNerdFont-Bold.ttf -misc-jetbrainsmononl nf-bold-r-normal--0-0-0-0-p-0-iso8859-3
+JetBrainsMonoNLNerdFont-Bold.ttf -misc-jetbrainsmononl nf-bold-r-normal--0-0-0-0-p-0-iso8859-4
+JetBrainsMonoNLNerdFont-Bold.ttf -misc-jetbrainsmononl nf-bold-r-normal--0-0-0-0-p-0-iso8859-5
+JetBrainsMonoNLNerdFont-Bold.ttf -misc-jetbrainsmononl nf-bold-r-normal--0-0-0-0-p-0-iso8859-9
+JetBrainsMonoNLNerdFont-Bold.ttf -misc-jetbrainsmononl nf-bold-r-normal--0-0-0-0-p-0-koi8-e
+JetBrainsMonoNLNerdFont-Bold.ttf -misc-jetbrainsmononl nf-bold-r-normal--0-0-0-0-p-0-koi8-r
+JetBrainsMonoNLNerdFont-Bold.ttf -misc-jetbrainsmononl nf-bold-r-normal--0-0-0-0-p-0-koi8-ru
+JetBrainsMonoNLNerdFont-Bold.ttf -misc-jetbrainsmononl nf-bold-r-normal--0-0-0-0-p-0-koi8-u
+JetBrainsMonoNLNerdFont-Bold.ttf -misc-jetbrainsmononl nf-bold-r-normal--0-0-0-0-p-0-koi8-uni
+JetBrainsMonoNLNerdFont-BoldItalic.ttf -misc-jetbrainsmononl nf-bold-i-normal--0-0-0-0-p-0-iso10646-1
+JetBrainsMonoNLNerdFont-BoldItalic.ttf -misc-jetbrainsmononl nf-bold-i-normal--0-0-0-0-p-0-iso8859-1
+JetBrainsMonoNLNerdFont-BoldItalic.ttf -misc-jetbrainsmononl nf-bold-i-normal--0-0-0-0-p-0-iso8859-10
+JetBrainsMonoNLNerdFont-BoldItalic.ttf -misc-jetbrainsmononl nf-bold-i-normal--0-0-0-0-p-0-iso8859-15
+JetBrainsMonoNLNerdFont-BoldItalic.ttf -misc-jetbrainsmononl nf-bold-i-normal--0-0-0-0-p-0-iso8859-2
+JetBrainsMonoNLNerdFont-BoldItalic.ttf -misc-jetbrainsmononl nf-bold-i-normal--0-0-0-0-p-0-iso8859-3
+JetBrainsMonoNLNerdFont-BoldItalic.ttf -misc-jetbrainsmononl nf-bold-i-normal--0-0-0-0-p-0-iso8859-4
+JetBrainsMonoNLNerdFont-BoldItalic.ttf -misc-jetbrainsmononl nf-bold-i-normal--0-0-0-0-p-0-iso8859-5
+JetBrainsMonoNLNerdFont-BoldItalic.ttf -misc-jetbrainsmononl nf-bold-i-normal--0-0-0-0-p-0-iso8859-9
+JetBrainsMonoNLNerdFont-BoldItalic.ttf -misc-jetbrainsmononl nf-bold-i-normal--0-0-0-0-p-0-koi8-e
+JetBrainsMonoNLNerdFont-BoldItalic.ttf -misc-jetbrainsmononl nf-bold-i-normal--0-0-0-0-p-0-koi8-r
+JetBrainsMonoNLNerdFont-BoldItalic.ttf -misc-jetbrainsmononl nf-bold-i-normal--0-0-0-0-p-0-koi8-ru
+JetBrainsMonoNLNerdFont-BoldItalic.ttf -misc-jetbrainsmononl nf-bold-i-normal--0-0-0-0-p-0-koi8-u
+JetBrainsMonoNLNerdFont-BoldItalic.ttf -misc-jetbrainsmononl nf-bold-i-normal--0-0-0-0-p-0-koi8-uni
+JetBrainsMonoNLNerdFont-ExtraBold.ttf -misc-jetbrainsmononl nf extrabold-extrabold-r-normal--0-0-0-0-p-0-iso10646-1
+JetBrainsMonoNLNerdFont-ExtraBold.ttf -misc-jetbrainsmononl nf extrabold-extrabold-r-normal--0-0-0-0-p-0-iso8859-1
+JetBrainsMonoNLNerdFont-ExtraBold.ttf -misc-jetbrainsmononl nf extrabold-extrabold-r-normal--0-0-0-0-p-0-iso8859-10
+JetBrainsMonoNLNerdFont-ExtraBold.ttf -misc-jetbrainsmononl nf extrabold-extrabold-r-normal--0-0-0-0-p-0-iso8859-15
+JetBrainsMonoNLNerdFont-ExtraBold.ttf -misc-jetbrainsmononl nf extrabold-extrabold-r-normal--0-0-0-0-p-0-iso8859-2
+JetBrainsMonoNLNerdFont-ExtraBold.ttf -misc-jetbrainsmononl nf extrabold-extrabold-r-normal--0-0-0-0-p-0-iso8859-3
+JetBrainsMonoNLNerdFont-ExtraBold.ttf -misc-jetbrainsmononl nf extrabold-extrabold-r-normal--0-0-0-0-p-0-iso8859-4
+JetBrainsMonoNLNerdFont-ExtraBold.ttf -misc-jetbrainsmononl nf extrabold-extrabold-r-normal--0-0-0-0-p-0-iso8859-5
+JetBrainsMonoNLNerdFont-ExtraBold.ttf -misc-jetbrainsmononl nf extrabold-extrabold-r-normal--0-0-0-0-p-0-iso8859-9
+JetBrainsMonoNLNerdFont-ExtraBold.ttf -misc-jetbrainsmononl nf extrabold-extrabold-r-normal--0-0-0-0-p-0-koi8-e
+JetBrainsMonoNLNerdFont-ExtraBold.ttf -misc-jetbrainsmononl nf extrabold-extrabold-r-normal--0-0-0-0-p-0-koi8-r
+JetBrainsMonoNLNerdFont-ExtraBold.ttf -misc-jetbrainsmononl nf extrabold-extrabold-r-normal--0-0-0-0-p-0-koi8-ru
+JetBrainsMonoNLNerdFont-ExtraBold.ttf -misc-jetbrainsmononl nf extrabold-extrabold-r-normal--0-0-0-0-p-0-koi8-u
+JetBrainsMonoNLNerdFont-ExtraBold.ttf -misc-jetbrainsmononl nf extrabold-extrabold-r-normal--0-0-0-0-p-0-koi8-uni
+JetBrainsMonoNLNerdFont-ExtraBoldItalic.ttf -misc-jetbrainsmononl nf extrabold-extrabold-i-normal--0-0-0-0-p-0-iso10646-1
+JetBrainsMonoNLNerdFont-ExtraBoldItalic.ttf -misc-jetbrainsmononl nf extrabold-extrabold-i-normal--0-0-0-0-p-0-iso8859-1
+JetBrainsMonoNLNerdFont-ExtraBoldItalic.ttf -misc-jetbrainsmononl nf extrabold-extrabold-i-normal--0-0-0-0-p-0-iso8859-10
+JetBrainsMonoNLNerdFont-ExtraBoldItalic.ttf -misc-jetbrainsmononl nf extrabold-extrabold-i-normal--0-0-0-0-p-0-iso8859-15
+JetBrainsMonoNLNerdFont-ExtraBoldItalic.ttf -misc-jetbrainsmononl nf extrabold-extrabold-i-normal--0-0-0-0-p-0-iso8859-2
+JetBrainsMonoNLNerdFont-ExtraBoldItalic.ttf -misc-jetbrainsmononl nf extrabold-extrabold-i-normal--0-0-0-0-p-0-iso8859-3
+JetBrainsMonoNLNerdFont-ExtraBoldItalic.ttf -misc-jetbrainsmononl nf extrabold-extrabold-i-normal--0-0-0-0-p-0-iso8859-4
+JetBrainsMonoNLNerdFont-ExtraBoldItalic.ttf -misc-jetbrainsmononl nf extrabold-extrabold-i-normal--0-0-0-0-p-0-iso8859-5
+JetBrainsMonoNLNerdFont-ExtraBoldItalic.ttf -misc-jetbrainsmononl nf extrabold-extrabold-i-normal--0-0-0-0-p-0-iso8859-9
+JetBrainsMonoNLNerdFont-ExtraBoldItalic.ttf -misc-jetbrainsmononl nf extrabold-extrabold-i-normal--0-0-0-0-p-0-koi8-e
+JetBrainsMonoNLNerdFont-ExtraBoldItalic.ttf -misc-jetbrainsmononl nf extrabold-extrabold-i-normal--0-0-0-0-p-0-koi8-r
+JetBrainsMonoNLNerdFont-ExtraBoldItalic.ttf -misc-jetbrainsmononl nf extrabold-extrabold-i-normal--0-0-0-0-p-0-koi8-ru
+JetBrainsMonoNLNerdFont-ExtraBoldItalic.ttf -misc-jetbrainsmononl nf extrabold-extrabold-i-normal--0-0-0-0-p-0-koi8-u
+JetBrainsMonoNLNerdFont-ExtraBoldItalic.ttf -misc-jetbrainsmononl nf extrabold-extrabold-i-normal--0-0-0-0-p-0-koi8-uni
+JetBrainsMonoNLNerdFont-ExtraLight.ttf -misc-jetbrainsmononl nf extralight-extralight-r-normal--0-0-0-0-p-0-iso10646-1
+JetBrainsMonoNLNerdFont-ExtraLight.ttf -misc-jetbrainsmononl nf extralight-extralight-r-normal--0-0-0-0-p-0-iso8859-1
+JetBrainsMonoNLNerdFont-ExtraLight.ttf -misc-jetbrainsmononl nf extralight-extralight-r-normal--0-0-0-0-p-0-iso8859-10
+JetBrainsMonoNLNerdFont-ExtraLight.ttf -misc-jetbrainsmononl nf extralight-extralight-r-normal--0-0-0-0-p-0-iso8859-15
+JetBrainsMonoNLNerdFont-ExtraLight.ttf -misc-jetbrainsmononl nf extralight-extralight-r-normal--0-0-0-0-p-0-iso8859-2
+JetBrainsMonoNLNerdFont-ExtraLight.ttf -misc-jetbrainsmononl nf extralight-extralight-r-normal--0-0-0-0-p-0-iso8859-3
+JetBrainsMonoNLNerdFont-ExtraLight.ttf -misc-jetbrainsmononl nf extralight-extralight-r-normal--0-0-0-0-p-0-iso8859-4
+JetBrainsMonoNLNerdFont-ExtraLight.ttf -misc-jetbrainsmononl nf extralight-extralight-r-normal--0-0-0-0-p-0-iso8859-5
+JetBrainsMonoNLNerdFont-ExtraLight.ttf -misc-jetbrainsmononl nf extralight-extralight-r-normal--0-0-0-0-p-0-iso8859-9
+JetBrainsMonoNLNerdFont-ExtraLight.ttf -misc-jetbrainsmononl nf extralight-extralight-r-normal--0-0-0-0-p-0-koi8-e
+JetBrainsMonoNLNerdFont-ExtraLight.ttf -misc-jetbrainsmononl nf extralight-extralight-r-normal--0-0-0-0-p-0-koi8-r
+JetBrainsMonoNLNerdFont-ExtraLight.ttf -misc-jetbrainsmononl nf extralight-extralight-r-normal--0-0-0-0-p-0-koi8-ru
+JetBrainsMonoNLNerdFont-ExtraLight.ttf -misc-jetbrainsmononl nf extralight-extralight-r-normal--0-0-0-0-p-0-koi8-u
+JetBrainsMonoNLNerdFont-ExtraLight.ttf -misc-jetbrainsmononl nf extralight-extralight-r-normal--0-0-0-0-p-0-koi8-uni
+JetBrainsMonoNLNerdFont-ExtraLightItalic.ttf -misc-jetbrainsmononl nf extralight-extralight-i-normal--0-0-0-0-p-0-iso10646-1
+JetBrainsMonoNLNerdFont-ExtraLightItalic.ttf -misc-jetbrainsmononl nf extralight-extralight-i-normal--0-0-0-0-p-0-iso8859-1
+JetBrainsMonoNLNerdFont-ExtraLightItalic.ttf -misc-jetbrainsmononl nf extralight-extralight-i-normal--0-0-0-0-p-0-iso8859-10
+JetBrainsMonoNLNerdFont-ExtraLightItalic.ttf -misc-jetbrainsmononl nf extralight-extralight-i-normal--0-0-0-0-p-0-iso8859-15
+JetBrainsMonoNLNerdFont-ExtraLightItalic.ttf -misc-jetbrainsmononl nf extralight-extralight-i-normal--0-0-0-0-p-0-iso8859-2
+JetBrainsMonoNLNerdFont-ExtraLightItalic.ttf -misc-jetbrainsmononl nf extralight-extralight-i-normal--0-0-0-0-p-0-iso8859-3
+JetBrainsMonoNLNerdFont-ExtraLightItalic.ttf -misc-jetbrainsmononl nf extralight-extralight-i-normal--0-0-0-0-p-0-iso8859-4
+JetBrainsMonoNLNerdFont-ExtraLightItalic.ttf -misc-jetbrainsmononl nf extralight-extralight-i-normal--0-0-0-0-p-0-iso8859-5
+JetBrainsMonoNLNerdFont-ExtraLightItalic.ttf -misc-jetbrainsmononl nf extralight-extralight-i-normal--0-0-0-0-p-0-iso8859-9
+JetBrainsMonoNLNerdFont-ExtraLightItalic.ttf -misc-jetbrainsmononl nf extralight-extralight-i-normal--0-0-0-0-p-0-koi8-e
+JetBrainsMonoNLNerdFont-ExtraLightItalic.ttf -misc-jetbrainsmononl nf extralight-extralight-i-normal--0-0-0-0-p-0-koi8-r
+JetBrainsMonoNLNerdFont-ExtraLightItalic.ttf -misc-jetbrainsmononl nf extralight-extralight-i-normal--0-0-0-0-p-0-koi8-ru
+JetBrainsMonoNLNerdFont-ExtraLightItalic.ttf -misc-jetbrainsmononl nf extralight-extralight-i-normal--0-0-0-0-p-0-koi8-u
+JetBrainsMonoNLNerdFont-ExtraLightItalic.ttf -misc-jetbrainsmononl nf extralight-extralight-i-normal--0-0-0-0-p-0-koi8-uni
+JetBrainsMonoNLNerdFont-Italic.ttf -misc-jetbrainsmononl nf-medium-i-normal--0-0-0-0-p-0-iso10646-1
+JetBrainsMonoNLNerdFont-Italic.ttf -misc-jetbrainsmononl nf-medium-i-normal--0-0-0-0-p-0-iso8859-1
+JetBrainsMonoNLNerdFont-Italic.ttf -misc-jetbrainsmononl nf-medium-i-normal--0-0-0-0-p-0-iso8859-10
+JetBrainsMonoNLNerdFont-Italic.ttf -misc-jetbrainsmononl nf-medium-i-normal--0-0-0-0-p-0-iso8859-15
+JetBrainsMonoNLNerdFont-Italic.ttf -misc-jetbrainsmononl nf-medium-i-normal--0-0-0-0-p-0-iso8859-2
+JetBrainsMonoNLNerdFont-Italic.ttf -misc-jetbrainsmononl nf-medium-i-normal--0-0-0-0-p-0-iso8859-3
+JetBrainsMonoNLNerdFont-Italic.ttf -misc-jetbrainsmononl nf-medium-i-normal--0-0-0-0-p-0-iso8859-4
+JetBrainsMonoNLNerdFont-Italic.ttf -misc-jetbrainsmononl nf-medium-i-normal--0-0-0-0-p-0-iso8859-5
+JetBrainsMonoNLNerdFont-Italic.ttf -misc-jetbrainsmononl nf-medium-i-normal--0-0-0-0-p-0-iso8859-9
+JetBrainsMonoNLNerdFont-Italic.ttf -misc-jetbrainsmononl nf-medium-i-normal--0-0-0-0-p-0-koi8-e
+JetBrainsMonoNLNerdFont-Italic.ttf -misc-jetbrainsmononl nf-medium-i-normal--0-0-0-0-p-0-koi8-r
+JetBrainsMonoNLNerdFont-Italic.ttf -misc-jetbrainsmononl nf-medium-i-normal--0-0-0-0-p-0-koi8-ru
+JetBrainsMonoNLNerdFont-Italic.ttf -misc-jetbrainsmononl nf-medium-i-normal--0-0-0-0-p-0-koi8-u
+JetBrainsMonoNLNerdFont-Italic.ttf -misc-jetbrainsmononl nf-medium-i-normal--0-0-0-0-p-0-koi8-uni
+JetBrainsMonoNLNerdFont-Light.ttf -misc-jetbrainsmononl nf light-light-r-normal--0-0-0-0-p-0-iso10646-1
+JetBrainsMonoNLNerdFont-Light.ttf -misc-jetbrainsmononl nf light-light-r-normal--0-0-0-0-p-0-iso8859-1
+JetBrainsMonoNLNerdFont-Light.ttf -misc-jetbrainsmononl nf light-light-r-normal--0-0-0-0-p-0-iso8859-10
+JetBrainsMonoNLNerdFont-Light.ttf -misc-jetbrainsmononl nf light-light-r-normal--0-0-0-0-p-0-iso8859-15
+JetBrainsMonoNLNerdFont-Light.ttf -misc-jetbrainsmononl nf light-light-r-normal--0-0-0-0-p-0-iso8859-2
+JetBrainsMonoNLNerdFont-Light.ttf -misc-jetbrainsmononl nf light-light-r-normal--0-0-0-0-p-0-iso8859-3
+JetBrainsMonoNLNerdFont-Light.ttf -misc-jetbrainsmononl nf light-light-r-normal--0-0-0-0-p-0-iso8859-4
+JetBrainsMonoNLNerdFont-Light.ttf -misc-jetbrainsmononl nf light-light-r-normal--0-0-0-0-p-0-iso8859-5
+JetBrainsMonoNLNerdFont-Light.ttf -misc-jetbrainsmononl nf light-light-r-normal--0-0-0-0-p-0-iso8859-9
+JetBrainsMonoNLNerdFont-Light.ttf -misc-jetbrainsmononl nf light-light-r-normal--0-0-0-0-p-0-koi8-e
+JetBrainsMonoNLNerdFont-Light.ttf -misc-jetbrainsmononl nf light-light-r-normal--0-0-0-0-p-0-koi8-r
+JetBrainsMonoNLNerdFont-Light.ttf -misc-jetbrainsmononl nf light-light-r-normal--0-0-0-0-p-0-koi8-ru
+JetBrainsMonoNLNerdFont-Light.ttf -misc-jetbrainsmononl nf light-light-r-normal--0-0-0-0-p-0-koi8-u
+JetBrainsMonoNLNerdFont-Light.ttf -misc-jetbrainsmononl nf light-light-r-normal--0-0-0-0-p-0-koi8-uni
+JetBrainsMonoNLNerdFont-LightItalic.ttf -misc-jetbrainsmononl nf light-light-i-normal--0-0-0-0-p-0-iso10646-1
+JetBrainsMonoNLNerdFont-LightItalic.ttf -misc-jetbrainsmononl nf light-light-i-normal--0-0-0-0-p-0-iso8859-1
+JetBrainsMonoNLNerdFont-LightItalic.ttf -misc-jetbrainsmononl nf light-light-i-normal--0-0-0-0-p-0-iso8859-10
+JetBrainsMonoNLNerdFont-LightItalic.ttf -misc-jetbrainsmononl nf light-light-i-normal--0-0-0-0-p-0-iso8859-15
+JetBrainsMonoNLNerdFont-LightItalic.ttf -misc-jetbrainsmononl nf light-light-i-normal--0-0-0-0-p-0-iso8859-2
+JetBrainsMonoNLNerdFont-LightItalic.ttf -misc-jetbrainsmononl nf light-light-i-normal--0-0-0-0-p-0-iso8859-3
+JetBrainsMonoNLNerdFont-LightItalic.ttf -misc-jetbrainsmononl nf light-light-i-normal--0-0-0-0-p-0-iso8859-4
+JetBrainsMonoNLNerdFont-LightItalic.ttf -misc-jetbrainsmononl nf light-light-i-normal--0-0-0-0-p-0-iso8859-5
+JetBrainsMonoNLNerdFont-LightItalic.ttf -misc-jetbrainsmononl nf light-light-i-normal--0-0-0-0-p-0-iso8859-9
+JetBrainsMonoNLNerdFont-LightItalic.ttf -misc-jetbrainsmononl nf light-light-i-normal--0-0-0-0-p-0-koi8-e
+JetBrainsMonoNLNerdFont-LightItalic.ttf -misc-jetbrainsmononl nf light-light-i-normal--0-0-0-0-p-0-koi8-r
+JetBrainsMonoNLNerdFont-LightItalic.ttf -misc-jetbrainsmononl nf light-light-i-normal--0-0-0-0-p-0-koi8-ru
+JetBrainsMonoNLNerdFont-LightItalic.ttf -misc-jetbrainsmononl nf light-light-i-normal--0-0-0-0-p-0-koi8-u
+JetBrainsMonoNLNerdFont-LightItalic.ttf -misc-jetbrainsmononl nf light-light-i-normal--0-0-0-0-p-0-koi8-uni
+JetBrainsMonoNLNerdFont-Medium.ttf -misc-jetbrainsmononl nf medium-medium-r-normal--0-0-0-0-p-0-iso10646-1
+JetBrainsMonoNLNerdFont-Medium.ttf -misc-jetbrainsmononl nf medium-medium-r-normal--0-0-0-0-p-0-iso8859-1
+JetBrainsMonoNLNerdFont-Medium.ttf -misc-jetbrainsmononl nf medium-medium-r-normal--0-0-0-0-p-0-iso8859-10
+JetBrainsMonoNLNerdFont-Medium.ttf -misc-jetbrainsmononl nf medium-medium-r-normal--0-0-0-0-p-0-iso8859-15
+JetBrainsMonoNLNerdFont-Medium.ttf -misc-jetbrainsmononl nf medium-medium-r-normal--0-0-0-0-p-0-iso8859-2
+JetBrainsMonoNLNerdFont-Medium.ttf -misc-jetbrainsmononl nf medium-medium-r-normal--0-0-0-0-p-0-iso8859-3
+JetBrainsMonoNLNerdFont-Medium.ttf -misc-jetbrainsmononl nf medium-medium-r-normal--0-0-0-0-p-0-iso8859-4
+JetBrainsMonoNLNerdFont-Medium.ttf -misc-jetbrainsmononl nf medium-medium-r-normal--0-0-0-0-p-0-iso8859-5
+JetBrainsMonoNLNerdFont-Medium.ttf -misc-jetbrainsmononl nf medium-medium-r-normal--0-0-0-0-p-0-iso8859-9
+JetBrainsMonoNLNerdFont-Medium.ttf -misc-jetbrainsmononl nf medium-medium-r-normal--0-0-0-0-p-0-koi8-e
+JetBrainsMonoNLNerdFont-Medium.ttf -misc-jetbrainsmononl nf medium-medium-r-normal--0-0-0-0-p-0-koi8-r
+JetBrainsMonoNLNerdFont-Medium.ttf -misc-jetbrainsmononl nf medium-medium-r-normal--0-0-0-0-p-0-koi8-ru
+JetBrainsMonoNLNerdFont-Medium.ttf -misc-jetbrainsmononl nf medium-medium-r-normal--0-0-0-0-p-0-koi8-u
+JetBrainsMonoNLNerdFont-Medium.ttf -misc-jetbrainsmononl nf medium-medium-r-normal--0-0-0-0-p-0-koi8-uni
+JetBrainsMonoNLNerdFont-MediumItalic.ttf -misc-jetbrainsmononl nf medium-medium-i-normal--0-0-0-0-p-0-iso10646-1
+JetBrainsMonoNLNerdFont-MediumItalic.ttf -misc-jetbrainsmononl nf medium-medium-i-normal--0-0-0-0-p-0-iso8859-1
+JetBrainsMonoNLNerdFont-MediumItalic.ttf -misc-jetbrainsmononl nf medium-medium-i-normal--0-0-0-0-p-0-iso8859-10
+JetBrainsMonoNLNerdFont-MediumItalic.ttf -misc-jetbrainsmononl nf medium-medium-i-normal--0-0-0-0-p-0-iso8859-15
+JetBrainsMonoNLNerdFont-MediumItalic.ttf -misc-jetbrainsmononl nf medium-medium-i-normal--0-0-0-0-p-0-iso8859-2
+JetBrainsMonoNLNerdFont-MediumItalic.ttf -misc-jetbrainsmononl nf medium-medium-i-normal--0-0-0-0-p-0-iso8859-3
+JetBrainsMonoNLNerdFont-MediumItalic.ttf -misc-jetbrainsmononl nf medium-medium-i-normal--0-0-0-0-p-0-iso8859-4
+JetBrainsMonoNLNerdFont-MediumItalic.ttf -misc-jetbrainsmononl nf medium-medium-i-normal--0-0-0-0-p-0-iso8859-5
+JetBrainsMonoNLNerdFont-MediumItalic.ttf -misc-jetbrainsmononl nf medium-medium-i-normal--0-0-0-0-p-0-iso8859-9
+JetBrainsMonoNLNerdFont-MediumItalic.ttf -misc-jetbrainsmononl nf medium-medium-i-normal--0-0-0-0-p-0-koi8-e
+JetBrainsMonoNLNerdFont-MediumItalic.ttf -misc-jetbrainsmononl nf medium-medium-i-normal--0-0-0-0-p-0-koi8-r
+JetBrainsMonoNLNerdFont-MediumItalic.ttf -misc-jetbrainsmononl nf medium-medium-i-normal--0-0-0-0-p-0-koi8-ru
+JetBrainsMonoNLNerdFont-MediumItalic.ttf -misc-jetbrainsmononl nf medium-medium-i-normal--0-0-0-0-p-0-koi8-u
+JetBrainsMonoNLNerdFont-MediumItalic.ttf -misc-jetbrainsmononl nf medium-medium-i-normal--0-0-0-0-p-0-koi8-uni
+JetBrainsMonoNLNerdFont-Regular.ttf -misc-jetbrainsmononl nf-medium-r-normal--0-0-0-0-p-0-iso10646-1
+JetBrainsMonoNLNerdFont-Regular.ttf -misc-jetbrainsmononl nf-medium-r-normal--0-0-0-0-p-0-iso8859-1
+JetBrainsMonoNLNerdFont-Regular.ttf -misc-jetbrainsmononl nf-medium-r-normal--0-0-0-0-p-0-iso8859-10
+JetBrainsMonoNLNerdFont-Regular.ttf -misc-jetbrainsmononl nf-medium-r-normal--0-0-0-0-p-0-iso8859-15
+JetBrainsMonoNLNerdFont-Regular.ttf -misc-jetbrainsmononl nf-medium-r-normal--0-0-0-0-p-0-iso8859-2
+JetBrainsMonoNLNerdFont-Regular.ttf -misc-jetbrainsmononl nf-medium-r-normal--0-0-0-0-p-0-iso8859-3
+JetBrainsMonoNLNerdFont-Regular.ttf -misc-jetbrainsmononl nf-medium-r-normal--0-0-0-0-p-0-iso8859-4
+JetBrainsMonoNLNerdFont-Regular.ttf -misc-jetbrainsmononl nf-medium-r-normal--0-0-0-0-p-0-iso8859-5
+JetBrainsMonoNLNerdFont-Regular.ttf -misc-jetbrainsmononl nf-medium-r-normal--0-0-0-0-p-0-iso8859-9
+JetBrainsMonoNLNerdFont-Regular.ttf -misc-jetbrainsmononl nf-medium-r-normal--0-0-0-0-p-0-koi8-e
+JetBrainsMonoNLNerdFont-Regular.ttf -misc-jetbrainsmononl nf-medium-r-normal--0-0-0-0-p-0-koi8-r
+JetBrainsMonoNLNerdFont-Regular.ttf -misc-jetbrainsmononl nf-medium-r-normal--0-0-0-0-p-0-koi8-ru
+JetBrainsMonoNLNerdFont-Regular.ttf -misc-jetbrainsmononl nf-medium-r-normal--0-0-0-0-p-0-koi8-u
+JetBrainsMonoNLNerdFont-Regular.ttf -misc-jetbrainsmononl nf-medium-r-normal--0-0-0-0-p-0-koi8-uni
+JetBrainsMonoNLNerdFont-SemiBold.ttf -misc-jetbrainsmononl nf semibold-semibold-r-normal--0-0-0-0-p-0-iso10646-1
+JetBrainsMonoNLNerdFont-SemiBold.ttf -misc-jetbrainsmononl nf semibold-semibold-r-normal--0-0-0-0-p-0-iso8859-1
+JetBrainsMonoNLNerdFont-SemiBold.ttf -misc-jetbrainsmononl nf semibold-semibold-r-normal--0-0-0-0-p-0-iso8859-10
+JetBrainsMonoNLNerdFont-SemiBold.ttf -misc-jetbrainsmononl nf semibold-semibold-r-normal--0-0-0-0-p-0-iso8859-15
+JetBrainsMonoNLNerdFont-SemiBold.ttf -misc-jetbrainsmononl nf semibold-semibold-r-normal--0-0-0-0-p-0-iso8859-2
+JetBrainsMonoNLNerdFont-SemiBold.ttf -misc-jetbrainsmononl nf semibold-semibold-r-normal--0-0-0-0-p-0-iso8859-3
+JetBrainsMonoNLNerdFont-SemiBold.ttf -misc-jetbrainsmononl nf semibold-semibold-r-normal--0-0-0-0-p-0-iso8859-4
+JetBrainsMonoNLNerdFont-SemiBold.ttf -misc-jetbrainsmononl nf semibold-semibold-r-normal--0-0-0-0-p-0-iso8859-5
+JetBrainsMonoNLNerdFont-SemiBold.ttf -misc-jetbrainsmononl nf semibold-semibold-r-normal--0-0-0-0-p-0-iso8859-9
+JetBrainsMonoNLNerdFont-SemiBold.ttf -misc-jetbrainsmononl nf semibold-semibold-r-normal--0-0-0-0-p-0-koi8-e
+JetBrainsMonoNLNerdFont-SemiBold.ttf -misc-jetbrainsmononl nf semibold-semibold-r-normal--0-0-0-0-p-0-koi8-r
+JetBrainsMonoNLNerdFont-SemiBold.ttf -misc-jetbrainsmononl nf semibold-semibold-r-normal--0-0-0-0-p-0-koi8-ru
+JetBrainsMonoNLNerdFont-SemiBold.ttf -misc-jetbrainsmononl nf semibold-semibold-r-normal--0-0-0-0-p-0-koi8-u
+JetBrainsMonoNLNerdFont-SemiBold.ttf -misc-jetbrainsmononl nf semibold-semibold-r-normal--0-0-0-0-p-0-koi8-uni
+JetBrainsMonoNLNerdFont-SemiBoldItalic.ttf -misc-jetbrainsmononl nf semibold-semibold-i-normal--0-0-0-0-p-0-iso10646-1
+JetBrainsMonoNLNerdFont-SemiBoldItalic.ttf -misc-jetbrainsmononl nf semibold-semibold-i-normal--0-0-0-0-p-0-iso8859-1
+JetBrainsMonoNLNerdFont-SemiBoldItalic.ttf -misc-jetbrainsmononl nf semibold-semibold-i-normal--0-0-0-0-p-0-iso8859-10
+JetBrainsMonoNLNerdFont-SemiBoldItalic.ttf -misc-jetbrainsmononl nf semibold-semibold-i-normal--0-0-0-0-p-0-iso8859-15
+JetBrainsMonoNLNerdFont-SemiBoldItalic.ttf -misc-jetbrainsmononl nf semibold-semibold-i-normal--0-0-0-0-p-0-iso8859-2
+JetBrainsMonoNLNerdFont-SemiBoldItalic.ttf -misc-jetbrainsmononl nf semibold-semibold-i-normal--0-0-0-0-p-0-iso8859-3
+JetBrainsMonoNLNerdFont-SemiBoldItalic.ttf -misc-jetbrainsmononl nf semibold-semibold-i-normal--0-0-0-0-p-0-iso8859-4
+JetBrainsMonoNLNerdFont-SemiBoldItalic.ttf -misc-jetbrainsmononl nf semibold-semibold-i-normal--0-0-0-0-p-0-iso8859-5
+JetBrainsMonoNLNerdFont-SemiBoldItalic.ttf -misc-jetbrainsmononl nf semibold-semibold-i-normal--0-0-0-0-p-0-iso8859-9
+JetBrainsMonoNLNerdFont-SemiBoldItalic.ttf -misc-jetbrainsmononl nf semibold-semibold-i-normal--0-0-0-0-p-0-koi8-e
+JetBrainsMonoNLNerdFont-SemiBoldItalic.ttf -misc-jetbrainsmononl nf semibold-semibold-i-normal--0-0-0-0-p-0-koi8-r
+JetBrainsMonoNLNerdFont-SemiBoldItalic.ttf -misc-jetbrainsmononl nf semibold-semibold-i-normal--0-0-0-0-p-0-koi8-ru
+JetBrainsMonoNLNerdFont-SemiBoldItalic.ttf -misc-jetbrainsmononl nf semibold-semibold-i-normal--0-0-0-0-p-0-koi8-u
+JetBrainsMonoNLNerdFont-SemiBoldItalic.ttf -misc-jetbrainsmononl nf semibold-semibold-i-normal--0-0-0-0-p-0-koi8-uni
+JetBrainsMonoNLNerdFont-Thin.ttf -misc-jetbrainsmononl nf thin-thin-r-normal--0-0-0-0-p-0-iso10646-1
+JetBrainsMonoNLNerdFont-Thin.ttf -misc-jetbrainsmononl nf thin-thin-r-normal--0-0-0-0-p-0-iso8859-1
+JetBrainsMonoNLNerdFont-Thin.ttf -misc-jetbrainsmononl nf thin-thin-r-normal--0-0-0-0-p-0-iso8859-10
+JetBrainsMonoNLNerdFont-Thin.ttf -misc-jetbrainsmononl nf thin-thin-r-normal--0-0-0-0-p-0-iso8859-15
+JetBrainsMonoNLNerdFont-Thin.ttf -misc-jetbrainsmononl nf thin-thin-r-normal--0-0-0-0-p-0-iso8859-2
+JetBrainsMonoNLNerdFont-Thin.ttf -misc-jetbrainsmononl nf thin-thin-r-normal--0-0-0-0-p-0-iso8859-3
+JetBrainsMonoNLNerdFont-Thin.ttf -misc-jetbrainsmononl nf thin-thin-r-normal--0-0-0-0-p-0-iso8859-4
+JetBrainsMonoNLNerdFont-Thin.ttf -misc-jetbrainsmononl nf thin-thin-r-normal--0-0-0-0-p-0-iso8859-5
+JetBrainsMonoNLNerdFont-Thin.ttf -misc-jetbrainsmononl nf thin-thin-r-normal--0-0-0-0-p-0-iso8859-9
+JetBrainsMonoNLNerdFont-Thin.ttf -misc-jetbrainsmononl nf thin-thin-r-normal--0-0-0-0-p-0-koi8-e
+JetBrainsMonoNLNerdFont-Thin.ttf -misc-jetbrainsmononl nf thin-thin-r-normal--0-0-0-0-p-0-koi8-r
+JetBrainsMonoNLNerdFont-Thin.ttf -misc-jetbrainsmononl nf thin-thin-r-normal--0-0-0-0-p-0-koi8-ru
+JetBrainsMonoNLNerdFont-Thin.ttf -misc-jetbrainsmononl nf thin-thin-r-normal--0-0-0-0-p-0-koi8-u
+JetBrainsMonoNLNerdFont-Thin.ttf -misc-jetbrainsmononl nf thin-thin-r-normal--0-0-0-0-p-0-koi8-uni
+JetBrainsMonoNLNerdFont-ThinItalic.ttf -misc-jetbrainsmononl nf thin-thin-i-normal--0-0-0-0-p-0-iso10646-1
+JetBrainsMonoNLNerdFont-ThinItalic.ttf -misc-jetbrainsmononl nf thin-thin-i-normal--0-0-0-0-p-0-iso8859-1
+JetBrainsMonoNLNerdFont-ThinItalic.ttf -misc-jetbrainsmononl nf thin-thin-i-normal--0-0-0-0-p-0-iso8859-10
+JetBrainsMonoNLNerdFont-ThinItalic.ttf -misc-jetbrainsmononl nf thin-thin-i-normal--0-0-0-0-p-0-iso8859-15
+JetBrainsMonoNLNerdFont-ThinItalic.ttf -misc-jetbrainsmononl nf thin-thin-i-normal--0-0-0-0-p-0-iso8859-2
+JetBrainsMonoNLNerdFont-ThinItalic.ttf -misc-jetbrainsmononl nf thin-thin-i-normal--0-0-0-0-p-0-iso8859-3
+JetBrainsMonoNLNerdFont-ThinItalic.ttf -misc-jetbrainsmononl nf thin-thin-i-normal--0-0-0-0-p-0-iso8859-4
+JetBrainsMonoNLNerdFont-ThinItalic.ttf -misc-jetbrainsmononl nf thin-thin-i-normal--0-0-0-0-p-0-iso8859-5
+JetBrainsMonoNLNerdFont-ThinItalic.ttf -misc-jetbrainsmononl nf thin-thin-i-normal--0-0-0-0-p-0-iso8859-9
+JetBrainsMonoNLNerdFont-ThinItalic.ttf -misc-jetbrainsmononl nf thin-thin-i-normal--0-0-0-0-p-0-koi8-e
+JetBrainsMonoNLNerdFont-ThinItalic.ttf -misc-jetbrainsmononl nf thin-thin-i-normal--0-0-0-0-p-0-koi8-r
+JetBrainsMonoNLNerdFont-ThinItalic.ttf -misc-jetbrainsmononl nf thin-thin-i-normal--0-0-0-0-p-0-koi8-ru
+JetBrainsMonoNLNerdFont-ThinItalic.ttf -misc-jetbrainsmononl nf thin-thin-i-normal--0-0-0-0-p-0-koi8-u
+JetBrainsMonoNLNerdFont-ThinItalic.ttf -misc-jetbrainsmononl nf thin-thin-i-normal--0-0-0-0-p-0-koi8-uni
+JetBrainsMonoNLNerdFontMono-Bold.ttf -misc-jetbrainsmononl nfm-bold-r-normal--0-0-0-0-m-0-iso10646-1
+JetBrainsMonoNLNerdFontMono-Bold.ttf -misc-jetbrainsmononl nfm-bold-r-normal--0-0-0-0-m-0-iso8859-1
+JetBrainsMonoNLNerdFontMono-Bold.ttf -misc-jetbrainsmononl nfm-bold-r-normal--0-0-0-0-m-0-iso8859-10
+JetBrainsMonoNLNerdFontMono-Bold.ttf -misc-jetbrainsmononl nfm-bold-r-normal--0-0-0-0-m-0-iso8859-15
+JetBrainsMonoNLNerdFontMono-Bold.ttf -misc-jetbrainsmononl nfm-bold-r-normal--0-0-0-0-m-0-iso8859-2
+JetBrainsMonoNLNerdFontMono-Bold.ttf -misc-jetbrainsmononl nfm-bold-r-normal--0-0-0-0-m-0-iso8859-3
+JetBrainsMonoNLNerdFontMono-Bold.ttf -misc-jetbrainsmononl nfm-bold-r-normal--0-0-0-0-m-0-iso8859-4
+JetBrainsMonoNLNerdFontMono-Bold.ttf -misc-jetbrainsmononl nfm-bold-r-normal--0-0-0-0-m-0-iso8859-5
+JetBrainsMonoNLNerdFontMono-Bold.ttf -misc-jetbrainsmononl nfm-bold-r-normal--0-0-0-0-m-0-iso8859-9
+JetBrainsMonoNLNerdFontMono-Bold.ttf -misc-jetbrainsmononl nfm-bold-r-normal--0-0-0-0-m-0-koi8-e
+JetBrainsMonoNLNerdFontMono-Bold.ttf -misc-jetbrainsmononl nfm-bold-r-normal--0-0-0-0-m-0-koi8-r
+JetBrainsMonoNLNerdFontMono-Bold.ttf -misc-jetbrainsmononl nfm-bold-r-normal--0-0-0-0-m-0-koi8-ru
+JetBrainsMonoNLNerdFontMono-Bold.ttf -misc-jetbrainsmononl nfm-bold-r-normal--0-0-0-0-m-0-koi8-u
+JetBrainsMonoNLNerdFontMono-Bold.ttf -misc-jetbrainsmononl nfm-bold-r-normal--0-0-0-0-m-0-koi8-uni
+JetBrainsMonoNLNerdFontMono-BoldItalic.ttf -misc-jetbrainsmononl nfm-bold-i-normal--0-0-0-0-m-0-iso10646-1
+JetBrainsMonoNLNerdFontMono-BoldItalic.ttf -misc-jetbrainsmononl nfm-bold-i-normal--0-0-0-0-m-0-iso8859-1
+JetBrainsMonoNLNerdFontMono-BoldItalic.ttf -misc-jetbrainsmononl nfm-bold-i-normal--0-0-0-0-m-0-iso8859-10
+JetBrainsMonoNLNerdFontMono-BoldItalic.ttf -misc-jetbrainsmononl nfm-bold-i-normal--0-0-0-0-m-0-iso8859-15
+JetBrainsMonoNLNerdFontMono-BoldItalic.ttf -misc-jetbrainsmononl nfm-bold-i-normal--0-0-0-0-m-0-iso8859-2
+JetBrainsMonoNLNerdFontMono-BoldItalic.ttf -misc-jetbrainsmononl nfm-bold-i-normal--0-0-0-0-m-0-iso8859-3
+JetBrainsMonoNLNerdFontMono-BoldItalic.ttf -misc-jetbrainsmononl nfm-bold-i-normal--0-0-0-0-m-0-iso8859-4
+JetBrainsMonoNLNerdFontMono-BoldItalic.ttf -misc-jetbrainsmononl nfm-bold-i-normal--0-0-0-0-m-0-iso8859-5
+JetBrainsMonoNLNerdFontMono-BoldItalic.ttf -misc-jetbrainsmononl nfm-bold-i-normal--0-0-0-0-m-0-iso8859-9
+JetBrainsMonoNLNerdFontMono-BoldItalic.ttf -misc-jetbrainsmononl nfm-bold-i-normal--0-0-0-0-m-0-koi8-e
+JetBrainsMonoNLNerdFontMono-BoldItalic.ttf -misc-jetbrainsmononl nfm-bold-i-normal--0-0-0-0-m-0-koi8-r
+JetBrainsMonoNLNerdFontMono-BoldItalic.ttf -misc-jetbrainsmononl nfm-bold-i-normal--0-0-0-0-m-0-koi8-ru
+JetBrainsMonoNLNerdFontMono-BoldItalic.ttf -misc-jetbrainsmononl nfm-bold-i-normal--0-0-0-0-m-0-koi8-u
+JetBrainsMonoNLNerdFontMono-BoldItalic.ttf -misc-jetbrainsmononl nfm-bold-i-normal--0-0-0-0-m-0-koi8-uni
+JetBrainsMonoNLNerdFontMono-ExtraBold.ttf -misc-jetbrainsmononl nfm extrabold-extrabold-r-normal--0-0-0-0-m-0-iso10646-1
+JetBrainsMonoNLNerdFontMono-ExtraBold.ttf -misc-jetbrainsmononl nfm extrabold-extrabold-r-normal--0-0-0-0-m-0-iso8859-1
+JetBrainsMonoNLNerdFontMono-ExtraBold.ttf -misc-jetbrainsmononl nfm extrabold-extrabold-r-normal--0-0-0-0-m-0-iso8859-10
+JetBrainsMonoNLNerdFontMono-ExtraBold.ttf -misc-jetbrainsmononl nfm extrabold-extrabold-r-normal--0-0-0-0-m-0-iso8859-15
+JetBrainsMonoNLNerdFontMono-ExtraBold.ttf -misc-jetbrainsmononl nfm extrabold-extrabold-r-normal--0-0-0-0-m-0-iso8859-2
+JetBrainsMonoNLNerdFontMono-ExtraBold.ttf -misc-jetbrainsmononl nfm extrabold-extrabold-r-normal--0-0-0-0-m-0-iso8859-3
+JetBrainsMonoNLNerdFontMono-ExtraBold.ttf -misc-jetbrainsmononl nfm extrabold-extrabold-r-normal--0-0-0-0-m-0-iso8859-4
+JetBrainsMonoNLNerdFontMono-ExtraBold.ttf -misc-jetbrainsmononl nfm extrabold-extrabold-r-normal--0-0-0-0-m-0-iso8859-5
+JetBrainsMonoNLNerdFontMono-ExtraBold.ttf -misc-jetbrainsmononl nfm extrabold-extrabold-r-normal--0-0-0-0-m-0-iso8859-9
+JetBrainsMonoNLNerdFontMono-ExtraBold.ttf -misc-jetbrainsmononl nfm extrabold-extrabold-r-normal--0-0-0-0-m-0-koi8-e
+JetBrainsMonoNLNerdFontMono-ExtraBold.ttf -misc-jetbrainsmononl nfm extrabold-extrabold-r-normal--0-0-0-0-m-0-koi8-r
+JetBrainsMonoNLNerdFontMono-ExtraBold.ttf -misc-jetbrainsmononl nfm extrabold-extrabold-r-normal--0-0-0-0-m-0-koi8-ru
+JetBrainsMonoNLNerdFontMono-ExtraBold.ttf -misc-jetbrainsmononl nfm extrabold-extrabold-r-normal--0-0-0-0-m-0-koi8-u
+JetBrainsMonoNLNerdFontMono-ExtraBold.ttf -misc-jetbrainsmononl nfm extrabold-extrabold-r-normal--0-0-0-0-m-0-koi8-uni
+JetBrainsMonoNLNerdFontMono-ExtraBoldItalic.ttf -misc-jetbrainsmononl nfm extrabold-extrabold-i-normal--0-0-0-0-m-0-iso10646-1
+JetBrainsMonoNLNerdFontMono-ExtraBoldItalic.ttf -misc-jetbrainsmononl nfm extrabold-extrabold-i-normal--0-0-0-0-m-0-iso8859-1
+JetBrainsMonoNLNerdFontMono-ExtraBoldItalic.ttf -misc-jetbrainsmononl nfm extrabold-extrabold-i-normal--0-0-0-0-m-0-iso8859-10
+JetBrainsMonoNLNerdFontMono-ExtraBoldItalic.ttf -misc-jetbrainsmononl nfm extrabold-extrabold-i-normal--0-0-0-0-m-0-iso8859-15
+JetBrainsMonoNLNerdFontMono-ExtraBoldItalic.ttf -misc-jetbrainsmononl nfm extrabold-extrabold-i-normal--0-0-0-0-m-0-iso8859-2
+JetBrainsMonoNLNerdFontMono-ExtraBoldItalic.ttf -misc-jetbrainsmononl nfm extrabold-extrabold-i-normal--0-0-0-0-m-0-iso8859-3
+JetBrainsMonoNLNerdFontMono-ExtraBoldItalic.ttf -misc-jetbrainsmononl nfm extrabold-extrabold-i-normal--0-0-0-0-m-0-iso8859-4
+JetBrainsMonoNLNerdFontMono-ExtraBoldItalic.ttf -misc-jetbrainsmononl nfm extrabold-extrabold-i-normal--0-0-0-0-m-0-iso8859-5
+JetBrainsMonoNLNerdFontMono-ExtraBoldItalic.ttf -misc-jetbrainsmononl nfm extrabold-extrabold-i-normal--0-0-0-0-m-0-iso8859-9
+JetBrainsMonoNLNerdFontMono-ExtraBoldItalic.ttf -misc-jetbrainsmononl nfm extrabold-extrabold-i-normal--0-0-0-0-m-0-koi8-e
+JetBrainsMonoNLNerdFontMono-ExtraBoldItalic.ttf -misc-jetbrainsmononl nfm extrabold-extrabold-i-normal--0-0-0-0-m-0-koi8-r
+JetBrainsMonoNLNerdFontMono-ExtraBoldItalic.ttf -misc-jetbrainsmononl nfm extrabold-extrabold-i-normal--0-0-0-0-m-0-koi8-ru
+JetBrainsMonoNLNerdFontMono-ExtraBoldItalic.ttf -misc-jetbrainsmononl nfm extrabold-extrabold-i-normal--0-0-0-0-m-0-koi8-u
+JetBrainsMonoNLNerdFontMono-ExtraBoldItalic.ttf -misc-jetbrainsmononl nfm extrabold-extrabold-i-normal--0-0-0-0-m-0-koi8-uni
+JetBrainsMonoNLNerdFontMono-ExtraLight.ttf -misc-jetbrainsmononl nfm extralight-extralight-r-normal--0-0-0-0-m-0-iso10646-1
+JetBrainsMonoNLNerdFontMono-ExtraLight.ttf -misc-jetbrainsmononl nfm extralight-extralight-r-normal--0-0-0-0-m-0-iso8859-1
+JetBrainsMonoNLNerdFontMono-ExtraLight.ttf -misc-jetbrainsmononl nfm extralight-extralight-r-normal--0-0-0-0-m-0-iso8859-10
+JetBrainsMonoNLNerdFontMono-ExtraLight.ttf -misc-jetbrainsmononl nfm extralight-extralight-r-normal--0-0-0-0-m-0-iso8859-15
+JetBrainsMonoNLNerdFontMono-ExtraLight.ttf -misc-jetbrainsmononl nfm extralight-extralight-r-normal--0-0-0-0-m-0-iso8859-2
+JetBrainsMonoNLNerdFontMono-ExtraLight.ttf -misc-jetbrainsmononl nfm extralight-extralight-r-normal--0-0-0-0-m-0-iso8859-3
+JetBrainsMonoNLNerdFontMono-ExtraLight.ttf -misc-jetbrainsmononl nfm extralight-extralight-r-normal--0-0-0-0-m-0-iso8859-4
+JetBrainsMonoNLNerdFontMono-ExtraLight.ttf -misc-jetbrainsmononl nfm extralight-extralight-r-normal--0-0-0-0-m-0-iso8859-5
+JetBrainsMonoNLNerdFontMono-ExtraLight.ttf -misc-jetbrainsmononl nfm extralight-extralight-r-normal--0-0-0-0-m-0-iso8859-9
+JetBrainsMonoNLNerdFontMono-ExtraLight.ttf -misc-jetbrainsmononl nfm extralight-extralight-r-normal--0-0-0-0-m-0-koi8-e
+JetBrainsMonoNLNerdFontMono-ExtraLight.ttf -misc-jetbrainsmononl nfm extralight-extralight-r-normal--0-0-0-0-m-0-koi8-r
+JetBrainsMonoNLNerdFontMono-ExtraLight.ttf -misc-jetbrainsmononl nfm extralight-extralight-r-normal--0-0-0-0-m-0-koi8-ru
+JetBrainsMonoNLNerdFontMono-ExtraLight.ttf -misc-jetbrainsmononl nfm extralight-extralight-r-normal--0-0-0-0-m-0-koi8-u
+JetBrainsMonoNLNerdFontMono-ExtraLight.ttf -misc-jetbrainsmononl nfm extralight-extralight-r-normal--0-0-0-0-m-0-koi8-uni
+JetBrainsMonoNLNerdFontMono-ExtraLightItalic.ttf -misc-jetbrainsmononl nfm extralight-extralight-i-normal--0-0-0-0-m-0-iso10646-1
+JetBrainsMonoNLNerdFontMono-ExtraLightItalic.ttf -misc-jetbrainsmononl nfm extralight-extralight-i-normal--0-0-0-0-m-0-iso8859-1
+JetBrainsMonoNLNerdFontMono-ExtraLightItalic.ttf -misc-jetbrainsmononl nfm extralight-extralight-i-normal--0-0-0-0-m-0-iso8859-10
+JetBrainsMonoNLNerdFontMono-ExtraLightItalic.ttf -misc-jetbrainsmononl nfm extralight-extralight-i-normal--0-0-0-0-m-0-iso8859-15
+JetBrainsMonoNLNerdFontMono-ExtraLightItalic.ttf -misc-jetbrainsmononl nfm extralight-extralight-i-normal--0-0-0-0-m-0-iso8859-2
+JetBrainsMonoNLNerdFontMono-ExtraLightItalic.ttf -misc-jetbrainsmononl nfm extralight-extralight-i-normal--0-0-0-0-m-0-iso8859-3
+JetBrainsMonoNLNerdFontMono-ExtraLightItalic.ttf -misc-jetbrainsmononl nfm extralight-extralight-i-normal--0-0-0-0-m-0-iso8859-4
+JetBrainsMonoNLNerdFontMono-ExtraLightItalic.ttf -misc-jetbrainsmononl nfm extralight-extralight-i-normal--0-0-0-0-m-0-iso8859-5
+JetBrainsMonoNLNerdFontMono-ExtraLightItalic.ttf -misc-jetbrainsmononl nfm extralight-extralight-i-normal--0-0-0-0-m-0-iso8859-9
+JetBrainsMonoNLNerdFontMono-ExtraLightItalic.ttf -misc-jetbrainsmononl nfm extralight-extralight-i-normal--0-0-0-0-m-0-koi8-e
+JetBrainsMonoNLNerdFontMono-ExtraLightItalic.ttf -misc-jetbrainsmononl nfm extralight-extralight-i-normal--0-0-0-0-m-0-koi8-r
+JetBrainsMonoNLNerdFontMono-ExtraLightItalic.ttf -misc-jetbrainsmononl nfm extralight-extralight-i-normal--0-0-0-0-m-0-koi8-ru
+JetBrainsMonoNLNerdFontMono-ExtraLightItalic.ttf -misc-jetbrainsmononl nfm extralight-extralight-i-normal--0-0-0-0-m-0-koi8-u
+JetBrainsMonoNLNerdFontMono-ExtraLightItalic.ttf -misc-jetbrainsmononl nfm extralight-extralight-i-normal--0-0-0-0-m-0-koi8-uni
+JetBrainsMonoNLNerdFontMono-Italic.ttf -misc-jetbrainsmononl nfm-medium-i-normal--0-0-0-0-m-0-iso10646-1
+JetBrainsMonoNLNerdFontMono-Italic.ttf -misc-jetbrainsmononl nfm-medium-i-normal--0-0-0-0-m-0-iso8859-1
+JetBrainsMonoNLNerdFontMono-Italic.ttf -misc-jetbrainsmononl nfm-medium-i-normal--0-0-0-0-m-0-iso8859-10
+JetBrainsMonoNLNerdFontMono-Italic.ttf -misc-jetbrainsmononl nfm-medium-i-normal--0-0-0-0-m-0-iso8859-15
+JetBrainsMonoNLNerdFontMono-Italic.ttf -misc-jetbrainsmononl nfm-medium-i-normal--0-0-0-0-m-0-iso8859-2
+JetBrainsMonoNLNerdFontMono-Italic.ttf -misc-jetbrainsmononl nfm-medium-i-normal--0-0-0-0-m-0-iso8859-3
+JetBrainsMonoNLNerdFontMono-Italic.ttf -misc-jetbrainsmononl nfm-medium-i-normal--0-0-0-0-m-0-iso8859-4
+JetBrainsMonoNLNerdFontMono-Italic.ttf -misc-jetbrainsmononl nfm-medium-i-normal--0-0-0-0-m-0-iso8859-5
+JetBrainsMonoNLNerdFontMono-Italic.ttf -misc-jetbrainsmononl nfm-medium-i-normal--0-0-0-0-m-0-iso8859-9
+JetBrainsMonoNLNerdFontMono-Italic.ttf -misc-jetbrainsmononl nfm-medium-i-normal--0-0-0-0-m-0-koi8-e
+JetBrainsMonoNLNerdFontMono-Italic.ttf -misc-jetbrainsmononl nfm-medium-i-normal--0-0-0-0-m-0-koi8-r
+JetBrainsMonoNLNerdFontMono-Italic.ttf -misc-jetbrainsmononl nfm-medium-i-normal--0-0-0-0-m-0-koi8-ru
+JetBrainsMonoNLNerdFontMono-Italic.ttf -misc-jetbrainsmononl nfm-medium-i-normal--0-0-0-0-m-0-koi8-u
+JetBrainsMonoNLNerdFontMono-Italic.ttf -misc-jetbrainsmononl nfm-medium-i-normal--0-0-0-0-m-0-koi8-uni
+JetBrainsMonoNLNerdFontMono-Light.ttf -misc-jetbrainsmononl nfm light-light-r-normal--0-0-0-0-m-0-iso10646-1
+JetBrainsMonoNLNerdFontMono-Light.ttf -misc-jetbrainsmononl nfm light-light-r-normal--0-0-0-0-m-0-iso8859-1
+JetBrainsMonoNLNerdFontMono-Light.ttf -misc-jetbrainsmononl nfm light-light-r-normal--0-0-0-0-m-0-iso8859-10
+JetBrainsMonoNLNerdFontMono-Light.ttf -misc-jetbrainsmononl nfm light-light-r-normal--0-0-0-0-m-0-iso8859-15
+JetBrainsMonoNLNerdFontMono-Light.ttf -misc-jetbrainsmononl nfm light-light-r-normal--0-0-0-0-m-0-iso8859-2
+JetBrainsMonoNLNerdFontMono-Light.ttf -misc-jetbrainsmononl nfm light-light-r-normal--0-0-0-0-m-0-iso8859-3
+JetBrainsMonoNLNerdFontMono-Light.ttf -misc-jetbrainsmononl nfm light-light-r-normal--0-0-0-0-m-0-iso8859-4
+JetBrainsMonoNLNerdFontMono-Light.ttf -misc-jetbrainsmononl nfm light-light-r-normal--0-0-0-0-m-0-iso8859-5
+JetBrainsMonoNLNerdFontMono-Light.ttf -misc-jetbrainsmononl nfm light-light-r-normal--0-0-0-0-m-0-iso8859-9
+JetBrainsMonoNLNerdFontMono-Light.ttf -misc-jetbrainsmononl nfm light-light-r-normal--0-0-0-0-m-0-koi8-e
+JetBrainsMonoNLNerdFontMono-Light.ttf -misc-jetbrainsmononl nfm light-light-r-normal--0-0-0-0-m-0-koi8-r
+JetBrainsMonoNLNerdFontMono-Light.ttf -misc-jetbrainsmononl nfm light-light-r-normal--0-0-0-0-m-0-koi8-ru
+JetBrainsMonoNLNerdFontMono-Light.ttf -misc-jetbrainsmononl nfm light-light-r-normal--0-0-0-0-m-0-koi8-u
+JetBrainsMonoNLNerdFontMono-Light.ttf -misc-jetbrainsmononl nfm light-light-r-normal--0-0-0-0-m-0-koi8-uni
+JetBrainsMonoNLNerdFontMono-LightItalic.ttf -misc-jetbrainsmononl nfm light-light-i-normal--0-0-0-0-m-0-iso10646-1
+JetBrainsMonoNLNerdFontMono-LightItalic.ttf -misc-jetbrainsmononl nfm light-light-i-normal--0-0-0-0-m-0-iso8859-1
+JetBrainsMonoNLNerdFontMono-LightItalic.ttf -misc-jetbrainsmononl nfm light-light-i-normal--0-0-0-0-m-0-iso8859-10
+JetBrainsMonoNLNerdFontMono-LightItalic.ttf -misc-jetbrainsmononl nfm light-light-i-normal--0-0-0-0-m-0-iso8859-15
+JetBrainsMonoNLNerdFontMono-LightItalic.ttf -misc-jetbrainsmononl nfm light-light-i-normal--0-0-0-0-m-0-iso8859-2
+JetBrainsMonoNLNerdFontMono-LightItalic.ttf -misc-jetbrainsmononl nfm light-light-i-normal--0-0-0-0-m-0-iso8859-3
+JetBrainsMonoNLNerdFontMono-LightItalic.ttf -misc-jetbrainsmononl nfm light-light-i-normal--0-0-0-0-m-0-iso8859-4
+JetBrainsMonoNLNerdFontMono-LightItalic.ttf -misc-jetbrainsmononl nfm light-light-i-normal--0-0-0-0-m-0-iso8859-5
+JetBrainsMonoNLNerdFontMono-LightItalic.ttf -misc-jetbrainsmononl nfm light-light-i-normal--0-0-0-0-m-0-iso8859-9
+JetBrainsMonoNLNerdFontMono-LightItalic.ttf -misc-jetbrainsmononl nfm light-light-i-normal--0-0-0-0-m-0-koi8-e
+JetBrainsMonoNLNerdFontMono-LightItalic.ttf -misc-jetbrainsmononl nfm light-light-i-normal--0-0-0-0-m-0-koi8-r
+JetBrainsMonoNLNerdFontMono-LightItalic.ttf -misc-jetbrainsmononl nfm light-light-i-normal--0-0-0-0-m-0-koi8-ru
+JetBrainsMonoNLNerdFontMono-LightItalic.ttf -misc-jetbrainsmononl nfm light-light-i-normal--0-0-0-0-m-0-koi8-u
+JetBrainsMonoNLNerdFontMono-LightItalic.ttf -misc-jetbrainsmononl nfm light-light-i-normal--0-0-0-0-m-0-koi8-uni
+JetBrainsMonoNLNerdFontMono-Medium.ttf -misc-jetbrainsmononl nfm medium-medium-r-normal--0-0-0-0-m-0-iso10646-1
+JetBrainsMonoNLNerdFontMono-Medium.ttf -misc-jetbrainsmononl nfm medium-medium-r-normal--0-0-0-0-m-0-iso8859-1
+JetBrainsMonoNLNerdFontMono-Medium.ttf -misc-jetbrainsmononl nfm medium-medium-r-normal--0-0-0-0-m-0-iso8859-10
+JetBrainsMonoNLNerdFontMono-Medium.ttf -misc-jetbrainsmononl nfm medium-medium-r-normal--0-0-0-0-m-0-iso8859-15
+JetBrainsMonoNLNerdFontMono-Medium.ttf -misc-jetbrainsmononl nfm medium-medium-r-normal--0-0-0-0-m-0-iso8859-2
+JetBrainsMonoNLNerdFontMono-Medium.ttf -misc-jetbrainsmononl nfm medium-medium-r-normal--0-0-0-0-m-0-iso8859-3
+JetBrainsMonoNLNerdFontMono-Medium.ttf -misc-jetbrainsmononl nfm medium-medium-r-normal--0-0-0-0-m-0-iso8859-4
+JetBrainsMonoNLNerdFontMono-Medium.ttf -misc-jetbrainsmononl nfm medium-medium-r-normal--0-0-0-0-m-0-iso8859-5
+JetBrainsMonoNLNerdFontMono-Medium.ttf -misc-jetbrainsmononl nfm medium-medium-r-normal--0-0-0-0-m-0-iso8859-9
+JetBrainsMonoNLNerdFontMono-Medium.ttf -misc-jetbrainsmononl nfm medium-medium-r-normal--0-0-0-0-m-0-koi8-e
+JetBrainsMonoNLNerdFontMono-Medium.ttf -misc-jetbrainsmononl nfm medium-medium-r-normal--0-0-0-0-m-0-koi8-r
+JetBrainsMonoNLNerdFontMono-Medium.ttf -misc-jetbrainsmononl nfm medium-medium-r-normal--0-0-0-0-m-0-koi8-ru
+JetBrainsMonoNLNerdFontMono-Medium.ttf -misc-jetbrainsmononl nfm medium-medium-r-normal--0-0-0-0-m-0-koi8-u
+JetBrainsMonoNLNerdFontMono-Medium.ttf -misc-jetbrainsmononl nfm medium-medium-r-normal--0-0-0-0-m-0-koi8-uni
+JetBrainsMonoNLNerdFontMono-MediumItalic.ttf -misc-jetbrainsmononl nfm medium-medium-i-normal--0-0-0-0-m-0-iso10646-1
+JetBrainsMonoNLNerdFontMono-MediumItalic.ttf -misc-jetbrainsmononl nfm medium-medium-i-normal--0-0-0-0-m-0-iso8859-1
+JetBrainsMonoNLNerdFontMono-MediumItalic.ttf -misc-jetbrainsmononl nfm medium-medium-i-normal--0-0-0-0-m-0-iso8859-10
+JetBrainsMonoNLNerdFontMono-MediumItalic.ttf -misc-jetbrainsmononl nfm medium-medium-i-normal--0-0-0-0-m-0-iso8859-15
+JetBrainsMonoNLNerdFontMono-MediumItalic.ttf -misc-jetbrainsmononl nfm medium-medium-i-normal--0-0-0-0-m-0-iso8859-2
+JetBrainsMonoNLNerdFontMono-MediumItalic.ttf -misc-jetbrainsmononl nfm medium-medium-i-normal--0-0-0-0-m-0-iso8859-3
+JetBrainsMonoNLNerdFontMono-MediumItalic.ttf -misc-jetbrainsmononl nfm medium-medium-i-normal--0-0-0-0-m-0-iso8859-4
+JetBrainsMonoNLNerdFontMono-MediumItalic.ttf -misc-jetbrainsmononl nfm medium-medium-i-normal--0-0-0-0-m-0-iso8859-5
+JetBrainsMonoNLNerdFontMono-MediumItalic.ttf -misc-jetbrainsmononl nfm medium-medium-i-normal--0-0-0-0-m-0-iso8859-9
+JetBrainsMonoNLNerdFontMono-MediumItalic.ttf -misc-jetbrainsmononl nfm medium-medium-i-normal--0-0-0-0-m-0-koi8-e
+JetBrainsMonoNLNerdFontMono-MediumItalic.ttf -misc-jetbrainsmononl nfm medium-medium-i-normal--0-0-0-0-m-0-koi8-r
+JetBrainsMonoNLNerdFontMono-MediumItalic.ttf -misc-jetbrainsmononl nfm medium-medium-i-normal--0-0-0-0-m-0-koi8-ru
+JetBrainsMonoNLNerdFontMono-MediumItalic.ttf -misc-jetbrainsmononl nfm medium-medium-i-normal--0-0-0-0-m-0-koi8-u
+JetBrainsMonoNLNerdFontMono-MediumItalic.ttf -misc-jetbrainsmononl nfm medium-medium-i-normal--0-0-0-0-m-0-koi8-uni
+JetBrainsMonoNLNerdFontMono-Regular.ttf -misc-jetbrainsmononl nfm-medium-r-normal--0-0-0-0-m-0-iso10646-1
+JetBrainsMonoNLNerdFontMono-Regular.ttf -misc-jetbrainsmononl nfm-medium-r-normal--0-0-0-0-m-0-iso8859-1
+JetBrainsMonoNLNerdFontMono-Regular.ttf -misc-jetbrainsmononl nfm-medium-r-normal--0-0-0-0-m-0-iso8859-10
+JetBrainsMonoNLNerdFontMono-Regular.ttf -misc-jetbrainsmononl nfm-medium-r-normal--0-0-0-0-m-0-iso8859-15
+JetBrainsMonoNLNerdFontMono-Regular.ttf -misc-jetbrainsmononl nfm-medium-r-normal--0-0-0-0-m-0-iso8859-2
+JetBrainsMonoNLNerdFontMono-Regular.ttf -misc-jetbrainsmononl nfm-medium-r-normal--0-0-0-0-m-0-iso8859-3
+JetBrainsMonoNLNerdFontMono-Regular.ttf -misc-jetbrainsmononl nfm-medium-r-normal--0-0-0-0-m-0-iso8859-4
+JetBrainsMonoNLNerdFontMono-Regular.ttf -misc-jetbrainsmononl nfm-medium-r-normal--0-0-0-0-m-0-iso8859-5
+JetBrainsMonoNLNerdFontMono-Regular.ttf -misc-jetbrainsmononl nfm-medium-r-normal--0-0-0-0-m-0-iso8859-9
+JetBrainsMonoNLNerdFontMono-Regular.ttf -misc-jetbrainsmononl nfm-medium-r-normal--0-0-0-0-m-0-koi8-e
+JetBrainsMonoNLNerdFontMono-Regular.ttf -misc-jetbrainsmononl nfm-medium-r-normal--0-0-0-0-m-0-koi8-r
+JetBrainsMonoNLNerdFontMono-Regular.ttf -misc-jetbrainsmononl nfm-medium-r-normal--0-0-0-0-m-0-koi8-ru
+JetBrainsMonoNLNerdFontMono-Regular.ttf -misc-jetbrainsmononl nfm-medium-r-normal--0-0-0-0-m-0-koi8-u
+JetBrainsMonoNLNerdFontMono-Regular.ttf -misc-jetbrainsmononl nfm-medium-r-normal--0-0-0-0-m-0-koi8-uni
+JetBrainsMonoNLNerdFontMono-SemiBold.ttf -misc-jetbrainsmononl nfm semibold-semibold-r-normal--0-0-0-0-m-0-iso10646-1
+JetBrainsMonoNLNerdFontMono-SemiBold.ttf -misc-jetbrainsmononl nfm semibold-semibold-r-normal--0-0-0-0-m-0-iso8859-1
+JetBrainsMonoNLNerdFontMono-SemiBold.ttf -misc-jetbrainsmononl nfm semibold-semibold-r-normal--0-0-0-0-m-0-iso8859-10
+JetBrainsMonoNLNerdFontMono-SemiBold.ttf -misc-jetbrainsmononl nfm semibold-semibold-r-normal--0-0-0-0-m-0-iso8859-15
+JetBrainsMonoNLNerdFontMono-SemiBold.ttf -misc-jetbrainsmononl nfm semibold-semibold-r-normal--0-0-0-0-m-0-iso8859-2
+JetBrainsMonoNLNerdFontMono-SemiBold.ttf -misc-jetbrainsmononl nfm semibold-semibold-r-normal--0-0-0-0-m-0-iso8859-3
+JetBrainsMonoNLNerdFontMono-SemiBold.ttf -misc-jetbrainsmononl nfm semibold-semibold-r-normal--0-0-0-0-m-0-iso8859-4
+JetBrainsMonoNLNerdFontMono-SemiBold.ttf -misc-jetbrainsmononl nfm semibold-semibold-r-normal--0-0-0-0-m-0-iso8859-5
+JetBrainsMonoNLNerdFontMono-SemiBold.ttf -misc-jetbrainsmononl nfm semibold-semibold-r-normal--0-0-0-0-m-0-iso8859-9
+JetBrainsMonoNLNerdFontMono-SemiBold.ttf -misc-jetbrainsmononl nfm semibold-semibold-r-normal--0-0-0-0-m-0-koi8-e
+JetBrainsMonoNLNerdFontMono-SemiBold.ttf -misc-jetbrainsmononl nfm semibold-semibold-r-normal--0-0-0-0-m-0-koi8-r
+JetBrainsMonoNLNerdFontMono-SemiBold.ttf -misc-jetbrainsmononl nfm semibold-semibold-r-normal--0-0-0-0-m-0-koi8-ru
+JetBrainsMonoNLNerdFontMono-SemiBold.ttf -misc-jetbrainsmononl nfm semibold-semibold-r-normal--0-0-0-0-m-0-koi8-u
+JetBrainsMonoNLNerdFontMono-SemiBold.ttf -misc-jetbrainsmononl nfm semibold-semibold-r-normal--0-0-0-0-m-0-koi8-uni
+JetBrainsMonoNLNerdFontMono-SemiBoldItalic.ttf -misc-jetbrainsmononl nfm semibold-semibold-i-normal--0-0-0-0-m-0-iso10646-1
+JetBrainsMonoNLNerdFontMono-SemiBoldItalic.ttf -misc-jetbrainsmononl nfm semibold-semibold-i-normal--0-0-0-0-m-0-iso8859-1
+JetBrainsMonoNLNerdFontMono-SemiBoldItalic.ttf -misc-jetbrainsmononl nfm semibold-semibold-i-normal--0-0-0-0-m-0-iso8859-10
+JetBrainsMonoNLNerdFontMono-SemiBoldItalic.ttf -misc-jetbrainsmononl nfm semibold-semibold-i-normal--0-0-0-0-m-0-iso8859-15
+JetBrainsMonoNLNerdFontMono-SemiBoldItalic.ttf -misc-jetbrainsmononl nfm semibold-semibold-i-normal--0-0-0-0-m-0-iso8859-2
+JetBrainsMonoNLNerdFontMono-SemiBoldItalic.ttf -misc-jetbrainsmononl nfm semibold-semibold-i-normal--0-0-0-0-m-0-iso8859-3
+JetBrainsMonoNLNerdFontMono-SemiBoldItalic.ttf -misc-jetbrainsmononl nfm semibold-semibold-i-normal--0-0-0-0-m-0-iso8859-4
+JetBrainsMonoNLNerdFontMono-SemiBoldItalic.ttf -misc-jetbrainsmononl nfm semibold-semibold-i-normal--0-0-0-0-m-0-iso8859-5
+JetBrainsMonoNLNerdFontMono-SemiBoldItalic.ttf -misc-jetbrainsmononl nfm semibold-semibold-i-normal--0-0-0-0-m-0-iso8859-9
+JetBrainsMonoNLNerdFontMono-SemiBoldItalic.ttf -misc-jetbrainsmononl nfm semibold-semibold-i-normal--0-0-0-0-m-0-koi8-e
+JetBrainsMonoNLNerdFontMono-SemiBoldItalic.ttf -misc-jetbrainsmononl nfm semibold-semibold-i-normal--0-0-0-0-m-0-koi8-r
+JetBrainsMonoNLNerdFontMono-SemiBoldItalic.ttf -misc-jetbrainsmononl nfm semibold-semibold-i-normal--0-0-0-0-m-0-koi8-ru
+JetBrainsMonoNLNerdFontMono-SemiBoldItalic.ttf -misc-jetbrainsmononl nfm semibold-semibold-i-normal--0-0-0-0-m-0-koi8-u
+JetBrainsMonoNLNerdFontMono-SemiBoldItalic.ttf -misc-jetbrainsmononl nfm semibold-semibold-i-normal--0-0-0-0-m-0-koi8-uni
+JetBrainsMonoNLNerdFontMono-Thin.ttf -misc-jetbrainsmononl nfm thin-thin-r-normal--0-0-0-0-m-0-iso10646-1
+JetBrainsMonoNLNerdFontMono-Thin.ttf -misc-jetbrainsmononl nfm thin-thin-r-normal--0-0-0-0-m-0-iso8859-1
+JetBrainsMonoNLNerdFontMono-Thin.ttf -misc-jetbrainsmononl nfm thin-thin-r-normal--0-0-0-0-m-0-iso8859-10
+JetBrainsMonoNLNerdFontMono-Thin.ttf -misc-jetbrainsmononl nfm thin-thin-r-normal--0-0-0-0-m-0-iso8859-15
+JetBrainsMonoNLNerdFontMono-Thin.ttf -misc-jetbrainsmononl nfm thin-thin-r-normal--0-0-0-0-m-0-iso8859-2
+JetBrainsMonoNLNerdFontMono-Thin.ttf -misc-jetbrainsmononl nfm thin-thin-r-normal--0-0-0-0-m-0-iso8859-3
+JetBrainsMonoNLNerdFontMono-Thin.ttf -misc-jetbrainsmononl nfm thin-thin-r-normal--0-0-0-0-m-0-iso8859-4
+JetBrainsMonoNLNerdFontMono-Thin.ttf -misc-jetbrainsmononl nfm thin-thin-r-normal--0-0-0-0-m-0-iso8859-5
+JetBrainsMonoNLNerdFontMono-Thin.ttf -misc-jetbrainsmononl nfm thin-thin-r-normal--0-0-0-0-m-0-iso8859-9
+JetBrainsMonoNLNerdFontMono-Thin.ttf -misc-jetbrainsmononl nfm thin-thin-r-normal--0-0-0-0-m-0-koi8-e
+JetBrainsMonoNLNerdFontMono-Thin.ttf -misc-jetbrainsmononl nfm thin-thin-r-normal--0-0-0-0-m-0-koi8-r
+JetBrainsMonoNLNerdFontMono-Thin.ttf -misc-jetbrainsmononl nfm thin-thin-r-normal--0-0-0-0-m-0-koi8-ru
+JetBrainsMonoNLNerdFontMono-Thin.ttf -misc-jetbrainsmononl nfm thin-thin-r-normal--0-0-0-0-m-0-koi8-u
+JetBrainsMonoNLNerdFontMono-Thin.ttf -misc-jetbrainsmononl nfm thin-thin-r-normal--0-0-0-0-m-0-koi8-uni
+JetBrainsMonoNLNerdFontMono-ThinItalic.ttf -misc-jetbrainsmononl nfm thin-thin-i-normal--0-0-0-0-m-0-iso10646-1
+JetBrainsMonoNLNerdFontMono-ThinItalic.ttf -misc-jetbrainsmononl nfm thin-thin-i-normal--0-0-0-0-m-0-iso8859-1
+JetBrainsMonoNLNerdFontMono-ThinItalic.ttf -misc-jetbrainsmononl nfm thin-thin-i-normal--0-0-0-0-m-0-iso8859-10
+JetBrainsMonoNLNerdFontMono-ThinItalic.ttf -misc-jetbrainsmononl nfm thin-thin-i-normal--0-0-0-0-m-0-iso8859-15
+JetBrainsMonoNLNerdFontMono-ThinItalic.ttf -misc-jetbrainsmononl nfm thin-thin-i-normal--0-0-0-0-m-0-iso8859-2
+JetBrainsMonoNLNerdFontMono-ThinItalic.ttf -misc-jetbrainsmononl nfm thin-thin-i-normal--0-0-0-0-m-0-iso8859-3
+JetBrainsMonoNLNerdFontMono-ThinItalic.ttf -misc-jetbrainsmononl nfm thin-thin-i-normal--0-0-0-0-m-0-iso8859-4
+JetBrainsMonoNLNerdFontMono-ThinItalic.ttf -misc-jetbrainsmononl nfm thin-thin-i-normal--0-0-0-0-m-0-iso8859-5
+JetBrainsMonoNLNerdFontMono-ThinItalic.ttf -misc-jetbrainsmononl nfm thin-thin-i-normal--0-0-0-0-m-0-iso8859-9
+JetBrainsMonoNLNerdFontMono-ThinItalic.ttf -misc-jetbrainsmononl nfm thin-thin-i-normal--0-0-0-0-m-0-koi8-e
+JetBrainsMonoNLNerdFontMono-ThinItalic.ttf -misc-jetbrainsmononl nfm thin-thin-i-normal--0-0-0-0-m-0-koi8-r
+JetBrainsMonoNLNerdFontMono-ThinItalic.ttf -misc-jetbrainsmononl nfm thin-thin-i-normal--0-0-0-0-m-0-koi8-ru
+JetBrainsMonoNLNerdFontMono-ThinItalic.ttf -misc-jetbrainsmononl nfm thin-thin-i-normal--0-0-0-0-m-0-koi8-u
+JetBrainsMonoNLNerdFontMono-ThinItalic.ttf -misc-jetbrainsmononl nfm thin-thin-i-normal--0-0-0-0-m-0-koi8-uni
+JetBrainsMonoNLNerdFontPropo-Bold.ttf -misc-jetbrainsmononl nfp-bold-r-normal--0-0-0-0-p-0-iso10646-1
+JetBrainsMonoNLNerdFontPropo-Bold.ttf -misc-jetbrainsmononl nfp-bold-r-normal--0-0-0-0-p-0-iso8859-1
+JetBrainsMonoNLNerdFontPropo-Bold.ttf -misc-jetbrainsmononl nfp-bold-r-normal--0-0-0-0-p-0-iso8859-10
+JetBrainsMonoNLNerdFontPropo-Bold.ttf -misc-jetbrainsmononl nfp-bold-r-normal--0-0-0-0-p-0-iso8859-15
+JetBrainsMonoNLNerdFontPropo-Bold.ttf -misc-jetbrainsmononl nfp-bold-r-normal--0-0-0-0-p-0-iso8859-2
+JetBrainsMonoNLNerdFontPropo-Bold.ttf -misc-jetbrainsmononl nfp-bold-r-normal--0-0-0-0-p-0-iso8859-3
+JetBrainsMonoNLNerdFontPropo-Bold.ttf -misc-jetbrainsmononl nfp-bold-r-normal--0-0-0-0-p-0-iso8859-4
+JetBrainsMonoNLNerdFontPropo-Bold.ttf -misc-jetbrainsmononl nfp-bold-r-normal--0-0-0-0-p-0-iso8859-5
+JetBrainsMonoNLNerdFontPropo-Bold.ttf -misc-jetbrainsmononl nfp-bold-r-normal--0-0-0-0-p-0-iso8859-9
+JetBrainsMonoNLNerdFontPropo-Bold.ttf -misc-jetbrainsmononl nfp-bold-r-normal--0-0-0-0-p-0-koi8-e
+JetBrainsMonoNLNerdFontPropo-Bold.ttf -misc-jetbrainsmononl nfp-bold-r-normal--0-0-0-0-p-0-koi8-r
+JetBrainsMonoNLNerdFontPropo-Bold.ttf -misc-jetbrainsmononl nfp-bold-r-normal--0-0-0-0-p-0-koi8-ru
+JetBrainsMonoNLNerdFontPropo-Bold.ttf -misc-jetbrainsmononl nfp-bold-r-normal--0-0-0-0-p-0-koi8-u
+JetBrainsMonoNLNerdFontPropo-Bold.ttf -misc-jetbrainsmononl nfp-bold-r-normal--0-0-0-0-p-0-koi8-uni
+JetBrainsMonoNLNerdFontPropo-BoldItalic.ttf -misc-jetbrainsmononl nfp-bold-i-normal--0-0-0-0-p-0-iso10646-1
+JetBrainsMonoNLNerdFontPropo-BoldItalic.ttf -misc-jetbrainsmononl nfp-bold-i-normal--0-0-0-0-p-0-iso8859-1
+JetBrainsMonoNLNerdFontPropo-BoldItalic.ttf -misc-jetbrainsmononl nfp-bold-i-normal--0-0-0-0-p-0-iso8859-10
+JetBrainsMonoNLNerdFontPropo-BoldItalic.ttf -misc-jetbrainsmononl nfp-bold-i-normal--0-0-0-0-p-0-iso8859-15
+JetBrainsMonoNLNerdFontPropo-BoldItalic.ttf -misc-jetbrainsmononl nfp-bold-i-normal--0-0-0-0-p-0-iso8859-2
+JetBrainsMonoNLNerdFontPropo-BoldItalic.ttf -misc-jetbrainsmononl nfp-bold-i-normal--0-0-0-0-p-0-iso8859-3
+JetBrainsMonoNLNerdFontPropo-BoldItalic.ttf -misc-jetbrainsmononl nfp-bold-i-normal--0-0-0-0-p-0-iso8859-4
+JetBrainsMonoNLNerdFontPropo-BoldItalic.ttf -misc-jetbrainsmononl nfp-bold-i-normal--0-0-0-0-p-0-iso8859-5
+JetBrainsMonoNLNerdFontPropo-BoldItalic.ttf -misc-jetbrainsmononl nfp-bold-i-normal--0-0-0-0-p-0-iso8859-9
+JetBrainsMonoNLNerdFontPropo-BoldItalic.ttf -misc-jetbrainsmononl nfp-bold-i-normal--0-0-0-0-p-0-koi8-e
+JetBrainsMonoNLNerdFontPropo-BoldItalic.ttf -misc-jetbrainsmononl nfp-bold-i-normal--0-0-0-0-p-0-koi8-r
+JetBrainsMonoNLNerdFontPropo-BoldItalic.ttf -misc-jetbrainsmononl nfp-bold-i-normal--0-0-0-0-p-0-koi8-ru
+JetBrainsMonoNLNerdFontPropo-BoldItalic.ttf -misc-jetbrainsmononl nfp-bold-i-normal--0-0-0-0-p-0-koi8-u
+JetBrainsMonoNLNerdFontPropo-BoldItalic.ttf -misc-jetbrainsmononl nfp-bold-i-normal--0-0-0-0-p-0-koi8-uni
+JetBrainsMonoNLNerdFontPropo-ExtraBold.ttf -misc-jetbrainsmononl nfp extrabold-extrabold-r-normal--0-0-0-0-p-0-iso10646-1
+JetBrainsMonoNLNerdFontPropo-ExtraBold.ttf -misc-jetbrainsmononl nfp extrabold-extrabold-r-normal--0-0-0-0-p-0-iso8859-1
+JetBrainsMonoNLNerdFontPropo-ExtraBold.ttf -misc-jetbrainsmononl nfp extrabold-extrabold-r-normal--0-0-0-0-p-0-iso8859-10
+JetBrainsMonoNLNerdFontPropo-ExtraBold.ttf -misc-jetbrainsmononl nfp extrabold-extrabold-r-normal--0-0-0-0-p-0-iso8859-15
+JetBrainsMonoNLNerdFontPropo-ExtraBold.ttf -misc-jetbrainsmononl nfp extrabold-extrabold-r-normal--0-0-0-0-p-0-iso8859-2
+JetBrainsMonoNLNerdFontPropo-ExtraBold.ttf -misc-jetbrainsmononl nfp extrabold-extrabold-r-normal--0-0-0-0-p-0-iso8859-3
+JetBrainsMonoNLNerdFontPropo-ExtraBold.ttf -misc-jetbrainsmononl nfp extrabold-extrabold-r-normal--0-0-0-0-p-0-iso8859-4
+JetBrainsMonoNLNerdFontPropo-ExtraBold.ttf -misc-jetbrainsmononl nfp extrabold-extrabold-r-normal--0-0-0-0-p-0-iso8859-5
+JetBrainsMonoNLNerdFontPropo-ExtraBold.ttf -misc-jetbrainsmononl nfp extrabold-extrabold-r-normal--0-0-0-0-p-0-iso8859-9
+JetBrainsMonoNLNerdFontPropo-ExtraBold.ttf -misc-jetbrainsmononl nfp extrabold-extrabold-r-normal--0-0-0-0-p-0-koi8-e
+JetBrainsMonoNLNerdFontPropo-ExtraBold.ttf -misc-jetbrainsmononl nfp extrabold-extrabold-r-normal--0-0-0-0-p-0-koi8-r
+JetBrainsMonoNLNerdFontPropo-ExtraBold.ttf -misc-jetbrainsmononl nfp extrabold-extrabold-r-normal--0-0-0-0-p-0-koi8-ru
+JetBrainsMonoNLNerdFontPropo-ExtraBold.ttf -misc-jetbrainsmononl nfp extrabold-extrabold-r-normal--0-0-0-0-p-0-koi8-u
+JetBrainsMonoNLNerdFontPropo-ExtraBold.ttf -misc-jetbrainsmononl nfp extrabold-extrabold-r-normal--0-0-0-0-p-0-koi8-uni
+JetBrainsMonoNLNerdFontPropo-ExtraBoldItalic.ttf -misc-jetbrainsmononl nfp extrabold-extrabold-i-normal--0-0-0-0-p-0-iso10646-1
+JetBrainsMonoNLNerdFontPropo-ExtraBoldItalic.ttf -misc-jetbrainsmononl nfp extrabold-extrabold-i-normal--0-0-0-0-p-0-iso8859-1
+JetBrainsMonoNLNerdFontPropo-ExtraBoldItalic.ttf -misc-jetbrainsmononl nfp extrabold-extrabold-i-normal--0-0-0-0-p-0-iso8859-10
+JetBrainsMonoNLNerdFontPropo-ExtraBoldItalic.ttf -misc-jetbrainsmononl nfp extrabold-extrabold-i-normal--0-0-0-0-p-0-iso8859-15
+JetBrainsMonoNLNerdFontPropo-ExtraBoldItalic.ttf -misc-jetbrainsmononl nfp extrabold-extrabold-i-normal--0-0-0-0-p-0-iso8859-2
+JetBrainsMonoNLNerdFontPropo-ExtraBoldItalic.ttf -misc-jetbrainsmononl nfp extrabold-extrabold-i-normal--0-0-0-0-p-0-iso8859-3
+JetBrainsMonoNLNerdFontPropo-ExtraBoldItalic.ttf -misc-jetbrainsmononl nfp extrabold-extrabold-i-normal--0-0-0-0-p-0-iso8859-4
+JetBrainsMonoNLNerdFontPropo-ExtraBoldItalic.ttf -misc-jetbrainsmononl nfp extrabold-extrabold-i-normal--0-0-0-0-p-0-iso8859-5
+JetBrainsMonoNLNerdFontPropo-ExtraBoldItalic.ttf -misc-jetbrainsmononl nfp extrabold-extrabold-i-normal--0-0-0-0-p-0-iso8859-9
+JetBrainsMonoNLNerdFontPropo-ExtraBoldItalic.ttf -misc-jetbrainsmononl nfp extrabold-extrabold-i-normal--0-0-0-0-p-0-koi8-e
+JetBrainsMonoNLNerdFontPropo-ExtraBoldItalic.ttf -misc-jetbrainsmononl nfp extrabold-extrabold-i-normal--0-0-0-0-p-0-koi8-r
+JetBrainsMonoNLNerdFontPropo-ExtraBoldItalic.ttf -misc-jetbrainsmononl nfp extrabold-extrabold-i-normal--0-0-0-0-p-0-koi8-ru
+JetBrainsMonoNLNerdFontPropo-ExtraBoldItalic.ttf -misc-jetbrainsmononl nfp extrabold-extrabold-i-normal--0-0-0-0-p-0-koi8-u
+JetBrainsMonoNLNerdFontPropo-ExtraBoldItalic.ttf -misc-jetbrainsmononl nfp extrabold-extrabold-i-normal--0-0-0-0-p-0-koi8-uni
+JetBrainsMonoNLNerdFontPropo-ExtraLight.ttf -misc-jetbrainsmononl nfp extralight-extralight-r-normal--0-0-0-0-p-0-iso10646-1
+JetBrainsMonoNLNerdFontPropo-ExtraLight.ttf -misc-jetbrainsmononl nfp extralight-extralight-r-normal--0-0-0-0-p-0-iso8859-1
+JetBrainsMonoNLNerdFontPropo-ExtraLight.ttf -misc-jetbrainsmononl nfp extralight-extralight-r-normal--0-0-0-0-p-0-iso8859-10
+JetBrainsMonoNLNerdFontPropo-ExtraLight.ttf -misc-jetbrainsmononl nfp extralight-extralight-r-normal--0-0-0-0-p-0-iso8859-15
+JetBrainsMonoNLNerdFontPropo-ExtraLight.ttf -misc-jetbrainsmononl nfp extralight-extralight-r-normal--0-0-0-0-p-0-iso8859-2
+JetBrainsMonoNLNerdFontPropo-ExtraLight.ttf -misc-jetbrainsmononl nfp extralight-extralight-r-normal--0-0-0-0-p-0-iso8859-3
+JetBrainsMonoNLNerdFontPropo-ExtraLight.ttf -misc-jetbrainsmononl nfp extralight-extralight-r-normal--0-0-0-0-p-0-iso8859-4
+JetBrainsMonoNLNerdFontPropo-ExtraLight.ttf -misc-jetbrainsmononl nfp extralight-extralight-r-normal--0-0-0-0-p-0-iso8859-5
+JetBrainsMonoNLNerdFontPropo-ExtraLight.ttf -misc-jetbrainsmononl nfp extralight-extralight-r-normal--0-0-0-0-p-0-iso8859-9
+JetBrainsMonoNLNerdFontPropo-ExtraLight.ttf -misc-jetbrainsmononl nfp extralight-extralight-r-normal--0-0-0-0-p-0-koi8-e
+JetBrainsMonoNLNerdFontPropo-ExtraLight.ttf -misc-jetbrainsmononl nfp extralight-extralight-r-normal--0-0-0-0-p-0-koi8-r
+JetBrainsMonoNLNerdFontPropo-ExtraLight.ttf -misc-jetbrainsmononl nfp extralight-extralight-r-normal--0-0-0-0-p-0-koi8-ru
+JetBrainsMonoNLNerdFontPropo-ExtraLight.ttf -misc-jetbrainsmononl nfp extralight-extralight-r-normal--0-0-0-0-p-0-koi8-u
+JetBrainsMonoNLNerdFontPropo-ExtraLight.ttf -misc-jetbrainsmononl nfp extralight-extralight-r-normal--0-0-0-0-p-0-koi8-uni
+JetBrainsMonoNLNerdFontPropo-ExtraLightItalic.ttf -misc-jetbrainsmononl nfp extralight-extralight-i-normal--0-0-0-0-p-0-iso10646-1
+JetBrainsMonoNLNerdFontPropo-ExtraLightItalic.ttf -misc-jetbrainsmononl nfp extralight-extralight-i-normal--0-0-0-0-p-0-iso8859-1
+JetBrainsMonoNLNerdFontPropo-ExtraLightItalic.ttf -misc-jetbrainsmononl nfp extralight-extralight-i-normal--0-0-0-0-p-0-iso8859-10
+JetBrainsMonoNLNerdFontPropo-ExtraLightItalic.ttf -misc-jetbrainsmononl nfp extralight-extralight-i-normal--0-0-0-0-p-0-iso8859-15
+JetBrainsMonoNLNerdFontPropo-ExtraLightItalic.ttf -misc-jetbrainsmononl nfp extralight-extralight-i-normal--0-0-0-0-p-0-iso8859-2
+JetBrainsMonoNLNerdFontPropo-ExtraLightItalic.ttf -misc-jetbrainsmononl nfp extralight-extralight-i-normal--0-0-0-0-p-0-iso8859-3
+JetBrainsMonoNLNerdFontPropo-ExtraLightItalic.ttf -misc-jetbrainsmononl nfp extralight-extralight-i-normal--0-0-0-0-p-0-iso8859-4
+JetBrainsMonoNLNerdFontPropo-ExtraLightItalic.ttf -misc-jetbrainsmononl nfp extralight-extralight-i-normal--0-0-0-0-p-0-iso8859-5
+JetBrainsMonoNLNerdFontPropo-ExtraLightItalic.ttf -misc-jetbrainsmononl nfp extralight-extralight-i-normal--0-0-0-0-p-0-iso8859-9
+JetBrainsMonoNLNerdFontPropo-ExtraLightItalic.ttf -misc-jetbrainsmononl nfp extralight-extralight-i-normal--0-0-0-0-p-0-koi8-e
+JetBrainsMonoNLNerdFontPropo-ExtraLightItalic.ttf -misc-jetbrainsmononl nfp extralight-extralight-i-normal--0-0-0-0-p-0-koi8-r
+JetBrainsMonoNLNerdFontPropo-ExtraLightItalic.ttf -misc-jetbrainsmononl nfp extralight-extralight-i-normal--0-0-0-0-p-0-koi8-ru
+JetBrainsMonoNLNerdFontPropo-ExtraLightItalic.ttf -misc-jetbrainsmononl nfp extralight-extralight-i-normal--0-0-0-0-p-0-koi8-u
+JetBrainsMonoNLNerdFontPropo-ExtraLightItalic.ttf -misc-jetbrainsmononl nfp extralight-extralight-i-normal--0-0-0-0-p-0-koi8-uni
+JetBrainsMonoNLNerdFontPropo-Italic.ttf -misc-jetbrainsmononl nfp-medium-i-normal--0-0-0-0-p-0-iso10646-1
+JetBrainsMonoNLNerdFontPropo-Italic.ttf -misc-jetbrainsmononl nfp-medium-i-normal--0-0-0-0-p-0-iso8859-1
+JetBrainsMonoNLNerdFontPropo-Italic.ttf -misc-jetbrainsmononl nfp-medium-i-normal--0-0-0-0-p-0-iso8859-10
+JetBrainsMonoNLNerdFontPropo-Italic.ttf -misc-jetbrainsmononl nfp-medium-i-normal--0-0-0-0-p-0-iso8859-15
+JetBrainsMonoNLNerdFontPropo-Italic.ttf -misc-jetbrainsmononl nfp-medium-i-normal--0-0-0-0-p-0-iso8859-2
+JetBrainsMonoNLNerdFontPropo-Italic.ttf -misc-jetbrainsmononl nfp-medium-i-normal--0-0-0-0-p-0-iso8859-3
+JetBrainsMonoNLNerdFontPropo-Italic.ttf -misc-jetbrainsmononl nfp-medium-i-normal--0-0-0-0-p-0-iso8859-4
+JetBrainsMonoNLNerdFontPropo-Italic.ttf -misc-jetbrainsmononl nfp-medium-i-normal--0-0-0-0-p-0-iso8859-5
+JetBrainsMonoNLNerdFontPropo-Italic.ttf -misc-jetbrainsmononl nfp-medium-i-normal--0-0-0-0-p-0-iso8859-9
+JetBrainsMonoNLNerdFontPropo-Italic.ttf -misc-jetbrainsmononl nfp-medium-i-normal--0-0-0-0-p-0-koi8-e
+JetBrainsMonoNLNerdFontPropo-Italic.ttf -misc-jetbrainsmononl nfp-medium-i-normal--0-0-0-0-p-0-koi8-r
+JetBrainsMonoNLNerdFontPropo-Italic.ttf -misc-jetbrainsmononl nfp-medium-i-normal--0-0-0-0-p-0-koi8-ru
+JetBrainsMonoNLNerdFontPropo-Italic.ttf -misc-jetbrainsmononl nfp-medium-i-normal--0-0-0-0-p-0-koi8-u
+JetBrainsMonoNLNerdFontPropo-Italic.ttf -misc-jetbrainsmononl nfp-medium-i-normal--0-0-0-0-p-0-koi8-uni
+JetBrainsMonoNLNerdFontPropo-Light.ttf -misc-jetbrainsmononl nfp light-light-r-normal--0-0-0-0-p-0-iso10646-1
+JetBrainsMonoNLNerdFontPropo-Light.ttf -misc-jetbrainsmononl nfp light-light-r-normal--0-0-0-0-p-0-iso8859-1
+JetBrainsMonoNLNerdFontPropo-Light.ttf -misc-jetbrainsmononl nfp light-light-r-normal--0-0-0-0-p-0-iso8859-10
+JetBrainsMonoNLNerdFontPropo-Light.ttf -misc-jetbrainsmononl nfp light-light-r-normal--0-0-0-0-p-0-iso8859-15
+JetBrainsMonoNLNerdFontPropo-Light.ttf -misc-jetbrainsmononl nfp light-light-r-normal--0-0-0-0-p-0-iso8859-2
+JetBrainsMonoNLNerdFontPropo-Light.ttf -misc-jetbrainsmononl nfp light-light-r-normal--0-0-0-0-p-0-iso8859-3
+JetBrainsMonoNLNerdFontPropo-Light.ttf -misc-jetbrainsmononl nfp light-light-r-normal--0-0-0-0-p-0-iso8859-4
+JetBrainsMonoNLNerdFontPropo-Light.ttf -misc-jetbrainsmononl nfp light-light-r-normal--0-0-0-0-p-0-iso8859-5
+JetBrainsMonoNLNerdFontPropo-Light.ttf -misc-jetbrainsmononl nfp light-light-r-normal--0-0-0-0-p-0-iso8859-9
+JetBrainsMonoNLNerdFontPropo-Light.ttf -misc-jetbrainsmononl nfp light-light-r-normal--0-0-0-0-p-0-koi8-e
+JetBrainsMonoNLNerdFontPropo-Light.ttf -misc-jetbrainsmononl nfp light-light-r-normal--0-0-0-0-p-0-koi8-r
+JetBrainsMonoNLNerdFontPropo-Light.ttf -misc-jetbrainsmononl nfp light-light-r-normal--0-0-0-0-p-0-koi8-ru
+JetBrainsMonoNLNerdFontPropo-Light.ttf -misc-jetbrainsmononl nfp light-light-r-normal--0-0-0-0-p-0-koi8-u
+JetBrainsMonoNLNerdFontPropo-Light.ttf -misc-jetbrainsmononl nfp light-light-r-normal--0-0-0-0-p-0-koi8-uni
+JetBrainsMonoNLNerdFontPropo-LightItalic.ttf -misc-jetbrainsmononl nfp light-light-i-normal--0-0-0-0-p-0-iso10646-1
+JetBrainsMonoNLNerdFontPropo-LightItalic.ttf -misc-jetbrainsmononl nfp light-light-i-normal--0-0-0-0-p-0-iso8859-1
+JetBrainsMonoNLNerdFontPropo-LightItalic.ttf -misc-jetbrainsmononl nfp light-light-i-normal--0-0-0-0-p-0-iso8859-10
+JetBrainsMonoNLNerdFontPropo-LightItalic.ttf -misc-jetbrainsmononl nfp light-light-i-normal--0-0-0-0-p-0-iso8859-15
+JetBrainsMonoNLNerdFontPropo-LightItalic.ttf -misc-jetbrainsmononl nfp light-light-i-normal--0-0-0-0-p-0-iso8859-2
+JetBrainsMonoNLNerdFontPropo-LightItalic.ttf -misc-jetbrainsmononl nfp light-light-i-normal--0-0-0-0-p-0-iso8859-3
+JetBrainsMonoNLNerdFontPropo-LightItalic.ttf -misc-jetbrainsmononl nfp light-light-i-normal--0-0-0-0-p-0-iso8859-4
+JetBrainsMonoNLNerdFontPropo-LightItalic.ttf -misc-jetbrainsmononl nfp light-light-i-normal--0-0-0-0-p-0-iso8859-5
+JetBrainsMonoNLNerdFontPropo-LightItalic.ttf -misc-jetbrainsmononl nfp light-light-i-normal--0-0-0-0-p-0-iso8859-9
+JetBrainsMonoNLNerdFontPropo-LightItalic.ttf -misc-jetbrainsmononl nfp light-light-i-normal--0-0-0-0-p-0-koi8-e
+JetBrainsMonoNLNerdFontPropo-LightItalic.ttf -misc-jetbrainsmononl nfp light-light-i-normal--0-0-0-0-p-0-koi8-r
+JetBrainsMonoNLNerdFontPropo-LightItalic.ttf -misc-jetbrainsmononl nfp light-light-i-normal--0-0-0-0-p-0-koi8-ru
+JetBrainsMonoNLNerdFontPropo-LightItalic.ttf -misc-jetbrainsmononl nfp light-light-i-normal--0-0-0-0-p-0-koi8-u
+JetBrainsMonoNLNerdFontPropo-LightItalic.ttf -misc-jetbrainsmononl nfp light-light-i-normal--0-0-0-0-p-0-koi8-uni
+JetBrainsMonoNLNerdFontPropo-Medium.ttf -misc-jetbrainsmononl nfp medium-medium-r-normal--0-0-0-0-p-0-iso10646-1
+JetBrainsMonoNLNerdFontPropo-Medium.ttf -misc-jetbrainsmononl nfp medium-medium-r-normal--0-0-0-0-p-0-iso8859-1
+JetBrainsMonoNLNerdFontPropo-Medium.ttf -misc-jetbrainsmononl nfp medium-medium-r-normal--0-0-0-0-p-0-iso8859-10
+JetBrainsMonoNLNerdFontPropo-Medium.ttf -misc-jetbrainsmononl nfp medium-medium-r-normal--0-0-0-0-p-0-iso8859-15
+JetBrainsMonoNLNerdFontPropo-Medium.ttf -misc-jetbrainsmononl nfp medium-medium-r-normal--0-0-0-0-p-0-iso8859-2
+JetBrainsMonoNLNerdFontPropo-Medium.ttf -misc-jetbrainsmononl nfp medium-medium-r-normal--0-0-0-0-p-0-iso8859-3
+JetBrainsMonoNLNerdFontPropo-Medium.ttf -misc-jetbrainsmononl nfp medium-medium-r-normal--0-0-0-0-p-0-iso8859-4
+JetBrainsMonoNLNerdFontPropo-Medium.ttf -misc-jetbrainsmononl nfp medium-medium-r-normal--0-0-0-0-p-0-iso8859-5
+JetBrainsMonoNLNerdFontPropo-Medium.ttf -misc-jetbrainsmononl nfp medium-medium-r-normal--0-0-0-0-p-0-iso8859-9
+JetBrainsMonoNLNerdFontPropo-Medium.ttf -misc-jetbrainsmononl nfp medium-medium-r-normal--0-0-0-0-p-0-koi8-e
+JetBrainsMonoNLNerdFontPropo-Medium.ttf -misc-jetbrainsmononl nfp medium-medium-r-normal--0-0-0-0-p-0-koi8-r
+JetBrainsMonoNLNerdFontPropo-Medium.ttf -misc-jetbrainsmononl nfp medium-medium-r-normal--0-0-0-0-p-0-koi8-ru
+JetBrainsMonoNLNerdFontPropo-Medium.ttf -misc-jetbrainsmononl nfp medium-medium-r-normal--0-0-0-0-p-0-koi8-u
+JetBrainsMonoNLNerdFontPropo-Medium.ttf -misc-jetbrainsmononl nfp medium-medium-r-normal--0-0-0-0-p-0-koi8-uni
+JetBrainsMonoNLNerdFontPropo-MediumItalic.ttf -misc-jetbrainsmononl nfp medium-medium-i-normal--0-0-0-0-p-0-iso10646-1
+JetBrainsMonoNLNerdFontPropo-MediumItalic.ttf -misc-jetbrainsmononl nfp medium-medium-i-normal--0-0-0-0-p-0-iso8859-1
+JetBrainsMonoNLNerdFontPropo-MediumItalic.ttf -misc-jetbrainsmononl nfp medium-medium-i-normal--0-0-0-0-p-0-iso8859-10
+JetBrainsMonoNLNerdFontPropo-MediumItalic.ttf -misc-jetbrainsmononl nfp medium-medium-i-normal--0-0-0-0-p-0-iso8859-15
+JetBrainsMonoNLNerdFontPropo-MediumItalic.ttf -misc-jetbrainsmononl nfp medium-medium-i-normal--0-0-0-0-p-0-iso8859-2
+JetBrainsMonoNLNerdFontPropo-MediumItalic.ttf -misc-jetbrainsmononl nfp medium-medium-i-normal--0-0-0-0-p-0-iso8859-3
+JetBrainsMonoNLNerdFontPropo-MediumItalic.ttf -misc-jetbrainsmononl nfp medium-medium-i-normal--0-0-0-0-p-0-iso8859-4
+JetBrainsMonoNLNerdFontPropo-MediumItalic.ttf -misc-jetbrainsmononl nfp medium-medium-i-normal--0-0-0-0-p-0-iso8859-5
+JetBrainsMonoNLNerdFontPropo-MediumItalic.ttf -misc-jetbrainsmononl nfp medium-medium-i-normal--0-0-0-0-p-0-iso8859-9
+JetBrainsMonoNLNerdFontPropo-MediumItalic.ttf -misc-jetbrainsmononl nfp medium-medium-i-normal--0-0-0-0-p-0-koi8-e
+JetBrainsMonoNLNerdFontPropo-MediumItalic.ttf -misc-jetbrainsmononl nfp medium-medium-i-normal--0-0-0-0-p-0-koi8-r
+JetBrainsMonoNLNerdFontPropo-MediumItalic.ttf -misc-jetbrainsmononl nfp medium-medium-i-normal--0-0-0-0-p-0-koi8-ru
+JetBrainsMonoNLNerdFontPropo-MediumItalic.ttf -misc-jetbrainsmononl nfp medium-medium-i-normal--0-0-0-0-p-0-koi8-u
+JetBrainsMonoNLNerdFontPropo-MediumItalic.ttf -misc-jetbrainsmononl nfp medium-medium-i-normal--0-0-0-0-p-0-koi8-uni
+JetBrainsMonoNLNerdFontPropo-Regular.ttf -misc-jetbrainsmononl nfp-medium-r-normal--0-0-0-0-p-0-iso10646-1
+JetBrainsMonoNLNerdFontPropo-Regular.ttf -misc-jetbrainsmononl nfp-medium-r-normal--0-0-0-0-p-0-iso8859-1
+JetBrainsMonoNLNerdFontPropo-Regular.ttf -misc-jetbrainsmononl nfp-medium-r-normal--0-0-0-0-p-0-iso8859-10
+JetBrainsMonoNLNerdFontPropo-Regular.ttf -misc-jetbrainsmononl nfp-medium-r-normal--0-0-0-0-p-0-iso8859-15
+JetBrainsMonoNLNerdFontPropo-Regular.ttf -misc-jetbrainsmononl nfp-medium-r-normal--0-0-0-0-p-0-iso8859-2
+JetBrainsMonoNLNerdFontPropo-Regular.ttf -misc-jetbrainsmononl nfp-medium-r-normal--0-0-0-0-p-0-iso8859-3
+JetBrainsMonoNLNerdFontPropo-Regular.ttf -misc-jetbrainsmononl nfp-medium-r-normal--0-0-0-0-p-0-iso8859-4
+JetBrainsMonoNLNerdFontPropo-Regular.ttf -misc-jetbrainsmononl nfp-medium-r-normal--0-0-0-0-p-0-iso8859-5
+JetBrainsMonoNLNerdFontPropo-Regular.ttf -misc-jetbrainsmononl nfp-medium-r-normal--0-0-0-0-p-0-iso8859-9
+JetBrainsMonoNLNerdFontPropo-Regular.ttf -misc-jetbrainsmononl nfp-medium-r-normal--0-0-0-0-p-0-koi8-e
+JetBrainsMonoNLNerdFontPropo-Regular.ttf -misc-jetbrainsmononl nfp-medium-r-normal--0-0-0-0-p-0-koi8-r
+JetBrainsMonoNLNerdFontPropo-Regular.ttf -misc-jetbrainsmononl nfp-medium-r-normal--0-0-0-0-p-0-koi8-ru
+JetBrainsMonoNLNerdFontPropo-Regular.ttf -misc-jetbrainsmononl nfp-medium-r-normal--0-0-0-0-p-0-koi8-u
+JetBrainsMonoNLNerdFontPropo-Regular.ttf -misc-jetbrainsmononl nfp-medium-r-normal--0-0-0-0-p-0-koi8-uni
+JetBrainsMonoNLNerdFontPropo-SemiBold.ttf -misc-jetbrainsmononl nfp semibold-semibold-r-normal--0-0-0-0-p-0-iso10646-1
+JetBrainsMonoNLNerdFontPropo-SemiBold.ttf -misc-jetbrainsmononl nfp semibold-semibold-r-normal--0-0-0-0-p-0-iso8859-1
+JetBrainsMonoNLNerdFontPropo-SemiBold.ttf -misc-jetbrainsmononl nfp semibold-semibold-r-normal--0-0-0-0-p-0-iso8859-10
+JetBrainsMonoNLNerdFontPropo-SemiBold.ttf -misc-jetbrainsmononl nfp semibold-semibold-r-normal--0-0-0-0-p-0-iso8859-15
+JetBrainsMonoNLNerdFontPropo-SemiBold.ttf -misc-jetbrainsmononl nfp semibold-semibold-r-normal--0-0-0-0-p-0-iso8859-2
+JetBrainsMonoNLNerdFontPropo-SemiBold.ttf -misc-jetbrainsmononl nfp semibold-semibold-r-normal--0-0-0-0-p-0-iso8859-3
+JetBrainsMonoNLNerdFontPropo-SemiBold.ttf -misc-jetbrainsmononl nfp semibold-semibold-r-normal--0-0-0-0-p-0-iso8859-4
+JetBrainsMonoNLNerdFontPropo-SemiBold.ttf -misc-jetbrainsmononl nfp semibold-semibold-r-normal--0-0-0-0-p-0-iso8859-5
+JetBrainsMonoNLNerdFontPropo-SemiBold.ttf -misc-jetbrainsmononl nfp semibold-semibold-r-normal--0-0-0-0-p-0-iso8859-9
+JetBrainsMonoNLNerdFontPropo-SemiBold.ttf -misc-jetbrainsmononl nfp semibold-semibold-r-normal--0-0-0-0-p-0-koi8-e
+JetBrainsMonoNLNerdFontPropo-SemiBold.ttf -misc-jetbrainsmononl nfp semibold-semibold-r-normal--0-0-0-0-p-0-koi8-r
+JetBrainsMonoNLNerdFontPropo-SemiBold.ttf -misc-jetbrainsmononl nfp semibold-semibold-r-normal--0-0-0-0-p-0-koi8-ru
+JetBrainsMonoNLNerdFontPropo-SemiBold.ttf -misc-jetbrainsmononl nfp semibold-semibold-r-normal--0-0-0-0-p-0-koi8-u
+JetBrainsMonoNLNerdFontPropo-SemiBold.ttf -misc-jetbrainsmononl nfp semibold-semibold-r-normal--0-0-0-0-p-0-koi8-uni
+JetBrainsMonoNLNerdFontPropo-SemiBoldItalic.ttf -misc-jetbrainsmononl nfp semibold-semibold-i-normal--0-0-0-0-p-0-iso10646-1
+JetBrainsMonoNLNerdFontPropo-SemiBoldItalic.ttf -misc-jetbrainsmononl nfp semibold-semibold-i-normal--0-0-0-0-p-0-iso8859-1
+JetBrainsMonoNLNerdFontPropo-SemiBoldItalic.ttf -misc-jetbrainsmononl nfp semibold-semibold-i-normal--0-0-0-0-p-0-iso8859-10
+JetBrainsMonoNLNerdFontPropo-SemiBoldItalic.ttf -misc-jetbrainsmononl nfp semibold-semibold-i-normal--0-0-0-0-p-0-iso8859-15
+JetBrainsMonoNLNerdFontPropo-SemiBoldItalic.ttf -misc-jetbrainsmononl nfp semibold-semibold-i-normal--0-0-0-0-p-0-iso8859-2
+JetBrainsMonoNLNerdFontPropo-SemiBoldItalic.ttf -misc-jetbrainsmononl nfp semibold-semibold-i-normal--0-0-0-0-p-0-iso8859-3
+JetBrainsMonoNLNerdFontPropo-SemiBoldItalic.ttf -misc-jetbrainsmononl nfp semibold-semibold-i-normal--0-0-0-0-p-0-iso8859-4
+JetBrainsMonoNLNerdFontPropo-SemiBoldItalic.ttf -misc-jetbrainsmononl nfp semibold-semibold-i-normal--0-0-0-0-p-0-iso8859-5
+JetBrainsMonoNLNerdFontPropo-SemiBoldItalic.ttf -misc-jetbrainsmononl nfp semibold-semibold-i-normal--0-0-0-0-p-0-iso8859-9
+JetBrainsMonoNLNerdFontPropo-SemiBoldItalic.ttf -misc-jetbrainsmononl nfp semibold-semibold-i-normal--0-0-0-0-p-0-koi8-e
+JetBrainsMonoNLNerdFontPropo-SemiBoldItalic.ttf -misc-jetbrainsmononl nfp semibold-semibold-i-normal--0-0-0-0-p-0-koi8-r
+JetBrainsMonoNLNerdFontPropo-SemiBoldItalic.ttf -misc-jetbrainsmononl nfp semibold-semibold-i-normal--0-0-0-0-p-0-koi8-ru
+JetBrainsMonoNLNerdFontPropo-SemiBoldItalic.ttf -misc-jetbrainsmononl nfp semibold-semibold-i-normal--0-0-0-0-p-0-koi8-u
+JetBrainsMonoNLNerdFontPropo-SemiBoldItalic.ttf -misc-jetbrainsmononl nfp semibold-semibold-i-normal--0-0-0-0-p-0-koi8-uni
+JetBrainsMonoNLNerdFontPropo-Thin.ttf -misc-jetbrainsmononl nfp thin-thin-r-normal--0-0-0-0-p-0-iso10646-1
+JetBrainsMonoNLNerdFontPropo-Thin.ttf -misc-jetbrainsmononl nfp thin-thin-r-normal--0-0-0-0-p-0-iso8859-1
+JetBrainsMonoNLNerdFontPropo-Thin.ttf -misc-jetbrainsmononl nfp thin-thin-r-normal--0-0-0-0-p-0-iso8859-10
+JetBrainsMonoNLNerdFontPropo-Thin.ttf -misc-jetbrainsmononl nfp thin-thin-r-normal--0-0-0-0-p-0-iso8859-15
+JetBrainsMonoNLNerdFontPropo-Thin.ttf -misc-jetbrainsmononl nfp thin-thin-r-normal--0-0-0-0-p-0-iso8859-2
+JetBrainsMonoNLNerdFontPropo-Thin.ttf -misc-jetbrainsmononl nfp thin-thin-r-normal--0-0-0-0-p-0-iso8859-3
+JetBrainsMonoNLNerdFontPropo-Thin.ttf -misc-jetbrainsmononl nfp thin-thin-r-normal--0-0-0-0-p-0-iso8859-4
+JetBrainsMonoNLNerdFontPropo-Thin.ttf -misc-jetbrainsmononl nfp thin-thin-r-normal--0-0-0-0-p-0-iso8859-5
+JetBrainsMonoNLNerdFontPropo-Thin.ttf -misc-jetbrainsmononl nfp thin-thin-r-normal--0-0-0-0-p-0-iso8859-9
+JetBrainsMonoNLNerdFontPropo-Thin.ttf -misc-jetbrainsmononl nfp thin-thin-r-normal--0-0-0-0-p-0-koi8-e
+JetBrainsMonoNLNerdFontPropo-Thin.ttf -misc-jetbrainsmononl nfp thin-thin-r-normal--0-0-0-0-p-0-koi8-r
+JetBrainsMonoNLNerdFontPropo-Thin.ttf -misc-jetbrainsmononl nfp thin-thin-r-normal--0-0-0-0-p-0-koi8-ru
+JetBrainsMonoNLNerdFontPropo-Thin.ttf -misc-jetbrainsmononl nfp thin-thin-r-normal--0-0-0-0-p-0-koi8-u
+JetBrainsMonoNLNerdFontPropo-Thin.ttf -misc-jetbrainsmononl nfp thin-thin-r-normal--0-0-0-0-p-0-koi8-uni
+JetBrainsMonoNLNerdFontPropo-ThinItalic.ttf -misc-jetbrainsmononl nfp thin-thin-i-normal--0-0-0-0-p-0-iso10646-1
+JetBrainsMonoNLNerdFontPropo-ThinItalic.ttf -misc-jetbrainsmononl nfp thin-thin-i-normal--0-0-0-0-p-0-iso8859-1
+JetBrainsMonoNLNerdFontPropo-ThinItalic.ttf -misc-jetbrainsmononl nfp thin-thin-i-normal--0-0-0-0-p-0-iso8859-10
+JetBrainsMonoNLNerdFontPropo-ThinItalic.ttf -misc-jetbrainsmononl nfp thin-thin-i-normal--0-0-0-0-p-0-iso8859-15
+JetBrainsMonoNLNerdFontPropo-ThinItalic.ttf -misc-jetbrainsmononl nfp thin-thin-i-normal--0-0-0-0-p-0-iso8859-2
+JetBrainsMonoNLNerdFontPropo-ThinItalic.ttf -misc-jetbrainsmononl nfp thin-thin-i-normal--0-0-0-0-p-0-iso8859-3
+JetBrainsMonoNLNerdFontPropo-ThinItalic.ttf -misc-jetbrainsmononl nfp thin-thin-i-normal--0-0-0-0-p-0-iso8859-4
+JetBrainsMonoNLNerdFontPropo-ThinItalic.ttf -misc-jetbrainsmononl nfp thin-thin-i-normal--0-0-0-0-p-0-iso8859-5
+JetBrainsMonoNLNerdFontPropo-ThinItalic.ttf -misc-jetbrainsmononl nfp thin-thin-i-normal--0-0-0-0-p-0-iso8859-9
+JetBrainsMonoNLNerdFontPropo-ThinItalic.ttf -misc-jetbrainsmononl nfp thin-thin-i-normal--0-0-0-0-p-0-koi8-e
+JetBrainsMonoNLNerdFontPropo-ThinItalic.ttf -misc-jetbrainsmononl nfp thin-thin-i-normal--0-0-0-0-p-0-koi8-r
+JetBrainsMonoNLNerdFontPropo-ThinItalic.ttf -misc-jetbrainsmononl nfp thin-thin-i-normal--0-0-0-0-p-0-koi8-ru
+JetBrainsMonoNLNerdFontPropo-ThinItalic.ttf -misc-jetbrainsmononl nfp thin-thin-i-normal--0-0-0-0-p-0-koi8-u
+JetBrainsMonoNLNerdFontPropo-ThinItalic.ttf -misc-jetbrainsmononl nfp thin-thin-i-normal--0-0-0-0-p-0-koi8-uni
+JetBrainsMonoNerdFont-Bold.ttf -misc-jetbrainsmono nf-bold-r-normal--0-0-0-0-p-0-iso10646-1
+JetBrainsMonoNerdFont-Bold.ttf -misc-jetbrainsmono nf-bold-r-normal--0-0-0-0-p-0-iso8859-1
+JetBrainsMonoNerdFont-Bold.ttf -misc-jetbrainsmono nf-bold-r-normal--0-0-0-0-p-0-iso8859-10
+JetBrainsMonoNerdFont-Bold.ttf -misc-jetbrainsmono nf-bold-r-normal--0-0-0-0-p-0-iso8859-15
+JetBrainsMonoNerdFont-Bold.ttf -misc-jetbrainsmono nf-bold-r-normal--0-0-0-0-p-0-iso8859-2
+JetBrainsMonoNerdFont-Bold.ttf -misc-jetbrainsmono nf-bold-r-normal--0-0-0-0-p-0-iso8859-3
+JetBrainsMonoNerdFont-Bold.ttf -misc-jetbrainsmono nf-bold-r-normal--0-0-0-0-p-0-iso8859-4
+JetBrainsMonoNerdFont-Bold.ttf -misc-jetbrainsmono nf-bold-r-normal--0-0-0-0-p-0-iso8859-5
+JetBrainsMonoNerdFont-Bold.ttf -misc-jetbrainsmono nf-bold-r-normal--0-0-0-0-p-0-iso8859-9
+JetBrainsMonoNerdFont-Bold.ttf -misc-jetbrainsmono nf-bold-r-normal--0-0-0-0-p-0-koi8-e
+JetBrainsMonoNerdFont-Bold.ttf -misc-jetbrainsmono nf-bold-r-normal--0-0-0-0-p-0-koi8-r
+JetBrainsMonoNerdFont-Bold.ttf -misc-jetbrainsmono nf-bold-r-normal--0-0-0-0-p-0-koi8-ru
+JetBrainsMonoNerdFont-Bold.ttf -misc-jetbrainsmono nf-bold-r-normal--0-0-0-0-p-0-koi8-u
+JetBrainsMonoNerdFont-Bold.ttf -misc-jetbrainsmono nf-bold-r-normal--0-0-0-0-p-0-koi8-uni
+JetBrainsMonoNerdFont-BoldItalic.ttf -misc-jetbrainsmono nf-bold-i-normal--0-0-0-0-p-0-iso10646-1
+JetBrainsMonoNerdFont-BoldItalic.ttf -misc-jetbrainsmono nf-bold-i-normal--0-0-0-0-p-0-iso8859-1
+JetBrainsMonoNerdFont-BoldItalic.ttf -misc-jetbrainsmono nf-bold-i-normal--0-0-0-0-p-0-iso8859-10
+JetBrainsMonoNerdFont-BoldItalic.ttf -misc-jetbrainsmono nf-bold-i-normal--0-0-0-0-p-0-iso8859-15
+JetBrainsMonoNerdFont-BoldItalic.ttf -misc-jetbrainsmono nf-bold-i-normal--0-0-0-0-p-0-iso8859-2
+JetBrainsMonoNerdFont-BoldItalic.ttf -misc-jetbrainsmono nf-bold-i-normal--0-0-0-0-p-0-iso8859-3
+JetBrainsMonoNerdFont-BoldItalic.ttf -misc-jetbrainsmono nf-bold-i-normal--0-0-0-0-p-0-iso8859-4
+JetBrainsMonoNerdFont-BoldItalic.ttf -misc-jetbrainsmono nf-bold-i-normal--0-0-0-0-p-0-iso8859-5
+JetBrainsMonoNerdFont-BoldItalic.ttf -misc-jetbrainsmono nf-bold-i-normal--0-0-0-0-p-0-iso8859-9
+JetBrainsMonoNerdFont-BoldItalic.ttf -misc-jetbrainsmono nf-bold-i-normal--0-0-0-0-p-0-koi8-e
+JetBrainsMonoNerdFont-BoldItalic.ttf -misc-jetbrainsmono nf-bold-i-normal--0-0-0-0-p-0-koi8-r
+JetBrainsMonoNerdFont-BoldItalic.ttf -misc-jetbrainsmono nf-bold-i-normal--0-0-0-0-p-0-koi8-ru
+JetBrainsMonoNerdFont-BoldItalic.ttf -misc-jetbrainsmono nf-bold-i-normal--0-0-0-0-p-0-koi8-u
+JetBrainsMonoNerdFont-BoldItalic.ttf -misc-jetbrainsmono nf-bold-i-normal--0-0-0-0-p-0-koi8-uni
+JetBrainsMonoNerdFont-ExtraBold.ttf -misc-jetbrainsmono nf extrabold-extrabold-r-normal--0-0-0-0-p-0-iso10646-1
+JetBrainsMonoNerdFont-ExtraBold.ttf -misc-jetbrainsmono nf extrabold-extrabold-r-normal--0-0-0-0-p-0-iso8859-1
+JetBrainsMonoNerdFont-ExtraBold.ttf -misc-jetbrainsmono nf extrabold-extrabold-r-normal--0-0-0-0-p-0-iso8859-10
+JetBrainsMonoNerdFont-ExtraBold.ttf -misc-jetbrainsmono nf extrabold-extrabold-r-normal--0-0-0-0-p-0-iso8859-15
+JetBrainsMonoNerdFont-ExtraBold.ttf -misc-jetbrainsmono nf extrabold-extrabold-r-normal--0-0-0-0-p-0-iso8859-2
+JetBrainsMonoNerdFont-ExtraBold.ttf -misc-jetbrainsmono nf extrabold-extrabold-r-normal--0-0-0-0-p-0-iso8859-3
+JetBrainsMonoNerdFont-ExtraBold.ttf -misc-jetbrainsmono nf extrabold-extrabold-r-normal--0-0-0-0-p-0-iso8859-4
+JetBrainsMonoNerdFont-ExtraBold.ttf -misc-jetbrainsmono nf extrabold-extrabold-r-normal--0-0-0-0-p-0-iso8859-5
+JetBrainsMonoNerdFont-ExtraBold.ttf -misc-jetbrainsmono nf extrabold-extrabold-r-normal--0-0-0-0-p-0-iso8859-9
+JetBrainsMonoNerdFont-ExtraBold.ttf -misc-jetbrainsmono nf extrabold-extrabold-r-normal--0-0-0-0-p-0-koi8-e
+JetBrainsMonoNerdFont-ExtraBold.ttf -misc-jetbrainsmono nf extrabold-extrabold-r-normal--0-0-0-0-p-0-koi8-r
+JetBrainsMonoNerdFont-ExtraBold.ttf -misc-jetbrainsmono nf extrabold-extrabold-r-normal--0-0-0-0-p-0-koi8-ru
+JetBrainsMonoNerdFont-ExtraBold.ttf -misc-jetbrainsmono nf extrabold-extrabold-r-normal--0-0-0-0-p-0-koi8-u
+JetBrainsMonoNerdFont-ExtraBold.ttf -misc-jetbrainsmono nf extrabold-extrabold-r-normal--0-0-0-0-p-0-koi8-uni
+JetBrainsMonoNerdFont-ExtraBoldItalic.ttf -misc-jetbrainsmono nf extrabold-extrabold-i-normal--0-0-0-0-p-0-iso10646-1
+JetBrainsMonoNerdFont-ExtraBoldItalic.ttf -misc-jetbrainsmono nf extrabold-extrabold-i-normal--0-0-0-0-p-0-iso8859-1
+JetBrainsMonoNerdFont-ExtraBoldItalic.ttf -misc-jetbrainsmono nf extrabold-extrabold-i-normal--0-0-0-0-p-0-iso8859-10
+JetBrainsMonoNerdFont-ExtraBoldItalic.ttf -misc-jetbrainsmono nf extrabold-extrabold-i-normal--0-0-0-0-p-0-iso8859-15
+JetBrainsMonoNerdFont-ExtraBoldItalic.ttf -misc-jetbrainsmono nf extrabold-extrabold-i-normal--0-0-0-0-p-0-iso8859-2
+JetBrainsMonoNerdFont-ExtraBoldItalic.ttf -misc-jetbrainsmono nf extrabold-extrabold-i-normal--0-0-0-0-p-0-iso8859-3
+JetBrainsMonoNerdFont-ExtraBoldItalic.ttf -misc-jetbrainsmono nf extrabold-extrabold-i-normal--0-0-0-0-p-0-iso8859-4
+JetBrainsMonoNerdFont-ExtraBoldItalic.ttf -misc-jetbrainsmono nf extrabold-extrabold-i-normal--0-0-0-0-p-0-iso8859-5
+JetBrainsMonoNerdFont-ExtraBoldItalic.ttf -misc-jetbrainsmono nf extrabold-extrabold-i-normal--0-0-0-0-p-0-iso8859-9
+JetBrainsMonoNerdFont-ExtraBoldItalic.ttf -misc-jetbrainsmono nf extrabold-extrabold-i-normal--0-0-0-0-p-0-koi8-e
+JetBrainsMonoNerdFont-ExtraBoldItalic.ttf -misc-jetbrainsmono nf extrabold-extrabold-i-normal--0-0-0-0-p-0-koi8-r
+JetBrainsMonoNerdFont-ExtraBoldItalic.ttf -misc-jetbrainsmono nf extrabold-extrabold-i-normal--0-0-0-0-p-0-koi8-ru
+JetBrainsMonoNerdFont-ExtraBoldItalic.ttf -misc-jetbrainsmono nf extrabold-extrabold-i-normal--0-0-0-0-p-0-koi8-u
+JetBrainsMonoNerdFont-ExtraBoldItalic.ttf -misc-jetbrainsmono nf extrabold-extrabold-i-normal--0-0-0-0-p-0-koi8-uni
+JetBrainsMonoNerdFont-ExtraLight.ttf -misc-jetbrainsmono nf extralight-extralight-r-normal--0-0-0-0-p-0-iso10646-1
+JetBrainsMonoNerdFont-ExtraLight.ttf -misc-jetbrainsmono nf extralight-extralight-r-normal--0-0-0-0-p-0-iso8859-1
+JetBrainsMonoNerdFont-ExtraLight.ttf -misc-jetbrainsmono nf extralight-extralight-r-normal--0-0-0-0-p-0-iso8859-10
+JetBrainsMonoNerdFont-ExtraLight.ttf -misc-jetbrainsmono nf extralight-extralight-r-normal--0-0-0-0-p-0-iso8859-15
+JetBrainsMonoNerdFont-ExtraLight.ttf -misc-jetbrainsmono nf extralight-extralight-r-normal--0-0-0-0-p-0-iso8859-2
+JetBrainsMonoNerdFont-ExtraLight.ttf -misc-jetbrainsmono nf extralight-extralight-r-normal--0-0-0-0-p-0-iso8859-3
+JetBrainsMonoNerdFont-ExtraLight.ttf -misc-jetbrainsmono nf extralight-extralight-r-normal--0-0-0-0-p-0-iso8859-4
+JetBrainsMonoNerdFont-ExtraLight.ttf -misc-jetbrainsmono nf extralight-extralight-r-normal--0-0-0-0-p-0-iso8859-5
+JetBrainsMonoNerdFont-ExtraLight.ttf -misc-jetbrainsmono nf extralight-extralight-r-normal--0-0-0-0-p-0-iso8859-9
+JetBrainsMonoNerdFont-ExtraLight.ttf -misc-jetbrainsmono nf extralight-extralight-r-normal--0-0-0-0-p-0-koi8-e
+JetBrainsMonoNerdFont-ExtraLight.ttf -misc-jetbrainsmono nf extralight-extralight-r-normal--0-0-0-0-p-0-koi8-r
+JetBrainsMonoNerdFont-ExtraLight.ttf -misc-jetbrainsmono nf extralight-extralight-r-normal--0-0-0-0-p-0-koi8-ru
+JetBrainsMonoNerdFont-ExtraLight.ttf -misc-jetbrainsmono nf extralight-extralight-r-normal--0-0-0-0-p-0-koi8-u
+JetBrainsMonoNerdFont-ExtraLight.ttf -misc-jetbrainsmono nf extralight-extralight-r-normal--0-0-0-0-p-0-koi8-uni
+JetBrainsMonoNerdFont-ExtraLightItalic.ttf -misc-jetbrainsmono nf extralight-extralight-i-normal--0-0-0-0-p-0-iso10646-1
+JetBrainsMonoNerdFont-ExtraLightItalic.ttf -misc-jetbrainsmono nf extralight-extralight-i-normal--0-0-0-0-p-0-iso8859-1
+JetBrainsMonoNerdFont-ExtraLightItalic.ttf -misc-jetbrainsmono nf extralight-extralight-i-normal--0-0-0-0-p-0-iso8859-10
+JetBrainsMonoNerdFont-ExtraLightItalic.ttf -misc-jetbrainsmono nf extralight-extralight-i-normal--0-0-0-0-p-0-iso8859-15
+JetBrainsMonoNerdFont-ExtraLightItalic.ttf -misc-jetbrainsmono nf extralight-extralight-i-normal--0-0-0-0-p-0-iso8859-2
+JetBrainsMonoNerdFont-ExtraLightItalic.ttf -misc-jetbrainsmono nf extralight-extralight-i-normal--0-0-0-0-p-0-iso8859-3
+JetBrainsMonoNerdFont-ExtraLightItalic.ttf -misc-jetbrainsmono nf extralight-extralight-i-normal--0-0-0-0-p-0-iso8859-4
+JetBrainsMonoNerdFont-ExtraLightItalic.ttf -misc-jetbrainsmono nf extralight-extralight-i-normal--0-0-0-0-p-0-iso8859-5
+JetBrainsMonoNerdFont-ExtraLightItalic.ttf -misc-jetbrainsmono nf extralight-extralight-i-normal--0-0-0-0-p-0-iso8859-9
+JetBrainsMonoNerdFont-ExtraLightItalic.ttf -misc-jetbrainsmono nf extralight-extralight-i-normal--0-0-0-0-p-0-koi8-e
+JetBrainsMonoNerdFont-ExtraLightItalic.ttf -misc-jetbrainsmono nf extralight-extralight-i-normal--0-0-0-0-p-0-koi8-r
+JetBrainsMonoNerdFont-ExtraLightItalic.ttf -misc-jetbrainsmono nf extralight-extralight-i-normal--0-0-0-0-p-0-koi8-ru
+JetBrainsMonoNerdFont-ExtraLightItalic.ttf -misc-jetbrainsmono nf extralight-extralight-i-normal--0-0-0-0-p-0-koi8-u
+JetBrainsMonoNerdFont-ExtraLightItalic.ttf -misc-jetbrainsmono nf extralight-extralight-i-normal--0-0-0-0-p-0-koi8-uni
+JetBrainsMonoNerdFont-Italic.ttf -misc-jetbrainsmono nf-medium-i-normal--0-0-0-0-p-0-iso10646-1
+JetBrainsMonoNerdFont-Italic.ttf -misc-jetbrainsmono nf-medium-i-normal--0-0-0-0-p-0-iso8859-1
+JetBrainsMonoNerdFont-Italic.ttf -misc-jetbrainsmono nf-medium-i-normal--0-0-0-0-p-0-iso8859-10
+JetBrainsMonoNerdFont-Italic.ttf -misc-jetbrainsmono nf-medium-i-normal--0-0-0-0-p-0-iso8859-15
+JetBrainsMonoNerdFont-Italic.ttf -misc-jetbrainsmono nf-medium-i-normal--0-0-0-0-p-0-iso8859-2
+JetBrainsMonoNerdFont-Italic.ttf -misc-jetbrainsmono nf-medium-i-normal--0-0-0-0-p-0-iso8859-3
+JetBrainsMonoNerdFont-Italic.ttf -misc-jetbrainsmono nf-medium-i-normal--0-0-0-0-p-0-iso8859-4
+JetBrainsMonoNerdFont-Italic.ttf -misc-jetbrainsmono nf-medium-i-normal--0-0-0-0-p-0-iso8859-5
+JetBrainsMonoNerdFont-Italic.ttf -misc-jetbrainsmono nf-medium-i-normal--0-0-0-0-p-0-iso8859-9
+JetBrainsMonoNerdFont-Italic.ttf -misc-jetbrainsmono nf-medium-i-normal--0-0-0-0-p-0-koi8-e
+JetBrainsMonoNerdFont-Italic.ttf -misc-jetbrainsmono nf-medium-i-normal--0-0-0-0-p-0-koi8-r
+JetBrainsMonoNerdFont-Italic.ttf -misc-jetbrainsmono nf-medium-i-normal--0-0-0-0-p-0-koi8-ru
+JetBrainsMonoNerdFont-Italic.ttf -misc-jetbrainsmono nf-medium-i-normal--0-0-0-0-p-0-koi8-u
+JetBrainsMonoNerdFont-Italic.ttf -misc-jetbrainsmono nf-medium-i-normal--0-0-0-0-p-0-koi8-uni
+JetBrainsMonoNerdFont-Light.ttf -misc-jetbrainsmono nf light-light-r-normal--0-0-0-0-p-0-iso10646-1
+JetBrainsMonoNerdFont-Light.ttf -misc-jetbrainsmono nf light-light-r-normal--0-0-0-0-p-0-iso8859-1
+JetBrainsMonoNerdFont-Light.ttf -misc-jetbrainsmono nf light-light-r-normal--0-0-0-0-p-0-iso8859-10
+JetBrainsMonoNerdFont-Light.ttf -misc-jetbrainsmono nf light-light-r-normal--0-0-0-0-p-0-iso8859-15
+JetBrainsMonoNerdFont-Light.ttf -misc-jetbrainsmono nf light-light-r-normal--0-0-0-0-p-0-iso8859-2
+JetBrainsMonoNerdFont-Light.ttf -misc-jetbrainsmono nf light-light-r-normal--0-0-0-0-p-0-iso8859-3
+JetBrainsMonoNerdFont-Light.ttf -misc-jetbrainsmono nf light-light-r-normal--0-0-0-0-p-0-iso8859-4
+JetBrainsMonoNerdFont-Light.ttf -misc-jetbrainsmono nf light-light-r-normal--0-0-0-0-p-0-iso8859-5
+JetBrainsMonoNerdFont-Light.ttf -misc-jetbrainsmono nf light-light-r-normal--0-0-0-0-p-0-iso8859-9
+JetBrainsMonoNerdFont-Light.ttf -misc-jetbrainsmono nf light-light-r-normal--0-0-0-0-p-0-koi8-e
+JetBrainsMonoNerdFont-Light.ttf -misc-jetbrainsmono nf light-light-r-normal--0-0-0-0-p-0-koi8-r
+JetBrainsMonoNerdFont-Light.ttf -misc-jetbrainsmono nf light-light-r-normal--0-0-0-0-p-0-koi8-ru
+JetBrainsMonoNerdFont-Light.ttf -misc-jetbrainsmono nf light-light-r-normal--0-0-0-0-p-0-koi8-u
+JetBrainsMonoNerdFont-Light.ttf -misc-jetbrainsmono nf light-light-r-normal--0-0-0-0-p-0-koi8-uni
+JetBrainsMonoNerdFont-LightItalic.ttf -misc-jetbrainsmono nf light-light-i-normal--0-0-0-0-p-0-iso10646-1
+JetBrainsMonoNerdFont-LightItalic.ttf -misc-jetbrainsmono nf light-light-i-normal--0-0-0-0-p-0-iso8859-1
+JetBrainsMonoNerdFont-LightItalic.ttf -misc-jetbrainsmono nf light-light-i-normal--0-0-0-0-p-0-iso8859-10
+JetBrainsMonoNerdFont-LightItalic.ttf -misc-jetbrainsmono nf light-light-i-normal--0-0-0-0-p-0-iso8859-15
+JetBrainsMonoNerdFont-LightItalic.ttf -misc-jetbrainsmono nf light-light-i-normal--0-0-0-0-p-0-iso8859-2
+JetBrainsMonoNerdFont-LightItalic.ttf -misc-jetbrainsmono nf light-light-i-normal--0-0-0-0-p-0-iso8859-3
+JetBrainsMonoNerdFont-LightItalic.ttf -misc-jetbrainsmono nf light-light-i-normal--0-0-0-0-p-0-iso8859-4
+JetBrainsMonoNerdFont-LightItalic.ttf -misc-jetbrainsmono nf light-light-i-normal--0-0-0-0-p-0-iso8859-5
+JetBrainsMonoNerdFont-LightItalic.ttf -misc-jetbrainsmono nf light-light-i-normal--0-0-0-0-p-0-iso8859-9
+JetBrainsMonoNerdFont-LightItalic.ttf -misc-jetbrainsmono nf light-light-i-normal--0-0-0-0-p-0-koi8-e
+JetBrainsMonoNerdFont-LightItalic.ttf -misc-jetbrainsmono nf light-light-i-normal--0-0-0-0-p-0-koi8-r
+JetBrainsMonoNerdFont-LightItalic.ttf -misc-jetbrainsmono nf light-light-i-normal--0-0-0-0-p-0-koi8-ru
+JetBrainsMonoNerdFont-LightItalic.ttf -misc-jetbrainsmono nf light-light-i-normal--0-0-0-0-p-0-koi8-u
+JetBrainsMonoNerdFont-LightItalic.ttf -misc-jetbrainsmono nf light-light-i-normal--0-0-0-0-p-0-koi8-uni
+JetBrainsMonoNerdFont-Medium.ttf -misc-jetbrainsmono nf medium-medium-r-normal--0-0-0-0-p-0-iso10646-1
+JetBrainsMonoNerdFont-Medium.ttf -misc-jetbrainsmono nf medium-medium-r-normal--0-0-0-0-p-0-iso8859-1
+JetBrainsMonoNerdFont-Medium.ttf -misc-jetbrainsmono nf medium-medium-r-normal--0-0-0-0-p-0-iso8859-10
+JetBrainsMonoNerdFont-Medium.ttf -misc-jetbrainsmono nf medium-medium-r-normal--0-0-0-0-p-0-iso8859-15
+JetBrainsMonoNerdFont-Medium.ttf -misc-jetbrainsmono nf medium-medium-r-normal--0-0-0-0-p-0-iso8859-2
+JetBrainsMonoNerdFont-Medium.ttf -misc-jetbrainsmono nf medium-medium-r-normal--0-0-0-0-p-0-iso8859-3
+JetBrainsMonoNerdFont-Medium.ttf -misc-jetbrainsmono nf medium-medium-r-normal--0-0-0-0-p-0-iso8859-4
+JetBrainsMonoNerdFont-Medium.ttf -misc-jetbrainsmono nf medium-medium-r-normal--0-0-0-0-p-0-iso8859-5
+JetBrainsMonoNerdFont-Medium.ttf -misc-jetbrainsmono nf medium-medium-r-normal--0-0-0-0-p-0-iso8859-9
+JetBrainsMonoNerdFont-Medium.ttf -misc-jetbrainsmono nf medium-medium-r-normal--0-0-0-0-p-0-koi8-e
+JetBrainsMonoNerdFont-Medium.ttf -misc-jetbrainsmono nf medium-medium-r-normal--0-0-0-0-p-0-koi8-r
+JetBrainsMonoNerdFont-Medium.ttf -misc-jetbrainsmono nf medium-medium-r-normal--0-0-0-0-p-0-koi8-ru
+JetBrainsMonoNerdFont-Medium.ttf -misc-jetbrainsmono nf medium-medium-r-normal--0-0-0-0-p-0-koi8-u
+JetBrainsMonoNerdFont-Medium.ttf -misc-jetbrainsmono nf medium-medium-r-normal--0-0-0-0-p-0-koi8-uni
+JetBrainsMonoNerdFont-MediumItalic.ttf -misc-jetbrainsmono nf medium-medium-i-normal--0-0-0-0-p-0-iso10646-1
+JetBrainsMonoNerdFont-MediumItalic.ttf -misc-jetbrainsmono nf medium-medium-i-normal--0-0-0-0-p-0-iso8859-1
+JetBrainsMonoNerdFont-MediumItalic.ttf -misc-jetbrainsmono nf medium-medium-i-normal--0-0-0-0-p-0-iso8859-10
+JetBrainsMonoNerdFont-MediumItalic.ttf -misc-jetbrainsmono nf medium-medium-i-normal--0-0-0-0-p-0-iso8859-15
+JetBrainsMonoNerdFont-MediumItalic.ttf -misc-jetbrainsmono nf medium-medium-i-normal--0-0-0-0-p-0-iso8859-2
+JetBrainsMonoNerdFont-MediumItalic.ttf -misc-jetbrainsmono nf medium-medium-i-normal--0-0-0-0-p-0-iso8859-3
+JetBrainsMonoNerdFont-MediumItalic.ttf -misc-jetbrainsmono nf medium-medium-i-normal--0-0-0-0-p-0-iso8859-4
+JetBrainsMonoNerdFont-MediumItalic.ttf -misc-jetbrainsmono nf medium-medium-i-normal--0-0-0-0-p-0-iso8859-5
+JetBrainsMonoNerdFont-MediumItalic.ttf -misc-jetbrainsmono nf medium-medium-i-normal--0-0-0-0-p-0-iso8859-9
+JetBrainsMonoNerdFont-MediumItalic.ttf -misc-jetbrainsmono nf medium-medium-i-normal--0-0-0-0-p-0-koi8-e
+JetBrainsMonoNerdFont-MediumItalic.ttf -misc-jetbrainsmono nf medium-medium-i-normal--0-0-0-0-p-0-koi8-r
+JetBrainsMonoNerdFont-MediumItalic.ttf -misc-jetbrainsmono nf medium-medium-i-normal--0-0-0-0-p-0-koi8-ru
+JetBrainsMonoNerdFont-MediumItalic.ttf -misc-jetbrainsmono nf medium-medium-i-normal--0-0-0-0-p-0-koi8-u
+JetBrainsMonoNerdFont-MediumItalic.ttf -misc-jetbrainsmono nf medium-medium-i-normal--0-0-0-0-p-0-koi8-uni
+JetBrainsMonoNerdFont-Regular.ttf -misc-jetbrainsmono nf-medium-r-normal--0-0-0-0-p-0-iso10646-1
+JetBrainsMonoNerdFont-Regular.ttf -misc-jetbrainsmono nf-medium-r-normal--0-0-0-0-p-0-iso8859-1
+JetBrainsMonoNerdFont-Regular.ttf -misc-jetbrainsmono nf-medium-r-normal--0-0-0-0-p-0-iso8859-10
+JetBrainsMonoNerdFont-Regular.ttf -misc-jetbrainsmono nf-medium-r-normal--0-0-0-0-p-0-iso8859-15
+JetBrainsMonoNerdFont-Regular.ttf -misc-jetbrainsmono nf-medium-r-normal--0-0-0-0-p-0-iso8859-2
+JetBrainsMonoNerdFont-Regular.ttf -misc-jetbrainsmono nf-medium-r-normal--0-0-0-0-p-0-iso8859-3
+JetBrainsMonoNerdFont-Regular.ttf -misc-jetbrainsmono nf-medium-r-normal--0-0-0-0-p-0-iso8859-4
+JetBrainsMonoNerdFont-Regular.ttf -misc-jetbrainsmono nf-medium-r-normal--0-0-0-0-p-0-iso8859-5
+JetBrainsMonoNerdFont-Regular.ttf -misc-jetbrainsmono nf-medium-r-normal--0-0-0-0-p-0-iso8859-9
+JetBrainsMonoNerdFont-Regular.ttf -misc-jetbrainsmono nf-medium-r-normal--0-0-0-0-p-0-koi8-e
+JetBrainsMonoNerdFont-Regular.ttf -misc-jetbrainsmono nf-medium-r-normal--0-0-0-0-p-0-koi8-r
+JetBrainsMonoNerdFont-Regular.ttf -misc-jetbrainsmono nf-medium-r-normal--0-0-0-0-p-0-koi8-ru
+JetBrainsMonoNerdFont-Regular.ttf -misc-jetbrainsmono nf-medium-r-normal--0-0-0-0-p-0-koi8-u
+JetBrainsMonoNerdFont-Regular.ttf -misc-jetbrainsmono nf-medium-r-normal--0-0-0-0-p-0-koi8-uni
+JetBrainsMonoNerdFont-SemiBold.ttf -misc-jetbrainsmono nf semibold-semibold-r-normal--0-0-0-0-p-0-iso10646-1
+JetBrainsMonoNerdFont-SemiBold.ttf -misc-jetbrainsmono nf semibold-semibold-r-normal--0-0-0-0-p-0-iso8859-1
+JetBrainsMonoNerdFont-SemiBold.ttf -misc-jetbrainsmono nf semibold-semibold-r-normal--0-0-0-0-p-0-iso8859-10
+JetBrainsMonoNerdFont-SemiBold.ttf -misc-jetbrainsmono nf semibold-semibold-r-normal--0-0-0-0-p-0-iso8859-15
+JetBrainsMonoNerdFont-SemiBold.ttf -misc-jetbrainsmono nf semibold-semibold-r-normal--0-0-0-0-p-0-iso8859-2
+JetBrainsMonoNerdFont-SemiBold.ttf -misc-jetbrainsmono nf semibold-semibold-r-normal--0-0-0-0-p-0-iso8859-3
+JetBrainsMonoNerdFont-SemiBold.ttf -misc-jetbrainsmono nf semibold-semibold-r-normal--0-0-0-0-p-0-iso8859-4
+JetBrainsMonoNerdFont-SemiBold.ttf -misc-jetbrainsmono nf semibold-semibold-r-normal--0-0-0-0-p-0-iso8859-5
+JetBrainsMonoNerdFont-SemiBold.ttf -misc-jetbrainsmono nf semibold-semibold-r-normal--0-0-0-0-p-0-iso8859-9
+JetBrainsMonoNerdFont-SemiBold.ttf -misc-jetbrainsmono nf semibold-semibold-r-normal--0-0-0-0-p-0-koi8-e
+JetBrainsMonoNerdFont-SemiBold.ttf -misc-jetbrainsmono nf semibold-semibold-r-normal--0-0-0-0-p-0-koi8-r
+JetBrainsMonoNerdFont-SemiBold.ttf -misc-jetbrainsmono nf semibold-semibold-r-normal--0-0-0-0-p-0-koi8-ru
+JetBrainsMonoNerdFont-SemiBold.ttf -misc-jetbrainsmono nf semibold-semibold-r-normal--0-0-0-0-p-0-koi8-u
+JetBrainsMonoNerdFont-SemiBold.ttf -misc-jetbrainsmono nf semibold-semibold-r-normal--0-0-0-0-p-0-koi8-uni
+JetBrainsMonoNerdFont-SemiBoldItalic.ttf -misc-jetbrainsmono nf semibold-semibold-i-normal--0-0-0-0-p-0-iso10646-1
+JetBrainsMonoNerdFont-SemiBoldItalic.ttf -misc-jetbrainsmono nf semibold-semibold-i-normal--0-0-0-0-p-0-iso8859-1
+JetBrainsMonoNerdFont-SemiBoldItalic.ttf -misc-jetbrainsmono nf semibold-semibold-i-normal--0-0-0-0-p-0-iso8859-10
+JetBrainsMonoNerdFont-SemiBoldItalic.ttf -misc-jetbrainsmono nf semibold-semibold-i-normal--0-0-0-0-p-0-iso8859-15
+JetBrainsMonoNerdFont-SemiBoldItalic.ttf -misc-jetbrainsmono nf semibold-semibold-i-normal--0-0-0-0-p-0-iso8859-2
+JetBrainsMonoNerdFont-SemiBoldItalic.ttf -misc-jetbrainsmono nf semibold-semibold-i-normal--0-0-0-0-p-0-iso8859-3
+JetBrainsMonoNerdFont-SemiBoldItalic.ttf -misc-jetbrainsmono nf semibold-semibold-i-normal--0-0-0-0-p-0-iso8859-4
+JetBrainsMonoNerdFont-SemiBoldItalic.ttf -misc-jetbrainsmono nf semibold-semibold-i-normal--0-0-0-0-p-0-iso8859-5
+JetBrainsMonoNerdFont-SemiBoldItalic.ttf -misc-jetbrainsmono nf semibold-semibold-i-normal--0-0-0-0-p-0-iso8859-9
+JetBrainsMonoNerdFont-SemiBoldItalic.ttf -misc-jetbrainsmono nf semibold-semibold-i-normal--0-0-0-0-p-0-koi8-e
+JetBrainsMonoNerdFont-SemiBoldItalic.ttf -misc-jetbrainsmono nf semibold-semibold-i-normal--0-0-0-0-p-0-koi8-r
+JetBrainsMonoNerdFont-SemiBoldItalic.ttf -misc-jetbrainsmono nf semibold-semibold-i-normal--0-0-0-0-p-0-koi8-ru
+JetBrainsMonoNerdFont-SemiBoldItalic.ttf -misc-jetbrainsmono nf semibold-semibold-i-normal--0-0-0-0-p-0-koi8-u
+JetBrainsMonoNerdFont-SemiBoldItalic.ttf -misc-jetbrainsmono nf semibold-semibold-i-normal--0-0-0-0-p-0-koi8-uni
+JetBrainsMonoNerdFont-Thin.ttf -misc-jetbrainsmono nf thin-thin-r-normal--0-0-0-0-p-0-iso10646-1
+JetBrainsMonoNerdFont-Thin.ttf -misc-jetbrainsmono nf thin-thin-r-normal--0-0-0-0-p-0-iso8859-1
+JetBrainsMonoNerdFont-Thin.ttf -misc-jetbrainsmono nf thin-thin-r-normal--0-0-0-0-p-0-iso8859-10
+JetBrainsMonoNerdFont-Thin.ttf -misc-jetbrainsmono nf thin-thin-r-normal--0-0-0-0-p-0-iso8859-15
+JetBrainsMonoNerdFont-Thin.ttf -misc-jetbrainsmono nf thin-thin-r-normal--0-0-0-0-p-0-iso8859-2
+JetBrainsMonoNerdFont-Thin.ttf -misc-jetbrainsmono nf thin-thin-r-normal--0-0-0-0-p-0-iso8859-3
+JetBrainsMonoNerdFont-Thin.ttf -misc-jetbrainsmono nf thin-thin-r-normal--0-0-0-0-p-0-iso8859-4
+JetBrainsMonoNerdFont-Thin.ttf -misc-jetbrainsmono nf thin-thin-r-normal--0-0-0-0-p-0-iso8859-5
+JetBrainsMonoNerdFont-Thin.ttf -misc-jetbrainsmono nf thin-thin-r-normal--0-0-0-0-p-0-iso8859-9
+JetBrainsMonoNerdFont-Thin.ttf -misc-jetbrainsmono nf thin-thin-r-normal--0-0-0-0-p-0-koi8-e
+JetBrainsMonoNerdFont-Thin.ttf -misc-jetbrainsmono nf thin-thin-r-normal--0-0-0-0-p-0-koi8-r
+JetBrainsMonoNerdFont-Thin.ttf -misc-jetbrainsmono nf thin-thin-r-normal--0-0-0-0-p-0-koi8-ru
+JetBrainsMonoNerdFont-Thin.ttf -misc-jetbrainsmono nf thin-thin-r-normal--0-0-0-0-p-0-koi8-u
+JetBrainsMonoNerdFont-Thin.ttf -misc-jetbrainsmono nf thin-thin-r-normal--0-0-0-0-p-0-koi8-uni
+JetBrainsMonoNerdFont-ThinItalic.ttf -misc-jetbrainsmono nf thin-thin-i-normal--0-0-0-0-p-0-iso10646-1
+JetBrainsMonoNerdFont-ThinItalic.ttf -misc-jetbrainsmono nf thin-thin-i-normal--0-0-0-0-p-0-iso8859-1
+JetBrainsMonoNerdFont-ThinItalic.ttf -misc-jetbrainsmono nf thin-thin-i-normal--0-0-0-0-p-0-iso8859-10
+JetBrainsMonoNerdFont-ThinItalic.ttf -misc-jetbrainsmono nf thin-thin-i-normal--0-0-0-0-p-0-iso8859-15
+JetBrainsMonoNerdFont-ThinItalic.ttf -misc-jetbrainsmono nf thin-thin-i-normal--0-0-0-0-p-0-iso8859-2
+JetBrainsMonoNerdFont-ThinItalic.ttf -misc-jetbrainsmono nf thin-thin-i-normal--0-0-0-0-p-0-iso8859-3
+JetBrainsMonoNerdFont-ThinItalic.ttf -misc-jetbrainsmono nf thin-thin-i-normal--0-0-0-0-p-0-iso8859-4
+JetBrainsMonoNerdFont-ThinItalic.ttf -misc-jetbrainsmono nf thin-thin-i-normal--0-0-0-0-p-0-iso8859-5
+JetBrainsMonoNerdFont-ThinItalic.ttf -misc-jetbrainsmono nf thin-thin-i-normal--0-0-0-0-p-0-iso8859-9
+JetBrainsMonoNerdFont-ThinItalic.ttf -misc-jetbrainsmono nf thin-thin-i-normal--0-0-0-0-p-0-koi8-e
+JetBrainsMonoNerdFont-ThinItalic.ttf -misc-jetbrainsmono nf thin-thin-i-normal--0-0-0-0-p-0-koi8-r
+JetBrainsMonoNerdFont-ThinItalic.ttf -misc-jetbrainsmono nf thin-thin-i-normal--0-0-0-0-p-0-koi8-ru
+JetBrainsMonoNerdFont-ThinItalic.ttf -misc-jetbrainsmono nf thin-thin-i-normal--0-0-0-0-p-0-koi8-u
+JetBrainsMonoNerdFont-ThinItalic.ttf -misc-jetbrainsmono nf thin-thin-i-normal--0-0-0-0-p-0-koi8-uni
+JetBrainsMonoNerdFontMono-Bold.ttf -misc-jetbrainsmono nfm-bold-r-normal--0-0-0-0-m-0-iso10646-1
+JetBrainsMonoNerdFontMono-Bold.ttf -misc-jetbrainsmono nfm-bold-r-normal--0-0-0-0-m-0-iso8859-1
+JetBrainsMonoNerdFontMono-Bold.ttf -misc-jetbrainsmono nfm-bold-r-normal--0-0-0-0-m-0-iso8859-10
+JetBrainsMonoNerdFontMono-Bold.ttf -misc-jetbrainsmono nfm-bold-r-normal--0-0-0-0-m-0-iso8859-15
+JetBrainsMonoNerdFontMono-Bold.ttf -misc-jetbrainsmono nfm-bold-r-normal--0-0-0-0-m-0-iso8859-2
+JetBrainsMonoNerdFontMono-Bold.ttf -misc-jetbrainsmono nfm-bold-r-normal--0-0-0-0-m-0-iso8859-3
+JetBrainsMonoNerdFontMono-Bold.ttf -misc-jetbrainsmono nfm-bold-r-normal--0-0-0-0-m-0-iso8859-4
+JetBrainsMonoNerdFontMono-Bold.ttf -misc-jetbrainsmono nfm-bold-r-normal--0-0-0-0-m-0-iso8859-5
+JetBrainsMonoNerdFontMono-Bold.ttf -misc-jetbrainsmono nfm-bold-r-normal--0-0-0-0-m-0-iso8859-9
+JetBrainsMonoNerdFontMono-Bold.ttf -misc-jetbrainsmono nfm-bold-r-normal--0-0-0-0-m-0-koi8-e
+JetBrainsMonoNerdFontMono-Bold.ttf -misc-jetbrainsmono nfm-bold-r-normal--0-0-0-0-m-0-koi8-r
+JetBrainsMonoNerdFontMono-Bold.ttf -misc-jetbrainsmono nfm-bold-r-normal--0-0-0-0-m-0-koi8-ru
+JetBrainsMonoNerdFontMono-Bold.ttf -misc-jetbrainsmono nfm-bold-r-normal--0-0-0-0-m-0-koi8-u
+JetBrainsMonoNerdFontMono-Bold.ttf -misc-jetbrainsmono nfm-bold-r-normal--0-0-0-0-m-0-koi8-uni
+JetBrainsMonoNerdFontMono-BoldItalic.ttf -misc-jetbrainsmono nfm-bold-i-normal--0-0-0-0-m-0-iso10646-1
+JetBrainsMonoNerdFontMono-BoldItalic.ttf -misc-jetbrainsmono nfm-bold-i-normal--0-0-0-0-m-0-iso8859-1
+JetBrainsMonoNerdFontMono-BoldItalic.ttf -misc-jetbrainsmono nfm-bold-i-normal--0-0-0-0-m-0-iso8859-10
+JetBrainsMonoNerdFontMono-BoldItalic.ttf -misc-jetbrainsmono nfm-bold-i-normal--0-0-0-0-m-0-iso8859-15
+JetBrainsMonoNerdFontMono-BoldItalic.ttf -misc-jetbrainsmono nfm-bold-i-normal--0-0-0-0-m-0-iso8859-2
+JetBrainsMonoNerdFontMono-BoldItalic.ttf -misc-jetbrainsmono nfm-bold-i-normal--0-0-0-0-m-0-iso8859-3
+JetBrainsMonoNerdFontMono-BoldItalic.ttf -misc-jetbrainsmono nfm-bold-i-normal--0-0-0-0-m-0-iso8859-4
+JetBrainsMonoNerdFontMono-BoldItalic.ttf -misc-jetbrainsmono nfm-bold-i-normal--0-0-0-0-m-0-iso8859-5
+JetBrainsMonoNerdFontMono-BoldItalic.ttf -misc-jetbrainsmono nfm-bold-i-normal--0-0-0-0-m-0-iso8859-9
+JetBrainsMonoNerdFontMono-BoldItalic.ttf -misc-jetbrainsmono nfm-bold-i-normal--0-0-0-0-m-0-koi8-e
+JetBrainsMonoNerdFontMono-BoldItalic.ttf -misc-jetbrainsmono nfm-bold-i-normal--0-0-0-0-m-0-koi8-r
+JetBrainsMonoNerdFontMono-BoldItalic.ttf -misc-jetbrainsmono nfm-bold-i-normal--0-0-0-0-m-0-koi8-ru
+JetBrainsMonoNerdFontMono-BoldItalic.ttf -misc-jetbrainsmono nfm-bold-i-normal--0-0-0-0-m-0-koi8-u
+JetBrainsMonoNerdFontMono-BoldItalic.ttf -misc-jetbrainsmono nfm-bold-i-normal--0-0-0-0-m-0-koi8-uni
+JetBrainsMonoNerdFontMono-ExtraBold.ttf -misc-jetbrainsmono nfm extrabold-extrabold-r-normal--0-0-0-0-m-0-iso10646-1
+JetBrainsMonoNerdFontMono-ExtraBold.ttf -misc-jetbrainsmono nfm extrabold-extrabold-r-normal--0-0-0-0-m-0-iso8859-1
+JetBrainsMonoNerdFontMono-ExtraBold.ttf -misc-jetbrainsmono nfm extrabold-extrabold-r-normal--0-0-0-0-m-0-iso8859-10
+JetBrainsMonoNerdFontMono-ExtraBold.ttf -misc-jetbrainsmono nfm extrabold-extrabold-r-normal--0-0-0-0-m-0-iso8859-15
+JetBrainsMonoNerdFontMono-ExtraBold.ttf -misc-jetbrainsmono nfm extrabold-extrabold-r-normal--0-0-0-0-m-0-iso8859-2
+JetBrainsMonoNerdFontMono-ExtraBold.ttf -misc-jetbrainsmono nfm extrabold-extrabold-r-normal--0-0-0-0-m-0-iso8859-3
+JetBrainsMonoNerdFontMono-ExtraBold.ttf -misc-jetbrainsmono nfm extrabold-extrabold-r-normal--0-0-0-0-m-0-iso8859-4
+JetBrainsMonoNerdFontMono-ExtraBold.ttf -misc-jetbrainsmono nfm extrabold-extrabold-r-normal--0-0-0-0-m-0-iso8859-5
+JetBrainsMonoNerdFontMono-ExtraBold.ttf -misc-jetbrainsmono nfm extrabold-extrabold-r-normal--0-0-0-0-m-0-iso8859-9
+JetBrainsMonoNerdFontMono-ExtraBold.ttf -misc-jetbrainsmono nfm extrabold-extrabold-r-normal--0-0-0-0-m-0-koi8-e
+JetBrainsMonoNerdFontMono-ExtraBold.ttf -misc-jetbrainsmono nfm extrabold-extrabold-r-normal--0-0-0-0-m-0-koi8-r
+JetBrainsMonoNerdFontMono-ExtraBold.ttf -misc-jetbrainsmono nfm extrabold-extrabold-r-normal--0-0-0-0-m-0-koi8-ru
+JetBrainsMonoNerdFontMono-ExtraBold.ttf -misc-jetbrainsmono nfm extrabold-extrabold-r-normal--0-0-0-0-m-0-koi8-u
+JetBrainsMonoNerdFontMono-ExtraBold.ttf -misc-jetbrainsmono nfm extrabold-extrabold-r-normal--0-0-0-0-m-0-koi8-uni
+JetBrainsMonoNerdFontMono-ExtraBoldItalic.ttf -misc-jetbrainsmono nfm extrabold-extrabold-i-normal--0-0-0-0-m-0-iso10646-1
+JetBrainsMonoNerdFontMono-ExtraBoldItalic.ttf -misc-jetbrainsmono nfm extrabold-extrabold-i-normal--0-0-0-0-m-0-iso8859-1
+JetBrainsMonoNerdFontMono-ExtraBoldItalic.ttf -misc-jetbrainsmono nfm extrabold-extrabold-i-normal--0-0-0-0-m-0-iso8859-10
+JetBrainsMonoNerdFontMono-ExtraBoldItalic.ttf -misc-jetbrainsmono nfm extrabold-extrabold-i-normal--0-0-0-0-m-0-iso8859-15
+JetBrainsMonoNerdFontMono-ExtraBoldItalic.ttf -misc-jetbrainsmono nfm extrabold-extrabold-i-normal--0-0-0-0-m-0-iso8859-2
+JetBrainsMonoNerdFontMono-ExtraBoldItalic.ttf -misc-jetbrainsmono nfm extrabold-extrabold-i-normal--0-0-0-0-m-0-iso8859-3
+JetBrainsMonoNerdFontMono-ExtraBoldItalic.ttf -misc-jetbrainsmono nfm extrabold-extrabold-i-normal--0-0-0-0-m-0-iso8859-4
+JetBrainsMonoNerdFontMono-ExtraBoldItalic.ttf -misc-jetbrainsmono nfm extrabold-extrabold-i-normal--0-0-0-0-m-0-iso8859-5
+JetBrainsMonoNerdFontMono-ExtraBoldItalic.ttf -misc-jetbrainsmono nfm extrabold-extrabold-i-normal--0-0-0-0-m-0-iso8859-9
+JetBrainsMonoNerdFontMono-ExtraBoldItalic.ttf -misc-jetbrainsmono nfm extrabold-extrabold-i-normal--0-0-0-0-m-0-koi8-e
+JetBrainsMonoNerdFontMono-ExtraBoldItalic.ttf -misc-jetbrainsmono nfm extrabold-extrabold-i-normal--0-0-0-0-m-0-koi8-r
+JetBrainsMonoNerdFontMono-ExtraBoldItalic.ttf -misc-jetbrainsmono nfm extrabold-extrabold-i-normal--0-0-0-0-m-0-koi8-ru
+JetBrainsMonoNerdFontMono-ExtraBoldItalic.ttf -misc-jetbrainsmono nfm extrabold-extrabold-i-normal--0-0-0-0-m-0-koi8-u
+JetBrainsMonoNerdFontMono-ExtraBoldItalic.ttf -misc-jetbrainsmono nfm extrabold-extrabold-i-normal--0-0-0-0-m-0-koi8-uni
+JetBrainsMonoNerdFontMono-ExtraLight.ttf -misc-jetbrainsmono nfm extralight-extralight-r-normal--0-0-0-0-m-0-iso10646-1
+JetBrainsMonoNerdFontMono-ExtraLight.ttf -misc-jetbrainsmono nfm extralight-extralight-r-normal--0-0-0-0-m-0-iso8859-1
+JetBrainsMonoNerdFontMono-ExtraLight.ttf -misc-jetbrainsmono nfm extralight-extralight-r-normal--0-0-0-0-m-0-iso8859-10
+JetBrainsMonoNerdFontMono-ExtraLight.ttf -misc-jetbrainsmono nfm extralight-extralight-r-normal--0-0-0-0-m-0-iso8859-15
+JetBrainsMonoNerdFontMono-ExtraLight.ttf -misc-jetbrainsmono nfm extralight-extralight-r-normal--0-0-0-0-m-0-iso8859-2
+JetBrainsMonoNerdFontMono-ExtraLight.ttf -misc-jetbrainsmono nfm extralight-extralight-r-normal--0-0-0-0-m-0-iso8859-3
+JetBrainsMonoNerdFontMono-ExtraLight.ttf -misc-jetbrainsmono nfm extralight-extralight-r-normal--0-0-0-0-m-0-iso8859-4
+JetBrainsMonoNerdFontMono-ExtraLight.ttf -misc-jetbrainsmono nfm extralight-extralight-r-normal--0-0-0-0-m-0-iso8859-5
+JetBrainsMonoNerdFontMono-ExtraLight.ttf -misc-jetbrainsmono nfm extralight-extralight-r-normal--0-0-0-0-m-0-iso8859-9
+JetBrainsMonoNerdFontMono-ExtraLight.ttf -misc-jetbrainsmono nfm extralight-extralight-r-normal--0-0-0-0-m-0-koi8-e
+JetBrainsMonoNerdFontMono-ExtraLight.ttf -misc-jetbrainsmono nfm extralight-extralight-r-normal--0-0-0-0-m-0-koi8-r
+JetBrainsMonoNerdFontMono-ExtraLight.ttf -misc-jetbrainsmono nfm extralight-extralight-r-normal--0-0-0-0-m-0-koi8-ru
+JetBrainsMonoNerdFontMono-ExtraLight.ttf -misc-jetbrainsmono nfm extralight-extralight-r-normal--0-0-0-0-m-0-koi8-u
+JetBrainsMonoNerdFontMono-ExtraLight.ttf -misc-jetbrainsmono nfm extralight-extralight-r-normal--0-0-0-0-m-0-koi8-uni
+JetBrainsMonoNerdFontMono-ExtraLightItalic.ttf -misc-jetbrainsmono nfm extralight-extralight-i-normal--0-0-0-0-m-0-iso10646-1
+JetBrainsMonoNerdFontMono-ExtraLightItalic.ttf -misc-jetbrainsmono nfm extralight-extralight-i-normal--0-0-0-0-m-0-iso8859-1
+JetBrainsMonoNerdFontMono-ExtraLightItalic.ttf -misc-jetbrainsmono nfm extralight-extralight-i-normal--0-0-0-0-m-0-iso8859-10
+JetBrainsMonoNerdFontMono-ExtraLightItalic.ttf -misc-jetbrainsmono nfm extralight-extralight-i-normal--0-0-0-0-m-0-iso8859-15
+JetBrainsMonoNerdFontMono-ExtraLightItalic.ttf -misc-jetbrainsmono nfm extralight-extralight-i-normal--0-0-0-0-m-0-iso8859-2
+JetBrainsMonoNerdFontMono-ExtraLightItalic.ttf -misc-jetbrainsmono nfm extralight-extralight-i-normal--0-0-0-0-m-0-iso8859-3
+JetBrainsMonoNerdFontMono-ExtraLightItalic.ttf -misc-jetbrainsmono nfm extralight-extralight-i-normal--0-0-0-0-m-0-iso8859-4
+JetBrainsMonoNerdFontMono-ExtraLightItalic.ttf -misc-jetbrainsmono nfm extralight-extralight-i-normal--0-0-0-0-m-0-iso8859-5
+JetBrainsMonoNerdFontMono-ExtraLightItalic.ttf -misc-jetbrainsmono nfm extralight-extralight-i-normal--0-0-0-0-m-0-iso8859-9
+JetBrainsMonoNerdFontMono-ExtraLightItalic.ttf -misc-jetbrainsmono nfm extralight-extralight-i-normal--0-0-0-0-m-0-koi8-e
+JetBrainsMonoNerdFontMono-ExtraLightItalic.ttf -misc-jetbrainsmono nfm extralight-extralight-i-normal--0-0-0-0-m-0-koi8-r
+JetBrainsMonoNerdFontMono-ExtraLightItalic.ttf -misc-jetbrainsmono nfm extralight-extralight-i-normal--0-0-0-0-m-0-koi8-ru
+JetBrainsMonoNerdFontMono-ExtraLightItalic.ttf -misc-jetbrainsmono nfm extralight-extralight-i-normal--0-0-0-0-m-0-koi8-u
+JetBrainsMonoNerdFontMono-ExtraLightItalic.ttf -misc-jetbrainsmono nfm extralight-extralight-i-normal--0-0-0-0-m-0-koi8-uni
+JetBrainsMonoNerdFontMono-Italic.ttf -misc-jetbrainsmono nfm-medium-i-normal--0-0-0-0-m-0-iso10646-1
+JetBrainsMonoNerdFontMono-Italic.ttf -misc-jetbrainsmono nfm-medium-i-normal--0-0-0-0-m-0-iso8859-1
+JetBrainsMonoNerdFontMono-Italic.ttf -misc-jetbrainsmono nfm-medium-i-normal--0-0-0-0-m-0-iso8859-10
+JetBrainsMonoNerdFontMono-Italic.ttf -misc-jetbrainsmono nfm-medium-i-normal--0-0-0-0-m-0-iso8859-15
+JetBrainsMonoNerdFontMono-Italic.ttf -misc-jetbrainsmono nfm-medium-i-normal--0-0-0-0-m-0-iso8859-2
+JetBrainsMonoNerdFontMono-Italic.ttf -misc-jetbrainsmono nfm-medium-i-normal--0-0-0-0-m-0-iso8859-3
+JetBrainsMonoNerdFontMono-Italic.ttf -misc-jetbrainsmono nfm-medium-i-normal--0-0-0-0-m-0-iso8859-4
+JetBrainsMonoNerdFontMono-Italic.ttf -misc-jetbrainsmono nfm-medium-i-normal--0-0-0-0-m-0-iso8859-5
+JetBrainsMonoNerdFontMono-Italic.ttf -misc-jetbrainsmono nfm-medium-i-normal--0-0-0-0-m-0-iso8859-9
+JetBrainsMonoNerdFontMono-Italic.ttf -misc-jetbrainsmono nfm-medium-i-normal--0-0-0-0-m-0-koi8-e
+JetBrainsMonoNerdFontMono-Italic.ttf -misc-jetbrainsmono nfm-medium-i-normal--0-0-0-0-m-0-koi8-r
+JetBrainsMonoNerdFontMono-Italic.ttf -misc-jetbrainsmono nfm-medium-i-normal--0-0-0-0-m-0-koi8-ru
+JetBrainsMonoNerdFontMono-Italic.ttf -misc-jetbrainsmono nfm-medium-i-normal--0-0-0-0-m-0-koi8-u
+JetBrainsMonoNerdFontMono-Italic.ttf -misc-jetbrainsmono nfm-medium-i-normal--0-0-0-0-m-0-koi8-uni
+JetBrainsMonoNerdFontMono-Light.ttf -misc-jetbrainsmono nfm light-light-r-normal--0-0-0-0-m-0-iso10646-1
+JetBrainsMonoNerdFontMono-Light.ttf -misc-jetbrainsmono nfm light-light-r-normal--0-0-0-0-m-0-iso8859-1
+JetBrainsMonoNerdFontMono-Light.ttf -misc-jetbrainsmono nfm light-light-r-normal--0-0-0-0-m-0-iso8859-10
+JetBrainsMonoNerdFontMono-Light.ttf -misc-jetbrainsmono nfm light-light-r-normal--0-0-0-0-m-0-iso8859-15
+JetBrainsMonoNerdFontMono-Light.ttf -misc-jetbrainsmono nfm light-light-r-normal--0-0-0-0-m-0-iso8859-2
+JetBrainsMonoNerdFontMono-Light.ttf -misc-jetbrainsmono nfm light-light-r-normal--0-0-0-0-m-0-iso8859-3
+JetBrainsMonoNerdFontMono-Light.ttf -misc-jetbrainsmono nfm light-light-r-normal--0-0-0-0-m-0-iso8859-4
+JetBrainsMonoNerdFontMono-Light.ttf -misc-jetbrainsmono nfm light-light-r-normal--0-0-0-0-m-0-iso8859-5
+JetBrainsMonoNerdFontMono-Light.ttf -misc-jetbrainsmono nfm light-light-r-normal--0-0-0-0-m-0-iso8859-9
+JetBrainsMonoNerdFontMono-Light.ttf -misc-jetbrainsmono nfm light-light-r-normal--0-0-0-0-m-0-koi8-e
+JetBrainsMonoNerdFontMono-Light.ttf -misc-jetbrainsmono nfm light-light-r-normal--0-0-0-0-m-0-koi8-r
+JetBrainsMonoNerdFontMono-Light.ttf -misc-jetbrainsmono nfm light-light-r-normal--0-0-0-0-m-0-koi8-ru
+JetBrainsMonoNerdFontMono-Light.ttf -misc-jetbrainsmono nfm light-light-r-normal--0-0-0-0-m-0-koi8-u
+JetBrainsMonoNerdFontMono-Light.ttf -misc-jetbrainsmono nfm light-light-r-normal--0-0-0-0-m-0-koi8-uni
+JetBrainsMonoNerdFontMono-LightItalic.ttf -misc-jetbrainsmono nfm light-light-i-normal--0-0-0-0-m-0-iso10646-1
+JetBrainsMonoNerdFontMono-LightItalic.ttf -misc-jetbrainsmono nfm light-light-i-normal--0-0-0-0-m-0-iso8859-1
+JetBrainsMonoNerdFontMono-LightItalic.ttf -misc-jetbrainsmono nfm light-light-i-normal--0-0-0-0-m-0-iso8859-10
+JetBrainsMonoNerdFontMono-LightItalic.ttf -misc-jetbrainsmono nfm light-light-i-normal--0-0-0-0-m-0-iso8859-15
+JetBrainsMonoNerdFontMono-LightItalic.ttf -misc-jetbrainsmono nfm light-light-i-normal--0-0-0-0-m-0-iso8859-2
+JetBrainsMonoNerdFontMono-LightItalic.ttf -misc-jetbrainsmono nfm light-light-i-normal--0-0-0-0-m-0-iso8859-3
+JetBrainsMonoNerdFontMono-LightItalic.ttf -misc-jetbrainsmono nfm light-light-i-normal--0-0-0-0-m-0-iso8859-4
+JetBrainsMonoNerdFontMono-LightItalic.ttf -misc-jetbrainsmono nfm light-light-i-normal--0-0-0-0-m-0-iso8859-5
+JetBrainsMonoNerdFontMono-LightItalic.ttf -misc-jetbrainsmono nfm light-light-i-normal--0-0-0-0-m-0-iso8859-9
+JetBrainsMonoNerdFontMono-LightItalic.ttf -misc-jetbrainsmono nfm light-light-i-normal--0-0-0-0-m-0-koi8-e
+JetBrainsMonoNerdFontMono-LightItalic.ttf -misc-jetbrainsmono nfm light-light-i-normal--0-0-0-0-m-0-koi8-r
+JetBrainsMonoNerdFontMono-LightItalic.ttf -misc-jetbrainsmono nfm light-light-i-normal--0-0-0-0-m-0-koi8-ru
+JetBrainsMonoNerdFontMono-LightItalic.ttf -misc-jetbrainsmono nfm light-light-i-normal--0-0-0-0-m-0-koi8-u
+JetBrainsMonoNerdFontMono-LightItalic.ttf -misc-jetbrainsmono nfm light-light-i-normal--0-0-0-0-m-0-koi8-uni
+JetBrainsMonoNerdFontMono-Medium.ttf -misc-jetbrainsmono nfm medium-medium-r-normal--0-0-0-0-m-0-iso10646-1
+JetBrainsMonoNerdFontMono-Medium.ttf -misc-jetbrainsmono nfm medium-medium-r-normal--0-0-0-0-m-0-iso8859-1
+JetBrainsMonoNerdFontMono-Medium.ttf -misc-jetbrainsmono nfm medium-medium-r-normal--0-0-0-0-m-0-iso8859-10
+JetBrainsMonoNerdFontMono-Medium.ttf -misc-jetbrainsmono nfm medium-medium-r-normal--0-0-0-0-m-0-iso8859-15
+JetBrainsMonoNerdFontMono-Medium.ttf -misc-jetbrainsmono nfm medium-medium-r-normal--0-0-0-0-m-0-iso8859-2
+JetBrainsMonoNerdFontMono-Medium.ttf -misc-jetbrainsmono nfm medium-medium-r-normal--0-0-0-0-m-0-iso8859-3
+JetBrainsMonoNerdFontMono-Medium.ttf -misc-jetbrainsmono nfm medium-medium-r-normal--0-0-0-0-m-0-iso8859-4
+JetBrainsMonoNerdFontMono-Medium.ttf -misc-jetbrainsmono nfm medium-medium-r-normal--0-0-0-0-m-0-iso8859-5
+JetBrainsMonoNerdFontMono-Medium.ttf -misc-jetbrainsmono nfm medium-medium-r-normal--0-0-0-0-m-0-iso8859-9
+JetBrainsMonoNerdFontMono-Medium.ttf -misc-jetbrainsmono nfm medium-medium-r-normal--0-0-0-0-m-0-koi8-e
+JetBrainsMonoNerdFontMono-Medium.ttf -misc-jetbrainsmono nfm medium-medium-r-normal--0-0-0-0-m-0-koi8-r
+JetBrainsMonoNerdFontMono-Medium.ttf -misc-jetbrainsmono nfm medium-medium-r-normal--0-0-0-0-m-0-koi8-ru
+JetBrainsMonoNerdFontMono-Medium.ttf -misc-jetbrainsmono nfm medium-medium-r-normal--0-0-0-0-m-0-koi8-u
+JetBrainsMonoNerdFontMono-Medium.ttf -misc-jetbrainsmono nfm medium-medium-r-normal--0-0-0-0-m-0-koi8-uni
+JetBrainsMonoNerdFontMono-MediumItalic.ttf -misc-jetbrainsmono nfm medium-medium-i-normal--0-0-0-0-m-0-iso10646-1
+JetBrainsMonoNerdFontMono-MediumItalic.ttf -misc-jetbrainsmono nfm medium-medium-i-normal--0-0-0-0-m-0-iso8859-1
+JetBrainsMonoNerdFontMono-MediumItalic.ttf -misc-jetbrainsmono nfm medium-medium-i-normal--0-0-0-0-m-0-iso8859-10
+JetBrainsMonoNerdFontMono-MediumItalic.ttf -misc-jetbrainsmono nfm medium-medium-i-normal--0-0-0-0-m-0-iso8859-15
+JetBrainsMonoNerdFontMono-MediumItalic.ttf -misc-jetbrainsmono nfm medium-medium-i-normal--0-0-0-0-m-0-iso8859-2
+JetBrainsMonoNerdFontMono-MediumItalic.ttf -misc-jetbrainsmono nfm medium-medium-i-normal--0-0-0-0-m-0-iso8859-3
+JetBrainsMonoNerdFontMono-MediumItalic.ttf -misc-jetbrainsmono nfm medium-medium-i-normal--0-0-0-0-m-0-iso8859-4
+JetBrainsMonoNerdFontMono-MediumItalic.ttf -misc-jetbrainsmono nfm medium-medium-i-normal--0-0-0-0-m-0-iso8859-5
+JetBrainsMonoNerdFontMono-MediumItalic.ttf -misc-jetbrainsmono nfm medium-medium-i-normal--0-0-0-0-m-0-iso8859-9
+JetBrainsMonoNerdFontMono-MediumItalic.ttf -misc-jetbrainsmono nfm medium-medium-i-normal--0-0-0-0-m-0-koi8-e
+JetBrainsMonoNerdFontMono-MediumItalic.ttf -misc-jetbrainsmono nfm medium-medium-i-normal--0-0-0-0-m-0-koi8-r
+JetBrainsMonoNerdFontMono-MediumItalic.ttf -misc-jetbrainsmono nfm medium-medium-i-normal--0-0-0-0-m-0-koi8-ru
+JetBrainsMonoNerdFontMono-MediumItalic.ttf -misc-jetbrainsmono nfm medium-medium-i-normal--0-0-0-0-m-0-koi8-u
+JetBrainsMonoNerdFontMono-MediumItalic.ttf -misc-jetbrainsmono nfm medium-medium-i-normal--0-0-0-0-m-0-koi8-uni
+JetBrainsMonoNerdFontMono-Regular.ttf -misc-jetbrainsmono nfm-medium-r-normal--0-0-0-0-m-0-iso10646-1
+JetBrainsMonoNerdFontMono-Regular.ttf -misc-jetbrainsmono nfm-medium-r-normal--0-0-0-0-m-0-iso8859-1
+JetBrainsMonoNerdFontMono-Regular.ttf -misc-jetbrainsmono nfm-medium-r-normal--0-0-0-0-m-0-iso8859-10
+JetBrainsMonoNerdFontMono-Regular.ttf -misc-jetbrainsmono nfm-medium-r-normal--0-0-0-0-m-0-iso8859-15
+JetBrainsMonoNerdFontMono-Regular.ttf -misc-jetbrainsmono nfm-medium-r-normal--0-0-0-0-m-0-iso8859-2
+JetBrainsMonoNerdFontMono-Regular.ttf -misc-jetbrainsmono nfm-medium-r-normal--0-0-0-0-m-0-iso8859-3
+JetBrainsMonoNerdFontMono-Regular.ttf -misc-jetbrainsmono nfm-medium-r-normal--0-0-0-0-m-0-iso8859-4
+JetBrainsMonoNerdFontMono-Regular.ttf -misc-jetbrainsmono nfm-medium-r-normal--0-0-0-0-m-0-iso8859-5
+JetBrainsMonoNerdFontMono-Regular.ttf -misc-jetbrainsmono nfm-medium-r-normal--0-0-0-0-m-0-iso8859-9
+JetBrainsMonoNerdFontMono-Regular.ttf -misc-jetbrainsmono nfm-medium-r-normal--0-0-0-0-m-0-koi8-e
+JetBrainsMonoNerdFontMono-Regular.ttf -misc-jetbrainsmono nfm-medium-r-normal--0-0-0-0-m-0-koi8-r
+JetBrainsMonoNerdFontMono-Regular.ttf -misc-jetbrainsmono nfm-medium-r-normal--0-0-0-0-m-0-koi8-ru
+JetBrainsMonoNerdFontMono-Regular.ttf -misc-jetbrainsmono nfm-medium-r-normal--0-0-0-0-m-0-koi8-u
+JetBrainsMonoNerdFontMono-Regular.ttf -misc-jetbrainsmono nfm-medium-r-normal--0-0-0-0-m-0-koi8-uni
+JetBrainsMonoNerdFontMono-SemiBold.ttf -misc-jetbrainsmono nfm semibold-semibold-r-normal--0-0-0-0-m-0-iso10646-1
+JetBrainsMonoNerdFontMono-SemiBold.ttf -misc-jetbrainsmono nfm semibold-semibold-r-normal--0-0-0-0-m-0-iso8859-1
+JetBrainsMonoNerdFontMono-SemiBold.ttf -misc-jetbrainsmono nfm semibold-semibold-r-normal--0-0-0-0-m-0-iso8859-10
+JetBrainsMonoNerdFontMono-SemiBold.ttf -misc-jetbrainsmono nfm semibold-semibold-r-normal--0-0-0-0-m-0-iso8859-15
+JetBrainsMonoNerdFontMono-SemiBold.ttf -misc-jetbrainsmono nfm semibold-semibold-r-normal--0-0-0-0-m-0-iso8859-2
+JetBrainsMonoNerdFontMono-SemiBold.ttf -misc-jetbrainsmono nfm semibold-semibold-r-normal--0-0-0-0-m-0-iso8859-3
+JetBrainsMonoNerdFontMono-SemiBold.ttf -misc-jetbrainsmono nfm semibold-semibold-r-normal--0-0-0-0-m-0-iso8859-4
+JetBrainsMonoNerdFontMono-SemiBold.ttf -misc-jetbrainsmono nfm semibold-semibold-r-normal--0-0-0-0-m-0-iso8859-5
+JetBrainsMonoNerdFontMono-SemiBold.ttf -misc-jetbrainsmono nfm semibold-semibold-r-normal--0-0-0-0-m-0-iso8859-9
+JetBrainsMonoNerdFontMono-SemiBold.ttf -misc-jetbrainsmono nfm semibold-semibold-r-normal--0-0-0-0-m-0-koi8-e
+JetBrainsMonoNerdFontMono-SemiBold.ttf -misc-jetbrainsmono nfm semibold-semibold-r-normal--0-0-0-0-m-0-koi8-r
+JetBrainsMonoNerdFontMono-SemiBold.ttf -misc-jetbrainsmono nfm semibold-semibold-r-normal--0-0-0-0-m-0-koi8-ru
+JetBrainsMonoNerdFontMono-SemiBold.ttf -misc-jetbrainsmono nfm semibold-semibold-r-normal--0-0-0-0-m-0-koi8-u
+JetBrainsMonoNerdFontMono-SemiBold.ttf -misc-jetbrainsmono nfm semibold-semibold-r-normal--0-0-0-0-m-0-koi8-uni
+JetBrainsMonoNerdFontMono-SemiBoldItalic.ttf -misc-jetbrainsmono nfm semibold-semibold-i-normal--0-0-0-0-m-0-iso10646-1
+JetBrainsMonoNerdFontMono-SemiBoldItalic.ttf -misc-jetbrainsmono nfm semibold-semibold-i-normal--0-0-0-0-m-0-iso8859-1
+JetBrainsMonoNerdFontMono-SemiBoldItalic.ttf -misc-jetbrainsmono nfm semibold-semibold-i-normal--0-0-0-0-m-0-iso8859-10
+JetBrainsMonoNerdFontMono-SemiBoldItalic.ttf -misc-jetbrainsmono nfm semibold-semibold-i-normal--0-0-0-0-m-0-iso8859-15
+JetBrainsMonoNerdFontMono-SemiBoldItalic.ttf -misc-jetbrainsmono nfm semibold-semibold-i-normal--0-0-0-0-m-0-iso8859-2
+JetBrainsMonoNerdFontMono-SemiBoldItalic.ttf -misc-jetbrainsmono nfm semibold-semibold-i-normal--0-0-0-0-m-0-iso8859-3
+JetBrainsMonoNerdFontMono-SemiBoldItalic.ttf -misc-jetbrainsmono nfm semibold-semibold-i-normal--0-0-0-0-m-0-iso8859-4
+JetBrainsMonoNerdFontMono-SemiBoldItalic.ttf -misc-jetbrainsmono nfm semibold-semibold-i-normal--0-0-0-0-m-0-iso8859-5
+JetBrainsMonoNerdFontMono-SemiBoldItalic.ttf -misc-jetbrainsmono nfm semibold-semibold-i-normal--0-0-0-0-m-0-iso8859-9
+JetBrainsMonoNerdFontMono-SemiBoldItalic.ttf -misc-jetbrainsmono nfm semibold-semibold-i-normal--0-0-0-0-m-0-koi8-e
+JetBrainsMonoNerdFontMono-SemiBoldItalic.ttf -misc-jetbrainsmono nfm semibold-semibold-i-normal--0-0-0-0-m-0-koi8-r
+JetBrainsMonoNerdFontMono-SemiBoldItalic.ttf -misc-jetbrainsmono nfm semibold-semibold-i-normal--0-0-0-0-m-0-koi8-ru
+JetBrainsMonoNerdFontMono-SemiBoldItalic.ttf -misc-jetbrainsmono nfm semibold-semibold-i-normal--0-0-0-0-m-0-koi8-u
+JetBrainsMonoNerdFontMono-SemiBoldItalic.ttf -misc-jetbrainsmono nfm semibold-semibold-i-normal--0-0-0-0-m-0-koi8-uni
+JetBrainsMonoNerdFontMono-Thin.ttf -misc-jetbrainsmono nfm thin-thin-r-normal--0-0-0-0-m-0-iso10646-1
+JetBrainsMonoNerdFontMono-Thin.ttf -misc-jetbrainsmono nfm thin-thin-r-normal--0-0-0-0-m-0-iso8859-1
+JetBrainsMonoNerdFontMono-Thin.ttf -misc-jetbrainsmono nfm thin-thin-r-normal--0-0-0-0-m-0-iso8859-10
+JetBrainsMonoNerdFontMono-Thin.ttf -misc-jetbrainsmono nfm thin-thin-r-normal--0-0-0-0-m-0-iso8859-15
+JetBrainsMonoNerdFontMono-Thin.ttf -misc-jetbrainsmono nfm thin-thin-r-normal--0-0-0-0-m-0-iso8859-2
+JetBrainsMonoNerdFontMono-Thin.ttf -misc-jetbrainsmono nfm thin-thin-r-normal--0-0-0-0-m-0-iso8859-3
+JetBrainsMonoNerdFontMono-Thin.ttf -misc-jetbrainsmono nfm thin-thin-r-normal--0-0-0-0-m-0-iso8859-4
+JetBrainsMonoNerdFontMono-Thin.ttf -misc-jetbrainsmono nfm thin-thin-r-normal--0-0-0-0-m-0-iso8859-5
+JetBrainsMonoNerdFontMono-Thin.ttf -misc-jetbrainsmono nfm thin-thin-r-normal--0-0-0-0-m-0-iso8859-9
+JetBrainsMonoNerdFontMono-Thin.ttf -misc-jetbrainsmono nfm thin-thin-r-normal--0-0-0-0-m-0-koi8-e
+JetBrainsMonoNerdFontMono-Thin.ttf -misc-jetbrainsmono nfm thin-thin-r-normal--0-0-0-0-m-0-koi8-r
+JetBrainsMonoNerdFontMono-Thin.ttf -misc-jetbrainsmono nfm thin-thin-r-normal--0-0-0-0-m-0-koi8-ru
+JetBrainsMonoNerdFontMono-Thin.ttf -misc-jetbrainsmono nfm thin-thin-r-normal--0-0-0-0-m-0-koi8-u
+JetBrainsMonoNerdFontMono-Thin.ttf -misc-jetbrainsmono nfm thin-thin-r-normal--0-0-0-0-m-0-koi8-uni
+JetBrainsMonoNerdFontMono-ThinItalic.ttf -misc-jetbrainsmono nfm thin-thin-i-normal--0-0-0-0-m-0-iso10646-1
+JetBrainsMonoNerdFontMono-ThinItalic.ttf -misc-jetbrainsmono nfm thin-thin-i-normal--0-0-0-0-m-0-iso8859-1
+JetBrainsMonoNerdFontMono-ThinItalic.ttf -misc-jetbrainsmono nfm thin-thin-i-normal--0-0-0-0-m-0-iso8859-10
+JetBrainsMonoNerdFontMono-ThinItalic.ttf -misc-jetbrainsmono nfm thin-thin-i-normal--0-0-0-0-m-0-iso8859-15
+JetBrainsMonoNerdFontMono-ThinItalic.ttf -misc-jetbrainsmono nfm thin-thin-i-normal--0-0-0-0-m-0-iso8859-2
+JetBrainsMonoNerdFontMono-ThinItalic.ttf -misc-jetbrainsmono nfm thin-thin-i-normal--0-0-0-0-m-0-iso8859-3
+JetBrainsMonoNerdFontMono-ThinItalic.ttf -misc-jetbrainsmono nfm thin-thin-i-normal--0-0-0-0-m-0-iso8859-4
+JetBrainsMonoNerdFontMono-ThinItalic.ttf -misc-jetbrainsmono nfm thin-thin-i-normal--0-0-0-0-m-0-iso8859-5
+JetBrainsMonoNerdFontMono-ThinItalic.ttf -misc-jetbrainsmono nfm thin-thin-i-normal--0-0-0-0-m-0-iso8859-9
+JetBrainsMonoNerdFontMono-ThinItalic.ttf -misc-jetbrainsmono nfm thin-thin-i-normal--0-0-0-0-m-0-koi8-e
+JetBrainsMonoNerdFontMono-ThinItalic.ttf -misc-jetbrainsmono nfm thin-thin-i-normal--0-0-0-0-m-0-koi8-r
+JetBrainsMonoNerdFontMono-ThinItalic.ttf -misc-jetbrainsmono nfm thin-thin-i-normal--0-0-0-0-m-0-koi8-ru
+JetBrainsMonoNerdFontMono-ThinItalic.ttf -misc-jetbrainsmono nfm thin-thin-i-normal--0-0-0-0-m-0-koi8-u
+JetBrainsMonoNerdFontMono-ThinItalic.ttf -misc-jetbrainsmono nfm thin-thin-i-normal--0-0-0-0-m-0-koi8-uni
+JetBrainsMonoNerdFontPropo-Bold.ttf -misc-jetbrainsmono nfp-bold-r-normal--0-0-0-0-p-0-iso10646-1
+JetBrainsMonoNerdFontPropo-Bold.ttf -misc-jetbrainsmono nfp-bold-r-normal--0-0-0-0-p-0-iso8859-1
+JetBrainsMonoNerdFontPropo-Bold.ttf -misc-jetbrainsmono nfp-bold-r-normal--0-0-0-0-p-0-iso8859-10
+JetBrainsMonoNerdFontPropo-Bold.ttf -misc-jetbrainsmono nfp-bold-r-normal--0-0-0-0-p-0-iso8859-15
+JetBrainsMonoNerdFontPropo-Bold.ttf -misc-jetbrainsmono nfp-bold-r-normal--0-0-0-0-p-0-iso8859-2
+JetBrainsMonoNerdFontPropo-Bold.ttf -misc-jetbrainsmono nfp-bold-r-normal--0-0-0-0-p-0-iso8859-3
+JetBrainsMonoNerdFontPropo-Bold.ttf -misc-jetbrainsmono nfp-bold-r-normal--0-0-0-0-p-0-iso8859-4
+JetBrainsMonoNerdFontPropo-Bold.ttf -misc-jetbrainsmono nfp-bold-r-normal--0-0-0-0-p-0-iso8859-5
+JetBrainsMonoNerdFontPropo-Bold.ttf -misc-jetbrainsmono nfp-bold-r-normal--0-0-0-0-p-0-iso8859-9
+JetBrainsMonoNerdFontPropo-Bold.ttf -misc-jetbrainsmono nfp-bold-r-normal--0-0-0-0-p-0-koi8-e
+JetBrainsMonoNerdFontPropo-Bold.ttf -misc-jetbrainsmono nfp-bold-r-normal--0-0-0-0-p-0-koi8-r
+JetBrainsMonoNerdFontPropo-Bold.ttf -misc-jetbrainsmono nfp-bold-r-normal--0-0-0-0-p-0-koi8-ru
+JetBrainsMonoNerdFontPropo-Bold.ttf -misc-jetbrainsmono nfp-bold-r-normal--0-0-0-0-p-0-koi8-u
+JetBrainsMonoNerdFontPropo-Bold.ttf -misc-jetbrainsmono nfp-bold-r-normal--0-0-0-0-p-0-koi8-uni
+JetBrainsMonoNerdFontPropo-BoldItalic.ttf -misc-jetbrainsmono nfp-bold-i-normal--0-0-0-0-p-0-iso10646-1
+JetBrainsMonoNerdFontPropo-BoldItalic.ttf -misc-jetbrainsmono nfp-bold-i-normal--0-0-0-0-p-0-iso8859-1
+JetBrainsMonoNerdFontPropo-BoldItalic.ttf -misc-jetbrainsmono nfp-bold-i-normal--0-0-0-0-p-0-iso8859-10
+JetBrainsMonoNerdFontPropo-BoldItalic.ttf -misc-jetbrainsmono nfp-bold-i-normal--0-0-0-0-p-0-iso8859-15
+JetBrainsMonoNerdFontPropo-BoldItalic.ttf -misc-jetbrainsmono nfp-bold-i-normal--0-0-0-0-p-0-iso8859-2
+JetBrainsMonoNerdFontPropo-BoldItalic.ttf -misc-jetbrainsmono nfp-bold-i-normal--0-0-0-0-p-0-iso8859-3
+JetBrainsMonoNerdFontPropo-BoldItalic.ttf -misc-jetbrainsmono nfp-bold-i-normal--0-0-0-0-p-0-iso8859-4
+JetBrainsMonoNerdFontPropo-BoldItalic.ttf -misc-jetbrainsmono nfp-bold-i-normal--0-0-0-0-p-0-iso8859-5
+JetBrainsMonoNerdFontPropo-BoldItalic.ttf -misc-jetbrainsmono nfp-bold-i-normal--0-0-0-0-p-0-iso8859-9
+JetBrainsMonoNerdFontPropo-BoldItalic.ttf -misc-jetbrainsmono nfp-bold-i-normal--0-0-0-0-p-0-koi8-e
+JetBrainsMonoNerdFontPropo-BoldItalic.ttf -misc-jetbrainsmono nfp-bold-i-normal--0-0-0-0-p-0-koi8-r
+JetBrainsMonoNerdFontPropo-BoldItalic.ttf -misc-jetbrainsmono nfp-bold-i-normal--0-0-0-0-p-0-koi8-ru
+JetBrainsMonoNerdFontPropo-BoldItalic.ttf -misc-jetbrainsmono nfp-bold-i-normal--0-0-0-0-p-0-koi8-u
+JetBrainsMonoNerdFontPropo-BoldItalic.ttf -misc-jetbrainsmono nfp-bold-i-normal--0-0-0-0-p-0-koi8-uni
+JetBrainsMonoNerdFontPropo-ExtraBold.ttf -misc-jetbrainsmono nfp extrabold-extrabold-r-normal--0-0-0-0-p-0-iso10646-1
+JetBrainsMonoNerdFontPropo-ExtraBold.ttf -misc-jetbrainsmono nfp extrabold-extrabold-r-normal--0-0-0-0-p-0-iso8859-1
+JetBrainsMonoNerdFontPropo-ExtraBold.ttf -misc-jetbrainsmono nfp extrabold-extrabold-r-normal--0-0-0-0-p-0-iso8859-10
+JetBrainsMonoNerdFontPropo-ExtraBold.ttf -misc-jetbrainsmono nfp extrabold-extrabold-r-normal--0-0-0-0-p-0-iso8859-15
+JetBrainsMonoNerdFontPropo-ExtraBold.ttf -misc-jetbrainsmono nfp extrabold-extrabold-r-normal--0-0-0-0-p-0-iso8859-2
+JetBrainsMonoNerdFontPropo-ExtraBold.ttf -misc-jetbrainsmono nfp extrabold-extrabold-r-normal--0-0-0-0-p-0-iso8859-3
+JetBrainsMonoNerdFontPropo-ExtraBold.ttf -misc-jetbrainsmono nfp extrabold-extrabold-r-normal--0-0-0-0-p-0-iso8859-4
+JetBrainsMonoNerdFontPropo-ExtraBold.ttf -misc-jetbrainsmono nfp extrabold-extrabold-r-normal--0-0-0-0-p-0-iso8859-5
+JetBrainsMonoNerdFontPropo-ExtraBold.ttf -misc-jetbrainsmono nfp extrabold-extrabold-r-normal--0-0-0-0-p-0-iso8859-9
+JetBrainsMonoNerdFontPropo-ExtraBold.ttf -misc-jetbrainsmono nfp extrabold-extrabold-r-normal--0-0-0-0-p-0-koi8-e
+JetBrainsMonoNerdFontPropo-ExtraBold.ttf -misc-jetbrainsmono nfp extrabold-extrabold-r-normal--0-0-0-0-p-0-koi8-r
+JetBrainsMonoNerdFontPropo-ExtraBold.ttf -misc-jetbrainsmono nfp extrabold-extrabold-r-normal--0-0-0-0-p-0-koi8-ru
+JetBrainsMonoNerdFontPropo-ExtraBold.ttf -misc-jetbrainsmono nfp extrabold-extrabold-r-normal--0-0-0-0-p-0-koi8-u
+JetBrainsMonoNerdFontPropo-ExtraBold.ttf -misc-jetbrainsmono nfp extrabold-extrabold-r-normal--0-0-0-0-p-0-koi8-uni
+JetBrainsMonoNerdFontPropo-ExtraBoldItalic.ttf -misc-jetbrainsmono nfp extrabold-extrabold-i-normal--0-0-0-0-p-0-iso10646-1
+JetBrainsMonoNerdFontPropo-ExtraBoldItalic.ttf -misc-jetbrainsmono nfp extrabold-extrabold-i-normal--0-0-0-0-p-0-iso8859-1
+JetBrainsMonoNerdFontPropo-ExtraBoldItalic.ttf -misc-jetbrainsmono nfp extrabold-extrabold-i-normal--0-0-0-0-p-0-iso8859-10
+JetBrainsMonoNerdFontPropo-ExtraBoldItalic.ttf -misc-jetbrainsmono nfp extrabold-extrabold-i-normal--0-0-0-0-p-0-iso8859-15
+JetBrainsMonoNerdFontPropo-ExtraBoldItalic.ttf -misc-jetbrainsmono nfp extrabold-extrabold-i-normal--0-0-0-0-p-0-iso8859-2
+JetBrainsMonoNerdFontPropo-ExtraBoldItalic.ttf -misc-jetbrainsmono nfp extrabold-extrabold-i-normal--0-0-0-0-p-0-iso8859-3
+JetBrainsMonoNerdFontPropo-ExtraBoldItalic.ttf -misc-jetbrainsmono nfp extrabold-extrabold-i-normal--0-0-0-0-p-0-iso8859-4
+JetBrainsMonoNerdFontPropo-ExtraBoldItalic.ttf -misc-jetbrainsmono nfp extrabold-extrabold-i-normal--0-0-0-0-p-0-iso8859-5
+JetBrainsMonoNerdFontPropo-ExtraBoldItalic.ttf -misc-jetbrainsmono nfp extrabold-extrabold-i-normal--0-0-0-0-p-0-iso8859-9
+JetBrainsMonoNerdFontPropo-ExtraBoldItalic.ttf -misc-jetbrainsmono nfp extrabold-extrabold-i-normal--0-0-0-0-p-0-koi8-e
+JetBrainsMonoNerdFontPropo-ExtraBoldItalic.ttf -misc-jetbrainsmono nfp extrabold-extrabold-i-normal--0-0-0-0-p-0-koi8-r
+JetBrainsMonoNerdFontPropo-ExtraBoldItalic.ttf -misc-jetbrainsmono nfp extrabold-extrabold-i-normal--0-0-0-0-p-0-koi8-ru
+JetBrainsMonoNerdFontPropo-ExtraBoldItalic.ttf -misc-jetbrainsmono nfp extrabold-extrabold-i-normal--0-0-0-0-p-0-koi8-u
+JetBrainsMonoNerdFontPropo-ExtraBoldItalic.ttf -misc-jetbrainsmono nfp extrabold-extrabold-i-normal--0-0-0-0-p-0-koi8-uni
+JetBrainsMonoNerdFontPropo-ExtraLight.ttf -misc-jetbrainsmono nfp extralight-extralight-r-normal--0-0-0-0-p-0-iso10646-1
+JetBrainsMonoNerdFontPropo-ExtraLight.ttf -misc-jetbrainsmono nfp extralight-extralight-r-normal--0-0-0-0-p-0-iso8859-1
+JetBrainsMonoNerdFontPropo-ExtraLight.ttf -misc-jetbrainsmono nfp extralight-extralight-r-normal--0-0-0-0-p-0-iso8859-10
+JetBrainsMonoNerdFontPropo-ExtraLight.ttf -misc-jetbrainsmono nfp extralight-extralight-r-normal--0-0-0-0-p-0-iso8859-15
+JetBrainsMonoNerdFontPropo-ExtraLight.ttf -misc-jetbrainsmono nfp extralight-extralight-r-normal--0-0-0-0-p-0-iso8859-2
+JetBrainsMonoNerdFontPropo-ExtraLight.ttf -misc-jetbrainsmono nfp extralight-extralight-r-normal--0-0-0-0-p-0-iso8859-3
+JetBrainsMonoNerdFontPropo-ExtraLight.ttf -misc-jetbrainsmono nfp extralight-extralight-r-normal--0-0-0-0-p-0-iso8859-4
+JetBrainsMonoNerdFontPropo-ExtraLight.ttf -misc-jetbrainsmono nfp extralight-extralight-r-normal--0-0-0-0-p-0-iso8859-5
+JetBrainsMonoNerdFontPropo-ExtraLight.ttf -misc-jetbrainsmono nfp extralight-extralight-r-normal--0-0-0-0-p-0-iso8859-9
+JetBrainsMonoNerdFontPropo-ExtraLight.ttf -misc-jetbrainsmono nfp extralight-extralight-r-normal--0-0-0-0-p-0-koi8-e
+JetBrainsMonoNerdFontPropo-ExtraLight.ttf -misc-jetbrainsmono nfp extralight-extralight-r-normal--0-0-0-0-p-0-koi8-r
+JetBrainsMonoNerdFontPropo-ExtraLight.ttf -misc-jetbrainsmono nfp extralight-extralight-r-normal--0-0-0-0-p-0-koi8-ru
+JetBrainsMonoNerdFontPropo-ExtraLight.ttf -misc-jetbrainsmono nfp extralight-extralight-r-normal--0-0-0-0-p-0-koi8-u
+JetBrainsMonoNerdFontPropo-ExtraLight.ttf -misc-jetbrainsmono nfp extralight-extralight-r-normal--0-0-0-0-p-0-koi8-uni
+JetBrainsMonoNerdFontPropo-ExtraLightItalic.ttf -misc-jetbrainsmono nfp extralight-extralight-i-normal--0-0-0-0-p-0-iso10646-1
+JetBrainsMonoNerdFontPropo-ExtraLightItalic.ttf -misc-jetbrainsmono nfp extralight-extralight-i-normal--0-0-0-0-p-0-iso8859-1
+JetBrainsMonoNerdFontPropo-ExtraLightItalic.ttf -misc-jetbrainsmono nfp extralight-extralight-i-normal--0-0-0-0-p-0-iso8859-10
+JetBrainsMonoNerdFontPropo-ExtraLightItalic.ttf -misc-jetbrainsmono nfp extralight-extralight-i-normal--0-0-0-0-p-0-iso8859-15
+JetBrainsMonoNerdFontPropo-ExtraLightItalic.ttf -misc-jetbrainsmono nfp extralight-extralight-i-normal--0-0-0-0-p-0-iso8859-2
+JetBrainsMonoNerdFontPropo-ExtraLightItalic.ttf -misc-jetbrainsmono nfp extralight-extralight-i-normal--0-0-0-0-p-0-iso8859-3
+JetBrainsMonoNerdFontPropo-ExtraLightItalic.ttf -misc-jetbrainsmono nfp extralight-extralight-i-normal--0-0-0-0-p-0-iso8859-4
+JetBrainsMonoNerdFontPropo-ExtraLightItalic.ttf -misc-jetbrainsmono nfp extralight-extralight-i-normal--0-0-0-0-p-0-iso8859-5
+JetBrainsMonoNerdFontPropo-ExtraLightItalic.ttf -misc-jetbrainsmono nfp extralight-extralight-i-normal--0-0-0-0-p-0-iso8859-9
+JetBrainsMonoNerdFontPropo-ExtraLightItalic.ttf -misc-jetbrainsmono nfp extralight-extralight-i-normal--0-0-0-0-p-0-koi8-e
+JetBrainsMonoNerdFontPropo-ExtraLightItalic.ttf -misc-jetbrainsmono nfp extralight-extralight-i-normal--0-0-0-0-p-0-koi8-r
+JetBrainsMonoNerdFontPropo-ExtraLightItalic.ttf -misc-jetbrainsmono nfp extralight-extralight-i-normal--0-0-0-0-p-0-koi8-ru
+JetBrainsMonoNerdFontPropo-ExtraLightItalic.ttf -misc-jetbrainsmono nfp extralight-extralight-i-normal--0-0-0-0-p-0-koi8-u
+JetBrainsMonoNerdFontPropo-ExtraLightItalic.ttf -misc-jetbrainsmono nfp extralight-extralight-i-normal--0-0-0-0-p-0-koi8-uni
+JetBrainsMonoNerdFontPropo-Italic.ttf -misc-jetbrainsmono nfp-medium-i-normal--0-0-0-0-p-0-iso10646-1
+JetBrainsMonoNerdFontPropo-Italic.ttf -misc-jetbrainsmono nfp-medium-i-normal--0-0-0-0-p-0-iso8859-1
+JetBrainsMonoNerdFontPropo-Italic.ttf -misc-jetbrainsmono nfp-medium-i-normal--0-0-0-0-p-0-iso8859-10
+JetBrainsMonoNerdFontPropo-Italic.ttf -misc-jetbrainsmono nfp-medium-i-normal--0-0-0-0-p-0-iso8859-15
+JetBrainsMonoNerdFontPropo-Italic.ttf -misc-jetbrainsmono nfp-medium-i-normal--0-0-0-0-p-0-iso8859-2
+JetBrainsMonoNerdFontPropo-Italic.ttf -misc-jetbrainsmono nfp-medium-i-normal--0-0-0-0-p-0-iso8859-3
+JetBrainsMonoNerdFontPropo-Italic.ttf -misc-jetbrainsmono nfp-medium-i-normal--0-0-0-0-p-0-iso8859-4
+JetBrainsMonoNerdFontPropo-Italic.ttf -misc-jetbrainsmono nfp-medium-i-normal--0-0-0-0-p-0-iso8859-5
+JetBrainsMonoNerdFontPropo-Italic.ttf -misc-jetbrainsmono nfp-medium-i-normal--0-0-0-0-p-0-iso8859-9
+JetBrainsMonoNerdFontPropo-Italic.ttf -misc-jetbrainsmono nfp-medium-i-normal--0-0-0-0-p-0-koi8-e
+JetBrainsMonoNerdFontPropo-Italic.ttf -misc-jetbrainsmono nfp-medium-i-normal--0-0-0-0-p-0-koi8-r
+JetBrainsMonoNerdFontPropo-Italic.ttf -misc-jetbrainsmono nfp-medium-i-normal--0-0-0-0-p-0-koi8-ru
+JetBrainsMonoNerdFontPropo-Italic.ttf -misc-jetbrainsmono nfp-medium-i-normal--0-0-0-0-p-0-koi8-u
+JetBrainsMonoNerdFontPropo-Italic.ttf -misc-jetbrainsmono nfp-medium-i-normal--0-0-0-0-p-0-koi8-uni
+JetBrainsMonoNerdFontPropo-Light.ttf -misc-jetbrainsmono nfp light-light-r-normal--0-0-0-0-p-0-iso10646-1
+JetBrainsMonoNerdFontPropo-Light.ttf -misc-jetbrainsmono nfp light-light-r-normal--0-0-0-0-p-0-iso8859-1
+JetBrainsMonoNerdFontPropo-Light.ttf -misc-jetbrainsmono nfp light-light-r-normal--0-0-0-0-p-0-iso8859-10
+JetBrainsMonoNerdFontPropo-Light.ttf -misc-jetbrainsmono nfp light-light-r-normal--0-0-0-0-p-0-iso8859-15
+JetBrainsMonoNerdFontPropo-Light.ttf -misc-jetbrainsmono nfp light-light-r-normal--0-0-0-0-p-0-iso8859-2
+JetBrainsMonoNerdFontPropo-Light.ttf -misc-jetbrainsmono nfp light-light-r-normal--0-0-0-0-p-0-iso8859-3
+JetBrainsMonoNerdFontPropo-Light.ttf -misc-jetbrainsmono nfp light-light-r-normal--0-0-0-0-p-0-iso8859-4
+JetBrainsMonoNerdFontPropo-Light.ttf -misc-jetbrainsmono nfp light-light-r-normal--0-0-0-0-p-0-iso8859-5
+JetBrainsMonoNerdFontPropo-Light.ttf -misc-jetbrainsmono nfp light-light-r-normal--0-0-0-0-p-0-iso8859-9
+JetBrainsMonoNerdFontPropo-Light.ttf -misc-jetbrainsmono nfp light-light-r-normal--0-0-0-0-p-0-koi8-e
+JetBrainsMonoNerdFontPropo-Light.ttf -misc-jetbrainsmono nfp light-light-r-normal--0-0-0-0-p-0-koi8-r
+JetBrainsMonoNerdFontPropo-Light.ttf -misc-jetbrainsmono nfp light-light-r-normal--0-0-0-0-p-0-koi8-ru
+JetBrainsMonoNerdFontPropo-Light.ttf -misc-jetbrainsmono nfp light-light-r-normal--0-0-0-0-p-0-koi8-u
+JetBrainsMonoNerdFontPropo-Light.ttf -misc-jetbrainsmono nfp light-light-r-normal--0-0-0-0-p-0-koi8-uni
+JetBrainsMonoNerdFontPropo-LightItalic.ttf -misc-jetbrainsmono nfp light-light-i-normal--0-0-0-0-p-0-iso10646-1
+JetBrainsMonoNerdFontPropo-LightItalic.ttf -misc-jetbrainsmono nfp light-light-i-normal--0-0-0-0-p-0-iso8859-1
+JetBrainsMonoNerdFontPropo-LightItalic.ttf -misc-jetbrainsmono nfp light-light-i-normal--0-0-0-0-p-0-iso8859-10
+JetBrainsMonoNerdFontPropo-LightItalic.ttf -misc-jetbrainsmono nfp light-light-i-normal--0-0-0-0-p-0-iso8859-15
+JetBrainsMonoNerdFontPropo-LightItalic.ttf -misc-jetbrainsmono nfp light-light-i-normal--0-0-0-0-p-0-iso8859-2
+JetBrainsMonoNerdFontPropo-LightItalic.ttf -misc-jetbrainsmono nfp light-light-i-normal--0-0-0-0-p-0-iso8859-3
+JetBrainsMonoNerdFontPropo-LightItalic.ttf -misc-jetbrainsmono nfp light-light-i-normal--0-0-0-0-p-0-iso8859-4
+JetBrainsMonoNerdFontPropo-LightItalic.ttf -misc-jetbrainsmono nfp light-light-i-normal--0-0-0-0-p-0-iso8859-5
+JetBrainsMonoNerdFontPropo-LightItalic.ttf -misc-jetbrainsmono nfp light-light-i-normal--0-0-0-0-p-0-iso8859-9
+JetBrainsMonoNerdFontPropo-LightItalic.ttf -misc-jetbrainsmono nfp light-light-i-normal--0-0-0-0-p-0-koi8-e
+JetBrainsMonoNerdFontPropo-LightItalic.ttf -misc-jetbrainsmono nfp light-light-i-normal--0-0-0-0-p-0-koi8-r
+JetBrainsMonoNerdFontPropo-LightItalic.ttf -misc-jetbrainsmono nfp light-light-i-normal--0-0-0-0-p-0-koi8-ru
+JetBrainsMonoNerdFontPropo-LightItalic.ttf -misc-jetbrainsmono nfp light-light-i-normal--0-0-0-0-p-0-koi8-u
+JetBrainsMonoNerdFontPropo-LightItalic.ttf -misc-jetbrainsmono nfp light-light-i-normal--0-0-0-0-p-0-koi8-uni
+JetBrainsMonoNerdFontPropo-Medium.ttf -misc-jetbrainsmono nfp medium-medium-r-normal--0-0-0-0-p-0-iso10646-1
+JetBrainsMonoNerdFontPropo-Medium.ttf -misc-jetbrainsmono nfp medium-medium-r-normal--0-0-0-0-p-0-iso8859-1
+JetBrainsMonoNerdFontPropo-Medium.ttf -misc-jetbrainsmono nfp medium-medium-r-normal--0-0-0-0-p-0-iso8859-10
+JetBrainsMonoNerdFontPropo-Medium.ttf -misc-jetbrainsmono nfp medium-medium-r-normal--0-0-0-0-p-0-iso8859-15
+JetBrainsMonoNerdFontPropo-Medium.ttf -misc-jetbrainsmono nfp medium-medium-r-normal--0-0-0-0-p-0-iso8859-2
+JetBrainsMonoNerdFontPropo-Medium.ttf -misc-jetbrainsmono nfp medium-medium-r-normal--0-0-0-0-p-0-iso8859-3
+JetBrainsMonoNerdFontPropo-Medium.ttf -misc-jetbrainsmono nfp medium-medium-r-normal--0-0-0-0-p-0-iso8859-4
+JetBrainsMonoNerdFontPropo-Medium.ttf -misc-jetbrainsmono nfp medium-medium-r-normal--0-0-0-0-p-0-iso8859-5
+JetBrainsMonoNerdFontPropo-Medium.ttf -misc-jetbrainsmono nfp medium-medium-r-normal--0-0-0-0-p-0-iso8859-9
+JetBrainsMonoNerdFontPropo-Medium.ttf -misc-jetbrainsmono nfp medium-medium-r-normal--0-0-0-0-p-0-koi8-e
+JetBrainsMonoNerdFontPropo-Medium.ttf -misc-jetbrainsmono nfp medium-medium-r-normal--0-0-0-0-p-0-koi8-r
+JetBrainsMonoNerdFontPropo-Medium.ttf -misc-jetbrainsmono nfp medium-medium-r-normal--0-0-0-0-p-0-koi8-ru
+JetBrainsMonoNerdFontPropo-Medium.ttf -misc-jetbrainsmono nfp medium-medium-r-normal--0-0-0-0-p-0-koi8-u
+JetBrainsMonoNerdFontPropo-Medium.ttf -misc-jetbrainsmono nfp medium-medium-r-normal--0-0-0-0-p-0-koi8-uni
+JetBrainsMonoNerdFontPropo-MediumItalic.ttf -misc-jetbrainsmono nfp medium-medium-i-normal--0-0-0-0-p-0-iso10646-1
+JetBrainsMonoNerdFontPropo-MediumItalic.ttf -misc-jetbrainsmono nfp medium-medium-i-normal--0-0-0-0-p-0-iso8859-1
+JetBrainsMonoNerdFontPropo-MediumItalic.ttf -misc-jetbrainsmono nfp medium-medium-i-normal--0-0-0-0-p-0-iso8859-10
+JetBrainsMonoNerdFontPropo-MediumItalic.ttf -misc-jetbrainsmono nfp medium-medium-i-normal--0-0-0-0-p-0-iso8859-15
+JetBrainsMonoNerdFontPropo-MediumItalic.ttf -misc-jetbrainsmono nfp medium-medium-i-normal--0-0-0-0-p-0-iso8859-2
+JetBrainsMonoNerdFontPropo-MediumItalic.ttf -misc-jetbrainsmono nfp medium-medium-i-normal--0-0-0-0-p-0-iso8859-3
+JetBrainsMonoNerdFontPropo-MediumItalic.ttf -misc-jetbrainsmono nfp medium-medium-i-normal--0-0-0-0-p-0-iso8859-4
+JetBrainsMonoNerdFontPropo-MediumItalic.ttf -misc-jetbrainsmono nfp medium-medium-i-normal--0-0-0-0-p-0-iso8859-5
+JetBrainsMonoNerdFontPropo-MediumItalic.ttf -misc-jetbrainsmono nfp medium-medium-i-normal--0-0-0-0-p-0-iso8859-9
+JetBrainsMonoNerdFontPropo-MediumItalic.ttf -misc-jetbrainsmono nfp medium-medium-i-normal--0-0-0-0-p-0-koi8-e
+JetBrainsMonoNerdFontPropo-MediumItalic.ttf -misc-jetbrainsmono nfp medium-medium-i-normal--0-0-0-0-p-0-koi8-r
+JetBrainsMonoNerdFontPropo-MediumItalic.ttf -misc-jetbrainsmono nfp medium-medium-i-normal--0-0-0-0-p-0-koi8-ru
+JetBrainsMonoNerdFontPropo-MediumItalic.ttf -misc-jetbrainsmono nfp medium-medium-i-normal--0-0-0-0-p-0-koi8-u
+JetBrainsMonoNerdFontPropo-MediumItalic.ttf -misc-jetbrainsmono nfp medium-medium-i-normal--0-0-0-0-p-0-koi8-uni
+JetBrainsMonoNerdFontPropo-Regular.ttf -misc-jetbrainsmono nfp-medium-r-normal--0-0-0-0-p-0-iso10646-1
+JetBrainsMonoNerdFontPropo-Regular.ttf -misc-jetbrainsmono nfp-medium-r-normal--0-0-0-0-p-0-iso8859-1
+JetBrainsMonoNerdFontPropo-Regular.ttf -misc-jetbrainsmono nfp-medium-r-normal--0-0-0-0-p-0-iso8859-10
+JetBrainsMonoNerdFontPropo-Regular.ttf -misc-jetbrainsmono nfp-medium-r-normal--0-0-0-0-p-0-iso8859-15
+JetBrainsMonoNerdFontPropo-Regular.ttf -misc-jetbrainsmono nfp-medium-r-normal--0-0-0-0-p-0-iso8859-2
+JetBrainsMonoNerdFontPropo-Regular.ttf -misc-jetbrainsmono nfp-medium-r-normal--0-0-0-0-p-0-iso8859-3
+JetBrainsMonoNerdFontPropo-Regular.ttf -misc-jetbrainsmono nfp-medium-r-normal--0-0-0-0-p-0-iso8859-4
+JetBrainsMonoNerdFontPropo-Regular.ttf -misc-jetbrainsmono nfp-medium-r-normal--0-0-0-0-p-0-iso8859-5
+JetBrainsMonoNerdFontPropo-Regular.ttf -misc-jetbrainsmono nfp-medium-r-normal--0-0-0-0-p-0-iso8859-9
+JetBrainsMonoNerdFontPropo-Regular.ttf -misc-jetbrainsmono nfp-medium-r-normal--0-0-0-0-p-0-koi8-e
+JetBrainsMonoNerdFontPropo-Regular.ttf -misc-jetbrainsmono nfp-medium-r-normal--0-0-0-0-p-0-koi8-r
+JetBrainsMonoNerdFontPropo-Regular.ttf -misc-jetbrainsmono nfp-medium-r-normal--0-0-0-0-p-0-koi8-ru
+JetBrainsMonoNerdFontPropo-Regular.ttf -misc-jetbrainsmono nfp-medium-r-normal--0-0-0-0-p-0-koi8-u
+JetBrainsMonoNerdFontPropo-Regular.ttf -misc-jetbrainsmono nfp-medium-r-normal--0-0-0-0-p-0-koi8-uni
+JetBrainsMonoNerdFontPropo-SemiBold.ttf -misc-jetbrainsmono nfp semibold-semibold-r-normal--0-0-0-0-p-0-iso10646-1
+JetBrainsMonoNerdFontPropo-SemiBold.ttf -misc-jetbrainsmono nfp semibold-semibold-r-normal--0-0-0-0-p-0-iso8859-1
+JetBrainsMonoNerdFontPropo-SemiBold.ttf -misc-jetbrainsmono nfp semibold-semibold-r-normal--0-0-0-0-p-0-iso8859-10
+JetBrainsMonoNerdFontPropo-SemiBold.ttf -misc-jetbrainsmono nfp semibold-semibold-r-normal--0-0-0-0-p-0-iso8859-15
+JetBrainsMonoNerdFontPropo-SemiBold.ttf -misc-jetbrainsmono nfp semibold-semibold-r-normal--0-0-0-0-p-0-iso8859-2
+JetBrainsMonoNerdFontPropo-SemiBold.ttf -misc-jetbrainsmono nfp semibold-semibold-r-normal--0-0-0-0-p-0-iso8859-3
+JetBrainsMonoNerdFontPropo-SemiBold.ttf -misc-jetbrainsmono nfp semibold-semibold-r-normal--0-0-0-0-p-0-iso8859-4
+JetBrainsMonoNerdFontPropo-SemiBold.ttf -misc-jetbrainsmono nfp semibold-semibold-r-normal--0-0-0-0-p-0-iso8859-5
+JetBrainsMonoNerdFontPropo-SemiBold.ttf -misc-jetbrainsmono nfp semibold-semibold-r-normal--0-0-0-0-p-0-iso8859-9
+JetBrainsMonoNerdFontPropo-SemiBold.ttf -misc-jetbrainsmono nfp semibold-semibold-r-normal--0-0-0-0-p-0-koi8-e
+JetBrainsMonoNerdFontPropo-SemiBold.ttf -misc-jetbrainsmono nfp semibold-semibold-r-normal--0-0-0-0-p-0-koi8-r
+JetBrainsMonoNerdFontPropo-SemiBold.ttf -misc-jetbrainsmono nfp semibold-semibold-r-normal--0-0-0-0-p-0-koi8-ru
+JetBrainsMonoNerdFontPropo-SemiBold.ttf -misc-jetbrainsmono nfp semibold-semibold-r-normal--0-0-0-0-p-0-koi8-u
+JetBrainsMonoNerdFontPropo-SemiBold.ttf -misc-jetbrainsmono nfp semibold-semibold-r-normal--0-0-0-0-p-0-koi8-uni
+JetBrainsMonoNerdFontPropo-SemiBoldItalic.ttf -misc-jetbrainsmono nfp semibold-semibold-i-normal--0-0-0-0-p-0-iso10646-1
+JetBrainsMonoNerdFontPropo-SemiBoldItalic.ttf -misc-jetbrainsmono nfp semibold-semibold-i-normal--0-0-0-0-p-0-iso8859-1
+JetBrainsMonoNerdFontPropo-SemiBoldItalic.ttf -misc-jetbrainsmono nfp semibold-semibold-i-normal--0-0-0-0-p-0-iso8859-10
+JetBrainsMonoNerdFontPropo-SemiBoldItalic.ttf -misc-jetbrainsmono nfp semibold-semibold-i-normal--0-0-0-0-p-0-iso8859-15
+JetBrainsMonoNerdFontPropo-SemiBoldItalic.ttf -misc-jetbrainsmono nfp semibold-semibold-i-normal--0-0-0-0-p-0-iso8859-2
+JetBrainsMonoNerdFontPropo-SemiBoldItalic.ttf -misc-jetbrainsmono nfp semibold-semibold-i-normal--0-0-0-0-p-0-iso8859-3
+JetBrainsMonoNerdFontPropo-SemiBoldItalic.ttf -misc-jetbrainsmono nfp semibold-semibold-i-normal--0-0-0-0-p-0-iso8859-4
+JetBrainsMonoNerdFontPropo-SemiBoldItalic.ttf -misc-jetbrainsmono nfp semibold-semibold-i-normal--0-0-0-0-p-0-iso8859-5
+JetBrainsMonoNerdFontPropo-SemiBoldItalic.ttf -misc-jetbrainsmono nfp semibold-semibold-i-normal--0-0-0-0-p-0-iso8859-9
+JetBrainsMonoNerdFontPropo-SemiBoldItalic.ttf -misc-jetbrainsmono nfp semibold-semibold-i-normal--0-0-0-0-p-0-koi8-e
+JetBrainsMonoNerdFontPropo-SemiBoldItalic.ttf -misc-jetbrainsmono nfp semibold-semibold-i-normal--0-0-0-0-p-0-koi8-r
+JetBrainsMonoNerdFontPropo-SemiBoldItalic.ttf -misc-jetbrainsmono nfp semibold-semibold-i-normal--0-0-0-0-p-0-koi8-ru
+JetBrainsMonoNerdFontPropo-SemiBoldItalic.ttf -misc-jetbrainsmono nfp semibold-semibold-i-normal--0-0-0-0-p-0-koi8-u
+JetBrainsMonoNerdFontPropo-SemiBoldItalic.ttf -misc-jetbrainsmono nfp semibold-semibold-i-normal--0-0-0-0-p-0-koi8-uni
+JetBrainsMonoNerdFontPropo-Thin.ttf -misc-jetbrainsmono nfp thin-thin-r-normal--0-0-0-0-p-0-iso10646-1
+JetBrainsMonoNerdFontPropo-Thin.ttf -misc-jetbrainsmono nfp thin-thin-r-normal--0-0-0-0-p-0-iso8859-1
+JetBrainsMonoNerdFontPropo-Thin.ttf -misc-jetbrainsmono nfp thin-thin-r-normal--0-0-0-0-p-0-iso8859-10
+JetBrainsMonoNerdFontPropo-Thin.ttf -misc-jetbrainsmono nfp thin-thin-r-normal--0-0-0-0-p-0-iso8859-15
+JetBrainsMonoNerdFontPropo-Thin.ttf -misc-jetbrainsmono nfp thin-thin-r-normal--0-0-0-0-p-0-iso8859-2
+JetBrainsMonoNerdFontPropo-Thin.ttf -misc-jetbrainsmono nfp thin-thin-r-normal--0-0-0-0-p-0-iso8859-3
+JetBrainsMonoNerdFontPropo-Thin.ttf -misc-jetbrainsmono nfp thin-thin-r-normal--0-0-0-0-p-0-iso8859-4
+JetBrainsMonoNerdFontPropo-Thin.ttf -misc-jetbrainsmono nfp thin-thin-r-normal--0-0-0-0-p-0-iso8859-5
+JetBrainsMonoNerdFontPropo-Thin.ttf -misc-jetbrainsmono nfp thin-thin-r-normal--0-0-0-0-p-0-iso8859-9
+JetBrainsMonoNerdFontPropo-Thin.ttf -misc-jetbrainsmono nfp thin-thin-r-normal--0-0-0-0-p-0-koi8-e
+JetBrainsMonoNerdFontPropo-Thin.ttf -misc-jetbrainsmono nfp thin-thin-r-normal--0-0-0-0-p-0-koi8-r
+JetBrainsMonoNerdFontPropo-Thin.ttf -misc-jetbrainsmono nfp thin-thin-r-normal--0-0-0-0-p-0-koi8-ru
+JetBrainsMonoNerdFontPropo-Thin.ttf -misc-jetbrainsmono nfp thin-thin-r-normal--0-0-0-0-p-0-koi8-u
+JetBrainsMonoNerdFontPropo-Thin.ttf -misc-jetbrainsmono nfp thin-thin-r-normal--0-0-0-0-p-0-koi8-uni
+JetBrainsMonoNerdFontPropo-ThinItalic.ttf -misc-jetbrainsmono nfp thin-thin-i-normal--0-0-0-0-p-0-iso10646-1
+JetBrainsMonoNerdFontPropo-ThinItalic.ttf -misc-jetbrainsmono nfp thin-thin-i-normal--0-0-0-0-p-0-iso8859-1
+JetBrainsMonoNerdFontPropo-ThinItalic.ttf -misc-jetbrainsmono nfp thin-thin-i-normal--0-0-0-0-p-0-iso8859-10
+JetBrainsMonoNerdFontPropo-ThinItalic.ttf -misc-jetbrainsmono nfp thin-thin-i-normal--0-0-0-0-p-0-iso8859-15
+JetBrainsMonoNerdFontPropo-ThinItalic.ttf -misc-jetbrainsmono nfp thin-thin-i-normal--0-0-0-0-p-0-iso8859-2
+JetBrainsMonoNerdFontPropo-ThinItalic.ttf -misc-jetbrainsmono nfp thin-thin-i-normal--0-0-0-0-p-0-iso8859-3
+JetBrainsMonoNerdFontPropo-ThinItalic.ttf -misc-jetbrainsmono nfp thin-thin-i-normal--0-0-0-0-p-0-iso8859-4
+JetBrainsMonoNerdFontPropo-ThinItalic.ttf -misc-jetbrainsmono nfp thin-thin-i-normal--0-0-0-0-p-0-iso8859-5
+JetBrainsMonoNerdFontPropo-ThinItalic.ttf -misc-jetbrainsmono nfp thin-thin-i-normal--0-0-0-0-p-0-iso8859-9
+JetBrainsMonoNerdFontPropo-ThinItalic.ttf -misc-jetbrainsmono nfp thin-thin-i-normal--0-0-0-0-p-0-koi8-e
+JetBrainsMonoNerdFontPropo-ThinItalic.ttf -misc-jetbrainsmono nfp thin-thin-i-normal--0-0-0-0-p-0-koi8-r
+JetBrainsMonoNerdFontPropo-ThinItalic.ttf -misc-jetbrainsmono nfp thin-thin-i-normal--0-0-0-0-p-0-koi8-ru
+JetBrainsMonoNerdFontPropo-ThinItalic.ttf -misc-jetbrainsmono nfp thin-thin-i-normal--0-0-0-0-p-0-koi8-u
+JetBrainsMonoNerdFontPropo-ThinItalic.ttf -misc-jetbrainsmono nfp thin-thin-i-normal--0-0-0-0-p-0-koi8-uni
