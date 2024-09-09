@@ -112,4 +112,11 @@ if [[ -r /usr/sbin/ether-wake ]]; then
     alias wakeup='sudo ether-wake -i eth0'
 fi
 
+# GitHub Notes system
+if [[ -r /usr/bin/gh ]]; then
+    alias note="gh gist edit $GIST_GENERAL"
+    alias kb="gh gist edit $GIST_KNOWLEDGE"
+    alias todo="gh gist edit $GIST_TODO"
+fi
+
 # EOF
