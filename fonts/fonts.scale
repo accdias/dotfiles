@@ -1,4 +1,4 @@
-2784
+2786
 3270NerdFont-Condensed.ttf -misc-3270 nerd font cond-medium-r-normal--0-0-0-0-m-0-iso10646-1
 3270NerdFont-Condensed.ttf -misc-3270 nerd font cond-medium-r-normal--0-0-0-0-m-0-iso8859-1
 3270NerdFont-Condensed.ttf -misc-3270 nerd font cond-medium-r-normal--0-0-0-0-m-0-iso8859-10
@@ -1733,6 +1733,8 @@ JetBrainsMonoNerdFontPropo-ThinItalic.ttf -misc-jetbrainsmono nfp thin-thin-i-no
 JetBrainsMonoNerdFontPropo-ThinItalic.ttf -misc-jetbrainsmono nfp thin-thin-i-normal--0-0-0-0-p-0-koi8-ru
 JetBrainsMonoNerdFontPropo-ThinItalic.ttf -misc-jetbrainsmono nfp thin-thin-i-normal--0-0-0-0-p-0-koi8-u
 JetBrainsMonoNerdFontPropo-ThinItalic.ttf -misc-jetbrainsmono nfp thin-thin-i-normal--0-0-0-0-p-0-koi8-uni
+SymbolsNerdFont-Regular.ttf -misc-symbols nerd font-medium-r-normal--0-0-0-0-p-0-iso10646-1
+SymbolsNerdFontMono-Regular.ttf -misc-symbols nerd font mono-medium-r-normal--0-0-0-0-m-0-iso10646-1
 UbuntuMonoNerdFont-Bold.ttf -misc-ubuntumono nerd font-bold-r-normal--0-0-0-0-m-0-iso10646-1
 UbuntuMonoNerdFont-Bold.ttf -misc-ubuntumono nerd font-bold-r-normal--0-0-0-0-m-0-iso8859-1
 UbuntuMonoNerdFont-Bold.ttf -misc-ubuntumono nerd font-bold-r-normal--0-0-0-0-m-0-iso8859-10
