@@ -134,3 +134,13 @@ else
 fi
 unset __conda_setup
 # <<< conda initialize <<<
+#
+# Use kfc to set the terminal theme
+# dnf install -y kfc
+[[ -x "$(command -v kfc)" ]] && kfc -s vscode
+
+# Init starship prompt
+if [[ -x "$(command -v starship)" ]]; then
+    source <(starship init bash --print-full-init)
+    source <(starship completions bash)
+fi

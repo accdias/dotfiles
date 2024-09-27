@@ -82,15 +82,5 @@ export PYGAME_HIDE_SUPPORT_PROMPT=yes
 # Set default directory for config files
 export XDG_CONFIG_HOME="${XDG_CONFIG_HOME:-${HOME}/.config}"
 
-# Use kfc to set the terminal theme
-# dnf install -y kfc
-[[ -x "$(command -v kfc)" ]] && kfc -s vscode
-
-# Init starship prompt
-if [[ -r /usr/bin/starship ]]; then
-    source <(starship init bash --print-full-init)
-    source <(starship completions bash)
-fi
-
 # JIC
 tput init
