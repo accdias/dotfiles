@@ -8,6 +8,7 @@ set nocompatible                        " Use Vim defaults options
 set encoding=utf8 nobomb                " Display UTF-8 characters set
 set fileencoding=utf8                   " Save files in UTF-8 enconding
 scriptencoding utf8                     " Configuration file is in UTF-8
+set spelllang=en_us,pt_br               " Set spell check languages
 
 " Use the operating system clipboard by default
 if has('clipboard')
