@@ -175,6 +175,9 @@ autocmd InsertLeave * match EOLWhiteSpaces /\\\@<![\u3000[:space:]]\+$/
 let mapleader=','
 let maplocalleader=','
 
+" Map w!! to save the current buffer using sudo
+cmap w!! w !sudo tee > /dev/null %
+
 " Use <Leader>> and <Leader>< to page between buffers
 noremap <silent><Leader>< :bp<cr>
 noremap <silent><Leader>> :bn<cr>
