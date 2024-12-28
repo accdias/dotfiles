@@ -346,7 +346,10 @@ freetype-load-flags = hinting,force-autohint,monochrome,autohint
 #
 #   - macOS: titlebar tabs style is not updated when switching themes.
 #
-#theme =
+#theme = Builtin Tango Dark
+#theme = iTerm2 Tango Dark
+theme = Adventure
+#theme = 3024 Night
 
 # Background color for the window.
 #background = #282c34
@@ -766,7 +769,7 @@ mouse-scroll-multiplier = 1
 # On macOS, background opacity is disabled when the terminal enters native
 # fullscreen. This is because the background becomes gray and it can cause
 # widgets to show through which isn't generally desirable.
-background-opacity = 1
+background-opacity = .95
 
 # A positive value enables blurring of the background when background-opacity
 # is less than 1. The value is the blur radius to apply. A value of 20
