@@ -294,6 +294,7 @@ grapheme-width-method = unicode
 # Example: `hinting`, `no-hinting`, `force-autohint`, `no-force-autohint`
 freetype-load-flags = hinting,force-autohint,monochrome,autohint
 #: }}}
+
 #: Theme {{{
 # A theme to use. This can be a built-in theme name, a custom theme
 # name, or an absolute path to a custom theme file. Ghostty also supports
@@ -653,6 +654,7 @@ palette = 253=#dadada
 palette = 254=#e4e4e4
 palette = 255=#eeeeee
 #: }}}
+
 #: Cursor {{{
 # The color of the cursor. If this is not set, a default will be chosen.
 cursor-color =
@@ -723,8 +725,10 @@ cursor-text =
 # behavior around edge cases are to be expected. This is unfortunately how
 # this feature is implemented across terminals because there isn't any other
 # way to implement it.
-cursor-click-to-move = true
+cursor-click-to-move = false
+
 #: }}}
+
 #: Mouse {{{
 
 # Hide the mouse immediately when typing. The mouse becomes visible again
@@ -769,6 +773,7 @@ mouse-shift-capture = false
 # double the default amount. A value of "0.5" scrolls half the default amount.
 # Et cetera.
 mouse-scroll-multiplier = 1
+
 #: }}}
 
 # The opacity level (opposite of transparency) of the background. A value of
@@ -1632,6 +1637,8 @@ osc-color-report-format = 16-bit
 # need KAM, you don't need it.
 vt-kam-allowed = false
 
+#: Shader {{{
+
 # Custom shaders to run after the default shaders. This is a file path
 # to a GLSL-syntax shader for all platforms.
 #
@@ -1956,7 +1963,9 @@ linux-cgroup-processes-limit =
 # Note: This currently only affects cgroup initialization. Subprocesses
 # must always be able to move themselves into an isolated cgroup.
 linux-cgroup-hard-fail = false
+#: }}}
 
+#: GTK {{{
 # If `true`, the Ghostty GTK application will run in single-instance mode:
 # each new `ghostty` process launched will result in a new window if there is
 # already a running process.
@@ -2031,6 +2040,9 @@ gtk-wide-tabs = false
 # Adwaita support.
 gtk-adwaita = false
 
+#: }}}
+
+#: Misc {{{
 # If `true` (default), applications running in the terminal can show desktop
 # notifications using certain escape sequences such as OSC 9 or OSC 777.
 desktop-notifications = true
@@ -2049,6 +2061,9 @@ term = xterm-ghostty
 # String to send when we receive `ENQ` (`0x05`) from the command that we are
 # running. Defaults to an empty string if not set.
 enquiry-response =
+#: }}}
+
+#: Auto-update {{{
 
 # Control the auto-update functionality of Ghostty. This is only supported
 # on macOS currently, since Linux builds are distributed via package
@@ -2095,4 +2110,4 @@ auto-update = check
 #
 # This only works on macOS since only macOS has an auto-update feature.
 auto-update-channel =
-
+#: }}}
