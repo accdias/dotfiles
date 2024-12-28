@@ -811,7 +811,7 @@ unfocused-split-opacity = 0.25
 # that rectangle and can be used to carefully control the dimming effect.
 #
 # This will default to the background color.
-unfocused-split-fill =
+unfocused-split-fill = #1c1c1c
 
 # The command to run, usually a shell. If this is not an absolute path, it'll
 # be looked up in the `PATH`. If this is not set, a default will be looked up
