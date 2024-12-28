@@ -1,4 +1,5 @@
-# vim:ft=config:fm=mark
+# vim:ft=ghostty:fdm=marker
+#: Font {{{
 # The font families to use.
 #
 # You can generate the list of valid values using the CLI:
@@ -292,7 +293,8 @@ grapheme-width-method = unicode
 #
 # Example: `hinting`, `no-hinting`, `force-autohint`, `no-force-autohint`
 freetype-load-flags = hinting,force-autohint,monochrome,autohint
-
+#: }}}
+#: Theme {{{
 # A theme to use. This can be a built-in theme name, a custom theme
 # name, or an absolute path to a custom theme file. Ghostty also supports
 # specifying a different theme to use for light and dark mode. Each
@@ -352,7 +354,8 @@ freetype-load-flags = hinting,force-autohint,monochrome,autohint
 #theme = 3024 Night
 theme = Adventure
 #theme = Wombat
-
+#: }}}
+#: Colors {{{
 # Background color for the window.
 #background = #282c34
 
@@ -649,7 +652,7 @@ palette = 252=#d0d0d0
 palette = 253=#dadada
 palette = 254=#e4e4e4
 palette = 255=#eeeeee
-
+#: }}}
 #: Cursor {{{
 # The color of the cursor. If this is not set, a default will be chosen.
 cursor-color =
@@ -681,7 +684,7 @@ cursor-opacity = 1
 #   * `underline`
 #   * `block_hollow`
 #
-cursor-style = underline
+cursor-style = block
 
 # Sets the default blinking state of the cursor. This is just the default
 # state; running programs may override the cursor style using `DECSCUSR` (`CSI
@@ -722,6 +725,7 @@ cursor-text =
 # way to implement it.
 cursor-click-to-move = true
 #: }}}
+#: Mouse {{{
 
 # Hide the mouse immediately when typing. The mouse becomes visible again
 # when the mouse is used (button, movement, etc.). Platform-specific behavior
@@ -765,6 +769,7 @@ mouse-shift-capture = false
 # double the default amount. A value of "0.5" scrolls half the default amount.
 # Et cetera.
 mouse-scroll-multiplier = 1
+#: }}}
 
 # The opacity level (opposite of transparency) of the background. A value of
 # 1 is fully opaque and a value of 0 is fully transparent. A value less than 0
@@ -986,7 +991,7 @@ x11-instance-name =
 #   * `inherit` - The working directory of the launching process.
 working-directory =
 
-#: Keybinds {{{
+#: Keybindings {{{
 
 keybind =
 
@@ -1018,6 +1023,7 @@ keybind = alt+9=goto_tab:9
 
 keybind = ctrl+shift+-=new_split:down
 keybind = ctrl+shift+\=new_split:right
+keybind = ctrl+shift+enter=new_split:right
 
 keybind = ctrl+alt+h=goto_split:left
 keybind = ctrl+alt+j=goto_split:bottom
@@ -1028,7 +1034,7 @@ keybind = super+ctrl+shift+h=resize_split:left,10
 keybind = super+ctrl+shift+j=resize_split:down,10
 keybind = super+ctrl+shift+k=resize_split:up,10
 keybind = super+ctrl+shift+l=resize_split:right,10
-
+keybind = super+ctrl+shift+space=toggle_split_zoom
 keybind = super+ctrl+shift+equal=equalize_splits
 
 keybind = ctrl+shift+a=select_all
@@ -1597,7 +1603,7 @@ shell-integration = detect
 #   * `title` - Set the window title via shell integration.
 #
 # Example: `cursor`, `no-cursor`, `sudo`, `no-sudo`, `title`, `no-title`
-shell-integration-features = no-cursor,no-sudo,title
+shell-integration-features = cursor,sudo,title
 
 # Sets the reporting format for OSC sequences that request color information.
 # Ghostty currently supports OSC 10 (foreground), OSC 11 (background), and
