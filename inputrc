@@ -28,9 +28,9 @@ set blink-matching-paren on
 # \1\e[5 q\2 -> blinking bar, xterm.
 # \1\e[6 q\2 -> steady bar, xterm.
 set show-mode-in-prompt on
-set emacs-mode-string \1\e[3 q\2
-set vi-ins-mode-string \1\e[1 q\2
-set vi-cmd-mode-string \1\e[6 q\2
+set emacs-mode-string \1\e[5 q\2
+set vi-ins-mode-string \1\e[6 q\2
+set vi-cmd-mode-string \1\e[1 q\2
 
 $if Bash
     # Insert a space in the end of line a history expansion
