@@ -352,10 +352,12 @@ freetype-load-flags = hinting,force-autohint,monochrome,autohint
 #
 #theme = Builtin Tango Dark
 #theme = iTerm2 Tango Dark
-#theme = 3024 Night
-theme = Adventure
+theme = 3024 Night
+#theme = Adventure
+#theme = FirefoxDev
 #theme = Wombat
 #: }}}
+
 #: Colors {{{
 # Background color for the window.
 #background = #282c34
