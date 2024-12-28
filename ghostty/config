@@ -797,7 +797,7 @@ background-blur-radius = 0
 # is 0.15. This value still looks weird but you can at least see what's going
 # on. A value outside of the range 0.15 to 1 will be clamped to the nearest
 # valid value.
-unfocused-split-opacity = 0.5
+unfocused-split-opacity = 0.25
 
 # The color to dim the unfocused split. Unfocused splits are dimmed by
 # rendering a semi-transparent rectangle over the split. This sets the color of
@@ -1676,7 +1676,7 @@ custom-shader =
 #
 # This value can be changed at runtime and will affect all currently
 # open terminals.
-custom-shader-animation = true
+custom-shader-animation = false
 
 # If anything other than false, fullscreen mode on macOS will not use the
 # native fullscreen, but make the window fullscreen without animations and
