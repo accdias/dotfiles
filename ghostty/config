@@ -1159,7 +1159,7 @@ window-padding-color = background
 # Changing this value at runtime will only affect new terminals.
 #
 # This setting is only supported currently on macOS.
-window-vsync = true
+window-vsync = false
 
 # If true, new windows and tabs will inherit the working directory of the
 # previously focused window. If no window was previously focused, the default
@@ -1249,9 +1249,9 @@ window-colorspace = srgb
 # window-decorations), then this will work as expected.
 #
 # Windows smaller than 10 wide by 4 high are not allowed.
-window-height = 1080
+window-height = 2160
 
-window-width = 1920
+window-width = 3840
 # Whether to enable saving and restoring window state. Window state includes
 # their position, size, tabs, splits, etc. Some window state requires shell
 # integration, such as preserving working directories. See `shell-integration`
