@@ -390,7 +390,7 @@ selection-invert-fg-bg = false
 # that text will become black or white.
 #
 # This value does not apply to Emoji or images.
-minimum-contrast = 1
+minimum-contrast = 1.1
 
 # Color palette for the 256 color form that many terminal applications use.
 # The syntax of this configuration is `N=HEXCODE` where `N` is 0 to 255 (for
