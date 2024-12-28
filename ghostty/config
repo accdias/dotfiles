@@ -292,7 +292,8 @@ grapheme-width-method = unicode
 #   * `autohint` - Use the freetype auto-hinter. Enabled by default.
 #
 # Example: `hinting`, `no-hinting`, `force-autohint`, `no-force-autohint`
-freetype-load-flags = hinting,force-autohint,monochrome,autohint
+#freetype-load-flags = hinting,force-autohint,monochrome,autohint
+freetype-load-flags = false
 #: }}}
 
 #: Theme {{{
