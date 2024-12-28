@@ -1,3 +1,4 @@
+# vim:ft=config:fm=mark
 # The font families to use.
 #
 # You can generate the list of valid values using the CLI:
@@ -348,8 +349,9 @@ freetype-load-flags = hinting,force-autohint,monochrome,autohint
 #
 #theme = Builtin Tango Dark
 #theme = iTerm2 Tango Dark
-theme = Adventure
 #theme = 3024 Night
+theme = Adventure
+#theme = Wombat
 
 # Background color for the window.
 #background = #282c34
@@ -648,6 +650,7 @@ palette = 253=#dadada
 palette = 254=#e4e4e4
 palette = 255=#eeeeee
 
+#: Cursor {{{
 # The color of the cursor. If this is not set, a default will be chosen.
 cursor-color =
 
@@ -718,12 +721,13 @@ cursor-text =
 # this feature is implemented across terminals because there isn't any other
 # way to implement it.
 cursor-click-to-move = true
+#: }}}
 
 # Hide the mouse immediately when typing. The mouse becomes visible again
 # when the mouse is used (button, movement, etc.). Platform-specific behavior
 # may dictate other scenarios where the mouse is shown. For example on macOS,
 # the mouse is shown again when a new window, tab, or split is created.
-mouse-hide-while-typing = false
+mouse-hide-while-typing = true
 
 # Determines whether running programs can detect the shift key pressed with a
 # mouse click. Typically, the shift key is used to extend mouse selection.
@@ -982,203 +986,78 @@ x11-instance-name =
 #   * `inherit` - The working directory of the launching process.
 working-directory =
 
-# Key bindings. The format is `trigger=action`. Duplicate triggers will
-# overwrite previously set values. The list of actions is available in
-# the documentation or using the `ghostty +list-actions` command.
-#
-# Trigger: `+`-separated list of keys and modifiers. Example: `ctrl+a`,
-# `ctrl+shift+b`, `up`. Some notes:
-#
-#   * modifiers cannot repeat, `ctrl+ctrl+a` is invalid.
-#
-#   * modifiers and keys can be in any order, `shift+a+ctrl` is *weird*,
-#     but valid.
-#
-#   * only a single key input is allowed, `ctrl+a+b` is invalid.
-#
-#   * the key input can be prefixed with `physical:` to specify a
-#     physical key mapping rather than a logical one. A physical key
-#     mapping responds to the hardware keycode and not the keycode
-#     translated by any system keyboard layouts. Example: "ctrl+physical:a"
-#
-# Valid modifiers are `shift`, `ctrl` (alias: `control`), `alt` (alias: `opt`,
-# `option`), and `super` (alias: `cmd`, `command`). You may use the modifier
-# or the alias. When debugging keybinds, the non-aliased modifier will always
-# be used in output.
-#
-# Note: The fn or "globe" key on keyboards are not supported as a
-# modifier. This is a limitation of the operating systems and GUI toolkits
-# that Ghostty uses.
-#
-# You may also specify multiple triggers separated by `>` to require a
-# sequence of triggers to activate the action. For example,
-# `ctrl+a>n=new_window` will only trigger the `new_window` action if the
-# user presses `ctrl+a` followed separately by `n`. In other software, this
-# is sometimes called a leader key, a key chord, a key table, etc. There
-# is no hardcoded limit on the number of parts in a sequence.
-#
-# Warning: If you define a sequence as a CLI argument to `ghostty`,
-# you probably have to quote the keybind since `>` is a special character
-# in most shells. Example: ghostty --keybind='ctrl+a>n=new_window'
-#
-# A trigger sequence has some special handling:
-#
-#   * Ghostty will wait an indefinite amount of time for the next key in
-#     the sequence. There is no way to specify a timeout. The only way to
-#     force the output of a prefix key is to assign another keybind to
-#     specifically output that key (i.e. `ctrl+a>ctrl+a=text:foo`) or
-#     press an unbound key which will send both keys to the program.
-#
-#   * If a prefix in a sequence is previously bound, the sequence will
-#     override the previous binding. For example, if `ctrl+a` is bound to
-#     `new_window` and `ctrl+a>n` is bound to `new_tab`, pressing `ctrl+a`
-#     will do nothing.
-#
-#   * Adding to the above, if a previously bound sequence prefix is
-#     used in a new, non-sequence binding, the entire previously bound
-#     sequence will be unbound. For example, if you bind `ctrl+a>n` and
-#     `ctrl+a>t`, and then bind `ctrl+a` directly, both `ctrl+a>n` and
-#     `ctrl+a>t` will become unbound.
-#
-#   * Trigger sequences are not allowed for `global:` or `all:`-prefixed
-#     triggers. This is a limitation we could remove in the future.
-#
-# Action is the action to take when the trigger is satisfied. It takes the
-# format `action` or `action:param`. The latter form is only valid if the
-# action requires a parameter.
-#
-#   * `ignore` - Do nothing, ignore the key input. This can be used to
-#     black hole certain inputs to have no effect.
-#
-#   * `unbind` - Remove the binding. This makes it so the previous action
-#     is removed, and the key will be sent through to the child command
-#     if it is printable.
-#
-#   * `csi:text` - Send a CSI sequence. i.e. `csi:A` sends "cursor up".
-#
-#   * `esc:text` - Send an escape sequence. i.e. `esc:d` deletes to the
-#     end of the word to the right.
-#
-#   * `text:text` - Send a string. Uses Zig string literal syntax.
-#     i.e. `text:\x15` sends Ctrl-U.
-#
-#   * All other actions can be found in the documentation or by using the
-#     `ghostty +list-actions` command.
-#
-# Some notes for the action:
-#
-#   * The parameter is taken as-is after the `:`. Double quotes or
-#     other mechanisms are included and NOT parsed. If you want to
-#     send a string value that includes spaces, wrap the entire
-#     trigger/action in double quotes. Example: `--keybind="up=csi:A B"`
-#
-# There are some additional special values that can be specified for
-# keybind:
-#
-#   * `keybind=clear` will clear all set keybindings. Warning: this
-#     removes ALL keybindings up to this point, including the default
-#     keybindings.
-#
-# The keybind trigger can be prefixed with some special values to change
-# the behavior of the keybind. These are:
-#
-#   * `all:` - Make the keybind apply to all terminal surfaces. By default,
-#     keybinds only apply to the focused terminal surface. If this is true,
-#     then the keybind will be sent to all terminal surfaces. This only
-#     applies to actions that are surface-specific. For actions that
-#     are already global (i.e. `quit`), this prefix has no effect.
-#
-#   * `global:` - Make the keybind global. By default, keybinds only work
-#     within Ghostty and under the right conditions (application focused,
-#     sometimes terminal focused, etc.). If you want a keybind to work
-#     globally across your system (i.e. even when Ghostty is not focused),
-#     specify this prefix. This prefix implies `all:`. Note: this does not
-#     work in all environments; see the additional notes below for more
-#     information.
-#
-#   * `unconsumed:` - Do not consume the input. By default, a keybind
-#     will consume the input, meaning that the associated encoding (if
-#     any) will not be sent to the running program in the terminal. If
-#     you wish to send the encoded value to the program, specify the
-#     `unconsumed:` prefix before the entire keybind. For example:
-#     `unconsumed:ctrl+a=reload_config`. `global:` and `all:`-prefixed
-#     keybinds will always consume the input regardless of this setting.
-#     Since they are not associated with a specific terminal surface,
-#     they're never encoded.
-#
-# Keybind triggers are not unique per prefix combination. For example,
-# `ctrl+a` and `global:ctrl+a` are not two separate keybinds. The keybind
-# set later will overwrite the keybind set earlier. In this case, the
-# `global:` keybind will be used.
-#
-# Multiple prefixes can be specified. For example,
-# `global:unconsumed:ctrl+a=reload_config` will make the keybind global
-# and not consume the input to reload the config.
-#
-# Note: `global:` is only supported on macOS. On macOS,
-# this feature requires accessibility permissions to be granted to Ghostty.
-# When a `global:` keybind is specified and Ghostty is launched or reloaded,
-# Ghostty will attempt to request these permissions. If the permissions are
-# not granted, the keybind will not work. On macOS, you can find these
-# permissions in System Preferences -> Privacy & Security -> Accessibility.
+#: Keybinds {{{
+
+keybind =
+
 keybind = ctrl+comma=open_config
-keybind = ctrl+alt+up=goto_split:top
-keybind = ctrl+page_down=next_tab
-keybind = ctrl+shift+v=paste_from_clipboard
-keybind = shift+insert=paste_from_selection
-keybind = ctrl+shift+a=select_all
-keybind = shift+up=adjust_selection:up
-keybind = alt+five=goto_tab:5
-keybind = super+ctrl+right_bracket=goto_split:next
-keybind = ctrl+equal=increase_font_size:1
-keybind = ctrl+shift+o=new_split:right
-keybind = ctrl+shift+c=copy_to_clipboard
+keybind = ctrl+shift+comma=reload_config
+
 keybind = ctrl+shift+q=quit
 keybind = ctrl+shift+n=new_window
-keybind = ctrl+shift+page_down=jump_to_prompt:1
-keybind = ctrl+shift+comma=reload_config
-keybind = ctrl+minus=decrease_font_size:1
-keybind = shift+left=adjust_selection:left
-keybind = super+ctrl+shift+up=resize_split:up,10
-keybind = alt+eight=goto_tab:8
-keybind = shift+page_up=scroll_page_up
-keybind = ctrl+alt+shift+j=write_scrollback_file:open
-keybind = ctrl+shift+left=previous_tab
-keybind = ctrl+shift+w=close_surface
-keybind = super+ctrl+shift+equal=equalize_splits
-keybind = shift+end=scroll_to_bottom
-keybind = ctrl+zero=reset_font_size
-keybind = alt+three=goto_tab:3
-keybind = ctrl+shift+j=write_scrollback_file:paste
-keybind = ctrl+enter=toggle_fullscreen
-keybind = ctrl+page_up=previous_tab
-keybind = shift+right=adjust_selection:right
-keybind = ctrl+tab=next_tab
-keybind = ctrl+alt+left=goto_split:left
-keybind = shift+page_down=scroll_page_down
-keybind = ctrl+shift+right=next_tab
-keybind = ctrl+shift+page_up=jump_to_prompt:-1
-keybind = alt+nine=goto_tab:9
-keybind = ctrl+shift+t=new_tab
-keybind = shift+down=adjust_selection:down
-keybind = super+ctrl+shift+left=resize_split:left,10
-keybind = ctrl+shift+tab=previous_tab
-keybind = alt+two=goto_tab:2
-keybind = ctrl+alt+down=goto_split:bottom
-keybind = super+ctrl+shift+down=resize_split:down,10
-keybind = super+ctrl+shift+right=resize_split:right,10
-keybind = ctrl+plus=increase_font_size:1
-keybind = alt+four=goto_tab:4
-keybind = ctrl+shift+e=new_split:down
-keybind = ctrl+alt+right=goto_split:right
 keybind = alt+f4=close_window
-keybind = alt+one=goto_tab:1
-keybind = ctrl+shift+enter=toggle_split_zoom
+keybind = ctrl+enter=toggle_fullscreen
+
+keybind = ctrl+equal=increase_font_size:1
+keybind = ctrl+plus=increase_font_size:1
+keybind = ctrl+minus=decrease_font_size:1
+keybind = ctrl+zero=reset_font_size
+
+keybind = ctrl+shift+t=new_tab
+keybind = ctrl+tab=next_tab
+keybind = ctrl+shift+tab=previous_tab
+keybind = alt+1=goto_tab:1
+keybind = alt+2=goto_tab:2
+keybind = alt+3=goto_tab:3
+keybind = alt+4=goto_tab:4
+keybind = alt+5=goto_tab:5
+keybind = alt+6=goto_tab:8
+keybind = alt+7=goto_tab:6
+keybind = alt+8=goto_tab:7
+keybind = alt+9=goto_tab:9
+
+keybind = ctrl+shift+-=new_split:down
+keybind = ctrl+shift+\=new_split:right
+
+keybind = ctrl+alt+h=goto_split:left
+keybind = ctrl+alt+j=goto_split:bottom
+keybind = ctrl+alt+k=goto_split:top
+keybind = ctrl+alt+l=goto_split:right
+
+keybind = super+ctrl+shift+h=resize_split:left,10
+keybind = super+ctrl+shift+j=resize_split:down,10
+keybind = super+ctrl+shift+k=resize_split:up,10
+keybind = super+ctrl+shift+l=resize_split:right,10
+
+keybind = super+ctrl+shift+equal=equalize_splits
+
+keybind = ctrl+shift+a=select_all
+keybind = ctrl+shift+c=copy_to_clipboard
+keybind = ctrl+shift+v=paste_from_clipboard
+keybind = shift+insert=paste_from_selection
+
+keybind = shift+left=adjust_selection:left
+keybind = shift+down=adjust_selection:down
+keybind = shift+up=adjust_selection:up
+keybind = shift+right=adjust_selection:right
+
+keybind = ctrl+shift+page_up=jump_to_prompt:-1
+keybind = ctrl+shift+page_down=jump_to_prompt:1
+
+keybind = shift+page_up=scroll_page_up
+keybind = shift+page_down=scroll_page_down
 keybind = shift+home=scroll_to_top
-keybind = super+ctrl+left_bracket=goto_split:previous
+keybind = shift+end=scroll_to_bottom
+
+keybind = ctrl+alt+shift+j=write_scrollback_file:open
+keybind = ctrl+shift+j=write_scrollback_file:paste
+keybind = ctrl+shift+w=close_surface
+
 keybind = ctrl+shift+i=inspector:toggle
-keybind = alt+six=goto_tab:6
-keybind = alt+seven=goto_tab:7
+
+#: }}}
+
+#: Window settings {{{
 
 # Horizontal window padding. This applies padding between the terminal cells
 # and the left and right window borders. The value is in points, meaning that
@@ -1320,7 +1199,7 @@ window-title-font-family =
 # non-terminal windows within Ghostty.
 #
 # This is currently only supported on macOS and Linux.
-window-theme = system
+window-theme = ghostty
 
 # The colorspace to use for the terminal window. The default is `srgb` but
 # this can also be set to `display-p3` to use the Display P3 colorspace.
@@ -1404,6 +1283,8 @@ window-step-resize = false
 #
 #   * `end` - Insert the new tab at the end of the tab list.
 window-new-tab-position = current
+
+#: }}}
 
 # This controls when resize overlays are shown. Resize overlays are a
 # transient popup that shows the size of the terminal while the surfaces are
@@ -2094,7 +1975,7 @@ gtk-single-instance = desktop
 #
 # Changing this value at runtime and reloading the configuration will only
 # affect new windows.
-gtk-titlebar = true
+gtk-titlebar = false
 
 # Determines the side of the screen that the GTK tab bar will stick to.
 # Top, bottom, left, right, and hidden are supported. The default is top.
@@ -2128,7 +2009,7 @@ adw-toolbar-style = raised
 # are the new typical Gnome style where tabs fill their available space.
 # If you set this to `false` then tabs will only take up space they need,
 # which is the old style.
-gtk-wide-tabs = true
+gtk-wide-tabs = false
 
 # If `true` (default), Ghostty will enable Adwaita theme support. This
 # will make `window-theme` work properly and will also allow Ghostty to
@@ -2142,7 +2023,7 @@ gtk-wide-tabs = true
 #
 # This configuration only has an effect if Ghostty was built with
 # Adwaita support.
-gtk-adwaita = true
+gtk-adwaita = false
 
 # If `true` (default), applications running in the terminal can show desktop
 # notifications using certain escape sequences such as OSC 9 or OSC 777.
