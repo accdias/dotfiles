@@ -1413,7 +1413,7 @@ image-storage-limit = 320000000
 # select behavior is not typical for applications so it is disabled by
 # default. On Linux, this is a standard behavior so it is enabled by
 # default.
-copy-on-select = true
+copy-on-select = clipboard
 
 # The time in milliseconds between clicks to consider a click a repeat
 # (double, triple, etc.) or an entirely new single click. A value of zero will
