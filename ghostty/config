@@ -122,7 +122,7 @@ font-synthetic-style = bold,italic,bold-italic
 #
 # To generally disable most ligatures, use `-calt`, `-liga`, and `-dlig` (as
 # separate repetitive entries in your config).
-font-feature =
+font-feature = -calt
 
 # Font size in points. This value can be a non-integer and the nearest integer
 # pixel size will be selected. If you have a high dpi display where 1pt = 2px
