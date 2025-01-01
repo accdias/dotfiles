@@ -353,7 +353,8 @@ freetype-load-flags = hinting,force-autohint,monochrome,autohint
 #
 #theme = Builtin Tango Dark
 #theme = iTerm2 Tango Dark
-theme = 3024 Night
+#theme = 3024 Night
+theme = Kolorit
 #theme = Adventure
 #theme = FirefoxDev
 #theme = Wombat
