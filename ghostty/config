@@ -351,13 +351,7 @@ freetype-load-flags = hinting,force-autohint,monochrome,autohint
 #
 #   - macOS: titlebar tabs style is not updated when switching themes.
 #
-#theme = Builtin Tango Dark
-#theme = iTerm2 Tango Dark
-#theme = 3024 Night
-theme = Kolorit
-#theme = Adventure
-#theme = FirefoxDev
-#theme = Wombat
+theme = synthwave
 #: }}}
 
 #: Colors {{{
