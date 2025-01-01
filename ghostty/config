@@ -780,6 +780,7 @@ mouse-scroll-multiplier = 1
 
 #: }}}
 
+#: Splits {{{
 # The opacity level (opposite of transparency) of the background. A value of
 # 1 is fully opaque and a value of 0 is fully transparent. A value less than 0
 # or greater than 1 will be clamped to the nearest valid value.
@@ -999,6 +1000,7 @@ x11-instance-name =
 #
 #   * `inherit` - The working directory of the launching process.
 working-directory =
+#: }}}
 
 #: Keybindings {{{
 
@@ -1299,8 +1301,6 @@ window-step-resize = false
 #   * `end` - Insert the new tab at the end of the tab list.
 window-new-tab-position = current
 
-#: }}}
-
 # This controls when resize overlays are shown. Resize overlays are a
 # transient popup that shows the size of the terminal while the surfaces are
 # being resized. The possible options are:
@@ -1421,6 +1421,8 @@ copy-on-select = clipboard
 # use a platform-specific default. The default on macOS is determined by the
 # OS settings. On every other platform it is 500ms.
 click-repeat-interval = 0
+
+#: }}}
 
 # Additional configuration files to read. This configuration can be repeated
 # to read multiple configuration files. Configuration files themselves can
