@@ -1026,8 +1026,8 @@ keybind = alt+7=goto_tab:6
 keybind = alt+8=goto_tab:7
 keybind = alt+9=goto_tab:9
 
-keybind = ctrl+shift+-=new_split:down
-keybind = ctrl+shift+\=new_split:right
+keybind = ctrl+shift+minus=new_split:down
+keybind = ctrl+shift+backslash=new_split:right
 
 keybind = ctrl+alt+h=goto_split:left
 keybind = ctrl+alt+j=goto_split:bottom
