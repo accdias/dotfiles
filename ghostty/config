@@ -1028,24 +1028,22 @@ keybind = alt+9=goto_tab:9
 
 keybind = ctrl+shift+-=new_split:down
 keybind = ctrl+shift+\=new_split:right
-keybind = ctrl+shift+enter=new_split:right
 
 keybind = ctrl+alt+h=goto_split:left
 keybind = ctrl+alt+j=goto_split:bottom
 keybind = ctrl+alt+k=goto_split:top
 keybind = ctrl+alt+l=goto_split:right
 
-keybind = super+ctrl+shift+h=resize_split:left,10
-keybind = super+ctrl+shift+j=resize_split:down,10
-keybind = super+ctrl+shift+k=resize_split:up,10
-keybind = super+ctrl+shift+l=resize_split:right,10
-keybind = super+ctrl+shift+space=toggle_split_zoom
-keybind = super+ctrl+shift+equal=equalize_splits
+keybind = ctrl+shift+enter=toggle_split_zoom
+keybind = ctrl+shift+h=resize_split:left,10
+keybind = ctrl+shift+j=resize_split:down,10
+keybind = ctrl+shift+k=resize_split:up,10
+keybind = ctrl+shift+l=resize_split:right,10
 
 keybind = ctrl+shift+a=select_all
 keybind = ctrl+shift+c=copy_to_clipboard
 keybind = ctrl+shift+v=paste_from_clipboard
-keybind = shift+insert=paste_from_selection
+keybind = shift+insert=paste_from_clipboard
 
 keybind = shift+left=adjust_selection:left
 keybind = shift+down=adjust_selection:down
