@@ -40,11 +40,9 @@ theme = synthwave
 #: Colors {{{
 #background = #282c34
 #foreground = #ffffff
-
 selection-foreground =
 selection-background =
 selection-invert-fg-bg = false
-
 minimum-contrast = 1
 #: }}}
 
@@ -151,60 +149,37 @@ keybind = ctrl+shift+i=inspector:toggle
 #: }}}
 
 #: Window settings {{{
-
 window-padding-x = 2
-
 window-padding-y = 2
-
 window-padding-balance = false
-
 window-padding-color = background
-
 window-vsync = false
-
 window-inherit-working-directory = true
-
 window-inherit-font-size = true
-
 window-decoration = false
-
 window-title-font-family =
-
 window-theme = ghostty
-
 window-colorspace = srgb
-
 window-height = 2160
-
 window-width = 3840
 window-save-state = default
-
 window-step-resize = false
-
 window-new-tab-position = current
-
 resize-overlay = after-first
-
 resize-overlay-position = center
-
 resize-overlay-duration = 750ms
-
 focus-follows-mouse = false
-clipboard-read = ask
+#: }}}
 
+#: Clipboard {{{
+clipboard-read = ask
 clipboard-write = allow
 clipboard-trim-trailing-spaces = true
-
 clipboard-paste-protection = false
-
 clipboard-paste-bracketed-safe = true
-
 image-storage-limit = 320000000
-
 copy-on-select = clipboard
-
 click-repeat-interval = 0
-
 #: }}}
 
 #: Other options {{{
