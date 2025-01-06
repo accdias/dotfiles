@@ -81,7 +81,7 @@ working-directory =
 #: }}}
 
 #: Keybindings {{{
-keybind =
+keybind = clear
 
 keybind = ctrl+comma=open_config
 keybind = ctrl+shift+comma=reload_config
