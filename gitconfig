@@ -21,6 +21,7 @@ co = checkout
 cm = commit -m
 stall = stash --all
 	pr = pull --rebase
+	adog = log --all --decorate --oneline --graph
 
 [merge]
 tool = vimdiff
