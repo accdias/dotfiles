@@ -44,6 +44,8 @@ selection-foreground =
 selection-background =
 selection-invert-fg-bg = false
 minimum-contrast = 1
+# Upcoming feature
+#split-separator-color = #00ff00
 #: }}}
 
 #: Cursor {{{
