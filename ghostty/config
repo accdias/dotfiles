@@ -130,6 +130,9 @@ keybind = ctrl+shift+c=copy_to_clipboard
 keybind = ctrl+shift+v=paste_from_clipboard
 keybind = shift+insert=paste_from_clipboard
 
+keybind = ctrl+shift+z=jump_to_prompt:-1
+keybind = ctrl+shift+x=jump_to_prompt:+1
+
 keybind = shift+left=adjust_selection:left
 keybind = shift+down=adjust_selection:down
 keybind = shift+up=adjust_selection:up
