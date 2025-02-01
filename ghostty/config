@@ -214,10 +214,8 @@ linux-cgroup-processes-limit =
 linux-cgroup-hard-fail = false
 gtk-single-instance = desktop
 gtk-titlebar = false
-gtk-tabs-location = top
 gtk-wide-tabs = false
 gtk-adwaita = false
-adw-toolbar-style = raised
 #: }}}
 
 #: Misc {{{
