@@ -1,4 +1,5 @@
 #: Font {{{
+font-family = none
 font-family = Fira Code
 font-family-bold =
 font-family-italic =
