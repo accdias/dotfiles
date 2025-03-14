@@ -18,10 +18,12 @@ default = matching
 
 [alias]
 co = checkout
+com = checkout main
 cm = commit -m
 stall = stash --all
 pr = pull --rebase
 adog = log --all --decorate --oneline --graph
+l1 = log --oneline
 
 [merge]
 tool = vimdiff
