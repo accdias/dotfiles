@@ -14,18 +14,13 @@ golang.disabled = true
 rust.disabled = true
 nodejs.disabled = true
 
-[hostname]
-ssh_only = false
-format = '(bold red)[$hostname]($style)\] '
-trim_at = '.'
+username.show_always = true
+username.format = '\([$user](bold blue)[@](red)'
 
-[os]
-#disabled = false
+hostname.ssh_only = false
+hostname.format = '[$hostname]($style)\) '
+hostname.trim_at = '.'
 
-[time]
-disabled = false
-use_12hr = false
+time.disabled = false
+time.use_12hr = false
 
-[username]
-show_always = true
-format = '\[[$user](bold yellow) at (bold red)($style)'
