@@ -9,16 +9,16 @@ package.disabled = true
 line_break.disabled = true
 cmd_duration.disabled = true
 aws.disabled = true
-python.disabled = true
+#python.disabled = true
 golang.disabled = true
 rust.disabled = true
 nodejs.disabled = true
 
 username.show_always = true
-username.format = '\([$user](bold blue)[@](red)'
+username.format = '[\(](dimmed white)[$user](bold blue)[@](dimmed red)'
 
 hostname.ssh_only = false
-hostname.format = '[$hostname]($style)\) '
+hostname.format = '[$hostname]($style)[\)](dimmed white) '
 hostname.trim_at = '.'
 
 time.disabled = false
