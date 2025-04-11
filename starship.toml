@@ -23,4 +23,3 @@ hostname.trim_at = '.'
 
 time.disabled = false
 time.use_12hr = false
-
