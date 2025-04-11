@@ -109,7 +109,7 @@ fi
 
 # Do we have ether-wake installed?
 if [[ -r /usr/sbin/ether-wake ]]; then
-    alias wakeup='sudo ether-wake -i eth0'
+    alias wakeup='sudo ether-wake -i enp1s0'
 fi
 
 # GitHub Notes system
