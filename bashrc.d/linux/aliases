@@ -119,4 +119,8 @@ if [[ -r /usr/bin/gh ]]; then
     alias todo="gh gist edit $GIST_TODO"
 fi
 
+if [[ -r /usr/bin/sshpass ]]; then
+    export SSHPASS=
+    alias sshp='sshpass -e ssh -oStrictHostKeyChecking=no'
+fi
 # EOF
