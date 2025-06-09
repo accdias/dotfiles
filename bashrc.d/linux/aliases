@@ -120,7 +120,7 @@ if [[ -r /usr/bin/gh ]]; then
 fi
 
 if [[ -r /usr/bin/sshpass ]]; then
-    export SSHPASS=
+    export SSHPASS=$(secret-tool lookup server SSHPASS user sshpass key password)
     alias sshp='sshpass -e ssh -oStrictHostKeyChecking=no'
 fi
 # EOF
