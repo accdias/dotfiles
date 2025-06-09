@@ -127,6 +127,8 @@ if [[ -x "$(command -v starship)" ]]; then
     source <(starship completions bash)
 fi
 
+export PYTHONWARNINGS="ignore"
+
 # >>> mamba initialize >>>
 # !! Contents within this block are managed by 'mamba shell init' !!
 export MAMBA_EXE='/home/accdias/miniforge3/bin/mamba';
