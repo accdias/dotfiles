@@ -138,7 +138,7 @@ nnoremap <space> za
 " Use the user's cache dir for netrwhist files
 if exists('&netrw_home')
     set netrw_home=~/.cache/vim
-fi
+endif
 
 " Centralize backups, swapfiles and undo history
 if exists('&viminfo')
