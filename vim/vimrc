@@ -138,13 +138,13 @@ nnoremap <space> za
 " Centralize backups, swapfiles and undo history
 if exists('&viminfo')
     set viminfo='20,\"150               " read/write a .viminfo with 150 registers max
-    "set viminfofile=~/.vim/viminfo
+    "set viminfofile=~/.cache/vim/viminfo
 endif
 "set backup                             " keep a backup file
-set backupdir=~/.vim/backup
-set directory=~/.vim/swap
+set backupdir=~/.cache/vim/backup
+set directory=~/.cache/vim/swap
 if exists('&undodir')
-    set undodir=~/.vim/undo
+    set undodir=~/.cache/vim/undo
 endif
 
 " Enable mouse just for visual selection mode
