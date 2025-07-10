@@ -145,6 +145,7 @@ set backupdir=~/.cache/vim/backup
 set directory=~/.cache/vim/swap
 if exists('&undodir')
     set undodir=~/.cache/vim/undo
+    set undofile
 endif
 
 " Enable mouse just for visual selection mode
