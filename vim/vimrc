@@ -135,6 +135,14 @@ set foldmethod=marker                   " fold based on indent level
 " space open/closes folds
 nnoremap <space> za
 
+" Let's save undo info!
+if !isdirectory($HOME . "/.cache/vim")
+    call mkdir($HOME . "/.cache/vim", "", 0770)
+endif
+if !isdirectory($HOME . "/.cache/vim/undo")
+    call mkdir($HOME . "/.cache/vim/undo", "", 0700)
+endif
+
 " Use the user's cache dir for netrwhist files
 if exists('&netrw_home')
     set netrw_home=~/.cache/vim
