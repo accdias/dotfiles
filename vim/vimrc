@@ -135,11 +135,17 @@ set foldmethod=marker                   " fold based on indent level
 " space open/closes folds
 nnoremap <space> za
 
+" Use the user's cache dir for netrwhist files
+if exists('&netrw_home')
+    set netrw_home=~/.cache/vim
+fi
+
 " Centralize backups, swapfiles and undo history
 if exists('&viminfo')
     set viminfo='20,\"150               " read/write a .viminfo with 150 registers max
     "set viminfofile=~/.cache/vim/viminfo
 endif
+
 "set backup                             " keep a backup file
 set backupdir=~/.cache/vim/backup
 set directory=~/.cache/vim/swap
