@@ -1,0 +1,154 @@
+-- {{{ -- Header
+-- Name:         vim
+-- Description:  Vim's default color scheme
+-- Author:       Bram Moolenaar <Bram@vim.org>
+-- Maintainer:   The Vim Project <https://github.com/vim/vim>
+-- Website:      https://github.com/vim/vim
+-- License:      Same as Vim
+-- Last Updated: 2023 Aug 10
+-- }}}
+
+-- Use Neovim defaults
+vim.opt.compatible = false
+
+-- {{{ -- Bare minimum
+vim.opt.path:append({ "**" })
+vim.opt.clipboard:append("unnamedplus")
+vim.opt.wrap = false
+vim.g.mapleader = ','
+vim.g.maplocalleader = ','
+vim.g.have_nerd_font = true
+-- }}}
+
+-- {{{ -- Blank characters
+-- Sets how neovim will display certain whitespace characters in the editor.
+--  See `:help 'list'`
+--  and `:help 'listchars'`
+vim.opt.list = true
+vim.opt.listchars = {
+--    tab = '»',
+    trail = '·',
+    nbsp = '␣'
+}
+-- }}}
+
+-- {{{ -- Set defaults for UTF-8 encoding
+vim.opt.encoding = 'utf-8'
+vim.opt.bomb = false                        -- Display UTF-8 characters set
+vim.opt.fileencoding = 'utf-8'              -- Save files in UTF-8 enconding
+-- vim.cmd.scriptencoding('utf-8')            -- Configuration file is in UTF-8
+-- }}}
+
+-- {{{ -- Spell checker
+vim.opt.spelllang = 'en_us,pt_br'      -- Set spell check languages
+-- }}}
+
+-- {{{ -- Line number options
+vim.opt.number = true
+vim.opt.relativenumber = true
+vim.opt.signcolumn = 'yes'
+-- }}}
+
+-- {{{ -- Folding options
+vim.opt.foldmethod = 'marker'
+-- vim.o.foldmethod = 'syntax'
+vim.cmd.nnoremap('<space>', 'za')         -- Uses space to toggle folders
+-- }}}
+
+-- {{{ -- Color scheme
+-- vim.cmd.colorscheme('zaibatsu')
+vim.cmd.colorscheme('lunaperche')
+-- }}}
+
+-- -- {{{ -- Ale settings
+-- -- See: https://flake8.pycqa.org/en/latest/user/error-codes.html
+-- vim.g.ale_python_flake8_options = "--extend-ignore=E402"
+--
+-- -- See: pylint --list-msgs-enabled
+-- vim.g.ale_python_pylint_options = "--disable=C0112,C0114,C0115,C0116"
+--
+-- -- Do not show error messages inline
+-- vim.g.ale_virtualtext_cursor = 0
+--
+-- vim.g.ale_sign_column_always = 1
+--
+-- vim.g.ale_sign_error = '●'
+-- vim.g.ale_sign_info = '○'
+-- vim.g.ale_sign_warning = '●'
+-- vim.g.ale_echo_msg_format = '[%linter%] [%severity%] %s'
+--
+-- -- highlight link ALEErrorSign    Error
+-- -- highlight link ALEWarningSign  Warning
+-- -- }}}
+
+-- {{{ -- Airline settings
+vim.g.airline_theme = 'purify'
+
+vim.g.airline_mode_map = {
+    __=    '-',
+    c=     'C',
+    i=     'I',
+    ic=    'I',
+    ix=    'I',
+    n=     'N',
+    multi= 'M',
+    ni=    'N',
+    no=    'N',
+    R=     'R',
+    Rv=    'R',
+    s=     'S',
+    S=     'S',
+--    =    'S',
+    t=     'T',
+    v=     'V',
+    V=     'V',
+--    =    'V',
+}
+
+-- if (not vim.g.airline_symbols)
+-- then
+--   vim.g.airline_symbols = {}
+-- end
+
+--  unicode symbols
+--vim.g.airline_left_sep = '»'
+--vim.g.airline_left_sep = '▶'
+--vim.g.airline_right_sep = '«'
+--vim.g.airline_right_sep = '◀'
+--vim.g.airline_symbols.crypt = '🔒'
+--vim.g.airline_symbols.linenr = '☰'
+--vim.g.airline_symbols.linenr = '␊'
+--vim.g.airline_symbols.linenr = '␤'
+--vim.g.airline_symbols.linenr = '¶'
+--vim.g.airline_symbols.maxlinenr = ''
+--vim.g.airline_symbols.maxlinenr = '㏑'
+--vim.g.airline_symbols.branch = '⎇'
+--vim.g.airline_symbols.paste = 'ρ'
+--vim.g.airline_symbols.paste = 'Þ'
+--vim.g.airline_symbols.paste = '∥'
+--vim.g.airline_symbols.spell = 'Ꞩ'
+--vim.g.airline_symbols.notexists = 'Ɇ'
+--vim.g.airline_symbols.whitespace = 'Ξ'
+
+-- powerline symbols
+--vim.g.airline_left_sep = ''
+--vim.g.airline_left_alt_sep = ''
+--vim.g.airline_right_sep = ''
+--vim.g.airline_right_alt_sep = ''
+vim.g.airline_symbols = {
+    branch = '',
+    readonly = '🔒',
+    linenr = '☰',
+    maxlinenr = 'L',
+    dirty = '⚡',
+}
+
+-- old vim-powerline symbols
+--vim.g.airline_left_sep = '⮀'
+--vim.g.airline_left_alt_sep = '⮁'
+--vim.g.airline_right_sep = '⮂'
+--vim.g.airline_right_alt_sep = '⮃'
+--vim.g.airline_symbols.branch = '⭠'
+--vim.g.airline_symbols.readonly = '⭤'
+--vim.g.airline_symbols.linenr = '⭡'
+-- }}}
