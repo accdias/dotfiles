@@ -68,6 +68,7 @@ vim.opt.conceallevel = 0                           -- Don't hide markup
 vim.opt.concealcursor = ""                         -- Don't hide cursor line markup
 vim.opt.lazyredraw = true                          -- Don't redraw during macros
 vim.opt.synmaxcol = 300                            -- Syntax highlighting limit
+vim.opt.winborder = "rounded"                      -- Add border to floating windows
 -- }}}
 
 -- File handling {{{
