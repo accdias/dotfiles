@@ -11,7 +11,7 @@ require('ale').setup({
     ale_python_flake8_options = "--extend-ignore=E402",
     ale_python_pylint_optionsi = "--disable=C0112,C0114,C0115,C0116",
     ale_virtualtext_cursor = 0,
-    ale_sign_column_alwaysi = 1,
+    ale_sign_column_always = 1,
     ale_sign_error = "●",
     ale_sign_info = "○",
     ale_sign_warning = "●",
