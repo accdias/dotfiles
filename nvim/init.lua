@@ -587,29 +587,38 @@ vim.keymap.set('n', '<leader>fm', format_code, { desc = 'Format file' })
 -- LSP keymaps
 vim.api.nvim_create_autocmd('LspAttach', {
   callback = function(event)
-    local opts = {buffer = event.buf}
-
-    -- Navigation
-    vim.keymap.set('n', 'gD', vim.lsp.buf.definition, opts)
-    vim.keymap.set('n', 'gs', vim.lsp.buf.declaration, opts)
-    vim.keymap.set('n', 'gr', vim.lsp.buf.references, opts)
-    vim.keymap.set('n', 'gi', vim.lsp.buf.implementation, opts)
-
-    -- Information
-    vim.keymap.set('n', 'K', vim.lsp.buf.hover, opts)
-    vim.keymap.set('n', '<C-k>', vim.lsp.buf.signature_help, opts)
-
-    -- Code actions
-    vim.keymap.set('n', '<leader>ca', vim.lsp.buf.code_action, opts)
-    vim.keymap.set('n', '<leader>rn', vim.lsp.buf.rename, opts)
-
-    -- Diagnostics
-    vim.keymap.set('n', '<leader>nd', vim.diagnostic.goto_next, opts)
-    vim.keymap.set('n', '<leader>pd', vim.diagnostic.goto_prev, opts)
-    vim.keymap.set('n', '<leader>d', vim.diagnostic.open_float, opts)
-    vim.keymap.set('n', '<leader>q', vim.diagnostic.setloclist, opts)
+    local client = vim.lsp.get_client_by_id(event.data.client_id)
+    if client:supports_method('textDocument/completion') then
+      vim.lsp.completion.enable(true, client.id, event.buf, { autotrigger = true })
+    end
   end,
 })
+
+--vim.api.nvim_create_autocmd('LspAttach', {
+--  callback = function(event)
+--    local opts = {buffer = event.buf}
+--
+--    -- Navigation
+--    vim.keymap.set('n', 'gD', vim.lsp.buf.definition, opts)
+--    vim.keymap.set('n', 'gs', vim.lsp.buf.declaration, opts)
+--    vim.keymap.set('n', 'gr', vim.lsp.buf.references, opts)
+--    vim.keymap.set('n', 'gi', vim.lsp.buf.implementation, opts)
+--
+--    -- Information
+--    vim.keymap.set('n', 'K', vim.lsp.buf.hover, opts)
+--    vim.keymap.set('n', '<C-k>', vim.lsp.buf.signature_help, opts)
+--
+--    -- Code actions
+--    vim.keymap.set('n', '<leader>ca', vim.lsp.buf.code_action, opts)
+--    vim.keymap.set('n', '<leader>rn', vim.lsp.buf.rename, opts)
+--
+--    -- Diagnostics
+--    vim.keymap.set('n', '<leader>nd', vim.diagnostic.goto_next, opts)
+--    vim.keymap.set('n', '<leader>pd', vim.diagnostic.goto_prev, opts)
+--    vim.keymap.set('n', '<leader>d', vim.diagnostic.open_float, opts)
+--    vim.keymap.set('n', '<leader>q', vim.diagnostic.setloclist, opts)
+--  end,
+--})
 
 -- Better LSP UI
 vim.diagnostic.config({
@@ -641,13 +650,6 @@ vim.api.nvim_create_user_command('LspInfo', function()
     end
   end
 end, { desc = 'Show LSP client info' })
-
-
-vim.lsp.config.clangd = {
-  cmd = { 'clangd', '--background-index' },
-  root_markers = { 'compile_commands.json', 'compile_flags.txt' },
-  filetypes = { 'c', 'cpp' },
-}
 
 vim.lsp.enable({
     'bashls',
