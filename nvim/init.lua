@@ -655,6 +655,8 @@ vim.lsp.enable({
     'bashls',
     'pylsp',
     'clangd',
+    'gopls',
+    'lua_ls',
 })
 
 -- }}}
