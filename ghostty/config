@@ -48,13 +48,14 @@ minimum-contrast = 1
 #: }}}
 
 #: Cursor {{{
-cursor-color =
+cursor-color = #ff0000
 cursor-invert-fg-bg = false
 cursor-opacity = .75
-cursor-style = block
+cursor-style = bar
 cursor-style-blink = true
 cursor-text =
-cursor-click-to-move = false
+cursor-click-to-move = true
+adjust-cursor-thickness = 1
 #: }}}
 
 #: Mouse {{{
@@ -198,7 +199,7 @@ quick-terminal-screen = main
 quick-terminal-animation-duration = 0.2
 quick-terminal-autohide = true
 shell-integration = detect
-shell-integration-features = no-cursor,sudo,title
+shell-integration-features = sudo,title
 osc-color-report-format = 16-bit
 vt-kam-allowed = false
 #: }}}
