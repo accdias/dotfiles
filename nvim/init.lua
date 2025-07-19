@@ -283,7 +283,7 @@ local undodir = vim.fn.expand("~/.cache/nvim/undodir")
 if vim.fn.isdirectory(undodir) == 0 then
   vim.fn.mkdir(undodir, "p")
 end
--- }}
+-- }}}
 
 -- FLOATING TERMINAL {{{
 
@@ -641,4 +641,18 @@ vim.api.nvim_create_user_command('LspInfo', function()
     end
   end
 end, { desc = 'Show LSP client info' })
+
+
+vim.lsp.config.clangd = {
+  cmd = { 'clangd', '--background-index' },
+  root_markers = { 'compile_commands.json', 'compile_flags.txt' },
+  filetypes = { 'c', 'cpp' },
+}
+
+vim.lsp.enable({
+    'bashls',
+    'pylsp',
+    'clangd',
+})
+
 -- }}}
