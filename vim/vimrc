@@ -35,6 +35,7 @@ if &diff
     " Set terminal to 16 colors mode
     "set t_Co=8
     " colorscheme desert
+    set diffopt=internal,filler,closeoff,linematch:40
 endif
 
 " Display settings
