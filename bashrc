@@ -120,13 +120,6 @@ CDPATH=.:~:~/git
 # Set a more restrictive umask: i.e. no exec perms for others:
 umask 027
 
-# Init starship prompt
-export STARSHIP_CONFIG=~/.config/starship.toml
-if [[ -x "$(command -v starship)" ]]; then
-    source <(starship init bash --print-full-init)
-    source <(starship completions bash)
-fi
-
 export PYTHONWARNINGS="ignore"
 
 # >>> mamba initialize >>>
@@ -141,3 +134,8 @@ else
 fi
 unset __mamba_setup
 # <<< mamba initialize <<<
+
+# Init starship prompt
+export STARSHIP_CONFIG=~/.config/starship.toml
+source <(/home/accdias/miniforge3/bin/starship init bash --print-full-init)
+source <(/home/accdias/miniforge3/bin/starship completions bash)
