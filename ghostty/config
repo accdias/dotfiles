@@ -1,57 +1,26 @@
 #: Font {{{
-font-family = none
 font-family = JetBrains Mono
-font-family-bold =
-font-family-italic =
-font-family-bold-italic =
-font-style = SemiBold
-font-style-bold = default
-font-style-italic = default
-font-style-bold-italic = default
-font-synthetic-style = bold,italic,bold-italic
 font-feature = -calt
 font-size = 9
-font-variation =
-font-variation-bold =
-font-variation-italic =
-font-variation-bold-italic =
-font-codepoint-map =
-font-thicken = false
-adjust-cell-width =
-adjust-cell-height =
-adjust-font-baseline =
-adjust-underline-position =
-adjust-underline-thickness =
-adjust-strikethrough-position =
-adjust-strikethrough-thickness =
-adjust-overline-position =
-adjust-overline-thickness =
-adjust-cursor-thickness =
-adjust-cursor-height =
-adjust-box-thickness =
-grapheme-width-method = unicode
-freetype-load-flags = hinting,force-autohint,monochrome,autohint
-#freetype-load-flags = false
+freetype-load-flags = false
 #: }}}
 
 #: Theme {{{
-theme = synthwave
+#theme = synthwave
 #: }}}
 
 #: Colors {{{
 #background = #282c34
 #foreground = #ffffff
-selection-foreground =
-selection-background =
-selection-invert-fg-bg = false
+#selection-foreground =
+#selection-background =
 minimum-contrast = 1
 #: }}}
 
 #: Cursor {{{
 cursor-color = #ff0000
-cursor-invert-fg-bg = false
 cursor-opacity = .75
-cursor-style = bar
+#cursor-style = bar
 cursor-style-blink = true
 cursor-text =
 cursor-click-to-move = true
@@ -66,7 +35,6 @@ mouse-scroll-multiplier = 1
 
 #: Splits {{{
 background-opacity = .95
-background-blur-radius = 0
 unfocused-split-opacity = 0.25
 unfocused-split-fill = #1c1c1c
 split-divider-color = #009000
@@ -214,15 +182,13 @@ linux-cgroup = single-instance
 linux-cgroup-memory-limit =
 linux-cgroup-processes-limit =
 linux-cgroup-hard-fail = false
-gtk-single-instance = desktop
+#gtk-single-instance = desktop
 gtk-titlebar = false
 gtk-wide-tabs = false
-gtk-adwaita = false
 #: }}}
 
 #: Misc {{{
 desktop-notifications = true
-bold-is-bright = false
 term = xterm-ghostty
 enquiry-response =
 #: }}}
