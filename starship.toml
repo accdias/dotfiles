@@ -1,12 +1,12 @@
 # Get editor completions based on the config schema
 "$schema" = 'https://starship.rs/config-schema.json'
 
-add_newline = false
+#add_newline = false
 command_timeout = 600
 
 # Disable the package module, hiding it from the prompt completely
 package.disabled = true
-line_break.disabled = true
+#line_break.disabled = true
 cmd_duration.disabled = true
 aws.disabled = true
 python.disabled = true
@@ -15,10 +15,10 @@ rust.disabled = true
 nodejs.disabled = true
 
 username.show_always = true
-username.format = '[\(](dimmed white)[$user](bold blue)[@](dimmed red)'
+#username.format = '[\(](dimmed white)[$user](bold blue)[@](dimmed red)'
 
 hostname.ssh_only = false
-hostname.format = '[$hostname]($style)[\)](dimmed white) '
+#hostname.format = '[$hostname]($style)[\)](dimmed white) '
 hostname.trim_at = '.'
 
 time.disabled = false
