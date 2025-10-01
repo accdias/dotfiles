@@ -6,7 +6,7 @@ freetype-load-flags = false
 #: }}}
 
 #: Theme {{{
-#theme = synthwave
+theme = Synthwave
 #: }}}
 
 #: Colors {{{
