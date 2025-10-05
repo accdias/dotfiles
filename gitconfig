@@ -3,6 +3,7 @@
 [user]
 name = Antonio Dias
 email = accdias@gmail.com
+signingKey = 63E02709A9BEEF3308111386CF1036F3D059489C
 
 [core]
 autocrlf = input
