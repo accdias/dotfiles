@@ -121,6 +121,8 @@ CDPATH=.:~:~/git
 umask 027
 
 export PYTHONWARNINGS="ignore"
+#export MANPAGER='nvim +Man!'
+#export MANPAGER='vim +MANPAGER --not-a-term -'
 
 # >>> mamba initialize >>>
 # !! Contents within this block are managed by 'mamba shell init' !!
