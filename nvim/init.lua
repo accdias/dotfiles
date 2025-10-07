@@ -189,12 +189,12 @@ end)
 local augroup = vim.api.nvim_create_augroup('UserConfig', {})
 
 -- Highlight yanked text
-vim.api.nvim_create_autocmd('TextYankPost', {
-    group = augroup,
-    callback = function()
-        vim.highlight.on_yank()
-    end,
-})
+-- vim.api.nvim_create_autocmd('TextYankPost', {
+--     group = augroup,
+--     callback = function()
+--         vim.highlight.on_yank()
+--     end,
+-- })
 
 -- Return to last edit position when opening files
 vim.api.nvim_create_autocmd('BufReadPost', {
