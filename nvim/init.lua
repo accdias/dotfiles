@@ -4,9 +4,47 @@
 -- }}}
 
 -- Plugins {{{
+-- mini.vim {{{
+local path_package = vim.fn.stdpath('data') .. '/site'
+local mini_path = path_package .. '/pack/deps/start/mini.nvim'
+if not vim.loop.fs_stat(mini_path) then
+  vim.cmd('echo "Installing `mini.nvim`" | redraw')
+  local clone_cmd = {
+    'git', 'clone', '--filter=blob:none',
+    -- Uncomment next line to use 'stable' branch
+    -- '--branch', 'stable',
+    'https://github.com/nvim-mini/mini.nvim', mini_path
+  }
+  vim.fn.system(clone_cmd)
+  vim.cmd('packadd mini.nvim | helptags ALL')
+  vim.cmd('echo "Installed `mini.nvim`" | redraw')
+end
+
+local MiniDeps = require('mini.deps');
+require('mini.pairs').setup()
+require('mini.surround').setup()
+
+MiniDeps.add({
+    source = "OXY2DEV/markdoc.nvim",
+})
+MiniDeps.add({
+    source = 'nvim-tree/nvim-web-devicons',
+})
+MiniDeps.add({
+    source = 'nvim-lualine/lualine.nvim',
+})
+MiniDeps.add ({
+    source = 'dense-analysis/ale',
+})
+
+-- }}}
+-- lualine {{{
 require('lualine').setup({
     options = { theme = 'auto' }
 })
+
+-- }}}
+-- vim-ale {{{
 require('ale').setup({
     ale_python_flake8_options = '--extend-ignore=E402',
     ale_python_pylint_optionsi = '--disable=C0112,C0114,C0115,C0116',
@@ -18,6 +56,18 @@ require('ale').setup({
     ale_echo_msg_format = '[%linter%] [%severity%] %s'
 })
 -- }}}
+-- markdoc {{{
+require('markdoc').setup()
+-- require("markdoc").setup({
+--     markdown = {
+--         code_blocks = {
+--             fallback_language = "vim",
+--             indentation = "\t"
+--         },
+--     }
+-- })
+-- }}}
+-- Plugins }}}
 
 -- Theme & Transparency {{{
 vim.cmd.colorscheme('unokai')
