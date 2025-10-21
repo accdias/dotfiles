@@ -23,6 +23,20 @@ end
 local MiniDeps = require('mini.deps');
 require('mini.pairs').setup()
 require('mini.surround').setup()
+require('mini.animate').setup()
+-- require('mini.base16').setup()
+require('mini.colors').setup()
+-- require('mini.cursorword').setup()
+require('mini.hipatterns').setup()
+-- require('mini.hues').setup()
+require('mini.icons').setup()
+require('mini.indentscope').setup()
+-- require('mini.map').setup()
+-- require('mini.notify').setup()
+-- require('mini.starter').setup()
+-- require('mini.statusline').setup()
+require('mini.tabline').setup()
+require('mini.trailspace').setup()
 
 MiniDeps.add({
     source = "OXY2DEV/markdoc.nvim",
