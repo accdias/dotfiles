@@ -21,7 +21,7 @@ if not vim.loop.fs_stat(mini_path) then
 end
 
 local MiniDeps = require('mini.deps');
-require('mini.pairs').setup()
+-- require('mini.pairs').setup()
 require('mini.surround').setup()
 require('mini.animate').setup()
 -- require('mini.base16').setup()
@@ -30,7 +30,17 @@ require('mini.colors').setup()
 require('mini.hipatterns').setup()
 -- require('mini.hues').setup()
 require('mini.icons').setup()
-require('mini.indentscope').setup()
+require('mini.indentscope').setup({
+  -- Draw options
+  draw = {
+    -- Delay (in ms) between event and start of drawing scope indicator
+    delay = 100,
+  },
+  -- Which character to use for drawing scope indicator
+  -- symbol = '┊',
+  symbol = '╎',
+}
+)
 -- require('mini.map').setup()
 -- require('mini.notify').setup()
 -- require('mini.starter').setup()
@@ -54,7 +64,8 @@ MiniDeps.add ({
 -- }}}
 -- lualine {{{
 require('lualine').setup({
-    options = { theme = 'auto' }
+    -- options = { theme = 'auto' }
+    theme = 'auto'
 })
 
 -- }}}
@@ -71,17 +82,17 @@ require('ale').setup({
 })
 -- }}}
 -- markdoc {{{
-require('markdoc').setup()
--- require("markdoc").setup({
---     markdown = {
---         code_blocks = {
---             fallback_language = "vim",
---             indentation = "\t"
---         },
---     }
--- })
+-- require('markdoc').setup()
+require('markdoc').setup({
+    markdown = {
+        code_blocks = {
+            fallback_language = 'vim',
+            indentation = '\t'
+        },
+    }
+})
 -- }}}
--- Plugins }}}
+-- End Plugins }}}
 
 -- Theme & Transparency {{{
 vim.cmd.colorscheme('unokai')
