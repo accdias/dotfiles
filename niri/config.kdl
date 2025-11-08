@@ -8,6 +8,8 @@
 // https://yalter.github.io/niri/Configuration:-Input
 input {
     keyboard {
+        repeat-rate 30
+        repeat-delay 250
         xkb {
             // You can set rules, model, layout, variant and options.
             // For more information, see xkeyboard-config(7).
@@ -37,11 +39,11 @@ input {
         // dwtp
         // drag false
         // drag-lock
-        natural-scroll
+        // natural-scroll
         // accel-speed 0.2
         // accel-profile "flat"
-        // scroll-method "two-finger"
-        // disabled-on-external-mouse
+        scroll-method "two-finger"
+        disabled-on-external-mouse
     }
 
     mouse {
