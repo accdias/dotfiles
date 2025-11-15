@@ -144,7 +144,7 @@ layout {
     // You can change the default width of the new windows.
     // default-column-width { proportion 0.5; }
     // If you leave the brackets empty, the windows themselves will decide their initial width.
-    default-column-width {}
+    // default-column-width {}
 
     // By default focus ring and border are rendered as a solid background rectangle
     // behind windows. That is, they will show up through semitransparent windows.
@@ -201,7 +201,7 @@ layout {
         // If you enable the border, you probably want to disable the focus ring.
         off
 
-        width 4
+        width 1
         active-color "#ffc87f"
         inactive-color "#505050"
 
@@ -272,14 +272,14 @@ layout {
 // See the binds section below for more spawn examples.
 
 // This line starts waybar, a commonly used bar for Wayland compositors.
-spawn-at-startup "waybar"
+// spawn-at-startup "waybar"
 
 // To run a shell command (with variables, pipes, etc.), use spawn-sh-at-startup:
 // spawn-sh-at-startup "qs -c ~/source/qs/MyAwesomeShell"
 
 hotkey-overlay {
     // Uncomment this line to disable the "Important Hotkeys" pop-up at startup.
-    // skip-at-startup
+    skip-at-startup
 }
 
 // Uncomment this line to ask the clients to omit their client-side decorations if possible.
