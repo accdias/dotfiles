@@ -74,7 +74,10 @@ fi
 #     fi
 # fi
 
-[[ -x "$(command -v dircolors)" ]] && eval "$(/usr/bin/dircolors)"
+[[ -x "$(command -v dircolors)" ]] && source <(dircolors)
+
+# Init fzf completions
+[[ -x "$(command -v fzf)" ]] && source <(fzf --bash)
 
 # Disable pygame nag prompt
 export PYGAME_HIDE_SUPPORT_PROMPT=yes
