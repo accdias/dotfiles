@@ -729,12 +729,23 @@ vim.api.nvim_create_user_command('LspInfo', function()
   end
 end, { desc = 'Show LSP client info' })
 
+-- ruff {{{
+vim.lsp.config('ruff', {
+  init_options = {
+    settings = {
+      -- Ruff language server settings go here
+    }
+  }
+})
+-- }}}
+
 vim.lsp.enable({
     'bashls',
     'pylsp',
     'clangd',
     'gopls',
     'lua_ls',
+    'ruff',
 })
 
 -- }}}
