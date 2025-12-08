@@ -20,13 +20,15 @@ if not vim.loop.fs_stat(mini_path) then
   vim.cmd('echo "Installed `mini.nvim`" | redraw')
 end
 
-local MiniDeps = require('mini.deps');
+require('mini.deps').setup();
+local add = MiniDeps.add
+
 -- require('mini.pairs').setup()
 require('mini.surround').setup()
 require('mini.animate').setup()
 -- require('mini.base16').setup()
 require('mini.colors').setup()
--- require('mini.cursorword').setup()
+require('mini.cursorword').setup()
 require('mini.hipatterns').setup()
 -- require('mini.hues').setup()
 require('mini.icons').setup()
@@ -47,22 +49,24 @@ require('mini.indentscope').setup({
 -- require('mini.statusline').setup()
 require('mini.tabline').setup()
 require('mini.trailspace').setup()
-
-MiniDeps.add({
-    source = "OXY2DEV/markdoc.nvim",
+-- }}}
+-- markdoc {{{
+add({source = "OXY2DEV/markdoc.nvim",})
+-- require('markdoc').setup()
+require('markdoc').setup({
+    markdown = {
+        code_blocks = {
+            fallback_language = 'vim',
+            indentation = '\t'
+        },
+    }
 })
-MiniDeps.add({
-    source = 'nvim-tree/nvim-web-devicons',
-})
-MiniDeps.add({
-    source = 'nvim-lualine/lualine.nvim',
-})
-MiniDeps.add ({
-    source = 'dense-analysis/ale',
-})
-
+-- }}}
+-- nvim-web-devicons {{{
+-- add({source = 'nvim-tree/nvim-web-devicons',})
 -- }}}
 -- lualine {{{
+add({source = 'nvim-lualine/lualine.nvim',})
 require('lualine').setup({
     -- options = { theme = 'auto' }
     theme = 'auto'
@@ -70,6 +74,7 @@ require('lualine').setup({
 
 -- }}}
 -- vim-ale {{{
+add({source = 'dense-analysis/ale',})
 require('ale').setup({
     ale_python_flake8_options = '--extend-ignore=E402',
     ale_python_pylint_optionsi = '--disable=C0112,C0114,C0115,C0116',
@@ -79,17 +84,6 @@ require('ale').setup({
     ale_sign_info = '○',
     ale_sign_warning = '●',
     ale_echo_msg_format = '[%linter%] [%severity%] %s'
-})
--- }}}
--- markdoc {{{
--- require('markdoc').setup()
-require('markdoc').setup({
-    markdown = {
-        code_blocks = {
-            fallback_language = 'vim',
-            indentation = '\t'
-        },
-    }
 })
 -- }}}
 -- End Plugins }}}
