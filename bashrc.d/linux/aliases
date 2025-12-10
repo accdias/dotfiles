@@ -1,7 +1,7 @@
 # ~/.bashrc.d/linux/aliases
 #
 # RPM based aliases and functions
-if [[ command -v rpm ]]; then
+if command -v rpm >/dev/null; then
     changelog() {
         if [[ -n "$@" ]]; then
             sudo rpm -q --changelog "$@" | less
@@ -21,12 +21,12 @@ if [[ command -v rpm ]]; then
 fi
 
 # Set vimdiff as default method for merging
-if [[ command -v rpmconf ]]; then
+if command -v rpmconf >/dev/null; then
     alias rpmconf='sudo /usr/sbin/rpmconf -fvimdiff'
 fi
 
 # gsettings based aliases and functions
-if [[ command -v gsettings ]]; then
+if command -v gsettings >/dev/null; then
     wallpaper() {
         if [[ -n "$@" ]]; then
             gsettings set org.gnome.desktop.background picture-uri file://$@
@@ -35,7 +35,7 @@ if [[ command -v gsettings ]]; then
 fi
 
 # Do we have DNF?
-if [[ command -v dnf ]]; then
+if command -v dnf >/dev/null; then
     alias dnfupdate='sudo /usr/bin/dnf update -y --refresh'
     alias dnfupgrade='sudo /usr/bin/dnf upgrade -y --refresh'
     alias dnftail='sudo /usr/bin/dnf history --reverse last-9..last'
@@ -88,12 +88,12 @@ fi
 alias untor='/usr/bin/rm -fr ~/.local/share/torbrowser ~/.cache/torbrowser ~/.config/torbrowser'
 
 # Flush journal files
-if [[ command -v journalctl ]]; then
+if command -v journalctl >/dev/null; then
     alias journalflush='sudo journalctl --rotate; sudo journalctl --vacuum-time=1s'
 fi
 
 # Do we have apt-get installed?
-if [[ command -v apt-get ]]; then
+if command -v apt-get >/dev/null; then
     alias aptupd='sudo apt-get update'
     alias aptupg='sudo apt-get upgrade -y'
     alias aptdist='sudo apt-get dist-upgrade -y'
@@ -103,29 +103,29 @@ if [[ command -v apt-get ]]; then
 fi
 
 # Do we have sxconsole installed?
-if [[ command -v sxconsole ]]; then
+if command -v sxconsole >/dev/null; then
     alias sxc='sxconsole $@ -R ~/Downloads -ME'
 fi
 
 # Do we have ether-wake installed?
-if [[ command -v ether-wake ]]; then
+if command -v ether-wake >/dev/null; then
     alias wakeup='sudo ether-wake -i enp1s0'
 fi
 
 # GitHub Notes system
-if [[ command -v gh ]]; then
+if command -v gh >/dev/null; then
     alias note="gh gist edit $GIST_GENERAL"
     alias kb="gh gist edit $GIST_KNOWLEDGE"
     alias todo="gh gist edit $GIST_TODO"
 fi
 
-if [[ command -v sshpass ]]; then
+if command -v sshpass >/dev/null; then
     export SSHPASS=$(secret-tool lookup server SSHPASS user sshpass key password)
     alias sshp='sshpass -e ssh -oStrictHostKeyChecking=no'
 fi
 
 # Use neovim instead of vim
-if [[ command -v nvim ]]; then
+if command -v nvim >/dev/null; then
     alias vim=nvim
 fi
 # EOF
