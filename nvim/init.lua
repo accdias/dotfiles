@@ -41,13 +41,22 @@ require('mini.indentscope').setup({
   -- Which character to use for drawing scope indicator
   -- symbol = '┊',
   symbol = '╎',
-}
-)
+})
 -- require('mini.map').setup()
 -- require('mini.notify').setup()
 -- require('mini.starter').setup()
+require('mini.comment').setup()
 require('mini.git').setup()
-require('mini.diff').setup()
+require('mini.diff').setup({
+  view = {
+    -- Signs used for hunks with 'sign' view
+    signs = {
+        add = '+',
+        change = '~',
+        delete = '-'
+    },
+  },
+})
 require('mini.statusline').setup()
 require('mini.tabline').setup()
 require('mini.trailspace').setup()
