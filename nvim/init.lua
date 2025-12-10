@@ -46,7 +46,9 @@ require('mini.indentscope').setup({
 -- require('mini.map').setup()
 -- require('mini.notify').setup()
 -- require('mini.starter').setup()
--- require('mini.statusline').setup()
+require('mini.git').setup()
+require('mini.diff').setup()
+require('mini.statusline').setup()
 require('mini.tabline').setup()
 require('mini.trailspace').setup()
 -- }}}
@@ -66,11 +68,11 @@ require('markdoc').setup({
 -- add({source = 'nvim-tree/nvim-web-devicons',})
 -- }}}
 -- lualine {{{
-add({source = 'nvim-lualine/lualine.nvim',})
-require('lualine').setup({
-    -- options = { theme = 'auto' }
-    theme = 'auto'
-})
+-- add({source = 'nvim-lualine/lualine.nvim',})
+-- require('lualine').setup({
+--     -- options = { theme = 'auto' }
+--     theme = 'auto'
+-- })
 
 -- }}}
 -- vim-ale {{{
