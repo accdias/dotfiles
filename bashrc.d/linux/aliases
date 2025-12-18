@@ -131,7 +131,6 @@ fi
 
 # Use neovim instead of vim
 if command -v kitty >/dev/null; then
-    alias icat=kitty +kitten icat
+    alias icat='kitty +kitten icat'
 fi
-
 # EOF
