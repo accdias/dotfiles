@@ -21,7 +21,7 @@ hostname.ssh_only = false
 #hostname.format = '[$hostname]($style)[\)](dimmed white) '
 hostname.trim_at = '.'
 
-time.disabled = false
+time.disabled = true
 time.use_12hr = false
 
 lua.symbol = '  '
