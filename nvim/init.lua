@@ -175,6 +175,7 @@ vim.opt.path:append('**')                          -- include subdirectories in 
 vim.opt.selection = 'exclusive'                    -- Selection behavior
 vim.opt.mouse = 'a'                                -- Enable mouse support
 vim.opt.clipboard:append('unnamedplus')            -- Use system clipboard
+--vim.g.clipboard = 'osc52'                          -- Use OCS52 terminal copy/paste sequences
 vim.opt.modifiable = true                          -- Allow buffer modifications
 vim.opt.encoding = 'UTF-8'                         -- Set encoding
 vim.opt.fileencoding = 'utf-8'                     -- Save files in UTF-8 enconding
