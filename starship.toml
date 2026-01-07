@@ -13,6 +13,7 @@ python.disabled = true
 golang.disabled = true
 rust.disabled = true
 nodejs.disabled = true
+java.disabled = true
 
 username.show_always = true
 #username.format = '[\(](dimmed white)[$user](bold blue)[@](dimmed red)'
