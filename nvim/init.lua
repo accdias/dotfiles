@@ -61,8 +61,19 @@ require('mini.statusline').setup()
 require('mini.tabline').setup()
 require('mini.trailspace').setup()
 -- }}}
+-- orgmode {{{
+--add({
+--    source = 'nvim-orgmode/orgmode',
+--    config = function()
+--        require('orgmode').setup({
+--            org_agenda_files = '~/Documents/Org/**/*',
+--            org_default_notes_file = '~/Documents/Org/Notes.org',
+--        })
+--    end,
+--})
+-- }}}
 -- markdoc {{{
-add({source = "OXY2DEV/markdoc.nvim",})
+add({source = 'OXY2DEV/markdoc.nvim',})
 -- require('markdoc').setup()
 require('markdoc').setup({
     markdown = {
@@ -73,7 +84,7 @@ require('markdoc').setup({
     }
 })
 -- }}}
--- nvim-web-devicons {{{
+-- web-devicons {{{
 -- add({source = 'nvim-tree/nvim-web-devicons',})
 -- }}}
 -- lualine {{{
@@ -84,7 +95,7 @@ require('markdoc').setup({
 -- })
 
 -- }}}
--- vim-ale {{{
+-- ale {{{
 add({source = 'dense-analysis/ale',})
 require('ale').setup({
     ale_python_flake8_options = '--extend-ignore=E402',
