@@ -637,22 +637,7 @@ end)
 --   'mini.pairs' doesn't provide particularly smart behavior, like auto balancing
 later(function()
   -- Create pairs not only in Insert, but also in Command line mode
-  require('mini.pairs').setup({
-     modes = { command = true },
-     mappings = {
-        ['('] = { action = 'open', pair = '()', neigh_pattern = '^[^\\]' },
-        ['['] = { action = 'open', pair = '[]', neigh_pattern = '^[^\\]' },
-        ['{'] = { action = 'open', pair = '{}', neigh_pattern = '^[^\\]' },
-
-        [')'] = { action = 'close', pair = '()', neigh_pattern = '^[^\\]' },
-        [']'] = { action = 'close', pair = '[]', neigh_pattern = '^[^\\]' },
-        ['}'] = { action = 'close', pair = '{}', neigh_pattern = '^[^\\]' },
-
-        -- ['"'] = { action = 'closeopen', pair = '""', neigh_pattern = '^[^\\]',   register = { cr = false } },
-        -- ["'"] = { action = 'closeopen', pair = "''", neigh_pattern = '^[^%a\\]', register = { cr = false } },
-        -- ['`'] = { action = 'closeopen', pair = '``', neigh_pattern = '^[^\\]',   register = { cr = false } },
-      },
-  })
+  require('mini.pairs').setup({ modes = { command = true }, })
 end)
 
 -- Pick anything with single window layout and fast matching. This is one of
