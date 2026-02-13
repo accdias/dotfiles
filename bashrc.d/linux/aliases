@@ -36,10 +36,10 @@ fi
 
 # Do we have DNF?
 if command -v dnf >/dev/null; then
-    alias dnfupdate='sudo /usr/bin/dnf update -y --refresh'
-    alias dnfupgrade='sudo /usr/bin/dnf upgrade -y --refresh'
+    alias dnfup='sudo /usr/bin/dnf update -y --refresh'
+    alias dnfug='sudo /usr/bin/dnf upgrade -y --refresh'
+    alias dnful='sudo /usr/bin/dnf history undo last'
     alias dnftail='sudo /usr/bin/dnf history --reverse last-9..last'
-    alias dnfundo='sudo /usr/bin/dnf history undo last'
     dnfsearch() {
         if [[ -n "$@" ]]; then
             sudo /usr/bin/dnf search "$@"
@@ -54,18 +54,18 @@ if command -v dnf >/dev/null; then
             echo "Usage: dnfinfo <package>"
         fi
     }
-    dnfinstall() {
+    dnfi() {
         if [[ -n "$@" ]]; then
             sudo /usr/bin/dnf install "$@"
         else
-            echo "Usage: dnfinstall <package>"
+            echo "Usage: dnfi <package>"
         fi
     }
-    dnfremove() {
+    dnfrm() {
         if [[ -n "$@" ]]; then
             sudo /usr/bin/dnf remove "$@"
         else
-            echo "Usage: dnfremove <package>"
+            echo "Usage: dnfrm <package>"
         fi
     }
     dnfprovides() {
