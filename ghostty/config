@@ -1,7 +1,7 @@
 #: Font {{{
 font-family = JetBrains Mono
 font-feature = -calt
-font-size = 9
+font-size = 9.2
 freetype-load-flags = false
 #: }}}
 
