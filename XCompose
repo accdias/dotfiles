@@ -12,6 +12,18 @@ include "/usr/share/X11/locale/pt_BR.UTF-8/Compose"
 # - https://tools.ietf.org/html/rfc1345
 # }}}
 
+# Multi-key {{{
+<Multi_key> <j> <c>                     : "{code:bash}{code}"
+<Multi_key> <j> <b>                     : "****"
+<Multi_key> <m> <c>                     : "```bash```"
+<Multi_key> <m> <b>                     : "****"
+<Multi_key> <g> <g>                     : "°"
+<Multi_key> <g> <C>                     : "°C"
+<Multi_key> <g> <c>                     : "°C"
+<Multi_key> <g> <F>                     : "°F"
+<Multi_key> <g> <f>                     : "°F"
+# }}}
+
 # Cedilla {{{
 <dead_acute> <C>                        : "Ç"
 <dead_acute> <c>                        : "ç"
@@ -55,6 +67,7 @@ include "/usr/share/X11/locale/pt_BR.UTF-8/Compose"
 <dead_tilde> <minus> <minus>            : "—" U2014
 # Ellipsis
 <dead_tilde> <period> <period> <period> : "…" U2026
+<dead_tilde> <period> <space>           : "~."
 # }}}
 
 # -*- EOF -*- }}}
