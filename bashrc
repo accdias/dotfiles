@@ -141,3 +141,4 @@ unset __mamba_setup
 export STARSHIP_CONFIG=~/.config/starship.toml
 source <(/home/accdias/miniforge3/bin/starship init bash --print-full-init)
 source <(/home/accdias/miniforge3/bin/starship completions bash)
+source <(herdr completion bash)
