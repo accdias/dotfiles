@@ -74,7 +74,7 @@ fi
 #     fi
 # fi
 
-[[ -x "$(command -v dircolors)" ]] && source <(dircolors)
+[[ -x "$(command -v dircolors)" ]] && [[ -r ~/.dir_colors ]] && source <(dircolors ~/.dir_colors)
 
 # Init fzf completions
 [[ -x "$(command -v fzf)" ]] && source <(fzf --bash)
