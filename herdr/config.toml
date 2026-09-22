@@ -1,5 +1,12 @@
 onboarding = false
 
+[theme]
+name = "catppuccin"
+auto_switch = false
+
+[terminal]
+shell_mode = login
+
 [ui]
 show_agent_labels_on_pane_borders = true
 sidebar_start_collapsed = true
@@ -8,7 +15,3 @@ prompt_new_workspace_name = false
 
 [ui.toast.clipboard]
 enabled = false
-
-[theme]
-name = "catppuccin"
-auto_switch = false
