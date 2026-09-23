@@ -171,3 +171,116 @@ certdates() {
 ipr() {
     sudo ip route add ${1} dev vpn0;
 }
+# background tint for an ssh target, derived from its host key in known_hosts
+_ssh_tint() {
+  local host port key f sum n
+  local -a cfg files lines
+
+  # Obtain effective ssh config
+  mapfile -t cfg < <(command ssh -G "$@" 2>/dev/null)
+
+  host=
+  port=
+  for line in "${cfg[@]}"; do
+    case $line in
+      hostname\ *) host=${line#hostname } ;;
+      port\ *)     port=${line#port } ;;
+    esac
+  done
+  [[ -n $host ]] || return 1
+  [[ $port == 22 ]] || host="[$host]:$port"
+
+  # Collect known_hosts files from config
+  files=()
+  for line in "${cfg[@]}"; do
+    case $line in
+      userknownhostsfile\ *|globalknownhostsfile\ *)
+        read -r -a paths <<< "${line#* }"
+        files+=("${paths[@]}")
+        ;;
+    esac
+  done
+
+  # Gather matching key lines
+  lines=()
+  for f in "${files[@]}"; do
+    [[ -r $f ]] || continue
+    while IFS= read -r line; do
+      lines+=("$line")
+    done < <(ssh-keygen -F "$host" -f "$f" 2>/dev/null)
+  done
+
+  # Prefer ed25519, otherwise first non-comment key
+  key=
+  for line in "${lines[@]}"; do
+    if [[ $line == *' ssh-ed25519 '* ]]; then
+      key=$line
+      break
+    fi
+  done
+  if [[ -z $key ]]; then
+    for line in "${lines[@]}"; do
+      [[ $line == \#* ]] && continue
+      key=$line
+      break
+    done
+  fi
+
+  # Extract the key material (third field)
+  if [[ -n $key ]]; then
+    read -r _ _ key _ <<< "$key"
+  fi
+
+  # Unknown host → plain dark-red tint
+  if [[ -z $key ]]; then
+    printf '#2a1a1a'
+    return
+  fi
+
+  # Hash the key
+  sum=$(printf '%s' "$key" | cksum)
+  n=$(( ${sum%% *} % 32 ))
+
+  # HSL → RGB (16 hues × 2 lightness levels) using pure integer arithmetic
+  # hp is in [0,6); we work with fixed-point (×1000) to avoid floating point
+  local -i hp=$(( (n % 16) * 6000 / 16 ))   # 0‥5999  representing 0‥6
+  local -i s=350                             # saturation 0.35
+  local -i l=$(( n < 16 ? 120 : 190 ))       # lightness 0.12 or 0.19
+  local -i c x m r g b
+
+  # c = (1 - |2l-1|) * s
+  c=$(( (1000 - (2*l > 1000 ? 2*l-1000 : 1000-2*l)) * s / 1000 ))
+
+  # x = c * (1 - |hp%2 - 1|)
+  local -i hpmod2=$(( hp % 2000 ))
+  local -i abs_hp=$(( hpmod2 > 1000 ? hpmod2-1000 : 1000-hpmod2 ))
+  x=$(( c * (1000 - abs_hp) / 1000 ))
+
+  m=$(( l - c / 2 ))
+
+  case $(( hp / 1000 )) in
+    0) r=$c; g=$x; b=0 ;;
+    1) r=$x; g=$c; b=0 ;;
+    2) r=0;  g=$c; b=$x ;;
+    3) r=0;  g=$x; b=$c ;;
+    4) r=$x; g=0;  b=$c ;;
+    *) r=$c; g=0;  b=$x ;;
+  esac
+
+  printf '#%02x%02x%02x' \
+    $(( (r + m) * 255 / 1000 )) \
+    $(( (g + m) * 255 / 1000 )) \
+    $(( (b + m) * 255 / 1000 ))
+}
+
+ssh() {
+  local tint rc
+  tint=$(_ssh_tint "$@")
+  if [[ -n $tint ]]; then
+    printf '\e]11;%s\a' "$tint"
+  fi
+  command ssh "$@"
+  rc=$?
+  printf '\e]111\a'
+  return $rc
+}
