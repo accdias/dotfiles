@@ -21,14 +21,13 @@ vim.g.mapleader = ',' -- Use `<comma>` as <Leader> key
 vim.o.mouse       = 'a'            -- Enable mouse
 vim.o.mousescroll = 'ver:25,hor:6' -- Customize mouse scroll
 vim.o.switchbuf   = 'usetab'       -- Use already opened buffers when switching
-vim.o.undofile    = true           -- Enable persistent undo
 vim.o.viminfo     = "'20,\"150"    -- read/write a .viminfo with 150 registers max
 vim.o.viminfofile = vim.fn.stdpath('cache') .. '/nvim/viminfo'
 -- vim.o.netrw_home  = vim.fn.stdpath('cache') .. '/nvim'
 vim.o.backupdir   = vim.fn.stdpath('cache') .. '/nvim/backup'
 vim.o.directory   = vim.fn.stdpath('cache') .. '/nvim/swap'
+-- vim.o.undofile    = true           -- Enable persistent undo
 vim.o.undodir     = vim.fn.stdpath('cache') .. '/nvim/undo'
-vim.o.undofile    = true
 
 vim.o.shada = "'100,<50,s10,:1000,/100,@100,h" -- Limit ShaDa file (for startup)
 
@@ -85,6 +84,7 @@ vim.o.spelloptions  = 'camel' -- Treat camelCase word parts as separate words
 vim.o.tabstop       = 8       -- Show tab as this number of spaces
 vim.o.softtabstop   = 4       -- Soft tab stops as this number of spaces
 vim.o.shiftwidth    = 4       -- Shift width as this number of spaces
+vim.o.shiftround    = true    -- Round next tab to shiftwidth increments
 vim.o.virtualedit   = 'block' -- Allow going past end of line in blockwise mode
 
 vim.o.iskeyword = '@,48-57,_,192-255,-' -- Treat dash as `word` textobject part
