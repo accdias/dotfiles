@@ -50,3 +50,5 @@ enabled = true
 
 [diff]
 algorithm = histogram
+colorMoved = default
+mnemonicPrefix = true
