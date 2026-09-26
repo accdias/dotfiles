@@ -7,9 +7,9 @@ signingKey = 63E02709A9BEEF3308111386CF1036F3D059489C
 
 [core]
 autocrlf = input
-editor = vim
+editor = nvim
 whitespace = trailing-space,space-before-tab,indent-with-non-tab
-#pager = delta
+pager = delta
 
 [color]
 ui = true
