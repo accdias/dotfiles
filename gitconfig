@@ -31,7 +31,7 @@ l1 = log --oneline
 
 [merge]
 tool = vimdiff
-conflictstyle = diff3
+conflictstyle = zdiff3
 
 [init]
 defaultBranch = main
