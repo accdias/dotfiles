@@ -74,11 +74,6 @@ fi
 #     fi
 # fi
 
-[[ -x "$(command -v dircolors)" ]] && [[ -r ~/.dir_colors ]] && source <(dircolors ~/.dir_colors)
-
-# Init fzf completions
-[[ -x "$(command -v fzf)" ]] && source <(fzf --bash)
-
 # Disable pygame nag prompt
 export PYGAME_HIDE_SUPPORT_PROMPT=yes
 
