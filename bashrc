@@ -138,14 +138,11 @@ unset __mamba_setup
 # <<< mamba initialize <<<
 
 # Init starship prompt
-if [[ -x "$(command -v herdr)" ]]; then
+if [[ -x "$(command -v starship)" ]]; then
     export STARSHIP_CONFIG=~/.config/starship.toml
     source <(/home/accdias/miniforge3/bin/starship init bash --print-full-init)
     source <(/home/accdias/miniforge3/bin/starship completions bash)
 fi
 [[ -x "$(command -v herdr)" ]] && source <(herdr completion bash)
-[[ -x "$(command -v dircolors)" ]] && [[ -r ~/.dir_colors ]] && source <(dircolors ~/.dir_colors)
-# Init fzf completions
 [[ -x "$(command -v fzf)" ]] && source <(fzf --bash)
-
-
+[[ -x "$(command -v dircolors)" ]] && [[ -r ~/.dir_colors ]] && source <(dircolors ~/.dir_colors)
