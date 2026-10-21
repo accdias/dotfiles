@@ -146,3 +146,6 @@ fi
 [[ -x "$(command -v herdr)" ]] && source <(herdr completion bash)
 [[ -x "$(command -v fzf)" ]] && source <(fzf --bash)
 [[ -x "$(command -v dircolors)" ]] && [[ -r ~/.dir_colors ]] && source <(dircolors ~/.dir_colors)
+
+# opencode
+export PATH=/home/accdias/.opencode/bin:$PATH
