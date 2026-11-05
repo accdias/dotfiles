@@ -1,7 +1,11 @@
 #: Font {{{
-font-family = JetBrains Mono
-font-feature = -calt
-font-size = 9.2
+font-family =
+#font-family = "Iosevka Term SS14"
+#font-feature = +calt, +dlig
+#font-size = 10
+font-family = "JetBrains Mono"
+font-feature = +calt, +ccmp, +dlig
+font-size = 9.3
 freetype-load-flags = false
 #: }}}
 
