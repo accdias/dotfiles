@@ -149,3 +149,5 @@ fi
 
 # opencode
 export PATH=/home/accdias/.opencode/bin:$PATH
+
+export STM32_PRG_PATH=/home/accdias/Apps/STM32Cube/bin
